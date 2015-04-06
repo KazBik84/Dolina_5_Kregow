@@ -1,0 +1,25 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* logo */
+
+img.logo{
+padding: 0px;
+margin: 0px;
+display: block; 
+width:100%;
+}
+
+/* navbar */
+nav {
+border-radius: 0px  !important;
+}
+
+/* footer */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+

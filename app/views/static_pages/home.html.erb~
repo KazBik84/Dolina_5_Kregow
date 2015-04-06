@@ -1,2 +1,8 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<head>
+	<title>Dolina Pięciu Kręgów</title>
+</head>
+<body>
+	<h1>Dolina Pięciu Kręgów</h1>
+	<p>Jak obiecałem tak się stało :)</p>
+	<p>Strona ta będzie nastepcą <%= link_to "L5k by Kask", "http://l5k.cba.pl" %></p> 
+</body>

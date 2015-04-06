@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-	def title_function(title = '')
+	title_function(title = '')
 		if title.empty?
 			return "Dolina Pięciu Kręgów"
 		else
