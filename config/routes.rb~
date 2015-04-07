@@ -1,7 +1,17 @@
 Rails.application.routes.draw do
-  root 'static_pages#home'
+  get 'announcements/new'
 
-  get 'contact' => 	'static_pages#contact'
+  get 'announcements/create'
+
+  get 'announcements/update'
+
+  get 'announcements/edit'
+
+  get 'announcements/destroy'
+
+  get 'announcements/show'
+
+  root 'static_pages#home'
 
   get 'about' 	=>	'static_pages#about'
   get	'contact'	=>	'static_pages#contact'

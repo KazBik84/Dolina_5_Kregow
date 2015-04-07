@@ -1,6 +1,27 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* background */
+
+.full {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-color: blue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* text area */
+
+.middle_box{
+	margin: 0px;
+	padding: 10px;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 /* logo */
 
 img.logo{
@@ -18,7 +39,8 @@ border-radius: 0px  !important;
 /* footer */
 
 .navbar {
-    margin-bottom: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
