@@ -3,14 +3,11 @@
 
 /* background */
 
-.full {
-    background-image: url(image_path('background.jpg')) no-repeat center center fixed;
-    
-    background-color: blue;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+body {
+  background-image: asset-url('background.png');
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 /* text area */
