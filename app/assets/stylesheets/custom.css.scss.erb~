@@ -4,7 +4,8 @@
 /* background */
 
 .full {
-    background: url('background.jpg') no-repeat center center fixed;
+    background-image: image-url("background.jpg") no-repeat center center fixed;
+    
     background-color: blue;
     -webkit-background-size: cover;
     -moz-background-size: cover;
