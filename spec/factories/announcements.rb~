@@ -2,8 +2,8 @@ require 'faker'
 
 FactoryGirl.define do
   factory :announcement do
-    title "MyString"
-		message "MyText"
+    title { Faker::App.name }
+		message { Faker::Lorem.sentence }
   end
 
 end
