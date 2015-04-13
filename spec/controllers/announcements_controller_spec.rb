@@ -13,8 +13,17 @@ RSpec.describe AnnouncementsController, type: :controller do
   end
 
   describe "GET #create" do
+  	
+  	# ** - znaczy odwołanie do później zdefiniowanych parametrów... chyba :D
+  	before(:each) do
+  		post :create, ** user_attrs 
+  	end
+  	
+  	let (:user_attrs) do
+  		attributes_for(:announcement)
+  	end	
+  	
     it "returns http success" do
-      get :create
       expect(response).to have_http_status(:success)
     end
   end

@@ -1,0 +1,4 @@
+class Announcement < ActiveRecord::Base
+	validates :title, presence: true 
+	validates :message, presence: true, length: { maximum: 255 }
+end

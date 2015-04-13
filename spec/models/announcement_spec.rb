@@ -8,7 +8,10 @@ RSpec.describe Announcement, type: :model do
   	expect(build(:announcement, title: nil)).to_not be_valid
   end 
   it "is not valid without message" do
-  	epect(build(:announcement, message: nil)).to_not be_valid
+  	expect(build(:announcement, message: nil)).to_not be_valid
+  end
+  it "is not valid with title over 255 char" do
+  	expect(build(:announcement, title: "a"*256)).to_not be_valid
   end
   
 end
