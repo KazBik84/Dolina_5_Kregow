@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+  	@announcements = Announcement.page(params[:page]).order('id DESC')
   end
 
   def contact

@@ -43,10 +43,40 @@ border-radius: 0px  !important;
     padding: 0px;
 }
 
+/* announcement */
+
+.announcement{
+	position: relative;
+	margin-bottom: 2%;
+	max-height: 150px;
+	overflow: hidden;
+	border: 2px solid black;
+	text-indent: 5px;
+	.announcement_header {
+		background-color: black;
+		.header_text {
+			color: white;
+		}
+	}
+	.link_to {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 15%;
+		/*border: 1px solid red;*/
+		background-color: white;
+	}
+}
+
 /* różności */
 
 .padding_top_10 {
 	padding-top: 10px;
 }
+
+.red {
+	color: red;
+}
+
 
 

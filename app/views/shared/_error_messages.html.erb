@@ -1,11 +1,11 @@
 <% if @announcement.errors.any? %>
 	<div id="error_explanation">
-		<div class="alert alert-denger">
+		<div class="alert alert-danger">
 			Formularz zawiera następujące błędy:
 		</div>
 		<ul>
-			<%= @announcement.errors.full_messages.each do |error| %>
-				<li><%= error %></li>
+			<% @announcement.errors.full_messages.each do |error| %>
+				<li class="red"><%= error %></li>
 			<% end %>
 		</ul>
 	</div>

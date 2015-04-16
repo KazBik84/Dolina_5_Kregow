@@ -13,6 +13,6 @@
 				<%= form.text_area :message, size: "48x12", class: "form-control" %>
 			</div>
 			<div class="text-center padding_top-10">
-				<%= form.submit "Edytuj Newsa ;)", class: "btn btn-primary" %>
+				<%= form.submit "Dodaj Newsa ;)", class: "btn btn-primary" %>
 			</div>
 		<% end %>
