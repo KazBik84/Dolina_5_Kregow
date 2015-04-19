@@ -1,5 +1,5 @@
-<% provide(:title, "Nowy News") %>
-<h1> Dodaj Newsa ;) </h1>
+<% provide(:title, "Edytuj News") %>
+<h1> Edytuj Newsa ;) </h1>
 
 
 		<%= form_for(@announcement) do |form| %>
@@ -16,4 +16,3 @@
 				<%= form.submit "Dodaj Newsa ;)", class: "btn btn-primary" %>
 			</div>
 		<% end %>
-

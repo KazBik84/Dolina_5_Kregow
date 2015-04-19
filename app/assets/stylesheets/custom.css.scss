@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* background */
+/* background - umieszcza poprawnie tło w pełnej rozciągłości*/
 
 body {
   background-image: asset-url('background.jpg');
@@ -9,7 +9,7 @@ body {
   background-position: 100% 100%;
 }
 
-/* text area */
+/* text area - Tworzy białą przestrzeń na której wyświetlać się będzie zawartość stron*/
 
 .middle_box{
 	margin: 0px;
@@ -19,7 +19,7 @@ body {
 	margin-right: 5%;
 }
 
-/* logo */
+/* logo - logo w pełnej rozciągłości*/
 
 img.logo{
 padding: 0px;
@@ -28,16 +28,51 @@ display: block;
 width:100%;
 }
 
-/* navbar */
+/* navbar - blokuje Boostrapowe domyślne zaokrąglone krawędzi navbaru*/
 nav {
 border-radius: 0px  !important;
 }
 
-/* footer */
+/* footer - nadpisuje domyślne marginy i paddingi bootstrapa tak by navbar był tam gdzie powinien.*/
 
 .navbar {
     margin: 0px;
     padding: 0px;
+}
+
+/* announcement */
+
+.announcement{
+	position: relative;
+	margin-bottom: 2%;
+	max-height: 150px;
+	overflow: hidden;
+	border: 2px solid black;
+	text-indent: 5px;
+	.announcement_header {
+		background-color: black;
+		.header_text {
+			color: white;
+		}
+	}
+	.link_to {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		width: 15%;
+		/*border: 1px solid red;*/
+		background-color: white;
+	}
+}
+
+/* różności */
+
+.padding_top_10 {
+	padding-top: 10px;
+}
+
+.red {
+	color: red;
 }
 
 

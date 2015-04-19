@@ -1,15 +1,23 @@
+	<% flash.each do |flash_type, message| %>
+		<div class="alert alert-<%= flash_type %>">
+			<%= message %>
+		</div>
+	<% end %>
 	<h1>Dolina Pięciu Kręgów</h1>
 	<p>Jak obiecałem tak się stało :)</p>
 	<p>Strona ta będzie nastepcą <%= link_to "L5k by Kask", "http://l5k.cba.pl" %></p> 
 	
-	
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla vehicula lorem, nec dignissim odio malesuada quis. Maecenas dictum est justo, vel elementum leo facilisis eu. Vestibulum ante nibh, malesuada ac efficitur laoreet, lobortis in lorem. Sed vestibulum, turpis ac luctus tristique, ex tortor mattis elit, at sodales quam arcu ullamcorper mi. Vestibulum faucibus porttitor ipsum sit amet rhoncus. Vestibulum sollicitudin tempus posuere. Pellentesque dui nisi, vulputate nec aliquet porta, aliquam sit amet ipsum. Etiam mattis diam ex, sed feugiat nisl rutrum ac. Donec tellus nisl, tincidunt et ullamcorper non, ullamcorper eget urna. Donec ante massa, aliquam a libero a, tempor volutpat metus. Nulla risus odio, malesuada id aliquam non, sollicitudin sit amet justo. Vivamus sodales sapien enim. Phasellus non est in mauris rutrum consequat.
-
-Sed sed felis lacinia leo sollicitudin viverra pharetra vitae lectus. Nam rhoncus ultrices risus, sit amet pharetra sapien. Donec volutpat tellus at neque ultrices malesuada. Fusce dictum, lacus et ornare elementum, magna nibh laoreet leo, vitae tincidunt nulla neque a urna. Aenean condimentum libero eget tristique viverra. Nullam at iaculis nulla. Sed convallis gravida nulla, in luctus turpis laoreet sit amet. Fusce tincidunt, neque vel pellentesque mollis, nibh augue tincidunt tortor, nec auctor sapien libero ut sem. Morbi ac velit quis ligula pretium dapibus ac id nisi. Curabitur convallis tincidunt velit a tempor. In gravida enim vitae vestibulum suscipit. In neque lorem, dignissim vel nunc a, hendrerit rhoncus lorem. Praesent eget ex finibus, molestie lectus at, convallis orci. Praesent convallis arcu id est pulvinar pulvinar. Fusce sapien purus, placerat et mi sit amet, sodales feugiat dui. Praesent eget diam eu massa molestie tristique ut vel quam.
-
-In interdum dictum aliquet. Pellentesque velit ipsum, venenatis ac auctor vitae, pretium non mi. Nunc malesuada non magna id semper. Morbi tempor lacus at venenatis commodo. Vestibulum aliquam enim nunc, id elementum orci consequat eu. Suspendisse semper, eros in dignissim ultrices, eros orci egestas purus, nec efficitur arcu velit eu mauris. Etiam hendrerit maximus dolor ut tempor. Mauris fringilla sed diam eget lacinia.
-
-Maecenas a sodales enim. Nulla rhoncus, purus in rutrum facilisis, neque purus porta tortor, eget rhoncus lacus tellus ac magna. Integer tincidunt, turpis eu malesuada viverra, urna orci pellentesque mi, non molestie elit enim quis mauris. Morbi sed elementum diam, eget facilisis massa. Suspendisse sed dui arcu. Curabitur sed tincidunt turpis. Curabitur laoreet sit amet velit eu sodales. Nam viverra, ligula pharetra lobortis gravida, dolor turpis suscipit mi, tincidunt blandit nisi nulla laoreet nibh. Aliquam mi tortor, laoreet vel dapibus at, fringilla quis ligula. Sed scelerisque feugiat purus non consequat. Sed non tempor ex.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut aliquet augue non urna bibendum, non euismod libero blandit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eu mauris aliquam, elementum lorem sed, dapibus sapien. Nulla sed mollis urna, vel mollis quam. Vestibulum lorem eros, lobortis ut augue ac, lacinia lacinia dui. Sed eleifend nisl at elementum ornare. 
+	<%= will_paginate @announcement %>
+	<ul>
+		<% @announcements.each do |announcement| %>
+			<div class="announcement">
+				<div class="announcement_header">
+					<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p>
+				</div>
+				<p><%= announcement.message %></p>
+				<div class="link_to">
+					<%= link_to "Czytaj Więcej", announcement %>
+				</div>
+			</div>
+		<% end %>
+	</ul>

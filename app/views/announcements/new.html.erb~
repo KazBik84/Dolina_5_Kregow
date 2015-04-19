@@ -5,7 +5,6 @@
 		<%= form_for(@announcement) do |form| %>
 		<form >
 			<div class="form-group">
-				<%= render 'shared/error_messages' %>
 				<%= form.label :title, "Nazwa" %>
 				<%= form.text_field :title, class: "form-control" %>
 			
