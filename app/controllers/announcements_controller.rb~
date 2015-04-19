@@ -29,6 +29,8 @@ class AnnouncementsController < ApplicationController
 
   def destroy
   	Announcement.find_by(params[:id]).destroy
+  	flash[:success] = "News został ZNISZCZONY!!!!"
+  	redirect_to root_path
   end
 
   def show
