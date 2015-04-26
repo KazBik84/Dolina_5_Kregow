@@ -1,0 +1,30 @@
+	<% @announcements.each do |announcement| %>
+		<div class="announcement">
+			<div class="announcement_header">
+				<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p>
+			</div>
+			<div class="announcement_message">
+				<p><%= announcement.message %></p>
+				<div class="link_to">
+					<%= link_to "Czytaj Więcej", announcement %>
+				</div>
+			</div>
+			<div class="show_comments">
+				<% announcement.comments.each do |comment| %>
+					<p> To jest tekst: <%= comment.content %>, a to jest autor: <%= comment.author %> </p>
+				<% end %>
+			</div>
+			<div class="create_comment form-inline">
+					<%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id) ) do |form| %>
+								<%= form.label :author, "Autor:" %>
+								<%= form.text_field :author, class: "form_control" %>
+
+								<%= form.label :content, "Treść:" %>
+								<%= form.text_field :content, class: "form_control" %>
+				
+								<%= form.submit "Dodaj!", class: "btn btn-primary" %>
+
+					<% end %>
+			</div>
+		</div>
+	<% end %>

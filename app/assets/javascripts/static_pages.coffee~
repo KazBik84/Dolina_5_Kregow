@@ -2,4 +2,8 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-
+$('.clickMe').toggle(function() {
+    $(this).parent().find("div:eq(0)").slideDown("fast");
+}, function() {
+    $(this).parent().find("div:eq(0)").slideUp("fast");
+});

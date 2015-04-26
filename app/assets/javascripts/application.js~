@@ -16,5 +16,9 @@
 //= require turbolinks
 //= require_tree .
 
-
+$(document).ready(function(){
+	$("#zjazd").click(function(){
+		$("#zjazd1").slidedown();
+	})
+})
 

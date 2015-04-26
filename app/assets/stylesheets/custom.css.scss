@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* background - umieszcza poprawnie tło w pełnej rozciągłości*/
 
 body {
@@ -43,10 +44,8 @@ border-radius: 0px  !important;
 /* announcement */
 
 .announcement{
-	position: relative;
 	margin-bottom: 2%;
-	max-height: 150px;
-	overflow: hidden;
+	/*max-height: 9em;*/
 	border: 2px solid black;
 	text-indent: 5px;
 	.announcement_header {
@@ -55,13 +54,34 @@ border-radius: 0px  !important;
 			color: white;
 		}
 	}
-	.link_to {
-		position: absolute;
-		bottom: 0px;
-		right: 0px;
-		width: 15%;
-		/*border: 1px solid red;*/
-		background-color: white;
+	.announcement_message {
+		position: relative;
+		max-height: 9em;	
+		overflow: hidden;
+		p {
+			line-height: 1.5em;
+		}
+		.link_to {
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			width: 15%;
+			heigth: 1.5em;
+			/*border: 1px solid red;*/
+			background-color: white;
+			a {
+				margin-right: 5px;
+				float: right;
+			}
+		}
+	}
+	.create_comment {
+		padding-top: 2px;
+		padding-bottom: 2px;
+		border: solid black 1px;
+		ul {
+    	list-style-type: none;
+		}
 	}
 }
 

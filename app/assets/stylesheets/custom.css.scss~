@@ -1,13 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 /* background - umieszcza poprawnie tło w pełnej rozciągłości*/
 
 body {
   background-image: asset-url('background.jpg');
   background-attachment: fixed;
   background-position: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 /* text area - Tworzy białą przestrzeń na której wyświetlać się będzie zawartość stron*/
@@ -44,10 +44,8 @@ border-radius: 0px  !important;
 /* announcement */
 
 .announcement{
-	position: relative;
 	margin-bottom: 2%;
-	max-height: 150px;
-	overflow: hidden;
+	/*max-height: 9em;*/
 	border: 2px solid black;
 	text-indent: 5px;
 	.announcement_header {
@@ -56,17 +54,35 @@ border-radius: 0px  !important;
 			color: white;
 		}
 	}
-	.link_to {
-		position: absolute;
-		bottom: 0px;
-		right: 0px;
-		width: 15%;
-		/*border: 1px solid red;*/
-		background-color: white;
+	.announcement_message {
+		position: relative;
+		max-height: 9em;	
+		overflow: hidden;
+		p {
+			line-height: 1.5em;
+		}
+		.link_to {
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			width: 15%;
+			heigth: 1.5em;
+			/*border: 1px solid red;*/
+			background-color: white;
+			a {
+				margin-right: 5px;
+				float: right;
+			}
+		}
+	}
+	.create_comment {
+		border: solid black 1px;
+		ul {
+    	list-style-type: none;
+		}
 	}
 }
 
-WillPaginate.per_page = 10
 /* różności */
 
 .padding_top_10 {

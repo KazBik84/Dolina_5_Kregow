@@ -1,23 +1,14 @@
-	<% flash.each do |flash_type, message| %>
-		<div class="alert alert-<%= flash_type %>">
-			<%= message %>
-		</div>
-	<% end %>
-	<h1>Dolina Pięciu Kręgów</h1>
-	<p>Jak obiecałem tak się stało :)</p>
-	<p>Strona ta będzie nastepcą <%= link_to "L5k by Kask", "http://l5k.cba.pl" %></p> 
-	
-	<%= will_paginate @announcement %>
-	<ul>
-		<% @announcements.each do |announcement| %>
-			<div class="announcement">
-				<div class="announcement_header">
-					<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p>
-				</div>
-				<p><%= announcement.message %></p>
-				<div class="link_to">
-					<%= link_to "Czytaj Więcej", announcement %>
-				</div>
-			</div>
-		<% end %>
-	</ul>
+<% flash.each do |flash_type, message| %>
+	<div class="alert alert-<%= flash_type %>">
+		<%= message %>
+	</div>
+<% end %>
+<h1>Dolina Pięciu Kręgów</h1>
+<%= render 'shared/navigation_bar' %>
+
+<p>Jak obiecałem tak się stało :)</p>
+<p>Strona ta będzie kontynuacją i rozwinięciem strony: <%= link_to "L5k by Kask", "http://l5k.cba.pl" %></p> 
+
+<%= will_paginate @announcements %>
+<%= render 'list_of_announcements.erb.html' %>
+
