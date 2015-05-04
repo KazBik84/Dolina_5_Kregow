@@ -11,7 +11,9 @@ class CommentsController < ApplicationController
   end
 
   def destroy
-  	@comment = Comment.find(:id)
+  	@announcement = Announcement.find(params[:announcement_id])
+  	@comment = @announcement.comments.find(params[:id])
+  	@comment.destroy
   	redirect_to root_path
   end
   

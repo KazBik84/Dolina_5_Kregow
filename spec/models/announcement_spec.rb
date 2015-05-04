@@ -14,4 +14,7 @@ RSpec.describe Announcement, type: :model do
   	expect(build(:announcement, title: "a"*256)).to_not be_valid
   end
   
+  it "should have many comments" do
+  	should have_many(:comments)
+  end
 end

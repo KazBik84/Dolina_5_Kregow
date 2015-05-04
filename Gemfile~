@@ -13,6 +13,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', group: :doc
@@ -33,7 +34,8 @@ group :test do
   gem 'guard-minitest'
   gem 'guard-rspec'
   gem 'launchy'
-	gem 'faker'  
+	gem 'faker'
+gem 'shoulda-matchers', require: false	  
 end
 
 group :production do

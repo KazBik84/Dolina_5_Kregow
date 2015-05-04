@@ -1,9 +1,16 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
-
-$('.clickMe').toggle(function() {
-    $(this).parent().find("div:eq(0)").slideDown("fast");
-}, function() {
-    $(this).parent().find("div:eq(0)").slideUp("fast");
-});
+ready = ->
+	$('#button').click ->
+		$('#object').slideToggle("slow")
+	
+$('.toggle-button').click ->
+  $next = $(this).next('.toggle-info');
+  $('.toggle-info')
+    .not($next)
+    .slideUp("slow")
+    .prev('.toggle-button')
+    .removeClass('red');
+  $next.slideToggle("slow")
+  $(this).toggleClass("red")

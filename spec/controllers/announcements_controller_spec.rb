@@ -188,6 +188,10 @@ RSpec.describe AnnouncementsController, type: :controller do
     it "have flash success" do
     	expect(flash[:success]).to be_present
     end
+    
+    it "destroys an anouncement" do
+    	expect(Announcement.count).to eq(0)
+    end
   end
 
   describe "GET #show" do

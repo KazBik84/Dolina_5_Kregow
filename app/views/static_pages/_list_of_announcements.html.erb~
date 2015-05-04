@@ -1,5 +1,5 @@
 	<% @announcements.each do |announcement| %>
-		<div class="announcement">
+		<div class="announcement" id="<%= announcement.title %>" data-announcement>
 			<div class="announcement_header">
 				<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p>
 			</div>
@@ -9,22 +9,29 @@
 					<%= link_to "Czytaj Więcej", announcement %>
 				</div>
 			</div>
-			<div class="show_comments">
-				<% announcement.comments.each do |comment| %>
-					<p> To jest tekst: <%= comment.content %>, a to jest autor: <%= comment.author %> </p>
+			<div class="show_comment" >
+				<% announcement.comments.reverse.each do |comment| %>
+					<p><strong><%= comment.author.capitalize %>:</strong> <%= comment.content %>,  </p>
 				<% end %>
 			</div>
-			<div class="create_comment form-inline">
-					<%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id) ) do |form| %>
+			<div class="create_comment" >
+					<%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id), html: { class: "form-inline" } ) do |form| %>
 								<%= form.label :author, "Autor:" %>
 								<%= form.text_field :author, class: "form_control" %>
 
 								<%= form.label :content, "Treść:" %>
 								<%= form.text_field :content, class: "form_control" %>
 				
-								<%= form.submit "Dodaj!", class: "btn btn-primary", url: announcement_comments_path %>
+								<%= form.submit "Dodaj!", class: "btn btn-primary" %>
 
 					<% end %>
 			</div>
+			<div class=" <% if announcement.comments.count > 0 %> create_comment_button <% end %> announcement_button float_right" >
+				<p><strong>Dodaj Komentarz</strong></p>
+			</div>
+			<div class="show_comment_button announcement_button float_left" >
+				<p><strong>Komentarze: <%= announcement.comments.count %></strong></p>
+			</div>					
 		</div>
 	<% end %>
+

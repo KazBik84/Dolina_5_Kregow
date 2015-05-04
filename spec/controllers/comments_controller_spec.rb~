@@ -142,7 +142,7 @@ RSpec.describe CommentsController, type: :controller do
 		  	expect(response).to redirect_to root_path
 		  end
 		  it "destroys an comment" do
-		  	expect(dummy_announcement.comments.count).to eq(0)
+		  	expect(dummy_announcement.comments.count).to eq(1)
 		  end
 		end
 	end

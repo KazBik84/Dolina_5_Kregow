@@ -44,10 +44,11 @@ border-radius: 0px  !important;
 /* announcement */
 
 .announcement{
-	margin-bottom: 2%;
-	/*max-height: 9em;*/
+
 	border: 2px solid black;
 	text-indent: 5px;
+	padding-bottom: 1.5em;
+	margin-bottom: 3em;	
 	.announcement_header {
 		background-color: black;
 		.header_text {
@@ -66,8 +67,6 @@ border-radius: 0px  !important;
 			bottom: 0px;
 			right: 0px;
 			width: 15%;
-			heigth: 1.5em;
-			/*border: 1px solid red;*/
 			background-color: white;
 			a {
 				margin-right: 5px;
@@ -78,10 +77,25 @@ border-radius: 0px  !important;
 	.create_comment {
 		padding-top: 2px;
 		padding-bottom: 2px;
-		border: solid black 1px;
+		border-top: solid black 1px;
+		display: none;
 		ul {
     	list-style-type: none;
 		}
+	}
+	.show_comment {
+		display: none;
+		border-top: solid black 1px;
+	}
+}
+.announcement_button {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: black;
+	height: 1.5em;
+	p {
+		line-height: 1.5em;
+		color: white;
 	}
 }
 
@@ -91,9 +105,17 @@ border-radius: 0px  !important;
 	padding-top: 10px;
 }
 
+.margin_bottom_3em {
+	margin-bottom:3em; 
+}
 .red {
 	color: red;
 }
 
+.float_right {
+	float: right;
+}
 
-
+.float_left {
+	float: left;
+}
