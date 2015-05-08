@@ -4,21 +4,16 @@
 	</div>
 <% end %>
 <h1>Dolina Pięciu Kręgów</h1>
-<p id="button">ALibaba</p>
-<div class="box" id="button"></div>
-<h3 class="toggle-button">Toggle 1</h3>
-<div class="toggle-info">
-    Credibly transition high-payoff ideas without plug-and-play growth strategies. Monotonectally scale functionalized benefits through covalent portals. Authoritatively coordinate value-added users for vertical convergence. 
-</div>
-<h3 class="toggle-button">Toggle 2</h3>
-<div class="toggle-info">
-    Rapidiously develop multifunctional functionalities for parallel architectures. Monotonectally brand superior testing procedures after innovative results. Collaboratively syndicate cross functional niches via functional communities.
-</div>
-<h3 class="toggle-button">Toggle 3</h3>
-<div class="toggle-info">
-    Rapidiously develop multifunctional functionalities for parallel architectures. Monotonectally brand superior testing procedures after innovative results. Collaboratively syndicate cross functional niches via functional communities.
-</div>
-<div class="box" id="object"></div>
+<form>
+
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 <p>Jak obiecałem tak się stało :)</p>
 <p>Strona ta będzie kontynuacją i rozwinięciem strony: <%= link_to "L5k by Kask", "http://l5k.cba.pl" %></p> 
 

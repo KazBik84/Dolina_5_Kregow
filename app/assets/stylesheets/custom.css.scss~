@@ -23,10 +23,10 @@ body {
 /* logo - logo w pełnej rozciągłości*/
 
 img.logo{
-padding: 0px;
-margin: 0px;
-display: block; 
-width:100%;
+	padding: 0px;
+	margin: 0px;
+	display: block; 
+	width:100%;
 }
 
 /* navbar - blokuje Boostrapowe domyślne zaokrąglone krawędzi navbaru*/
@@ -47,7 +47,7 @@ border-radius: 0px  !important;
 
 	border: 2px solid black;
 	text-indent: 5px;
-	padding-bottom: 2em;
+	padding-bottom: 1.5em;
 	margin-bottom: 3em;	
 	.announcement_header {
 		background-color: black;
@@ -60,6 +60,9 @@ border-radius: 0px  !important;
 		max-height: 9em;	
 		overflow: hidden;
 		p {
+			margin-bottom: 0em;
+			margin-left: 10px;
+			margin-right: 10px;
 			line-height: 1.5em;
 		}
 		.link_to {
@@ -75,8 +78,7 @@ border-radius: 0px  !important;
 		}
 	}
 	.create_comment {
-		padding-top: 2px;
-		padding-bottom: 2px;
+		padding: 5px;
 		border-top: solid black 1px;
 		display: none;
 		ul {
@@ -89,14 +91,19 @@ border-radius: 0px  !important;
 	}
 }
 .announcement_button {
-	padding-left: 5px;
-	padding-right: 5px;
-	background-color: black;
+	border-top: solid black 1px;
+	background-color: white;
 	height: 1.5em;
 	p {
+		padding-left: 5px;
+		padding-right: 5px;	
 		line-height: 1.5em;
-		color: white;
+		color: black;
 	}
+	:hover {
+  background: #bfbfbf;
+  padding-bottom: -1px;
+	}	
 }
 
 /* różności */
@@ -105,6 +112,13 @@ border-radius: 0px  !important;
 	padding-top: 10px;
 }
 
+.left_border {
+	border-left: 1px solid black;
+}
+
+.right_border {
+	border-right: 1px solid black;
+}
 .margin_bottom_3em {
 	margin-bottom:3em; 
 }
