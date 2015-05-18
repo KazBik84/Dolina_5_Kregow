@@ -92,17 +92,18 @@ border-radius: 0px  !important;
 }
 .announcement_button {
 	border-top: solid black 1px;
-	background-color: white;
+	background-color: black;
 	height: 1.5em;
 	p {
 		padding-left: 5px;
 		padding-right: 5px;	
 		line-height: 1.5em;
-		color: black;
+		color: white;
 	}
-	:hover {
-  background: #bfbfbf;
-  padding-bottom: -1px;
+	&:hover {
+  	p {
+  		color: red;
+  	}
 	}	
 }
 
@@ -124,6 +125,18 @@ border-radius: 0px  !important;
 }
 .red {
 	color: red;
+}
+
+.red_sign {
+	p {
+		color: red;
+	}
+}
+
+.red_sign_2 {
+	p {
+		color: red;
+	}
 }
 
 .float_right {
