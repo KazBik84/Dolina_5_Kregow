@@ -36,11 +36,11 @@ RSpec.describe CommentsController, type: :controller do
   		end
 			
 			it "returns http redirect" do
-				expect(response).to have_http_status(:success)
+				expect(response).to have_http_status(:redirect)
 			end
 			
 			it "redirects to the root_path" do
-				expect(response).to render_template 'static_pages/home'
+				expect(response).to redirect_to(root_path)
 			end
 			
 			it "will render a flash" do
@@ -59,11 +59,11 @@ RSpec.describe CommentsController, type: :controller do
   		end
 			
 			it "returns http redirect" do
-				expect(response).to have_http_status(:success)
+				expect(response).to have_http_status(:redirect)
 			end
 			
 			it "redirects to the root_path" do
-				expect(response).to render_template 'static_pages/home'
+				expect(response).to redirect_to(root_path)
 			end
 			
 			it "will render a flash" do
@@ -82,11 +82,11 @@ RSpec.describe CommentsController, type: :controller do
   		end
 			
 			it "returns http redirect" do
-				expect(response).to have_http_status(:success)
+				expect(response).to have_http_status(:redirect)
 			end
 			
 			it "redirects to the root_path" do
-				expect(response).to render_template 'static_pages/home'
+				expect(response).to redirect_to(root_path)
 			end
 			
 			it "will render a flash" do
@@ -105,11 +105,11 @@ RSpec.describe CommentsController, type: :controller do
   		end
 			
 			it "returns http redirect" do
-				expect(response).to have_http_status(:success)
+				expect(response).to have_http_status(:redirect)
 			end
 			
 			it "redirects to the root_path" do
-				expect(response).to render_template 'static_pages/home'
+				expect(response).to redirect_to(root_path)
 			end
 			
 			it "will render a flash" do
