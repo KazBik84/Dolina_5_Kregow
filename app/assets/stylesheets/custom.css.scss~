@@ -54,6 +54,12 @@ border-radius: 0px  !important;
 		.header_text {
 			color: white;
 		}
+		a {
+			color: white;
+			&:hover {
+				color: red;
+			}
+		}
 	}
 	.announcement_message {
 		position: relative;
@@ -133,16 +139,14 @@ border-radius: 0px  !important;
 	}
 }
 
-.red_sign_2 {
-	p {
-		color: red;
-	}
-}
-
 .float_right {
 	float: right;
 }
 
 .float_left {
 	float: left;
+}
+
+.char_counter {
+	color: red;
 }

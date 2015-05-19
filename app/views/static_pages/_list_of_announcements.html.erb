@@ -20,8 +20,8 @@
 								<%= form.text_field :author, class: "form-control" %>
 
 								<%= form.label :content, "Treść:" %>
-								<%= form.text_field :content, class: "form-control" %>
-
+								<%= form.text_field :content, class: "form-control content_length" %>
+								<div class="char_counter">255</div>
 								<%= form.submit "Dodaj!", class: "btn btn-primary" %>
 
 					<% end %>
