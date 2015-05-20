@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150423213840) do
+ActiveRecord::Schema.define(version: 20150520045417) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,6 +33,34 @@ ActiveRecord::Schema.define(version: 20150423213840) do
 
   add_index "comments", ["announcement_id", "created_at"], name: "index_comments_on_announcement_id_and_created_at", using: :btree
   add_index "comments", ["announcement_id"], name: "index_comments_on_announcement_id", using: :btree
+
+  create_table "schools", force: :cascade do |t|
+    t.string   "name"
+    t.string   "school_desc"
+    t.string   "bonus"
+    t.string   "skills"
+    t.string   "honor"
+    t.string   "outfit"
+    t.string   "school_class"
+    t.string   "clan"
+    t.string   "rank1_name"
+    t.string   "rank1_desc"
+    t.string   "rank2_name"
+    t.string   "rank2_desc"
+    t.string   "rank3_name"
+    t.string   "rank3_desc"
+    t.string   "rank4_name"
+    t.string   "rank4_desc"
+    t.string   "rank5_name"
+    t.string   "rank5_desc"
+    t.string   "affinity_deficiency"
+    t.string   "spells"
+    t.string   "special"
+    t.string   "shugenja_tech_name"
+    t.string   "shugenja_tech_desc"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+  end
 
   add_foreign_key "comments", "announcements"
 end
