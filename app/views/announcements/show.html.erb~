@@ -1,2 +1,0 @@
-<h1><strong><%= @announcement.title %></strong></h1>
-<p><%= @announcement.message %></p>

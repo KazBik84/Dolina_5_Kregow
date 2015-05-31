@@ -1,0 +1,61 @@
+<%= render ('legendopedia/schools_form') %>
+
+Znaleziono <%= @chosen_schools.count %> szkół: 
+
+<% @chosen_schools.each do |school| %>
+	<div class="show_school">
+		<h3 class="middle_text"><strong><%= school.name %></strong></h3>
+		<%= image_tag("legendopedia/#{school.clan}/#{school.img_name}", class: "img_middle") %>
+		<ul class="school_list">
+			<li class="first"><%= school.school_desc %></li>
+			<% if school.clan != school.clan_name %>
+				<li><strong>Klan: </strong><%= school.clan_name %></li>	
+			<% end %>
+			<li><strong>Klasa Szkoły: </strong><%= school.school_class %></li>
+			<li><strong>Premia: </strong><%= school.bonus %></li>
+			<li><strong>Umiejętności: </strong><%= school.skills %></li>
+			<li><strong>Honor: </strong><%= school.honor %></li>
+			<li><strong>Ekwipunek: </strong><%= school.outfit %></li>
+			<% if school.special != nil %>
+				<li><strong>Specjalne: </strong><%= school.special %>
+			<% end %>
+			<% if school.school_class != "Shugenja" %>
+				<% if school.monk_tech_name.present? %>
+					<li><strong><%= school.monk_tech_name %> </strong><%= school.monk_tech_desc %></li>
+					</ul>
+				<% else %>
+					</ul>
+					<h4 class="middle_text"><strong>Ranga 1 </strong></h4>
+					<ul class="school_list">
+						<li><strong><%= school.rank1_name %> </strong><%= school.rank1_desc %></li>
+					</ul>
+
+					<h4 class="middle_text"><strong>Ranga 2 </strong></h4>
+					<ul class="school_list">
+						<li><strong><%= school.rank2_name %> </strong><%= school.rank2_desc %></li>
+					</ul>
+
+					<h4 class="middle_text"><strong>Ranga 3 </strong></h4>
+					<ul class="school_list">
+						<li><strong><%= school.rank3_name %> </strong><%= school.rank3_desc %></li>
+					</ul>
+
+					<h4 class="middle_text"><strong>Ranga 4 </strong></h4>
+					<ul class="school_list">
+						<li><strong><%= school.rank4_name %> </strong><%= school.rank4_desc %></li>
+					</ul>
+
+					<h4 class="middle_text"><strong>Ranga 5 </strong></h4>
+					<ul class="school_list">
+						<li><strong><%= school.rank5_name %> </strong><%= school.rank5_desc %></li>
+					</ul>
+				<% end %>
+			<% elsif %>
+				<li><strong>Przychylność/Ułomność: </strong><%= school.affinity_deficiency %></li>
+				<li><strong>Czary: </strong><%= school.spells %></li>
+				<li><strong><%= school.shugenja_tech_name %> </strong><%= school.shugenja_tech_desc %></li>																						
+			<% end %>
+		</ul>
+	</div>
+<% end %>
+

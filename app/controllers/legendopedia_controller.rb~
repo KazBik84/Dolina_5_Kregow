@@ -1,4 +1,0 @@
-class LegendopediaController < ApplicationController
-  def schools
-  end
-end

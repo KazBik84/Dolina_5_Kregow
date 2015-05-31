@@ -1,0 +1,29 @@
+<%= form_tag show_schools_path do %>
+  <p>
+    Wybierz klan/y: 
+    Feniks: <%= check_box_tag 'clans[]','Feniks', (true if !@clans.nil? and @clans.include? 'Feniks'), class: "clan_checkbox" %>,
+    Jednorożec: <%= check_box_tag 'clans[]','Jednorożec', (true if !@clans.nil? and @clans.include? 'Jednorożec'), class: "clan_checkbox" %>,
+    Krab: <%= check_box_tag 'clans[]', 'Krab', (true if !@clans.nil? and @clans.include? 'Krab'), class: "clan_checkbox" %>,
+    Lew: <%= check_box_tag 'clans[]', 'Lew', (true if !@clans.nil? and @clans.include? 'Lew'), class: "clan_checkbox" %>,
+    Modliszka: <%= check_box_tag 'clans[]', 'Modliszka', (true if !@clans.nil? and @clans.include? 'Modliszka'), class: "clan_checkbox" %>,
+    Pająk: <%= check_box_tag 'clans[]', 'Pająk', (true if !@clans.nil? and @clans.include? 'Pająk'), class: "clan_checkbox" %>,
+    Skorpion: <%= check_box_tag 'clans[]', 'Skorpion', (true if !@clans.nil? and @clans.include? 'Skorpion'), class: "clan_checkbox" %>,
+    Smok: <%= check_box_tag 'clans[]', 'Smok', (true if !@clans.nil? and @clans.include? 'Feniks'), class: "clan_checkbox" %>,
+    Żuraw: <%= check_box_tag 'clans[]', 'Zuraw', (true if !@clans.nil? and @clans.include? 'Zuraw'), class: "clan_checkbox" %>,
+    Szkoły Cesarskie: <%= check_box_tag 'clans[]', 'Cesarskie', (true if !@clans.nil? and @clans.include? 'Cesarskie'), class: "clan_checkbox" %>,
+    Pomniejsze Klany: <%= check_box_tag 'clans[]', 'Pomniejsze', (true if !@clans.nil? and @clans.include? 'Pomniejsze'), class: "clan_checkbox" %>,
+    Zaznacz Wszystkie: <%= check_box_tag 'select_all', 'nil', false, class: "select_all_clans" %>
+	</p>
+	<p>
+		Wybierz klasę:
+    Artysta: <%= check_box_tag 'school_classes[]', 'Artysta', (true if !@school_classes.nil? and @school_classes.include? 'Artysta'), class: "class_checkbox" %>,
+    Bushi: <%= check_box_tag 'school_classes[]', 'Bushi', (true if !@school_classes.nil? and @school_classes.include? 'Bushi'), class: "class_checkbox" %>,
+    Dworzanin: <%= check_box_tag 'school_classes[]', 'Dworzanin', (true if !@school_classes.nil? and @school_classes.include? 'Dworzanin'), class: "class_checkbox" %>,
+    Mnich: <%= check_box_tag 'school_classes[]', 'Mnich', (true if !@school_classes.nil? and @school_classes.include? 'Mnich'), class: "class_checkbox" %>,
+    Ninja: <%= check_box_tag 'school_classes[]', 'Ninja', (true if !@school_classes.nil? and @school_classes.include? 'Ninja'), class: "class_checkbox" %>,
+    Shugenja: <%= check_box_tag 'school_classes[]', 'Shugenja', (true if !@school_classes.nil? and @school_classes.include? 'Shugenja'), class: "class_checkbox" %>
+    Zaznacz Wszystkie: <%= check_box_tag 'select_all', 'nil', false, class: "select_all_classes" %>    		
+	</p>
+	<%= submit_tag "Szukaj!" %>
+	
+<% end %>

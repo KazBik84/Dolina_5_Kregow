@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   root 'static_pages#home'
 
   get 'schools' => 'legendopedia#schools'
-	get 'legendopedia' => 'legendopedia#main'  
+	get 'legendopedia' => 'legendopedia#main' 
+	post 'show_schools' => 'legendopedia#show_schools' 
   
   get 'about' 	=>	'static_pages#about'
   get	'contact'	=>	'static_pages#contact'

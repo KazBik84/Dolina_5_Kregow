@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150520045417) do
+ActiveRecord::Schema.define(version: 20150527191715) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,6 +60,10 @@ ActiveRecord::Schema.define(version: 20150520045417) do
     t.string   "shugenja_tech_desc"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+    t.string   "clan_name"
+    t.string   "img_name"
+    t.string   "monk_tech_name"
+    t.string   "monk_tech_desc"
   end
 
   add_foreign_key "comments", "announcements"

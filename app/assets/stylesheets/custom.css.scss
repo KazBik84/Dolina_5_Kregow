@@ -100,6 +100,7 @@ border-radius: 0px  !important;
 	border-top: solid black 1px;
 	background-color: black;
 	height: 1.5em;
+	cursor: pointer;
 	p {
 		padding-left: 5px;
 		padding-right: 5px;	
@@ -112,8 +113,38 @@ border-radius: 0px  !important;
   	}
 	}	
 }
+/* legendopedia */
+
+.show_school {
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow:5px 5px 5px black;
+	margin-bottom: 10px;
+	ul {
+		list-style-type: none;
+		li {
+			text-align: justify;
+		}
+	}
+	.school_list {
+		padding: 0px 10px 0px 10px;
+	}
+}
+.first {
+	text-indent: 5px;
+}
+.img_middle {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
 
 /* różności */
+
+.middle_text {
+	text-align: center;
+}
 
 .padding_top_10 {
 	padding-top: 10px;
