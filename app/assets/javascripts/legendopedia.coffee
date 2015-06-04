@@ -5,8 +5,8 @@
 $(document).on 'change','#topic_id', ->
 	window.location.replace($(this).val())
 	
-$(document).on 'click','.select_all_clans', ->
-    $('.clan_checkbox').attr 'checked', true
+$(document).on 'click', '.select_all_clans', ->
+  if $(this).is ':checked' then $('.clan_checkbox').prop 'checked', true    
 
-$(document).on 'click','.select_all_classes', ->
-    $('.class_checkbox').attr 'checked', true	
+$(document).on 'click', '.select_all_classes', ->
+  if $(this).is ':checked' then $('.class_checkbox').prop 'checked', true

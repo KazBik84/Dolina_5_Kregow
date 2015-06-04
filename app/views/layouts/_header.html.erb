@@ -3,11 +3,11 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 		    <ul class="nav navbar-nav">
-		      <li class="active"><%= link_to "Strona Główna", root_path %></li>
-		      <li><%= link_to "Legendopedia", legendopedia_path %></li>
+		      <li <% if yield(:header_active) == "Root" %> class="active" <% end %> ><%= link_to "Strona Główna", root_path %></li>
+		      <li<% if yield(:header_active) == "Legendopedia" %> class="active" <% end %> ><%= link_to "Legendopedia", legendopedia_path %></li>
 		      <li><%= link_to "Dział MG", "#" %></li>
 		      <li><%= link_to "Zwoje z Sieci", "#" %></li>
-		      <li><%= link_to "Log In!", "#" %></li>
+		      <li><%= link_to "Zaloguj się!", "#" %></li>
 		    </ul>
 		</div>
 	</nav>

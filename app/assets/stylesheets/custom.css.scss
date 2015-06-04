@@ -116,9 +116,7 @@ border-radius: 0px  !important;
 /* legendopedia */
 
 .show_school {
-	border: 1px solid black;
 	border-radius: 5px;
-	box-shadow:5px 5px 5px black;
 	margin-bottom: 10px;
 	ul {
 		list-style-type: none;
@@ -138,6 +136,71 @@ border-radius: 0px  !important;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2em;
+}
+
+.inline_block {
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;  
+}
+
+.no_padding_and_margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Cesarskie {
+  box-shadow:5px 5px 5px #187562; 
+  border: 1px solid #187562;  
+}
+
+.Feniks {
+  box-shadow:5px 5px 5px #F4821F; 
+  border: 1px solid #F4821F;  
+}
+
+.Jednorożec {
+  box-shadow:5px 5px 5px #6A1AE1;
+  border: 1px solid #6A1AE1;  
+}
+
+.Krab {
+  box-shadow:5px 5px 5px #2F41B5;
+  border: 1px solid #2F41B5;
+}
+
+.Lew {
+  box-shadow:5px 5px 5px #D2B337;
+  border: 1px solid #D2B337;
+}
+
+.Modliszka {
+  box-shadow:5px 5px 5px #447724;
+  border: 1px solid #447724; 
+}
+
+.Pająk {
+  box-shadow:5px 5px 5px #818181;
+  border: 1px solid #818181; 
+}
+
+.Pomniejsze {
+  box-shadow:5px 5px 5px #522D19;
+  border: 1px solid #522D19; 
+}
+
+.Skorpion {
+  box-shadow:5px 5px 5px #850A23;
+  border: 1px solid #850A23;
+}
+.Smok {
+  box-shadow:5px 5px 5px #A3C326;
+  border: 1px solid #A3C326;
+}
+
+.Zuraw {
+  box-shadow:5px 5px 5px #47A0EE;
+  border: 1px solid #47A0EE;
 }
 
 /* różności */
@@ -178,4 +241,11 @@ border-radius: 0px  !important;
 	float: left;
 }
 
+.bottom_border {
+	border-bottom: 1px solid black
+}
+
+.no_dot {
+  list-style-type: none;
+}
 

@@ -10,21 +10,15 @@
 				</div>
 			</div>
 			<div class="show_comment" >
-				<% announcement.comments.reverse.each do |comment| %>
+				<!-- "reverse_order" jest scopem zdefiniowanym w modelu comment.rb -->
+				<% announcement.comments.reverse_order.each do |comment| %>
 					<p><strong><%= comment.author.capitalize %>:</strong> <%= comment.content %>,  </p>
 				<% end %>
 			</div>
 			<div class="create_comment" >
-					<%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id) ) do |form| %>
-								<%= form.label :author, "Autor:" %>
-								<%= form.text_field :author, class: "form-control" %>
-
-								<%= form.label :content, "Treść:" %>
-								<%= form.text_field :content, class: "form-control content_length" %>
-								<div class="char_counter">255</div>
-								<%= form.submit "Dodaj!", class: "btn btn-primary" %>
-
-					<% end %>
+				# Partiale nie przejmują zmiennych więc trzeba je przekazać w hashu 'locals', 
+				#    ale żeby hash  'locals' zadziałał trzeba wpisać render partial:
+			  <%= render partial: 'shared/create_comments_form', locals: {announcement: announcement, url: root_path } %>       
 			</div>
 			<div class="  create_comment_button announcement_button float_right left_border" >
 				<p><strong>Dodaj Komentarz</strong></p>

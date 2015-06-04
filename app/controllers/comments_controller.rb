@@ -4,7 +4,8 @@ class CommentsController < ApplicationController
   	@comment = @announcement.comments.new(comments_params)
   	if @comment.save
   		flash[:success] = "Komentarz dodano"
-  		redirect_to root_path
+  		#Parametr przekazany z hiddenfielda :)
+  		redirect_to params[:comment][:redirect_to]
   	else
   		redirect_to root_path
   	end

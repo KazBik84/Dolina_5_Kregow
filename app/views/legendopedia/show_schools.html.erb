@@ -1,9 +1,14 @@
+<% provide(:title, "Szkoły") %>
+<% provide(:header_active, "Legendopedia") %>
+
+<a name="top"></a>
 <%= render ('legendopedia/schools_form') %>
 
 Znaleziono <%= @chosen_schools.count %> szkół: 
 
+<!-- Pętla która wypisuje wybrane przez usera szkoły -->
 <% @chosen_schools.each do |school| %>
-	<div class="show_school">
+	<div class="show_school <%=school.clan %>">
 		<h3 class="middle_text"><strong><%= school.name %></strong></h3>
 		<%= image_tag("legendopedia/#{school.clan}/#{school.img_name}", class: "img_middle") %>
 		<ul class="school_list">
@@ -58,4 +63,5 @@ Znaleziono <%= @chosen_schools.count %> szkół:
 		</ul>
 	</div>
 <% end %>
+<a href="#top">Do góry</a>
 
