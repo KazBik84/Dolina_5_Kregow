@@ -1,0 +1,10 @@
+<%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id, url) ) do |form| %>
+  <%= form.hidden_field :redirect_to, value: url %>
+  <%= form.label :author, "Autor:" %>
+  <%= form.text_field :author, class: "form-control" %>
+  
+  <%= form.label :content, "Treść:" %>
+  <%= form.text_field :content, class: "form-control content_length" %>
+  <div class="char_counter">255</div>
+  <%= form.submit "Dodaj!", class: "btn btn-primary" %>
+<% end %>
