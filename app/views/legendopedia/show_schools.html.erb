@@ -22,7 +22,7 @@ Znaleziono <%= @chosen_schools.count %> szkół:
 			<li><strong>Honor: </strong><%= school.honor %></li>
 			<li><strong>Ekwipunek: </strong><%= school.outfit %></li>
 			<% if school.special != nil %>
-				<li><strong>Specjalne: </strong><%= school.special %>
+				<li><strong>Specjalne: </strong><%= school.special.html_safe %>
 			<% end %>
 			<% if school.school_class != "Shugenja" %>
 				<% if school.monk_tech_name.present? %>
