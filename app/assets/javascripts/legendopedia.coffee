@@ -3,10 +3,10 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $(document).on 'change','#topic_id', ->
-	window.location.replace($(this).val())
-	
+  window.location.replace($(this).val())
+
 $(document).on 'click', '.select_all_clans', ->
-  if $(this).is ':checked' then $('.clan_checkbox').prop 'checked', true    
+  if $(this).is ':checked' then $('.clan_checkbox').prop 'checked', true
 
 $(document).on 'click', '.select_all_classes', ->
   if $(this).is ':checked' then $('.class_checkbox').prop 'checked', true

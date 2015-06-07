@@ -22,6 +22,7 @@ Znaleziono <%= @chosen_schools.count %> szkół:
 			<li><strong>Honor: </strong><%= school.honor %></li>
 			<li><strong>Ekwipunek: </strong><%= school.outfit %></li>
 			<% if school.special != nil %>
+			  <!-- '.html_safe' sprawia że zawarty w podanym stringu tekst html jest wykonywany -->
 				<li><strong>Specjalne: </strong><%= school.special.html_safe %>
 			<% end %>
 			<% if school.school_class != "Shugenja" %>

@@ -4,7 +4,8 @@
 				<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p>
 			</div>
 			<div class="announcement_message">
-				<p><%= announcement.message %></p>
+			  <!-- simple_format to funkcja która poprawnie odczytuje entery jako nowe liniie podczas zwracania tekstu -->
+				<%= simple_format(announcement.message) %>
 				<div class="link_to">
 					<%= link_to "Czytaj Więcej", announcement %>
 				</div>
