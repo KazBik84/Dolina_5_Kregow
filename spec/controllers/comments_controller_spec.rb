@@ -9,7 +9,7 @@ RSpec.describe CommentsController, type: :controller do
   	context "With valid attributes" do
   	
   		before(:each) do
-  			post :create, comment: attributes_for(:comment), announcement_id: dummy_post.id
+  			post :create, comment: attributes_for(:controller_comment), announcement_id: dummy_post.id
   		end
 			
 			it "returns http redirect" do
@@ -32,7 +32,7 @@ RSpec.describe CommentsController, type: :controller do
 		context "Comment with nil author" do
 		
 		 before(:each) do
-  			post :create, comment: attributes_for(:comment, author: nil), announcement_id: dummy_post.id
+  			post :create, comment: attributes_for(:controller_comment, author: nil), announcement_id: dummy_post.id
   		end
 			
 			it "returns http redirect" do
@@ -55,7 +55,7 @@ RSpec.describe CommentsController, type: :controller do
 		context "Comment with too long author" do
 		
 		 before(:each) do
-  			post :create, comment: attributes_for(:comment, author: %w("x"x101)), announcement_id: dummy_post.id
+  			post :create, comment: attributes_for(:controller_comment, author: %w("x"x101)), announcement_id: dummy_post.id
   		end
 			
 			it "returns http redirect" do
@@ -78,7 +78,7 @@ RSpec.describe CommentsController, type: :controller do
 		context "Comment with nil content" do
 		
 		 before(:each) do
-  			post :create, comment: attributes_for(:comment, content: nil), announcement_id: dummy_post.id
+  			post :create, comment: attributes_for(:controller_comment, content: nil), announcement_id: dummy_post.id
   		end
 			
 			it "returns http redirect" do
@@ -101,7 +101,7 @@ RSpec.describe CommentsController, type: :controller do
 		context "Comment with too long content" do
 		
 		 before(:each) do
-  			post :create, comment: attributes_for(:comment, content: %w("x"x256)), announcement_id: dummy_post.id
+  			post :create, comment: attributes_for(:controller_comment, content: %w("x"x256)), announcement_id: dummy_post.id
   		end
 			
 			it "returns http redirect" do
