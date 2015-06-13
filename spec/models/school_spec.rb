@@ -190,6 +190,14 @@ RSpec.describe School, type: :model do
     it "is invalid with monk_tech_desc blank" do
       expect(build(:order_of_shinsei_monk, monk_tech_desc: nil)).to_not be_valid
     end
+  end
+  
+  it "should return proper objects with find_schools method" do
+    smok_bushi = create(:school_class_primary, clan: "Smok", school_class: "Bushi")
+    skorpion_bushi = create(:school_class_primary, clan: "Skorpion", school_class: "Bushi")
+    smok_shugenja = create(:shugenja_class_school, clan: "Smok", school_class: "Shugenja")
+    smok_bushi_2 = create(:school_class_primary, clan: "Smok", school_class: "Bushi")
     
+    expect(School.find_schools("Smok","Bushi")).to eq([smok_bushi, smok_bushi_2])
   end
 end
