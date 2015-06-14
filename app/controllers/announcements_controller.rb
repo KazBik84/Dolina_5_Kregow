@@ -9,6 +9,8 @@ class AnnouncementsController < ApplicationController
       flash[:success] = "Post został pomyślnie dodany"
       redirect_to root_path
     else
+      # nie może być redirect ponieważ błędy zostaną utracone jako wynik nowego żądania
+      #  dlatego musi być render by móc wykorzystać powstałe błędy. 
       render 'new'
     end
   end
