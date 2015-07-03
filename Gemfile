@@ -16,6 +16,8 @@ gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'devise'
+
 gem 'sdoc', group: :doc
 
 group :development, :test do
