@@ -1,7 +1,7 @@
 	<% @announcements.each do |announcement| %>
 		<div class="announcement" id="<%= announcement.title %>" data-announcement>
 			<div class="announcement_header">
-				<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p>
+				<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p><p class="header_text text_to_right"><strong><%= announcement.updated_at.to_date %></strong></p>
 			</div>
 			<div class="announcement_message">
 			  <!-- simple_format to funkcja która poprawnie odczytuje entery jako nowe liniie podczas zwracania tekstu -->
@@ -17,8 +17,8 @@
 				<% end %>
 			</div>
 			<div class="create_comment" >
-				# Partiale nie przejmują zmiennych więc trzeba je przekazać w hashu 'locals', 
-				#    ale żeby hash  'locals' zadziałał trzeba wpisać render partial:
+				<!-- Partiale nie przejmują zmiennych więc trzeba je przekazać w hashu 'locals', 
+				#    ale żeby hash  'locals' zadziałał trzeba wpisać 'render partial:' -->
 			  <%= render partial: 'shared/create_comments_form', locals: {announcement: announcement, url: root_path } %>       
 			</div>
 			<div class="  create_comment_button announcement_button float_right left_border" >

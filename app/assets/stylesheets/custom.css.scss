@@ -55,6 +55,13 @@ border-radius: 0px  !important;
     .header_text {
       color: white;
     }
+    .text_to_right {
+      float: right;
+    }
+    /* p są inline żeby można było wyświetlić dwa '<p>' obok siebie */ 
+    p {
+      display: inline;
+    }
     a {
       color: white;
       &:hover {
@@ -63,6 +70,9 @@ border-radius: 0px  !important;
     }
   }
   .announcement_message {
+    /* 'clear' jest wymagany bo inaczej 'p' z 'announcement_header' 
+      który ma 'float' przysłonił by część treśći */
+    clear: both;
     position: relative;
     max-height: 9em;	
     overflow: hidden;
