@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
  
   devise_for :users, controllers: { sessions: "users/sessions" }
-  resources :users
+  resources :users, only:[:show]
   
   root 'static_pages#home'
 
