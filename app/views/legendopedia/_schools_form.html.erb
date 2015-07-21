@@ -34,16 +34,16 @@
   	    <li><%= check_box_tag 'school_classes[]', 'Dworzanin', (true if !@school_classes.nil? and @school_classes.include? 'Dworzanin'), class: "class_checkbox" %> Dworzanin</li>
   	    <li><%= check_box_tag 'school_classes[]', 'Mnich', (true if !@school_classes.nil? and @school_classes.include? 'Mnich'), class: "class_checkbox" %> Mnich</li>
   	  </ul>
-  	</li>
-  	<li class="inline_block">
-  	  <ul class="no_dot no_padding_and_margin">
-  	    <li><%= check_box_tag 'school_classes[]', 'Ninja', (true if !@school_classes.nil? and @school_classes.include? 'Ninja'), class: "class_checkbox" %> Ninja</li>
-  	    <li><%= check_box_tag 'school_classes[]', 'Shugenja', (true if !@school_classes.nil? and @school_classes.include? 'Shugenja'), class: "class_checkbox" %> Shugenja</li>
-  	    <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_classes" %> Zaznacz Wszystkie</li>
-  	  </ul>
-  	</li>
+    </li>
+    <li class="inline_block">
+      <ul class="no_dot no_padding_and_margin">
+        <li><%= check_box_tag 'school_classes[]', 'Ninja', (true if !@school_classes.nil? and @school_classes.include? 'Ninja'), class: "class_checkbox" %> Ninja</li>
+        <li><%= check_box_tag 'school_classes[]', 'Shugenja', (true if !@school_classes.nil? and @school_classes.include? 'Shugenja'), class: "class_checkbox" %> Shugenja</li>
+        <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_classes" %> Zaznacz Wszystkie</li>
+      </ul>
+    </li>
   </ul>
-  		
-	<%= submit_tag "Szukaj!" %>
-	
+ 
+  <%= submit_tag "Szukaj!" %>
+
 <% end %>

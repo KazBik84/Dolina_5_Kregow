@@ -37,6 +37,7 @@ class AnnouncementsController < ApplicationController
 
   def show
     @announcement = Announcement.find(params[:id])
+    @user = current_user if user_signed_in?
   end
   
   private

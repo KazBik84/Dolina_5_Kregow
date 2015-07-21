@@ -3,17 +3,16 @@
 <h1> Edytuj Newsa ;) </h1>
 
 
-		<%= form_for(@announcement) do |form| %>
-		<form >
-			<div class="form-group">
-				<%= render 'shared/error_messages' %>
-				<%= form.label :title, "Nazwa" %>
-				<%= form.text_field :title, class: "form-control" %>
-			
-				<%= form.label :message, "Treść" %>
-				<%= form.text_area :message, size: "48x12", class: "form-control" %>
-			</div>
-			<div class="text-center padding_top-10">
-				<%= form.submit "Edytuj Newsa ;)", class: "btn btn-primary" %>
-			</div>
-		<% end %>
+    <%= form_for(@announcement) do |form| %>
+    <form >
+      <div class="form-group">
+        <%= render 'shared/error_messages' %>
+        <%= form.label :title, "Nazwa" %>
+        <%= form.text_field :title, class: "form-control" %>
+
+        <%= form.label :message, "Treść" %>
+        <%= form.text_area :message, size: "48x12", class: "form-control" %>
+      </div>
+      <div class="text-center padding_top-10">
+        <%= form.submit "Edytuj Newsa ;)", class: "btn btn-primary" %>
+      </div>

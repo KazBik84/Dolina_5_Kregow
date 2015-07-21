@@ -7,10 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body class="full">
-	<%= render ('layouts/header') %>
-	<div class="middle_box">
-		<%= yield %>
-	</div>
-	<%= render ('layouts/footer') %>
+  <%= render ('layouts/header') %>
+  <div class="middle_box">
+  <!-- https://gist.github.com/suryart/7418454 << rozwiązanie problemów flasha i bootstrapa -->
+    <%= flash_messages %>
+    <!--<% flash.each do |flash_type, message| %>
+      <div class="alert alert-<%= flash_type %>">
+        <%= message %>
+      </div>
+    <% end %>  -->
+    <%= yield %>
+  </div> 
+  <%= render ('layouts/footer') %>
 </body>
 </html>

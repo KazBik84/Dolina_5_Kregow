@@ -1,34 +1,31 @@
 <header>
-	<%= link_to image_tag("logo.jpg", :class=>"logo"), root_path %>
-	<nav class="navbar navbar-inverse">
-		<div class="container">
-		    <ul class="nav navbar-nav">
-		      <li <% if yield(:header_active) == "Root" %> class="active" <% end %> >
-		        <%= link_to "Strona Główna", root_path %>
-		      </li>
-		      <li <% if yield(:header_active) == "Legendopedia" %> class="active" <% end %> >
-		        <%= link_to "Legendopedia", legendopedia_path %>
-		      </li>
-		      <li><%= link_to "Dział MG", "#" %></li>
-		      <li><%= link_to "Zwoje z Sieci", "#" %></li>
-		      <li <% if yield(:header_active) == "Login" %> class="active" <% end %> >
-		        <% if user_signed_in? %>
-		          <%= link_to "Twój Dział", current_user %>
-		        <% else %>
-		          <%= link_to "Zaloguj się", new_user_session_path %>
-		        <% end %>
-		      </li>
-		      <% if user_signed_in? %>
-		        <li>
-  		        <%= link_to "Wyloguj", destroy_user_session_path, method: :delete %>
-  		      </li>
-		      <% end %>
-		    </ul>
-		</div>
-	</nav>
-<% flash.each do |flash_type, message| %>
-	<div class="alert alert-<%= flash_type %>">
-		<%= message %>
-	</div>
-<% end %>	
+  <%= link_to image_tag("logo.jpg", :class=>"logo"), root_path %>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li <% if yield(:header_active) == "Root" %> class="active" <% end %> >
+          <%= link_to "Strona Główna", root_path %>
+        </li>
+        <li <% if yield(:header_active) == "Legendopedia" %> class="active" <% end %> >
+          <%= link_to "Legendopedia", legendopedia_path %>
+        </li>
+        <li><%= link_to "Dział MG", "#" %></li>
+        <li><%= link_to "Zwoje z Sieci", "#" %></li>
+        <li <% if yield(:header_active) == "Login" %> class="active" <% end %> >
+          <% if user_signed_in? %>
+            <%= link_to "Twój Dział", current_user %>
+          <% else %>
+            <%= link_to "Zaloguj się", new_user_session_path %>
+          <% end %>
+        </li>
+        <li>
+          <% if user_signed_in? %>
+            <%= link_to "Wyloguj", destroy_user_session_path, method: :delete %>
+          <% else %>
+            <%= link_to "Zarejestruj się", new_user_registration_path %>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
