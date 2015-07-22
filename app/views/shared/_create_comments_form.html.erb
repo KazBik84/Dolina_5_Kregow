@@ -1,9 +1,9 @@
 <%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id, url) ) do |form| %>
   <%= form.hidden_field :redirect_to, value: url %>
   <% if user_signed_in? %>
-    <%= form.label :author, "#{@user.username}:" %>
-    <%= form.hidden_field :author, value: @user.username %>
-    <%= form.hidden_field :user_id, value: @user.id %>
+    <%= form.label :author, "#{current_user.username}:" %>
+    <%= form.hidden_field :author, value: current_user.username %>
+    <%= form.hidden_field :user_id, value: current_user.id %>
   <% else %>
     <%= form.label :author, "Autor:" %>
     <%= form.text_field :author, class: "form-control" %>
