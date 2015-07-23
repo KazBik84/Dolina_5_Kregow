@@ -16,14 +16,16 @@
 					<p><strong><%= comment.author.capitalize %>:</strong> <%= comment.content %>,  </p>
 				<% end %>
 			</div>
-			<div class="create_comment" >
+  		<% if current_user && user_signed_in? %>
+			  <div class="create_comment" >
 				<!-- Partiale nie przejmują zmiennych więc trzeba je przekazać w hashu 'locals', 
 				#    ale żeby hash  'locals' zadziałał trzeba wpisać 'render partial:' -->
-			  <%= render partial: 'shared/create_comments_form', locals: {announcement: announcement, url: root_path } %>       
-			</div>
-			<div class="  create_comment_button announcement_button float_right left_border" >
-				<p><strong>Dodaj Komentarz</strong></p>
-			</div>
+  			  <%= render partial: 'shared/create_comments_form', locals: {announcement: announcement, url: root_path } %>
+  			</div>
+  			<div class="  create_comment_button announcement_button float_right left_border" >
+	  		  <p><strong>Dodaj Komentarz</strong></p>
+		  	</div>
+		  <% end %> 		  	
 			<div class="<% if announcement.comments.count > 0 %> show_comment_button <% end %> announcement_button float_left right_border" >
 				<p><strong>Komentarze: <%= announcement.comments.count %></strong></p>
 			</div>					

@@ -1,14 +1,8 @@
 <%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id, url) ) do |form| %>
   <%= form.hidden_field :redirect_to, value: url %>
-  <% if user_signed_in? %>
-    <%= form.label :author, "#{current_user.username}:" %>
-    <%= form.hidden_field :author, value: current_user.username %>
-    <%= form.hidden_field :user_id, value: current_user.id %>
-  <% else %>
-    <%= form.label :author, "Autor:" %>
-    <%= form.text_field :author, class: "form-control" %>
-    <%= form.label :content, "Treść:" %>    
-  <% end %>
+  <%= form.label :author, "#{current_user.username}:" %>
+  <%= form.hidden_field :author, value: current_user.username %>
+  <%= form.hidden_field :user_id, value: current_user.id %>
   <%= form.text_field :content, class: "form-control content_length" %>
   <div class="char_counter">255</div>
   <%= form.submit "Dodaj!", class: "btn btn-primary" %>
