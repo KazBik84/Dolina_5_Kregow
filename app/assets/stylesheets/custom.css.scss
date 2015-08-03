@@ -105,6 +105,9 @@ border-radius: 0px  !important;
   .show_comment {
     display: none;
     border-top: solid black 1px;
+    p {
+      overflow: hidden;
+    }
   }
 }
 .announcement_button {

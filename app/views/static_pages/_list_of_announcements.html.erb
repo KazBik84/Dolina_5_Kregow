@@ -18,7 +18,8 @@
 					   <%= link_to "<button type='button' class='btn btn-default' aria-label='Left Align'>
   <span class='glyphicon glyphicon-remove' aria-hidden='true'></span></button>".html_safe, announcement_comment_path(announcement.id, comment.id), method: :delete %>
             <% end %>
-            <strong><%= comment.author.capitalize %>:</strong> <%= comment.content %></p>
+            <strong><%= comment.author.capitalize %>:</strong> <%= comment.content %>
+          </p>
 				<% end %>
 			</div>
   		<% if current_user && user_signed_in? %>
