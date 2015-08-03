@@ -1,0 +1,25 @@
+<% provide(:title, "Czary") %>
+<% provide(:header_active, "Legendopedia") %>
+<h1>Lista Czarów</h1>
+
+Zywiol = <%= @elements %>
+Kregi = <%= @kregi %>
+Tags = <%= @tags %>
+<%= @chosen_spells.each do |spell| %>
+  <div class ="spell czar_<%= spell.zywiol %>">
+    <ul class="no_dot">
+      <li><strong>Nazwa: </strong><%= spell.nazwa %></li>
+      <li><strong>Żywiol: </strong><%= spell.zywiol %></li>
+      <li><strong>Krąg: </strong><%= spell.krag %></li>
+      <li><strong>Zasięg: </strong><%= spell.zasieg %></li>
+      <li><strong>Obszar: </strong><%= spell.obszar %></li>
+      <li><strong>Czas trwania: </strong><%= spell.czas %></li>
+      <li><strong>Podbicia: </strong><%= spell.podbicia %></li>
+      <% unless spell.specjalne.blank? %>
+        <li><strong>Specjalne: </strong><%= spell.specjalne %></li>
+      <% end %>
+      <li><strong>Opis: </strong><%= spell.opis %></li>
+    </ul>
+  </div>
+<% end %>
+

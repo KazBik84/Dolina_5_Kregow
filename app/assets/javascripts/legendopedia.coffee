@@ -10,3 +10,12 @@ $(document).on 'click', '.select_all_clans', ->
 
 $(document).on 'click', '.select_all_classes', ->
   if $(this).is ':checked' then $('.class_checkbox').prop 'checked', true
+  
+$(document).on 'click', '.select_all_spells', ->
+  if $(this).is ':checked' then $('.spell_checkbox').prop 'checked', true
+  
+$(document).on 'click', '.select_all_rings', ->
+  if $(this).is ':checked' then $('.ring_checkbox').prop 'checked', true
+  
+$(document).on 'click', '.select_all_tags', ->
+  if $(this).is ':checked' then $('.tag_checkbox').prop 'checked', true

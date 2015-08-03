@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'schools' => 'legendopedia#schools'
 	get 'legendopedia' => 'legendopedia#main' 
 	post 'show_schools' => 'legendopedia#show_schools' 
+	get 'spells' => 'legendopedia#spells'
+	post 'show_spells' => 'legendopedia#show_spells'
   
   get 'about' 	=>	'static_pages#about'
   get	'contact'	=>	'static_pages#contact'
