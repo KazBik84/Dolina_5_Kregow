@@ -1,14 +1,12 @@
 <% provide(:title, "Czary") %>
 <% provide(:header_active, "Legendopedia") %>
-<h1>Lista Czarów</h1>
+<a name="top"></a>
 
-Zywiol = <%= @elements %>
-Kregi = <%= @kregi %>
-Tags = <%= @tags %>
-<%= @chosen_spells.each do |spell| %>
-  <div class ="spell czar_<%= spell.zywiol %>">
-    <ul class="no_dot">
-      <li><strong>Nazwa: </strong><%= spell.nazwa %></li>
+
+<% @chosen_spells.each do |spell| %>
+  <div class ="show_object czar_<%= spell.zywiol %>">
+    <h3 class="middle_text"><%= spell.nazwa %></h3>
+    <ul class="object_list">
       <li><strong>Żywiol: </strong><%= spell.zywiol %></li>
       <li><strong>Krąg: </strong><%= spell.krag %></li>
       <li><strong>Zasięg: </strong><%= spell.zasieg %></li>
@@ -18,8 +16,9 @@ Tags = <%= @tags %>
       <% unless spell.specjalne.blank? %>
         <li><strong>Specjalne: </strong><%= spell.specjalne %></li>
       <% end %>
-      <li><strong>Opis: </strong><%= spell.opis %></li>
+      <li class="first"><%= spell.opis %></li>      
     </ul>
   </div>
 <% end %>
+<a href="#top">Do góry</a>
 

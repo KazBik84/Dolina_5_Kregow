@@ -129,7 +129,7 @@ border-radius: 0px  !important;
 }
 /* legendopedia */
 
-.show_school {
+.show_object {
   border-radius: 5px;
   margin-bottom: 10px;
   ul {
@@ -138,7 +138,7 @@ border-radius: 0px  !important;
       text-align: justify;
     }
   }
-  .school_list {
+  .object_list {
     padding: 0px 10px 0px 10px;
   }
 }
@@ -156,11 +156,6 @@ border-radius: 0px  !important;
   display: inline-block;
   width: 15%;
   vertical-align: top;  
-}
-
-.no_padding_and_margin {
-  margin: 0px;
-  padding: 0px;
 }
 
 .Cesarskie {
@@ -217,7 +212,41 @@ border-radius: 0px  !important;
   border: 1px solid #47A0EE;
 }
 
+.czar_Ogień {
+  box-shadow:5px 5px 5px #F80101;
+  border: 1px solid #F80101;
+}
+
+.czar_Woda{
+  box-shadow:5px 5px 5px #0109F8;
+  border: 1px solid #0109F8;
+}
+
+.czar_Powietrze {
+  box-shadow:5px 5px 5px #7BA3FA;
+  border: 1px solid #7BA3FA;
+}
+
+.czar_Ziemia {
+  box-shadow:5px 5px 5px #063501;
+  border: 1px solid #063501;
+}
+
+.czar_Pustka{
+  box-shadow:5px 5px 5px #A7A2A2;
+  border: 1px solid #A7A2A2;
+}
+
+.czar_Maho {
+  box-shadow:5px 5px 5px #97001E;
+  border: 1px solid #97001E;
+}
 /* różności */
+
+.no_padding_and_margin {
+  margin: 0px;
+  padding: 0px;
+}
 
 .middle_text {
   text-align: center;
