@@ -11,4 +11,6 @@ class User < ActiveRecord::Base
   attr_accessor :login
            
   has_many :comments, dependent: :destroy
+  
+  scope :id_order, -> { order(id: :asc) }
 end

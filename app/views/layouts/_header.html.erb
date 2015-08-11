@@ -11,6 +11,9 @@
         </li>
         <li><%= link_to "Dział MG", "#" %></li>
         <li><%= link_to "Zwoje z Sieci", "#" %></li>
+        <% if current_user && current_user.admin? %>
+          <li> <%= link_to "Index userów", users_path %>
+        <% end %>
         <li <% if yield(:header_active) == "Login" %> class="active" <% end %> >
           <% if user_signed_in? %>
             <%= link_to "Twój Dział", current_user %>

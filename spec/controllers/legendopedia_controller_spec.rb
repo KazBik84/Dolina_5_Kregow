@@ -5,7 +5,12 @@ RSpec.describe LegendopediaController, type: :controller do
   describe "Get main" do
     
     before(:each) do
-      get :main
+      @user = FactoryGirl.create(:user)
+      # sign_in @user daje nam zalogowanego usera
+      #  i pozwala testować części kodu dostępne tylko
+      #  dla zalogowanych userów
+      sign_in @user
+      get :main, id: @user.id     
     end
     it "returns proper http status" do
       expect(response).to have_http_status(:success)
@@ -18,7 +23,12 @@ RSpec.describe LegendopediaController, type: :controller do
   describe "GET #schools" do
   
     before(:each) do
-      get :schools
+      @user = FactoryGirl.create(:user)
+      # sign_in @user daje nam zalogowanego usera
+      #  i pozwala testować części kodu dostępne tylko
+      #  dla zalogowanych userów
+      sign_in @user
+      get :schools, id: @user.id 
     end
     it "returns http success" do
       expect(response).to have_http_status(:success)
@@ -30,7 +40,12 @@ RSpec.describe LegendopediaController, type: :controller do
   
   describe "get show_schools" do
     before(:each) do
-      get :show_schools, clans: "Smok", school_classes: "Bushi"
+      @user = FactoryGirl.create(:user)
+      # sign_in @user daje nam zalogowanego usera
+      #  i pozwala testować części kodu dostępne tylko
+      #  dla zalogowanych userów
+      sign_in @user
+      get :show_schools, id: @user.id, clans: "Smok", school_classes: "Bushi"
     end
     
     it "has param :clans not equal nil" do

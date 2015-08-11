@@ -8,7 +8,9 @@
     <p><strong><%= comment.author %>: </strong><%= comment.content %></p>
   <% end %>
 </div>
-<div>
-  <%= render partial: 'shared/create_comments_form', locals: { announcement: @announcement, url: announcement_path(@announcement.id) } %>
-</div>
+<% if current_user && _user_signed_in? %>
+  <div>
+    <%= render partial: 'shared/create_comments_form', locals: { announcement: @announcement, url: announcement_path(@announcement.id) } %>
+  </div>
+<% end %>
 <p><%= link_to "powrót", root_path %></p>
