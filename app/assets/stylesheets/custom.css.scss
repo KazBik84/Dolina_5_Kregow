@@ -241,6 +241,14 @@ border-radius: 0px  !important;
   box-shadow:5px 5px 5px #97001E;
   border: 1px solid #97001E;
 }
+ 
+.advance_school_form {
+  display: none;
+}
+
+.advance_spell_form {
+  display: none;
+}
 /* różności */
 
 .no_padding_and_margin {
@@ -256,6 +264,9 @@ border-radius: 0px  !important;
   padding-top: 10px;
 }
 
+.black_border {
+  border: 1px solid black;
+}
 .left_border {
   border-left: 1px solid black;
 }
@@ -265,6 +276,10 @@ border-radius: 0px  !important;
 }
 .margin_bottom_3em {
   margin-bottom:3em; 
+}
+
+.margin_bottom_1em {
+  margin-bottom:1em; 
 }
 .red {
   color: red;
@@ -290,4 +305,12 @@ border-radius: 0px  !important;
 
 .no_dot {
   list-style-type: none;
+}
+
+.block {
+  display: block;
+}
+
+.clear_float {
+  clear: both;
 }

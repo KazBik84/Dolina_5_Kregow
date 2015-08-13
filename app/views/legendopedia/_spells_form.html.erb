@@ -1,60 +1,93 @@
-<%= form_tag show_spells_path %>
-  <p>Wybierz Żywioł</p>
-  <ul class="no_dot">
-    <li class="inline_block">
-      <ul class="no_dot no_padding_and_margin">
-        <li><%= check_box_tag 'elements[]', 'Ogień', (true if !@elements.nil? and @elements.include? 'Ogień'), class: "spell_checkbox" %> Ogień </li>
-        <li><%= check_box_tag 'elements[]', 'Woda', (true if !@elements.nil? and @elements.include? 'Woda'), class: "spell_checkbox" %> Woda </li>
-        <li><%= check_box_tag 'elements[]', 'Ziemia', (true if !@elements.nil? and @elements.include? 'Ziemia'), class: "spell_checkbox" %> Ziemia </li>   
-        <li><%= check_box_tag 'elements[]', 'Powietrze', (true if !@elements.nil? and @elements.include? 'Powietrze'), class: "spell_checkbox" %> Powietrze </li>                       
-      </ul>
-    </li>
-    <li class="inline_block">
-      <ul class="no_dot no_padding_and_margin">
-        <li><%= check_box_tag 'elements[]', 'Pustka', (true if !@elements.nil? and @elements.include? 'Pustka'), class: "spell_checkbox" %> Pustka </li>
-        <li><%= check_box_tag 'elements[]', 'Maho', (true if !@elements.nil? and @elements.include? 'Maho'), class: "spell_checkbox" %> Maho </li>
-        <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_spells" %> Zaznacz Wszystkie</li>       
-      </ul>      
-    </li>
-  </ul>
-  Krąg czaru:
-  <ul class="no_dot">
-    <li class = "inline_block">
-      <ul class="no_dot no_padding_and_margin">
-        <li><%= check_box_tag 'krag[]', '1', (true if !@kregi.nil? and @kregi.include? '1'), class: "ring_checkbox"  %> Krąg 1</li>
-        <li><%= check_box_tag 'krag[]', '2', (true if !@kregi.nil? and @kregi.include? '2'), class: "ring_checkbox"  %> Krag 2</li>
-        <li><%= check_box_tag 'krag[]', '3', (true if !@kregi.nil? and @kregi.include? '3'), class: "ring_checkbox"  %> Krag 3</li>
-        <li><%= check_box_tag 'krag[]', '4', (true if !@kregi.nil? and @kregi.include? '4'), class: "ring_checkbox"  %> Krag 4</li>       
-      </ul>
-    </li>
-    <li class = "inline_block">
-      <ul class="no_dot no_padding_and_margin">
-        <li><%= check_box_tag 'krag[]', '5', (true if !@kregi.nil? and @kregi.include? '5'), class: "ring_checkbox"  %> Krag 5</li>
-        <li><%= check_box_tag 'krag[]', '6', (true if !@kregi.nil? and @kregi.include? '6'), class: "ring_checkbox"  %> Krag 6</li>  
-        <li><%= check_box_tag 'select_all_rings', 'nil', false, class: "select_all_rings" %> Zaznacz Wszystkie</li>                      
-      </ul>
-    <li>
-  </ul>
-  Typy czarów:
-  <ul class="no_dot">
-    <li class="inline_block">
-      <ul class="no_dot no_padding_and_margin">
-        <li><%= check_box_tag 'tag[]', 'Rzemiosło', (true if !@tags.nil? and @tags.inlude? 'Rzemiosło'), class: "tag_checkbox" %> Rzemiosło </li>
-        <li><%= check_box_tag 'tag[]', 'Obrona', (true if !@tags.nil? and @tags.inlude? 'Obrona'), class: "tag_checkbox" %> Obrona </li>
-        <li><%= check_box_tag 'tag[]', 'Bitwa', (true if !@tags.nil? and @tags.inlude? 'Bitwa'), class: "tag_checkbox" %> Bitwa</li>
-        <li><%= check_box_tag 'tag[]', 'Grom', (true if !@tags.nil? and @tags.inlude? "Grom"), class: "tag_checkbox" %> Grom</li>
-        <li><%= check_box_tag 'tag[]', 'Pieczęć', (true if !@tags.nil? and @tags.inlude? 'Pieczęć'), class: "tag_checkbox" %> Pieczęć</li>
-      </ul>
-    </li>
-    <li class="inline_block">
-      <ul class="no_dot no_padding_and_margin">
-        <li><%= check_box_tag 'tag[]', 'Jadeit', (true if !@tags.nil? and @tags.inlude? 'Jadeit'), class: "tag_checkbox" %> Jadeit</li>
-        <li><%= check_box_tag 'tag[]', 'Podróż', (true if !@tags.nil? and @tags.inlude? 'Podróż'), class: "tag_checkbox" %> Podróż</li>
-        <li><%= check_box_tag 'tag[]', 'Iluzja', (true if !@tags.nil? and @tags.inlude? 'Iluzja'), class: "tag_checkbox" %> Iluzja</li>
-        <li><%= check_box_tag 'tag[]', 'Przepowiednie', (true if !@tags.nil? and @tags.inlude? 'Przepowiednie'), class: "tag_checkbox" %> Przepowiednie</li>
-        <li><%= check_box_tag 'select_all_rings', 'nil', false, class: "select_all_tags" %> Zaznacz Wszystkie</li>
-      </ul>
-    </li>    
-  </ul>
+<div class="simple_spell_form margin_bottom_1em">
+  <%= form_tag show_spells_path do %>
+    <p><strong>Wybierz Żywioł: </strong>
+    <%= select_tag 'elements[]', options_for_select([
+                                     ["Dowolny" ,""],
+                                     ["Ogień", "Ogień"],
+                                     ["Woda", "Woda"],
+                                     ["Ziemia", "Ziemia"],
+                                     ["Powietrze", "Powietrze"],
+                                     ["Pustka", "Pustka"],
+                                     ["Maho", "Maho"]]) %>
+                                     
+    </p>
+    <p><strong>Wybierz Żywioł: </strong>
+    <%= select_tag 'krag[]', options_for_select([
+                                     ["Dowolny" ,""],
+                                     ["Pierwszy", "1"],
+                                     ["Drugi", "2"],
+                                     ["Trzeci", "3"],
+                                     ["Czwarty", "4"],
+                                     ["Piąty", "5"],
+                                     ["Szósty", "6"]]) %>
+                                     
+    </p>
+    <%= submit_tag "Szukaj!" %>    
+  <% end %>
+</div>
 
-<%= submit_tag "Szukaj!" %>
+<div class="advance_spell_button announcement_button float_left right_border margin_bottom_1em">
+  <p><strong>Zaawansowane przeszukiwanie</strong></p>
+</div>
+
+<div class="advance_spell_form clear_float">
+  <%= form_tag show_spells_path %>
+    <p><strong>Wybierz Żywioł: </strong></p>
+    <ul class="no_dot">
+      <li class="inline_block">
+        <ul class="no_dot no_padding_and_margin">
+          <li><%= check_box_tag 'elements[]', 'Ogień', (true if !@elements.nil? and @elements.include? 'Ogień'), class: "spell_checkbox" %> Ogień </li>
+          <li><%= check_box_tag 'elements[]', 'Woda', (true if !@elements.nil? and @elements.include? 'Woda'), class: "spell_checkbox" %> Woda </li>
+          <li><%= check_box_tag 'elements[]', 'Ziemia', (true if !@elements.nil? and @elements.include? 'Ziemia'), class: "spell_checkbox" %> Ziemia </li>   
+          <li><%= check_box_tag 'elements[]', 'Powietrze', (true if !@elements.nil? and @elements.include? 'Powietrze'), class: "spell_checkbox" %> Powietrze </li>                       
+        </ul>
+      </li>
+      <li class="inline_block">
+        <ul class="no_dot no_padding_and_margin">
+          <li><%= check_box_tag 'elements[]', 'Pustka', (true if !@elements.nil? and @elements.include? 'Pustka'), class: "spell_checkbox" %> Pustka </li>
+          <li><%= check_box_tag 'elements[]', 'Maho', (true if !@elements.nil? and @elements.include? 'Maho'), class: "spell_checkbox" %> Maho </li>
+          <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_spells" %> Zaznacz Wszystkie</li>       
+        </ul>      
+      </li>
+    </ul>
+    <p><strong>Krąg czaru: </strong></p>
+    <ul class="no_dot">
+      <li class = "inline_block">
+        <ul class="no_dot no_padding_and_margin">
+          <li><%= check_box_tag 'krag[]', '1', (true if !@kregi.nil? and @kregi.include? '1'), class: "ring_checkbox"  %> Krąg 1</li>
+          <li><%= check_box_tag 'krag[]', '2', (true if !@kregi.nil? and @kregi.include? '2'), class: "ring_checkbox"  %> Krag 2</li>
+          <li><%= check_box_tag 'krag[]', '3', (true if !@kregi.nil? and @kregi.include? '3'), class: "ring_checkbox"  %> Krag 3</li>
+          <li><%= check_box_tag 'krag[]', '4', (true if !@kregi.nil? and @kregi.include? '4'), class: "ring_checkbox"  %> Krag 4</li>       
+        </ul>
+      </li>
+      <li class = "inline_block">
+        <ul class="no_dot no_padding_and_margin">
+          <li><%= check_box_tag 'krag[]', '5', (true if !@kregi.nil? and @kregi.include? '5'), class: "ring_checkbox"  %> Krag 5</li>
+          <li><%= check_box_tag 'krag[]', '6', (true if !@kregi.nil? and @kregi.include? '6'), class: "ring_checkbox"  %> Krag 6</li>  
+          <li><%= check_box_tag 'select_all_rings', 'nil', false, class: "select_all_rings" %> Zaznacz Wszystkie</li>                      
+        </ul>
+      <li>
+    </ul>
+    <p><strong>Typy czarów: (Zostaną wyświetlone tylko czary z wybranymi typami) </strong></p>
+    <ul class="no_dot">
+      <li class="inline_block">
+        <ul class="no_dot no_padding_and_margin">
+          <li><%= check_box_tag 'tag[]', 'Rzemiosło', (true if !@tags.nil? and @tags.inlude? 'Rzemiosło'), class: "tag_checkbox" %> Rzemiosło </li>
+          <li><%= check_box_tag 'tag[]', 'Obrona', (true if !@tags.nil? and @tags.inlude? 'Obrona'), class: "tag_checkbox" %> Obrona </li>
+          <li><%= check_box_tag 'tag[]', 'Bitwa', (true if !@tags.nil? and @tags.inlude? 'Bitwa'), class: "tag_checkbox" %> Bitwa</li>
+          <li><%= check_box_tag 'tag[]', 'Grom', (true if !@tags.nil? and @tags.inlude? "Grom"), class: "tag_checkbox" %> Grom</li>
+          <li><%= check_box_tag 'tag[]', 'Pieczęć', (true if !@tags.nil? and @tags.inlude? 'Pieczęć'), class: "tag_checkbox" %> Pieczęć</li>
+        </ul>
+      </li>
+      <li class="inline_block">
+        <ul class="no_dot no_padding_and_margin">
+          <li><%= check_box_tag 'tag[]', 'Jadeit', (true if !@tags.nil? and @tags.inlude? 'Jadeit'), class: "tag_checkbox" %> Jadeit</li>
+          <li><%= check_box_tag 'tag[]', 'Podróż', (true if !@tags.nil? and @tags.inlude? 'Podróż'), class: "tag_checkbox" %> Podróż</li>
+          <li><%= check_box_tag 'tag[]', 'Iluzja', (true if !@tags.nil? and @tags.inlude? 'Iluzja'), class: "tag_checkbox" %> Iluzja</li>
+          <li><%= check_box_tag 'tag[]', 'Przepowiednie', (true if !@tags.nil? and @tags.inlude? 'Przepowiednie'), class: "tag_checkbox" %> Przepowiednie</li>
+          <li><%= check_box_tag 'select_all_rings', 'nil', false, class: "select_all_tags" %> Zaznacz Wszystkie</li>
+        </ul>
+      </li>    
+    </ul>
+  <%= submit_tag "Szukaj!" %>
+</div>

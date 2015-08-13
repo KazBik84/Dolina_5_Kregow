@@ -771,7 +771,7 @@ rank4_name: "Dotyk Grzechu: ",
 rank4_desc: "Dworzanin Daigotsu stał się już mistrzem kłamstw i manipulacji. Postać może użyć tej techniki tyle razy na sesję ile wynosi jej ranga w tej szkole. Dzięki niej postać podczas którtniej rozmowy może wykonać przeciwstawny test Dworskie(Manipulacja)/Siła Woli przeciw Etykiecie (Grzeczność)/Siła Woli. Jeśli dworzanin odniesie sukces, ofiara zyskuje wadę Pochłoniety (postać wybiera którą), na liczbę godzin równą randze szkolnej postaci. Jeśli postać wykona dwa podbicia może nadać ofierze dodatkową wadę Pochłonięty. Nie można używać tej techniki na danej postaci więcej niż raz na dzień.",
 rank5_name: "Uwielbienie Ciemności: ",
 rank5_desc: "Ostatnią lekcją jakiej uczy się uczeń Dworskiej Szkoły Daigotsu, jest prowadzenie swoich przeciwników na ścieżkę agresji i przemowcy. Jeśli postać rozmawia z kimś przez conajmniej 5 minut, moze wykonać test przeciwstawny Szczerość (Zwodzenie)/Intuicja przeciw Etykieta(Grzeczność)/Spostrzegawczość. Jeśli ofiara ma w danym czasie wadę Pochłonięty, dworzanin zyskuje +5z0 do testu. Jeśli dworzanin osiągnie sukces, postaci uda się nakłonić rozmówce by traktował inną osobę, instytucję, klan jako swojego wroga. Nie można przy pomocy tej techniki zwrócić postaci przeciw jej władcy lub Cesarzowej. Ofiara będzie wierzyć w słowa dworzanina aż nie zostaną jej przedstawione dowody na to że jest inaczej."},
-#3(40)---------------------------------------------------------------------------------------------------------------
+#3(40)--------------------------------------------------------------------------------------------------------------
 {name: "Szkoła Shugenja Chuda",
 img_name: "",
 school_class: "Shugenja",
@@ -786,7 +786,29 @@ affinity_deficiency: "Shugenja Chuda posiadają przychylność rzucając wszystk
 shugenja_tech_name: "Krew jak Woda: ",
 shugenja_tech_desc: "Chuda od wieków starali się ukryć prawdziwą naturę swojej mocy. Gdy postać rzuca czar oparty na maho, może wykonać dodatkowe podbicie by ukryć plugawą naturę czaru. Postać może wykonać dodatkowe podbicie by zmniejszyć libę otrzymywanych punktów Skazy Cienia do 1, alternatywnie może wydać Punkt Honoru, by osiągnąć ten sam efekt.",
 spells: "3 czary Maho z wybranego żywioło , 2 czary Maho żywiołu w którym postać nie posiada ułomności, 1 czar Maho żywiołu w którym postać nie posiada ułomności."},
-#1(41)----------------------------------- Skorpion -----------------------------------------
+#4(41)--------------------------------------------------------------------------------------------
+{name: "Szkoła Mnichów Pająka",
+img_name: "",
+school_class: "Mnich",
+clan: "Pająk",
+clan_name: "Pająk",
+bonus: "+1 Zręczność",
+school_desc: "Pochodzenie tego enigmatycznego zakonu, jest owiane tajemnicą, nawet dla wysokopostawionych członków klanu. Zakon założył upadły mnich Roshungi, jendak dopiero jego uczeń Michio rozpoczął poszukiwanie nowej ścieżki, bez względu na konsekwencje jakie, niosła za sobą ta decyzja. Członkowie zakonu Pająka, są bezlitośni i mają zasłużona reputacje brutalnych. Styl ich walki opiera się na walce wręcz jak i przy użyciu różnego rodzaju broni. Choć zakon działa obecnie w pełni w ramach klanu Pająka, tylko niewielka część z jego członków posiada Skazę Cienia. Styl walki mnichów z zakonu Pająka, skupia się na okaleczaniu przeciwnika oraz odpieraniu wszelkiego rodzaju manipulacji, jak i magii.",
+skills: "Atletyka, Jiujutsu 2, Wiedza: Teologia, Medytacja, Broń drzewcowa, dowolna inna umiejętność.",
+honor: "1,5",
+outfit: "Pancerz lakki lub ciężki, Wytrzymałe ubranie, Dowolna broń cieżka lub drzewcowa, Zestaw podróżny, 3 koku.",
+rank1_name: "Ścieżka Mroku: ",
+rank1_desc: "Zakon Pająka, uczy siły i samodoskonalenia. Postaćotrzymuje premię +1z0 do wszystkich ataków, wykonywanych walcząć bez broni lub przy pomocy broni drzewcowej. Dodatkowo postać dodaje podwojoną wartość swojej rangi w szkole, do swojego PT, przeciw atakom w zwarciu.",
+rank2_name: "Symbol w Uderzeniu: ",
+rank2_desc: "Opanowanie ciał do perfekcji jest kolejnym krikiem do doskonałości, krokiem który daje nieludzką odporność ciała na wszelkie ciosy. Osiągnąwszy te rangę mnich, wybiera jeden z kregów żywiołów (nie pustki) i zyskuje Redukcje równą poziomowi tego kręgu, plus poziom Skazy Cienia jeśli jakąś posiada.",
+rank3_name: "Szybkość Ciemności: ",
+rank3_desc: "Jedność ciała i umyslu, daje ruchom mnicha niesamowitej koordynacji i szybkości. Postać walcząc rękami lub bronią drzewcową, wykonuje ataki jako akcje prostą, zamiast pełną.",
+rank4_name: "Ochrona Chi: ",
+rank4_desc: "Po osiągnięciu doskonałości ciała przychodzi doskonałość duszy. Osiągając tę rangę, mnich wybiera krąg inny jak Pustka. Za każdym razem gdy jest celem zaklęcia, może zwiększyć jego PT o dwukrotną wartość wybranego kręgu, plus poziom Skazy Cienia, jeśli jakąś posiada.",
+rank5_name: "Uwolnienie Ciemności: ",
+rank5_desc: "Osiągnięcie perfekcji, wymaga sięgnięcia w własną ciemność. Postać zyskuje codziennie tyle dodatkowych punktów Pustki ile wynosi jej poziom Skazy Cienia lub krąg Ziemi, w zależności która wartość jest wyższa. Wygenerowane w ten sposób punkty pustki mogą być wydane tylko jako premia +1z1 do obrażeń."},
+
+#1(42)----------------------------------- Skorpion -----------------------------------------
 {name: "Szkoła Bushi Bayushi",
 img_name: "",
 school_class: "Bushi",
@@ -807,7 +829,7 @@ rank4_name: "Atakuj z Góry i z Dołu: ",
 rank4_desc: "Zwinność Bushiego ze szkoły Bayushi, pozwala mu zaatakować przeciwnika serią ataków zanim ten zdąży się zorientować co się dzieje. Postać może wykonywać ataki w starciu jako akcje proste, zamiast akcje pełne.",
 rank5_name: "Szczypce Trzymają, Ogon Atakuje: ",
 rank5_desc: "Uderzenie w przeciwnika najsłabszy punkt jest prawdziwą drogą przez Skorpiona do zwycięstwa. Raz na potyczkę, postać może wydać Punkt Pustki jako akcję pełną, aby zaatakować przeciwnika bronią do walki wręcz. Jeśli atak się powiedzie, cel zostaje ogłuszony. Podczas etapu reakcji ofiara może próbować rzutu kręgu Ziemi o PT równym ilości obrażeń zadawanych w tym ataku, by zakończyć ogłuszenie. Jeśli mu się nie uda lub nie próbuje, ogłuszenie mija na koniec następnej rundy."},
-#2(42)----------------------------------------------------------------------------------------------------
+#2(43)----------------------------------------------------------------------------------------------------
 {name: "Szkoła Dworzan Bayushi",
 img_name: "",
 school_class: "Dworzanin",
@@ -828,7 +850,7 @@ rank4_name: "Słodkie Żądło: ",
 rank4_desc: "Dworzanin Bayushi, ma już wszystkie potrzebne umiejętności by zniszczyć społecznie prawie każdego przeciwnika. Jeśli postać posiada Szantaż na daną ofiarę, podczas społecznych testów przeciwstawnych, kości ofiary nie Eksplodują. Dodatkowo, bez względu czy postać posiada Szantaż na ofiarę czy nie, może wydając punkt Pustki, zmusić przeciwnika by w teście przeciwstawnym teście społecznym użył, wybranej przez postać cechy Mentalnej.",
 rank5_name: "Koniec Maskarady: ",
 rank5_desc: "Ostateczna lekcja Szkoły Dworskiej Bayushi jest zmuszenie reszty dworu, by zobaczył skorumpowane, niehonorowy świat jaki widzi, tak by zniszczyć reputacje tych przeciw którym przemawia. Liczbę razy na sesję równa swojej randze w tej szkole, postać może wykonać przeciwstawny rzut Dworskie (Plotki)/Intuicja przeciw Etykieta(Grzeczność)/Intuicja ofiary. Jeśli postać posiada Szantaż na daną postać zyskuje +5z0 do rzutu. Jeśli dworzanin odniesie zwycięstwo, może dodać ofierze, jedną z wad (Zła Reputacja, Zaprzysięgły Wróg lub Zobowiązanie (osobie wybranej przez postać)). Ta wada trwa przez miesiąc, jeśli MG nie zdecyduje inaczej. Technikę tę można użyć ponownie na postać, póki otrzymana wada się nie przedawni."},
-#3(43)-------------------------------------------------------------------------------------------
+#3(44)-------------------------------------------------------------------------------------------
 {name: "Szkoła Shugenja Soshi",
 img_name: "",
 school_class: "Shugenja",
@@ -843,7 +865,7 @@ affinity_deficiency: "Powietrze/Ziemia",
 shugenja_tech_name: "Szept Kami: ",
 shugenja_tech_desc: "Soshi potrafią mówić do kami, tak cicho jak tylko kami potrafią. Postać poświęcając dodatkowe gniazdo czaru tego samego żywiołu, może ukryć jego widoczne efekty rzucania, technikę można użyć tylko do czarów które nie mają możliwości zadania obrażeń. Rzucanie czaru przeprowadza się normalnie, nie ma tylko wizualnych efektów, jego rzucania. Dodatkowo postać zyskuje darmowe podbicie do wszystkich Iluzji.",
 spells: "Wyczucie, Zespolenie, Przywołanie, 3 Powietrza, 2 Ognia, 1 Wody"},
-#4(44)-------------------------------------------------------------------------------------------------------
+#4(45)-------------------------------------------------------------------------------------------------------
 {name: "Szkoła Zarządców Soshi",
 img_name: "",
 school_class: "Bushi",
@@ -864,7 +886,7 @@ rank4_name: "Jasność Celu: ",
 rank4_desc: "Gdy dochodzi do walki Zarządca Soshi który osiągną tę rangę, jest już na tyle wyszkolony by poradzić sobie z niejednym przeciwnikiem. Postać w zwarciu wykonuje ataki (również w walce wręcz), jako akcja Prosta, zamiast Pełna.",
 rank5_name: "Nieustępliwe Dążenie do Celu: ",
 rank5_desc: "Zarządcy Soshi uczą się, wyczekiwania na odpowiedni moment by przegnieść przeciwnika mieszanką strachu i agresji, niszcząc przestępcę kilkoma celnymi ciosami. Raz na potyczkę, postać zyskuje dodatkowe kości których nie zatrzymuje, równe swojemu poziomowi Przesłuchiwania, do wszystkich ataków podczas tej rundy. Techniki tej nie można użyć Koncentrując się."},
-#5(45)----------------------------------------------------------------------------------------------
+#5(46)----------------------------------------------------------------------------------------------
 { name: "Szkoła Szpiegów Shosuro",
 img_name: "",
 school_class: "Ninja",
@@ -885,7 +907,7 @@ rank4_name: "Szept Stali: ",
 rank4_desc: "Mistrzowi Shosuro potrafią zaatakować cel z ukrycia, bez ujawniania swojej obecności. Podczas ataku na cel który nie jest świadomy jego obecności, postać może wykonać rzut przeciwstawny Skradanie/Zręczność przeciw Śledztwo (Zauważenie)/Spostrzegawczości, osób będących w najbliższym otoczeniu ofiary. Jeśli postać wygra pozostanie nie zauważona, jednak by wykonać tę technikę postać może wykonać tylko jeden atak. W pewnych sytuacjach MG może zabronić używania tej techniki.",
 rank5_name: "Ostateczna Cisza: ",
 rank5_desc: "Prawdziwy zabójca potrzebuje tylko jednego ataku by zabić swoją ofiarę. Podczas wykonywania rzutu na obrażenia, postać może wydać punkt Pustki by zamienić dwa wyniki na kostkach na '10', zamienione tak kości nie 'eksplodują'. Można w ten sposób wydać kilka punktów pustki by zamienić kolejne kostki na '10'."},
-#6(46)-------------------------------------------------------------------------------------------------
+#6(47)-------------------------------------------------------------------------------------------------
 {name: "Akademia Aktorów Shosuro",
 img_name: "",
 school_class: "Ninja",
@@ -907,7 +929,7 @@ rank4_name: "Pocałunek Żmiji: ",
 rank4_desc: "Aktor Shosuro posiada także ponadprzeciętne umiejętności walki bronią krótką, którą łatwo schować i przemycić. Na tej randze postać może wykonywać ataki bronią małą, jako akcja prosta zamiast jako akcja pełna.",
 rank5_name: "Trzecia Twarz: ",
 rank5_desc: "W pełni wyszkolony aktor Shosuro jest prawdziwym mistrzem infiltracji, zwodzenia i zabójstw. Postać zyskuje trzecią osobowość, dodatkowo jeśli wykonuje atak na osobę która nie jest świadoma jej obecności lub nie spodziewa się z jej strony ataku, podczas zadawania obrażeń, liczba podbić nie jest ograniczana kręgiem Pustki."},
-#7(47)-----------------------------------------------------------------------------------------------------------------
+#7(48)--------------------------------------------------------------------------------------------------------------
 {name: "Szkoła Shugenja Yogo",
 img_name: "",
 school_class: "Shugenja",
@@ -927,7 +949,7 @@ special: "Shugenja Yogo przez lata studiów zmienili sekwencje niektórych czar�
         Ziemia: Pancerz Ziemi, Odwaga Siedmiu Gromów, Siła Duszy, Całość Świata
         Ogień: Zgaszenie, Ogień Czystości, Bitewny Zgiełk, Sfera Wiecznego Słońca
         Woda: Odwrócenie Fortuny, Oczyszczające Opary, Mądrość i Jasność, Kojący Chłód"},
-#1(48)------------------------------------ Smok -----------------------------------------------
+#1(49)------------------------------------ Smok -----------------------------------------------
 { name: "Szkoła Bushi Mirumoto",
 img_name: "",
 school_class: "Bushi",
@@ -948,7 +970,7 @@ rank4_name: "Szaleńcze Odpłacenie: ",
 rank4_desc: "Gdy przeciwnik bushi Mirumoto, okaże się dla niego zagrożeniem, Mirumoto nie przestanie swych ataków, póki jego wróg nie padnie na ziemie martwy. Podczas fazy reakcji (na koniec rundy), postać może wyznaczyć dowolną postać która wykonała przeciwko niej atak w tej rundzie. Postać zyskuje dodatkowe +3z0 do wszystkich testów ataku przeciwko tej postaci w następnej rundzie.",
 rank5_name: "Serce Smoka: ",
 rank5_desc: "Mistrzowie sztuki Ninten, zdają się wykonywać atak, za każdym razem gdy wykonują ruch swoją bronią. Jeśli postać zaatakowała dwa razy w tej rundzie, a walczy jednocześnie kataną i wakizashi, może wykonać dodatkowy atak jako akcja darmowa, używając wakizashi."},
-# 2(49)---------------------------------------------------------------------------------------------------
+# 2(50)---------------------------------------------------------------------------------------------------
 {name: "Szkoła Szermierzy Tao Mirumoto",
 img_name: "",
 clan: "Smok",
@@ -970,7 +992,7 @@ rank4_name: "Mistrz Miecza: ",
 rank4_desc: "Szermierz Tao stał się już jednością ze swoim mieczem. Gdy postać walczy mieczem może wykonać atak jako akcję prostą, zamiast akcję pełną.",
 rank5_name: "Balans Pustki: ",
 rank5_desc: "Ostateczna lekcja jaką poznaje Szermierz Tao, to umiejętność przelania całej pustki w jedno cięcie. Jeśli postać walczy mieczem, może dodać dowolną ilość punktów Pustki do rzutu na obrażenia."},
-#3(50)---------------------------------------------------------------------------------------------------
+#3(51)---------------------------------------------------------------------------------------------------
 {name: "Szkoła Shugenja Tamori",
 img_name: "",
 school_class: "Shugenja",
@@ -985,7 +1007,7 @@ affinity_deficiency: "Ziemia/Powietrze",
 shugenja_tech_name: "Esencja Żywiołu: ",
 shugenja_tech_desc: "Tamori nauczyli się destylować esencję żywiołów i zawierać ją w miksturach lub przedmiotach, w celu późniejszego wykorzystania. Postać może wydać jedno gniazdo zaklęć by przechować zaklęcie które zna i które posiada obszar czaru '1 cel', '1 postać' lub '1 stwór', w miksturze. Czar może być uwolniony przez dowolny sposób, jako akcja prosta (wypicie) lub jako akcja pełna jako atak, wykonuje się wtedy test Atletyka(Rzucanie)/Zręczność. Czary przechowywane w ten sposób, wliczają się do limitu czarów jakie shugenja może rzucić i zajmują gniazdo czarów do momentu uaktywnienia. Tworzenie eliksirów w ten sposób, wymaga liczby godzin równą poziomowi mistrzostwa przechowywanego zaklęcia. Dodatkowo postać zyskuje dodatkowe podbicie do wszystkich czarów Rzemiosła.",
 spells: "Wyczucie, Zespolenie, Przywołanie, 3 Ziemi, 2 Ognia, 1 Wody."},
-#4(51)----------------------------------------------------------------------------------------------------
+#4(52)----------------------------------------------------------------------------------------------------
 {name: "Szkoła Śledczych Kitsuki",
 img_name: "",
 school_class: "Dworzanin",
@@ -1006,7 +1028,7 @@ rank4_name: "Odnalezienie Ścieżki: ",
 rank4_desc: "Śledczy Kitsuki potrafi ujawniać i śledzić, koneksje i wzajemne połączenia między ludźmi. Po krótkiej rozmowie z kimś śledczy może wykonać przeciwstawny test Śledztwo(Przesłuchiwanie)/Inteligencja, przeciw Etykieta(Grzeczność)/Inteligencji, jeśli postać wygra ten rzut może poznać jednego wroga lub sojusznika badanej postaci. Każde wykonane podbicie pozwala poznać kolejną osobę, a postać określa czy będzie to wróg czy sojusznik. Technika ta może być użyta raz dziennie przeciw konkretnej osobie.",
 rank5_name: "Oczy Zdradzaj Serce: ",
 rank5_desc: "Ścieżka Kitsuki opanowana do perfekcji, pozwala przejrzeć nawet najdoskonalsze kłamstwa i sztuczki. Na tej randze, gdy ktokolwiek próbuje okłamać lub oszukać postać, skazany jest na porażkę. Postać wykonuje przeciwstawny test Śledztwo(Przesłuchiwanie)/Spostrzegawczość przeciw Szczerość (Zwodzenie)/Siła Woli, za każdym razem gdy jest okłamywana, bez względu na to czy podejrzewa drugą postać o kłamstwo. Dodatkowo gdy postać wie że ktoś próbuje ją okłamać, zyskuje premię +5z0 do testu porównawczego i może wykonywać podbicia, by zmusić przeciwnika by ujawnił więcej informacji niż zamierzał."},
-#5(52)-------------------------------------------------------------------------------------------------------------
+#5(53)-------------------------------------------------------------------------------------------------------------
 {name: "Zakon Mnichów Togashi",
 img_name: "",
 school_class: "Mnich",
@@ -1053,7 +1075,7 @@ rank4_name: "Wola Kamienia: ",
 rank4_desc: "Doskonała kontrola nad własnym ciałem, jest sygnałem że wędrówka do oświecenia jest bliska końca. Postać osiągnąwszy tę rangę, może wykonywać ataki jako akcje Proste, zamiast akcje Pełne.",
 rank5_name: "Dotyk Kami: ",
 rank5_desc: "Wgląd w prawdziwą naturę wszechświata, jest nagrodą dla tych którzy szukają mistrzostwa w okiełznaniu własnego ducha. Postać zyskuje kolejne dwa tatuaże."},
-#6(53)------------------------------------------------------------------------------------------
+#6(54)------------------------------------------------------------------------------------------
 {name: "Zakon Mnichów Kikage Zumi",
 img_name: "",
 school_class: "Mnich",
@@ -1074,7 +1096,7 @@ rank4_name: "Uderzenie w Centrum: ",
 rank4_desc: "Szybkość i siła ataków Kikage Zumi, jest nadludzko silna i szybka. Postać może wykonać manewr Powalenia o jedno Podbicie mniej, dodatkowo zyskuje +1z1 do wszystkich testów obrażeń walcząc wręcz, premia dolicza się również do testów Chwytów.",
 rank5_name: "Uderzenie w Szczyt: ",
 rank5_desc: "Mistrzowie Kikage Zumi, są również mistrzami Kaze-Do, i potrafią uderzać tak by kami Powietrza opuściła ciało ofiary. Gdy postać wykonuje manewr Powalenia, może wykonać dwa dodatkowe podbicia. Jeśli atak się powiedzie przeciwnik jest automatycznie ogłuszony. Jeśli test miał miejsce podczas Chwytu przeciwnik musi wykonać test kręgu Ziemi o PT 20 lub zostanie ogłuszony. Postać otrzymuje również dodatkowy Tatuaż."},
-#7(54)-------------------------------------------------------------------------------------------------
+#7(55)-------------------------------------------------------------------------------------------------
 {name: "Zakon Mnichów Tsurumi Zumi",
 img_name: "",
 school_class: "Mnich",
@@ -1088,7 +1110,7 @@ outfit: "Szaty, Bo, Zestaw podróżny, 2 koku.",
 monk_tech_name: "Zwinne Pięści, Delikatne Serce: ",
 monk_tech_desc: "Tsurui Zuni szukają oświecenia, na wielu różnych ścieżkach, lecz nie wstydzą się fizycznej agresji gdy zajdzie taka potrzeba. Postać może wydać punkt Pustki by uaktywnić tę technikę, na liczbę rund równą randze w szkole. Gdy ta technika jest aktywna, postać dodaje +1z1 do swoich ataków oraz +1z0 do obrażeń, gdy walczy wręcz. Postać dokonuje wyboru na początku swojej rundy. Dodatkowo postać zaczyna grę posiadając jeden wybrany tatuaż oraz zna dwa wybrane Kiho, by użyć Kiho postać musi spełniać wszystkie wymagania. Gdy postać osiągnie czwartą rangę, otrzyma dodatkowy tatuaż.",
 special: "Choć zakon Tsurui Zuni należy do klanu Smoka, dla celów mechaniki jest traktowany jako Zakon Shinsei."},
-#1(55)------------------------------------------ Żuraw ---------------------------------------------------------------
+#1(55)------------------------------------------ Żuraw--------------------------------------------------------------
 {name: "Akademia Pojedynku Kakita",
 img_name: "",
 school_class: "Bushi",
@@ -1537,7 +1559,7 @@ rank4_name: "Ochrona Cesarza: ",
 rank4_desc: "Ulubieńcy Cesarza, cieszą się specjalnym posłuchem i szacunkiem. Jeśli postać uczestniczy w debacie lub spotkała się z brakiem posłuchu, może wykonać test przeciwstawny 'Dworskie(Manipulacja)/Intuicja', przeciw 'Etykieta(Grzeczność)/Intuicja'. Jeśli postać wygra, jej przeciwnik musi się z nią zgodzić lub straci natychmiast 5pt honoru.",
 rank5_name: "Cnota Rozkazu: ",
 rank5_desc: "Na tej randze, dworzanin Otomo, jest w stanie w pełni użyć autorytetu Cesarza, do swoich celów. Jeśli postać wykonuje rzeciwstawny rzut społeczny, przeciw komuś kto uznaje zwierzchnictwo Cesarza, możę dodać +5z0 do testu."},
-#4(78)-----------------------------------------------------------------------------------------------------------------
+#4(79)-----------------------------------------------------------------------------------------------------------------
 {name: "Szkoła Heraldów Miya",
 img_name: "",
 school_class: "Dworzanin",

@@ -19,3 +19,13 @@ $(document).on 'click', '.select_all_rings', ->
   
 $(document).on 'click', '.select_all_tags', ->
   if $(this).is ':checked' then $('.tag_checkbox').prop 'checked', true
+  
+$(document).on 'click', '.advance_school_button', ->
+  $(this).toggleClass('red_sign')
+  $('.advance_school_form').slideToggle('slow')
+  $('.simple_school_form').slideToggle('slow')
+  
+$(document).on 'click', '.advance_spell_button', ->
+  $(this).toggleClass('red_sign')
+  $('.advance_spell_form').slideToggle('slow')
+  $('.simple_spell_form').slideToggle('slow')

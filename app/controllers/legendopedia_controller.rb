@@ -20,7 +20,7 @@ before_filter :authenticate_user!
     @elements = params[:elements]
     @kregi = params[:krag]
     @tags = params[:tag]
-    @chosen_spells = Spell.find_spells(@elements, @kregi, @tags)    
+    @chosen_spells = Spell.find_spells(@elements, @kregi, @tags).to_a    
   end
 #  def show_spells
 #    @elements = params[:elements]
