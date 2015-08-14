@@ -8,7 +8,7 @@
     <p><strong><%= comment.author %>: </strong><%= comment.content %></p>
   <% end %>
 </div>
-<% if current_user && _user_signed_in? %>
+<% if current_user && user_signed_in? %>
   <div>
     <%= render partial: 'shared/create_comments_form', locals: { announcement: @announcement, url: announcement_path(@announcement.id) } %>
   </div>
