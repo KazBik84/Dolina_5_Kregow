@@ -17,7 +17,7 @@
         <% if spell.tagi.count == 1 %>
           <li><strong>Typ: </strong><%= spell.tagi.to_sentence %> </li>
         <% else %>
-          <li><strong>Typy: </strong><%= spell.tagi.to_sentence %> </li>
+          <li><strong>Typy: </strong><%= spell.tagi.join(", ") %> </li>
         <% end %>
       <% end %>
       <% unless spell.specjalne.blank? %>
