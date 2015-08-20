@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 	post 'show_schools' => 'legendopedia#show_schools' 
 	get 'spells' => 'legendopedia#spells'
 	post 'show_spells' => 'legendopedia#show_spells'
+	get 'traits' => 'legendopedia#traits'
+	post 'show_traits' => 'legendopedia#show_traits'
   
   get 'about' 	=>	'static_pages#about'
   get	'contact'	=>	'static_pages#contact'

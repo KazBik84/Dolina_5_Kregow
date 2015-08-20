@@ -29,3 +29,8 @@ $(document).on 'click', '.advance_spell_button', ->
   $(this).toggleClass('red_sign')
   $('.advance_spell_form').slideToggle('slow')
   $('.simple_spell_form').slideToggle('slow')
+  
+$(document).on 'click', '.advance_traits_button', ->
+  $(this).toggleClass('red_sign')
+  $('.advance_traits_form').slideToggle('slow')
+  $('.simple_traits_form').slideToggle('slow')

@@ -22,15 +22,21 @@ before_filter :authenticate_user!
     @tags = params[:tag]
     @chosen_spells = Spell.find_spells(@elements, @kregi, @tags).to_a    
   end
-#  def show_spells
-#    @elements = params[:elements]
-#    @kregi = params[:krag]
-#    @tags = params[:tag]
-#    if params[:tag].blank?
-#      @chosen_spells = Spell.where(zywiol: params[:elements], krag: params[:krag] ).to_a
-#    else      
-#      @chosen_spells = Spell.where( "zywiol = ? and krag = ? and tagi = ARRAY[?]", params[:elements], params[:krag], params[:tag]).to_a
-#    end 
- # end
+
+  def traits
+  end
+  
+  def show_traits
+    @kind = params[:kind]
+    @types = params[:types]
+    @from = params[:from]
+    @to = params[:to]
+    @rozne = params[:rozne]
+    if @from < @to
+      @values = (@from..@to).to_a
+    else
+      @values = (@to..@from).to_a
+    end
+  end
   
 end

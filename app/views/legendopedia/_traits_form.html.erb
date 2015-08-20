@@ -1,0 +1,48 @@
+<div class="simple_traits_form margin_bottom_1em">
+  <%= form_tag show_traits_path do %>
+    <p><strong>Wybierz typ cech: </strong>
+      <%= select_tag 'kind[]', options_for_select([
+                                  ["Zalety i Wady", nil],
+                                  ["Zalety", "Zaleta"],
+                                  ["Wady", "Wada"]]) %>
+    </p>
+    <p><strong>Wybierz typ cechy: </strong>
+      <%= select_tag 'type[]', options_for_select([
+                                  ["Dowolna", nil],
+                                  ["Fizyczne", "Fizyczna"],
+                                  ["Duchowe", "Duchowe"],
+                                  ["Społeczne", "Społeczna"],
+                                  ["Umysłowe", "Umysłowa"]]) %>
+    </p>
+    <%= submit_tag "Szukaj!" %>
+  <% end %>
+</div>
+
+<div class="advance_spell_button announcement_button float_left right_border margin_bottom_1em">
+  <p><strong>Zaawansowane przeszukiwanie</strong></p>
+</div>
+
+<div class="advance_traits_form clear_float">
+  <%= form_tag show_traits_path do %>
+    <p><strong>Wybierz rodzaj cechy: </strong></p>
+      <ul class="no_dot">
+        <li><%= check_box_tag 'kind[]', 'Zaleta', (true if !@kind.nil? and @kind.include? 'Zaleta') %> Zalety </li>
+        <li><%= check_box_tag 'kind[]', 'Wada', (true if !@kind.nil? and @kind.include? 'Wada') %> Wady </li>
+      </ul>
+    <p><strong>Wartość cech,</strong> 
+                      od: <%= number_field_tag 'from', '0' %>, 
+                      do: <%= number_field_tag 'to', '15' %>
+                      różne? <%= check_box_tag 'rozne' %>
+    </p>
+ 
+    <p><strong>Typ Cechy: </strong></p>  
+      <ul class="no_dot">
+        <li><%= check_box_tag 'types[]', 'Fizyczna', (true if !@types.nil? and @types.include? 'Fizyczna') %> Fizyczne </li>
+        <li><%= check_box_tag 'types[]', 'Społeczna', (true if !@types.nil? and @types.include? 'Społeczna') %> Społeczne </li>
+        <li><%= check_box_tag 'types[]', 'Umysłowa', (true if !@types.nil? and @types.include? 'Umysłowa') %> Umysłowe </li>      
+        <li><%= check_box_tag 'types[]', 'Duchowa', (true if !@types.nil? and @types.include? 'Duchowa') %> Duchowe </li>                 
+      </ul>
+    <%= submit_tag "Szukaj!" %>    
+  <% end %>
+
+</div>
