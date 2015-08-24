@@ -1,7 +1,14 @@
 <% provide(:title, "Zalety i Wady") %>
 <% provide(:header_active, "Legendopedia") %>
 
-To jest kind: <%= @kind %><br/>
-To jest types: <%= @types %><br/>
-Różne? <%= @rozne %><br/>
-To jest value: <%= @values %>
+<% @chosen_traits.each do |trait| %>
+  <div class ="show_object <%= trait.kind %>">
+    <h3 class="middle_text"><%= trait.name %> - <strong><%= trait.name_pl %></strong></h3>
+      <ul class="object_list">
+      	<li><strong>Typ: </strong><%= trait.sphere %></li>
+      	<li><strong>Wartość: </strong><%= trait.value.join(', ') %></li>
+      	<li><strong>Opis: </strong><%= trait.desc %></li>
+      </ul>
+
+  </div>
+<% end %>

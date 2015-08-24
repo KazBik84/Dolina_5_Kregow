@@ -4478,8 +4478,1103 @@ opis: "Najpotężniejszym z czarów maho jest Dotyk Śmierci, który sprawia że
 czas: "Natychmiast",
 podbicia: "Zasięg (+3m), obszar działania (+1 cel za 2 podbicia)",
 specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
-tagi: [""]}
-]
+tagi: [""]}]
+
+
+traits = [{
+
+kind: "Zaleta",
+name: "Absolute Direction", 
+name_pl: "Wyczucie kierunku" ,
+sphere: "Umysłowa", 
+value: ["1"],
+desc: "Postać posiada niesamowity zmysł pozwalający zawsze wskazać północ. Zaleta nie działa jeśli postać podróżuje ponad dzień w krainach cienia." },
+
+{kind: "Zaleta",
+name: "Allies", 
+name_pl: "Sojusznik" ,
+sphere: "Umysłowa", 
+value: ["Różna"],
+desc: "Każdy na swej drodze spotyka różnych ludzi. Jedni mogą zapewnić ochronę inni natomiast różne przysługi, najcenniejsi jedno i drugie. Wartość sojusznika jest sumą jego pozycji i oddania postaci. Żurawie płacą za tę zaletę 1 punkt mniej.
+    <em>Wpływy:</em> 
+    <ul>
+      <li>  1pt - Przeciętne (nie posiada ziemi ani stanowiska)</li> 
+      <li>  2pt - Średnie (Posiada ziemia oraz wpływy polityczne)</li>
+      <li>  4pt - Znaczne (Posiada rozległe ziemie oraz prestiżową pozycję)
+    </ul>
+      <em>Oddanie: </em>
+    <ul>
+      <li>  1pt - Sojusznik zaniecha swoje obowiązki, ale nie zaryzykuje utraty honoru.</li>
+      <li>  2pt - Sojusznik zaryzykuje swój honor dla postaci, ale uczyni to dyskretnie </li>
+      <li>  4pt - Sojusznik zrobi dla Ciebie wszystko bez względu na konsekwencje </li>
+      </ul>" },
+      
+{kind: "Zaleta",
+name: "Balance", 
+name_pl: "Wewnętrzna Równowaga" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Postać potrafi zachować spokój, kiedy inni mają trudność z nakłonieniem lub obrażeniem postaci. Kiedy postać stara się zasłonić honorem przeciw testom przesłuchiwania lub uwodzenia dodaje +1z0 do rzutu." },
+      
+{kind: "Zaleta",
+name: "Blackmail", 
+name_pl: "Szantaż" ,
+sphere: "Społeczna", 
+value: ["Różna"],
+desc: "Postać posiada wiedzę i dowód na temat jakiegoś mrocznego sekretu kogoś innego. Koszt tej zalety uzależniony jest od poziomu statusu szantażowanej osoby. Używanie tej zalety zbyt często lub zbyt wygórowane żądania, może spowodować że szantażowane osoba może zacząć kalkulować czy zabicie postaci nie będzie bardziej opłacalne. Skorpiony mogą wykupić tę zaletę za 1 punkt mniej." },
+      
+{kind: "Zaleta",
+name: "Bland", 
+name_pl: "Pospolity" ,
+sphere: "Fizyczna", 
+value: ["2"],
+desc: "Postać potrafi doskonale ukrywać swoją osobowość. Kiedy ktoś inny próbuje rozpoznać postać z tą zaletą, postać może podnieść poziom trudności o 10." },
+      
+{kind: "Zaleta",
+name: "Blissful Betrothal", 
+name_pl: "Szczęśliwe Małżeństwo" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Twoje małżeństwo zostało zaaranżowane zgodnie z oczekiwaniami postaci. Postać z małżonkiem/ką łączy prawdziwa miłość. Dzięki temu możesz wykupić następujące zalety za 2 punkty mniej: Gentry(Włości), Karmic Tie (Więź karmiczna) z małżonkiem/ką, Social Position (Pozycja Społeczna), Wealth (Bogactwo)." },
+      
+{kind: "Zaleta",
+name: "Blood of Osano-Wo", 
+name_pl: "Krew Osano-Wo" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Postać jest potomkiem Hidy Osano-Wo, fortuny ognia i piorunów, a jego odporność tkwi w tobie. Postać jest odporna na modyfikatory i obrażenia pogodowego pochodzenia, takich jak zimowy wiatr czy letni upał. Jeśli postać ma otrzymać obrażenia od czarów bazujących na siłach natury, zmniejsza obrażenia o 1z1. Postać z klanu Kraba i Modliszki mogą wykupić tę zaletę o 1 punkt taniej." },
+      
+{kind: "Zaleta",
+name: "Chosen by the Oracles", 
+name_pl: "Wybranieć Wyroczni" ,
+sphere: "Duchowa", 
+value: ["6"],
+desc: "Z niewytłumaczalnych powodów, postać przykuła uwagę wyroczni, człowieka wypełnionego mocą jednego ze smoków żywiołów. Postać musi wybrać żywioł wyroczni która zwróciła na nią swoją uwagę. Od tej pory postać otrzymuje bonus +1z1 do testów tego żywiołu." },
+      
+{kind: "Zaleta",
+name: "Clear Thinker", 
+name_pl: "Jasny Umysł" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać potrafi łatwo dostrzec wszelkie próby okłamania lub zmanipulowania jej. Dzięki tej zalecie za każdy razem gdy ktoś próbuje postać oszukać lub zmanipulować, otrzymuje ona modyfikator +1z0 do rzutu przeciwstawnego. Postać z klanu smoka może wykupić tę zaletę za 2 punkty." },
+      
+{kind: "Zaleta",
+name: "Crab Hands", 
+name_pl: "Ręce Kraba" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Postać posiada naturalną smykałkę do używania broni i w razie potrzeby może walczyć dowolną bronią. Dzięki tej zalecie postać która walczy bronią którą nie potrafi walczyć, podczas ataku rzuca tak jakby posiadała umiejętność tej broni na pierwszej randze. Postać z klany kraba może wykupić tę zaletę za 2 punkty." },
+      
+{kind: "Zaleta",
+name: "Crafty", 
+name_pl: "Sprytny" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać z tą zaletą umie sobie radzić jeśli chodzi o umiejętności niegodne. Za każdym razem kiedy musi wykonać test umiejętności niegodnej której nie posiada, jest traktowana jakby posiadała tę umiejętność na 1 randze. Postacie z klanów Skorpiona, Pająka oraz klasy Ninja mogą wykupić tę umiejętność za 2 punkty." },
+      
+{kind: "Zaleta",
+name: "Dangerous Beauty", 
+name_pl: "Niebezpieczne Piękno" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Postać posiada to 'coś' co sprawia że postacie przeciwnej płci nie potrafią jej się oprzeć, przez co łatwiej poddają się jej manipulacją. Postać dostaje +1z0 do rzutów na kuszenie, jeśli celem jest postać przeciwnej płci. Postacie z klanu Skorpiona mogą wykupić tę zaletę za 2 punkty." },
+      
+{kind: "Zaleta",
+name: "Daredevil", 
+name_pl: "Linoskoczek" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać posiada nadnaturalny zmysł równowagi. Kiedykolwiek postać wydaje punkt pustki podczas testu wysportowania dodaje +3z1 zamiast +1z1. Postacie z klanu Modliszki mogą wykupić tę zaletę za 2 punkty." },
+      
+{kind: "Zaleta",
+name: "Dark Paragon", 
+name_pl: "Paragon Mroku" ,
+sphere: "Umysłowa", 
+value: ["5"],
+desc: "Postać jest przedstawicielem Shourido, mrocznego zbioru zasad będącego przeciwieństwem bushido. Raz na sesję postać może wydać 5 punktów honoru by jako akcję darmową wykonać jedną z poniższych akcji, otrzymując modyfikator +5 do rzutu. Jeśli postać nie posiada 5 punktów honoru może wydać punkt pustki. Postacie z klanu Pająka mogą kupić tę zaletę za 4 punkty.</p>
+    <ul >
+      <li>Kontrola: Postać może przerzucić dowolny rzut umiejętności społecznej.</li>
+        <li>Determinacja: Postać neguje wszelkie modyfikatory do jednego rzutu. (Nie otrzymuje też +5 z tej zalety)</li>
+        <li>Przeczucie: Postać może przerzucić test intuicji.</li>
+        <li>Wiedza: Postać może przerzucić dowolny test oparty na wiedzy (wliczając testy umiejętności)</li>
+        <li>Doskonałość: Postać aktywująca tę zdolność może przerzucić dowolną jedną kość tak jakby wynik na niej był '10' (Nie dodaje się premii +5 do rzutu wynikającej z tej zalety)</li>
+        <li>Siła: Postać może przerzucić wynik rzutu na obrażenia.</li>
+        <li>Wola:  Aktywując tę zdolność postać może zanegować 10 pt obrażeń.</li>
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Darling of the court", 
+name_pl: "Ulubieniec Dworu" ,
+sphere: "Społeczna", 
+value: ["2"],
+desc: "Postać podczas ostatniego spotkania dworskiego zrobiła coś co zyskało jej wyższą pozycję na danym dworze. Postać wybiera jeden dwór, uczestnicząc w obradach dworskich na tym dworze status postaci jest o 1 wyższy. Postacie Dworzan mogą kupić tę zaletę za 1 punkt. Tę zaletę można kupić wielokrotnie ale tylko raz na dany dwór." },
+    
+{kind: "Zaleta",
+name: "Different School", 
+name_pl: "Inna Szkoła" ,
+sphere: "Społeczna", 
+value: ["5"],
+desc: "Rodzina postaci wiele poświęciła by zapewnić tej postaci naukę w szkole innego klanu. Podczas tworzenia postaci gracz może wybrać szkołę z innego klanu. Postać wciąż pozostaje członkiem swojego urodzenia, choć długi okres przebywania z daleka od domu może z czasem rodzić konflikty w sferze lojalności." },
+    
+{kind: "Zaleta",
+name: "Elemental Blessing", 
+name_pl: "Błogosławieństwo Żywiołu" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Postać jest wybrańcem danego żywiołu. W wyniku tego, koszt podniesienia danej cechy (Jak zręczność, refleks, siła woli, itp.) jest mniejszy o 1 punkt doświadczenia. Postacie z klanu Feniksa mogą kupić tę zaletę za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Enlightened", 
+name_pl: "Oświecony" ,
+sphere: "Duchowa", 
+value: ["6"],
+desc: "Postać rozpoczęła swoją drogę do pełnej harmonii. Za każdym razem gdy postać podnosi krąg pustki kosztuje ją to 2 punkty doświadczenia mniej. Postacie z klanu Smoka mogą wykupić tę zaletę za 5 punktów." },
+    
+{kind: "Zaleta",
+name: "Fame", 
+name_pl: "Sława" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Postać dzięki swym czynom stała się sławna, dzięki czemu zyskała dodatkowy poziom chwały." },
+    
+{kind: "Zaleta",
+name: "Forbidden Knowlage", 
+name_pl: "Zakazana Wiedza" ,
+sphere: "Umysłowa", 
+value: ["5"],
+desc: "Twoja postać posiada wiedzę oraz wgląd w pewną dziedzinę wiedzy. Problem  w tym że to wiedza zakazana, jeśli nie przez prawo to po prostu nie warto chwalić się akurat tą zaletą. Jeśli ktokolwiek odkryje że posiadasz taką wiedzę, może zacząć zastanawiać się w jaki sposób wszedłeś w jej posiadanie. Ta zaleta może dotyczyć w zasadzie wszystkiego, poniżej podane są najpopularniejsze przykłady, za każdym razem zaleta ta powinna być wcześniej omówiona z MG.</p>
+    <ul>
+        <li >Gajiński Proch: Postać posiada podstawową wiedzę w zakresie prochu strzeleckiego, wie zarówno jak go wytwarzać jak i używać. Postać zyskuje jeden poziom umiejętności Rzemiosło: Materiały Wybuchowe oraz posiada małą sakwę prochu przy sobie.</li>
+        <li >Gozoku: Postać posiada wiedzę na temat spisku Gozoku przeciw Tronowi, zarówno pierwszego jak i drugiego, postać równie dobrze może być członkiem tego spisku. Postać otrzymuje umiejętność Wiedza: Gozoku oraz modyfikator +1z1 do rzutów społecznych z członkami tej organizacji.</li>
+        <li >Kolat: Postać jest zaznajomiona z tą bluźnierczą organizacją, może być członkiem tej organizacji. Postać otrzymuje umiejętność Wiedza: Kolat oraz modyfikator +1z1 do rzutów społecznych z członkami tej organizacji.</li>
+        <li >Kłamiąca Ciemność: Postać posiada wiedzę w zakresie czym jest Kłamiąca Ciemność oraz na temat jej metod i stworów. Twoja postać mogła zetknąć się z nią w przeszłości lub być przez nią ścigana do dziś. Postać otrzymuje Wiedzę:Kłamiąca Ciemność oraz może wykonywać test Wiedza: Kłamiąca Ciemność/Percepcja o PT 30 by określić czy ktoś jest splugawiony przez Kłamiącą Ciemność.</li>
+        <li >Maho: Postać jest zaznajomiona z tą plugawą magią, może również ją praktykować. Postać zaczyna z umiejętnością Wiedza: Maho oraz może posiadać jeden czar maho.</li>
+    </ul>     " },
+    
+{kind: "Zaleta",
+name: "Friendly Kami", 
+name_pl: "Przyjaciel Kami" ,
+sphere: "Duchowa", 
+value: ["5"],
+desc: "Kami polubiły Twojego Bohatera. Wybierz jeden żywioł, którego kami Ci sprzyjają. Postać otrzymuje +1z1 do testów czarów: Wyczucie, Przywołanie, Zespolenie, wybranego żywiołu. Zaletę może wybrać tylko shugenja, zaleta nie może dotyczyć żywiołu w którym postać posiada ułomność." },
+    
+{kind: "Zaleta",
+name: "Friend of the Brotherhood", 
+name_pl: "Przyjaciel Bractwa" ,
+sphere: "Duchowa", 
+value: ["5"],
+desc: "Postać uczyła się pośród sojuszników z Zakonu Shinsei, w wyniku czego rozumie swoje miejsce we wszechświecie znacznie lepiej niż inni. Twoja postać może zyskiwać Kiho, tak jakby byłą członkiem Braterstwa Shinsei, zamiast płacić wyższy koszt. Postać wciąż musi spełniać wymagania by zyskać dane Kiho. Tylko postacie klasy Mnich lub Shugenja mogą wykupić tę zaletę. Postać z klanu Smoka może wykupić tę zaletę za 4 punkty" },
+    
+{kind: "Zaleta",
+name: "Friend of the Elements", 
+name_pl: "Przyjaciel Żywiołu" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Kami wybranego przez Ciebie żywiołu kręcą się wokół ciebie cały czas, oferując swoją pomoc. Kiedykolwiek postać wykonuje test cechy związanej z wybranym żywiołem otrzymuje dodatkowe podbicie do testu. Postać klasy Shugenja może wykupić tę zaletę za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Gajin Gear", 
+name_pl: "Gajiński Ekwipunek" ,
+sphere: "Materialna", 
+value: ["5"],
+desc: "Postać posiada coś pochodzenia gajińskiego. Może to być dowolny przedmiot, może to być np. kompas, szkoło powiększające lub nożyczki. W wypadku broni należy określić jej statystyki oraz musi ona posiadać własną umiejętność do posługiwania się nią." },
+    
+{kind: "Zaleta",
+name: "Gentry", 
+name_pl: "Włości" ,
+sphere: "Materialna", 
+value: ["Różna"],
+desc: "Każdy samuraj nadzoruję jakąś część własności Cesarzowej, Twoja postać ma zaszczyt nadzorowania włościami o większym znaczeniu. Na zaletę tę może złożyć się kilka postaci, należy pamiętać że poza oczywistymi korzyściami, z zaletą tą wiąże się również odpowiedzialność za dany region, czyli ochrona, administracja oraz wysokość podatków.</p>
+    <ul >
+      <li >Wioska - 8 punktów</li>
+        <li>Duża Wioska - 15 punktów </li>
+        <li>Faktoria - 18 punktów </li>
+        <li>Miasteczko - 20 punktów </li>
+        <li>Miasto - 25 punktów </li>
+      <li>Prowincja - 30 punktów </li>
+    </ul> " },
+    
+{kind: "Zaleta",
+name: "Great Destiny", 
+name_pl: "Przeznaczony do Wielkości" ,
+sphere: "Duchowa", 
+value: ["5"],
+desc: "Postać posiada ukryty przed nią cel. I Niebiański Porządek będzie starał się utrzymać postać przy życiu bez względu na okoliczności, póki postać nie wypełni swojego przeznaczenia. Raz na sesję gdy postać otrzymuje cios który byłby w stanie zabić tę postać, zostaje ona na poziomie 1 Pt obrażeń do śmierci. (W naszej mechanice tę zaletę można użyć tylko raz na życie całej postaci)." },
+    
+{kind: "Zaleta",
+name: "Great Potencial", 
+name_pl: "Wielki Potencjał" ,
+sphere: "Umysłowa", 
+value: ["5"],
+desc: "Postać posiada wrodzoną smykałkę do jakiejś umiejętności. Wybierz jedną umiejętność, od tej pory liczba podbić jakie może wykonywać postać jest ograniczona przez poziom umiejętności a nie poziom pustki." },
+    
+{kind: "Zaleta",
+name: "Hands of Stone", 
+name_pl: "Ręce z Kamienia" ,
+sphere: "Fizyczna,", 
+value: ["6"],
+desc: "Postać jest naturalnie przystosowana do walki wręcz. Podczas wykonywania rzutów na obrażenia podczas walki wręcz zadaje dodatkowe +0z1. Postać klasy Mnich może wykupić tę zaletę za 5 punktów." },
+    
+{kind: "Zaleta",
+name: "Heart of Vengence", 
+name_pl: "Serce Zemsty" ,
+sphere: "Społeczna", 
+value: ["5"],
+desc: "Jakiś klan zaskarbił sobie Twoją serdeczną nienawiść i nic nigdy jej nie ugasi. Wybierz jeden klan lub inną frakcję (jak np. Jakiś zakon mnichów lub rodzinę cesarską). Postać otrzymuje +1z1 do wszystkich rzutów porównawczych przeciw członkom tej frakcji. Postać z klanu Pająka może wykupić tę zaletę za 4 punkty." },
+    
+{kind: "Zaleta",
+name: "Heartless", 
+name_pl: "Nieczuły" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Twoje serce jest z kamienia, postać otrzymuje modyfikator +1z0 do wszelkich testów Dworskich, Etykiety lub Kuszenia mających na celu zmianę twojego zdania." },
+    
+{kind: "Zaleta",
+name: "Hero of the People", 
+name_pl: "Bohater Ludu" ,
+sphere: "Społeczna", 
+value: ["2"],
+desc: "Choć wśród samurajów niczym szczególnym się nie wyróżniasz, Twoje czyny zaskarbiły sobie przychylność chłopów. Podczas spotkań z chłopstwem, poziom trudności rozpoznania postaci po jej randze jest mniejszy o 10." },
+    
+{kind: "Zaleta",
+name: "Higher Purpose", 
+name_pl: "Wyższy Cel" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać poświęca swoje życie jakiemuś celowi. Nie może to być prosta rzecz, a coś czego osiągnięcie może zając całe życie. Podczas przygody postać która o krok przybliżyła się do swojego życiowego celu, otrzymuje dodatkowy punkt doświadczenia." },
+    
+{kind: "Zaleta",
+name: "Imperial Scribe", 
+name_pl: "Imperialny Skryba" ,
+sphere: "Społeczna", 
+value: ["4"],
+desc: "[Wymagania Status 2+, Kaligrafia 4+] Twoja postać trenowała jako skryba w stolicy, jest to znakiem że posiadasz znaczne umiejętności w tej dziedzinie oraz że należysz do najbardziej szanowanych kaligrafów. Postać dostaje bonus +1z0 do wszystkich rzutów społecznych przeciw shugenjom i artystom oraz wszystkim zafascynowanym twoimi dziełami. Dodatkowo dostajesz dodatkowe podbicie do wszystkich testów kaligrafii." },
+    
+{kind: "Zaleta",
+name: "Imperial Spouse", 
+name_pl: "Cesarski Małżonek/ka" ,
+sphere: "Społeczna", 
+value: ["5"],
+desc: "Dzięki wielkim staraniom, rodzina postaci udało się zaaranżować małżeństwo z członkiem imperialnego rodu. Choć status Twojego partnera/ki nie był dość wysoki by postać została wcielona do imperialnego rodu i tak płyną z tego duże korzyści. Postać zyskuje status na poziomie +0,5 oraz otrzymuje +1z1 do testów społecznych przeciw członkom rodzin Cesarskich." },
+    
+{kind: "Zaleta",
+name: "Inari`s Blessing", 
+name_pl: "Błogosławieństwo Inari" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Choć Fortuna Ryżu należy do pomniejszych fortun, jest jedną z najpopularniejszych osobowości w całym Rokuganie. Kiedy postać cierpi z powodu braku wody lub jedzenia, może w normalny sposób odzyskiwać punkty pustki. Inne ograniczenia się nie zmieniają.
+" },
+    
+{kind: "Zaleta",
+name: "Inheritance", 
+name_pl: "Dziedzictwo" ,
+sphere: "Materialna", 
+value: ["5"],
+desc: "Podczas gempukku postać otrzymała spadek po przodku, jest to bardzo wartościowy przedmiot i postać nie powinna pozwolić w jakikolwiek sposób zniszczyć lub zhańbić ten przedmiot. Przedmiot pozwala dodać +1z1 do umiejętności do której zwyczajowo używa się tego przedmiotu, jak np. do testu muzyki grając na odziedziczonej biwie lub gry w go gdy gra się na odziedziczonej planszy do go. Przedmiot może być dowolny jednak bonus nigdy nie może odnosić się do rzutów w walce." },
+    
+{kind: "Zaleta",
+name: "Inner Gift", 
+name_pl: "Wewnętrzny Dar" ,
+sphere: "Duchowa", 
+value: ["7"],
+desc: "Postać posiada dar którego nawet shugenja nie potrafią wyjaśnić, mnisi nazywają to unikatowym stanem harmonii, ale oni tak zawsze mówią. Twój dar może być darem od Kami lub innych nadnaturalnych stworzeń lub po prostu wynikiem dziwnego zbiegu okoliczności.</p>
+    <ul >
+        <li >Przyjaciel zwierząt: Postać natychmiast wyczuwa nastawienie zwierząt, dodatkowo zwierzęta traktują postać jak przyjaciela.</li>
+        <li >Empatia: Postać dostaje modyfikator +1z1 do testów Dworskich by odczytać emocje/uczucia innych</li>
+        <li >Przewidywanie przyszłości: Postać jest ciężko zaskoczyć, dostaje ona +1z0 di testów inicjatywy</li>
+        <li >Pomniejsze przepowiednie: Postać miewa czasem prorocze sny, jak np. zakrwawiony nóż, w przeddzień morderstwa</li>
+        <li >Duchowy dotyk: postać może wykonać test Intuicji o PT 15 by zobaczyć ostatnią postać która dotykała danego przedmiotu</li>
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Irreprochable", 
+name_pl: "Nieugięty Duch" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Postać jest niezwykle trudna do ugięcia się namowom innych. Kiedy jest celem kuszenia, dostaje bonus +1z0. Postacie z rodzin cesarskich mogą wykupić tę zaletę za 1 punkt." },
+    
+{kind: "Zaleta",
+name: "Ishiken-Do", 
+name_pl: "Ishiken-Do" ,
+sphere: "Duchowa", 
+value: ["8"],
+desc: "Postać posiada możliwość komunikowania się z pustką. Dzięki tej zalecie postać może rzucać czary z żywiołu pustki. Tylko shugenja może nabyć tę zaletę. Postać z klanu Feniksa może nabyć tę zaletę za 6 punktów." },
+    
+{kind: "Zaleta",
+name: "Kharmic Tie", 
+name_pl: "Więź Karmiczna" ,
+sphere: "Duchowa", 
+value: ["Różna"],
+desc: "Przeznaczenie postaci na stałe związane jest z inną osobą. Wykupując te wadę należy wybrać bliską osobę postaci. Za każdy punkt (nie więcej niż pięć) wydany na tę zaletę, postać dostaje +1z1 do wszelkich ataków czynionych w celu walki w celu ochrony wybranej osoby." },
+    
+{kind: "Zaleta",
+name: "Languages", 
+name_pl: "Inny Język" ,
+sphere: "Umysłowa", 
+value: ["1", "3"],
+desc: "Cesarstwo posiada tylko jeden język z dwoma dialektami. Świat jest jednak większy niż Rokugan, posiada on wiele różnych kultur, a każda z nich posiada własny język. Za 1 punkt postać może nauczyć się ludzkiego języka obowiązującego w sąsiedniej krainie. Języki stworzeń inteligentnych jak nezumi lub naga kosztują 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Large", 
+name_pl: "Ogromny" ,
+sphere: "Fizyczna", 
+value: ["4"],
+desc: "Postać jest znacznie większa od większości rokugańczyków. Mierzy od 180 - 190 cm. Dodatkowo postać dostaje bonus +1z0 do obrażeń dowolną dużą bronią do walki wręcz. Postacie z klanu Kraba mogą wykupić tę zaletę za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Leadership", 
+name_pl: "Przywódca" ,
+sphere: "Społeczna", 
+value: ["6"],
+desc: "Postać ma wrodzony dar dowodzenia i przewodzenia innymi podczas bitew. Raz na rundę podczas fazy reakcji, postać może dodać swoją rangę szkolną plus 1z1 do wyniku inicjatywy dowolnego z sojuszników. Ten bonus trwa do fazy reakcji następnej rundy. Postać może korzystać tylko z jednego takiego modyfikatora naraz. Postaci z klanu Lwa mogę wykupić tę zaletę za 5 punktów." },
+    
+{kind: "Zaleta",
+name: "Luck", 
+name_pl: "Szczęście" ,
+sphere: "Duchowa", 
+value: ["3", "6", "9"],
+desc: "Fortuny sprzyjają tej postaci. W zależności od poziomu tej zalety, postać może wykonać tyle przerzutów na sesję." },
+    
+{kind: "Zaleta",
+name: "Magic Resistance", 
+name_pl: "Odporność na Magię" ,
+sphere: "Duchowa", 
+value: ["2", "4", "6"],
+desc: "Z niewyjaśnionych przyczyn kami nie chcą mieć z Tobą nic wspólnego. Za każdy poziom tej zalety, PT rzucenia na Ciebie czaru wzrasta o3. Zaleta ta nie działa na maho magię gajińską czy nieludzkie formy czarów." },
+    
+{kind: "Zaleta",
+name: "Multiple Schools", 
+name_pl: "Uczeń Wielu Szkół" ,
+sphere: "Społeczna", 
+value: ["10"],
+desc: "Postać dostąpiła niezwykłego zaszczytu uczenia się w różnych dojo. Jest to bardzo rzadka sytuacja, która wymaga specjalnych okoliczności. Zaletę tę można nabyć tylko w trakcie gry, od momentu przystąpienia do nowej szkoły postać traci możliwość awansowania w starej szkole. Zanim postać osiągnie rangę pierwszą w nowej szkole, musi znać wszystkie umiejętności startowe jakich uczy dana szkoła. Pod żadnym pozorem nie można łączyć szkół bushi i shugenja." },
+    
+{kind: "Zaleta",
+name: "Paragon", 
+name_pl: "Paragon" ,
+sphere: "Umysłowa", 
+value: ["7"],
+desc: "Postać jest przykładem stosowania kodeksu bushido, a w szczególności jednego z jego aspektów. Dodatkowo do premii podanych poniżej postać otrzymuje 1 punkt honoru za każdym razem gdy zdobywa punkty  honoru za czyny związane z wybranym aspektem. Postacie z klanu Lwa mogą wykupić tę zaletę za 5 punktów.</p>
+    <ul> 
+      <li><em>Współczucie</em> - Za każdym razem gdy postać wydaje punkt pustki, by bezpośrednio pomóc komuś z niższej pozycji w niebiańskim porządku, otrzymuje +2z2 zamiast +1z1.</li>
+      <li><em>Odwaga </em> - Postać dostaje bonus +1z1 do wszelkich rzutów przeciwko przesłuchiwaniu i strachu.</li>
+      <li><em>Grzeczność </em> - Za każdym razem gdy postać wykonuje test Etykiety, by uniknąć wpadki w kwestii etykiety, postać dostaje premię +2z0</li>
+      <li><em>Służba </em>  - Postać może wydać punkt pustki by zniwelować dowolne modyfikatory do PT testu umiejętności lub rzucenia czaru, łącznie z modyfikatorami wynikającymi z ran.</li>
+      <li><em>Prawdomówność </em>  - W testach Szczerości(Prawdomówność), postać dodaje +1z1. Postać może dodać ten modyfikator nawet jeśli nie posiada odpowiedniej specjalizacji, dotyczy to tylko nagłych sytuacji.</li>
+      <li><em>Honor  </em>  - Postać może dodać podwojoną wartość swojego poziomu honoru, by oprzeć się Kuszeniu lub Przesłuchiwaniu, zamiast zwyczajnej premii.</li>
+      <li><em>Szczerość </em>  - Postać dodaje +2z0 do wszystkich testów porównawczych na Szczerość.</li>
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Perceived Honor", 
+name_pl: "Fasada Honoru" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Postać potrafi się dobrze maskować ze swoimi nie do końca honorowymi czynami. Za każdy poziom tej zalety ranga honoru postaci, jaką mogą chcieć poznać inni dzięki testowi Widzy:Bushido/Intuicja, jest wyższy o poziom tej zalety." },
+    
+{kind: "Zaleta",
+name: "Precise Memory", 
+name_pl: "Doskonała Pamięć" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Dzięki tej zalecie postać próbująca sobie coś przypomnieć dodaje +1z1 do testów na Inteligencje." },
+    
+{kind: "Zaleta",
+name: "Prodigy", 
+name_pl: "Prymus" ,
+sphere: "Fizyczna", 
+value: ["12"],
+desc: "Postać znacząco wybija się na tle pozostałych uczniów w swoim dojo. Dzięki tej zalecie postać dodaje +1z0 do wszystkich umiejętności jakie nauczyła się w szkole." },
+    
+{kind: "Zaleta",
+name: "Quick", 
+name_pl: "Szybki" ,
+sphere: "Fizyczna", 
+value: ["6"],
+desc: "Dzięki tej zalecie postać bardzo szybko odnajduje się w walce, z każdą chwilą wyszukując coraz więcej okazji na atak. Na początku każdej rundy walki postać dodaje wartość refleksu do swojego wyniku inicjatywy. Zaleta ta jest warta 5 punktów dla wszystkich postaci klasy ninja." },
+    
+{kind: "Zaleta",
+name: "Quick Healer", 
+name_pl: "Regeneracja" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Ciało postaci potrafi radzić sobie z ranami z niezwykłą łatwością. Obliczając tempo leczenia Wytrzymałość postaci jest liczona jak o 2 poziomy wyższa." },
+    
+{kind: "Zaleta",
+name: "Read Lips", 
+name_pl: "Czytanie z Ruchu Warg" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Dzięki wrodzonym umiejętnością lub długim treningom, postać potrafi rozumieć wypowiadane słowa nawet gdy ich nie słyszy. Wykonując test o PT 15+5 za każde 3m odległości od postaci, postać może rozumieć wypowiadane słowa. Postacie klasy Dworzanin mogą nabyć tę umiejętność za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Sacred Weapon", 
+name_pl: "Święta Broń" ,
+sphere: "Materialna", 
+value: ["Różna"],
+desc: "Postać posiada w swoim ekwipunku broń wykonywaną tylko przez swój klan. Jest to dużym wyróżnieniem i taka broń powinna być traktowana z należytym szacunkiem.
+    <ul>
+      <li>  <strong>Feniks </strong> - <em>Ostrze Inkwizytorskie 6 Punktów </em> - Wakizashi 3z2, wykonane z jadeitu.</li>
+      <li>  <strong>Jednorożec </strong> - <em>Sejmitar Moto 6 Punktów </em> - Sejmitar 3z3, +3 obrażenia walcząc z konia.</li>
+      <li>  <strong>Krab</strong> - <em>Ostrze Kaiu 6 Punktów  </em> - Katana 3z3, niezniszczalna, -2 wyparowania celu.</li>
+      <li>  <strong>Lew </strong> - <em>Ostrze Akodo 6 Punktów  </em> - Katana 4z2, poziom honoru postaci jest liczony o 1 wyższy kiedy postać trzyma te ostrze w ręku.</li>
+      <li>  <strong>Modliszka </strong> - <em>Kama Burzy 6 Punktów </em> - Para Kama 2z2, +1z0 do ataków kiedy postać trzyma obie kamy jednocześnie.</li>
+      <li>  <strong>Pająk </strong> - <em>Ostrze z Czarnej Stali 6 Punktów  </em> - Katana 4z2, podczas wykonywania rzutu na obrażenia, za każdym razem kiedy kość 'eksploduje' ofiara musi wykonać test Kręgu Ziemi o PT 15 lub dostanie 1 punkt Skazy Cienia.</li>
+      <li>  <strong>Skorpion </strong> - <em>Ostrze Shosuro 5 Punktów </em> - Katana 4z2, +5 do PT oparcia się truciźnie nałożonej na tę broń. </li>
+      <li>  <strong>Smok </strong> - <em>Bliźniacze Siostry 3 Punkty  </em> - Daisho, +5 do testów rozbrojenia posiadacza.</li>
+      <li>  <strong>Żuraw</strong> - <em>Ostrze Kakita 5 Punktów  </em> - Katana 4z2, pozwala przerzucić obrażenia raz na pojedynek Iaijutsu</li>
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Sancrosanct", 
+name_pl: "Nienaruszalny" ,
+sphere: "Społeczna", 
+value: ["4"],
+desc: "Dzięki swej wiernej służbie Cesarzowej, postać została objęta jej ochroną. Zaleta ta może zostać nabyta tylko przez postaci o poziomie honoru co najmniej 6. Póki honor postaci nie spadnie poniżej poziomu 6.0, postać nie zostanie zaatakowana przez żadną inną postać o poziomie honoru 5.0 lub wyżej. Zaleta przestaje działać kiedy postać zaatakuje pierwsza lub gdy dobrowolnie zgodzi się na pojedynek. Postacie z rodzin Cesarskich mogą nabyć tę zaletę za 3 punkty." },
+
+    
+{kind: "Zaleta",
+name: "Sage", 
+name_pl: "Mędrzec" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Postać posiada zamiłowanie do wszelkiej wiedzy i podczas swojego życia poznała podstawy wszelkiej wiedzy. Kiedy postać ma wykonać test wiedzy której nie posiada, uznaje się że posiada ją na poziomie 1. Postacie z klanu Feniksa oraz postacie klasy Shugenja mogą nabyć tę zaletę za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Sensation", 
+name_pl: "Gwiazdor" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Wrodzony talent postaci sprawia że potrafi ona zdobywać przychylność publiczności. Jeśli postać chce wykonać test Przedstawienia którego nie posiada, uznaje się że posiada tę umiejętność na poziomie 1." },
+    
+{kind: "Zaleta",
+name: "Servant", 
+name_pl: "Sługa" ,
+sphere: "Materialna", 
+value: ["5"],
+desc: "Rodzina postaci przydzieliła jej sługę do pomocy. Typowy sługa ma wszystkie kręgi na 2 i wybraną umiejętność na 3 poziomie. Płacąc dodatkowe 3 punkty można wykupić dodatkowy poziom umiejętności lub specjalizację. Słudzy postaci z danego klanu są tańsi o 2 punkty.</p>
+    <ul>
+      <li> <strong>Feniks</strong>  - <em>Skryba </em>  - Wiedza:Wybrana 3</li> 
+      <li> <strong>Jednorożec</strong>  - <em>Stajenny </em>  - Opieka nad zwierzętami(Konie) 3 </li>
+      <li> <strong>Krab</strong>  - <em>Pomocnik Eta </em>  - Wiedza:Anatomia 3</li>
+      <li> <strong>Lew</strong>  - <em>Ochroniarz </em>  - Dowolna umiejętność walki bronią 3</li>
+      <li> <strong>Modliszka</strong>  - <em>Kupiec </em>  - Handel (Wycena) 3</li>
+      <li> <strong>Pająk</strong>  - <em>Sohei </em>  - Jiujutsu 3</li>
+      <li> <strong>Skorpion</strong>  - <em>Pomocnik Dworski </em>  - Etykieta (Rozmowa) 3</li>
+      <li> <strong>Smok</strong>  - <em>Rzemieślnik </em>  - Dowolna umiejętność Rzemieślnicza 3</li>
+      <li> <strong>Żuraw</strong>  - <em>Artysta </em>  - Dowolna umiejętność artystyczna 3</li>
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Seven Fortunes Blessing", 
+name_pl: "Błogosławieństwo Siedmiu Fortun" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Jedna z siedmiu fortun zwróciła swoją uwagę na tę postać. Błogosławieństwo zgodne z klanem postaci może być kupione za 1 punkt taniej.</p> 
+    <ul> 
+      <li><strong>Błogosławieństwo Benten </strong>  - <em>Żuraw </em>  - Fortuna Romantycznej Miłości, udzieliła Ci swojej łaski. Kiedy tylko chcesz przekonać kogokolwiek, bez względu na okoliczności, dostajesz bonus +0z1 do testów umiejętności społecznych. Bonus dotyczy tylko prób przekonania nie przymuszenia.</li>
+      <li><strong>Błogosławieństwo Bishamona </strong>  - <em>Krab, Lew </em>  - Fortuna Siły uznała Cię godnym swojej uwagi. Za każdym razem gdy wykonujesz 3 podbicia dla manewru Zwiększenia Obrażeń, dostajesz dodatkowe podbicie, darmowe podbicia nie wliczają się do tego bonusu. Dodatkowo postać dostaje +1z0 do wszystkich testów siły. </li>
+      <li><strong>Błogosławieństwo Daikoku </strong>  - <em>Modliszka </em>  - Fortuna Bogactwa wybrała tę postać jako swojego przedstawiciela. Postać zyskuje +1z1 do wszelkich testów handlu.</li>
+      <li><strong>Błogosławieństwo Ebisu </strong>  - <em>Jednorożec </em>  - Fortun Uczciwej Pracy doceniła wysiłki tej postaci i obdarowała ją bonusem +1z1 do wszelkich testów umiejętności społecznych, względem mieszkańców Rokuganu nie będącymi członkami kasty samurajskiej.</li>
+      <li><strong>Błogosławieństwo Fukurojina </strong>  - <em>Feniks, Smok </em>  - Fortuna Wiedzy obdarowała tę postać cząstką swojej mądrości. Dzięki temu błogosławieństwu, postać wybiera dowolną wiedzę którą posiada i zyskuje do niej bonus +1z1.</li>
+      <li><strong>Błogosławieństwo Hotei </strong>  - Fortuna Zadowolenia znalazła sobie upodobanie w Tobie i wypełniła swoją swobodą i delikatną naturą. Kiedy tylko jakiś czar, technika lub dowolny inne czynnik, ma odebrać Ci punkt pustki, musi najpierw wykonać porównawczy test Pustki. Jeśli utrata punktu pustki ma zależeć od testu porównawczego postać zyskuje +10 do tego rzutu.</li>
+      <li><strong>Błogosławieństwo Jurojina </strong>  - <em>Skorpion </em>  - Fortuna Długowieczności obdarowała Cię zdrowiem i długim życiem. Dzięki temu błogosławieństwu postać opierając się trucizną lub chorobą dostaje bonus +2z0.</li>
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Shadowed Heart", 
+name_pl: "Skryte Serce" ,
+sphere: "Umysłowa", 
+value: ["5"],
+desc: "Postać potrafi ukryć swoje zamiary przed innymi. Postać dostaje +5 do wszelkich testów, mających ukazać prawdziwe intencje lub motywacje postaci, przy pomocy umiejętności Socjalnych i czarów." },
+    
+{kind: "Zaleta",
+name: "Silent", 
+name_pl: "Cichy" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Postać posiada naturalny talent do cichego poruszania się, dzięki temu dodaje +1z0 do testów skradania się. Postacie klasy Ninja mogą nabyć tę zaletę za 2 punkty." },
+    
+{kind: "Zaleta",
+name: "Social Position", 
+name_pl: "Pozycja Społeczna" ,
+sphere: "Socjalna", 
+value: ["6"],
+desc: "Postać posiada jakąś pozycję, bez względu na to czy osiągniętą poprzez swoje osiągnięcia, czy dworskie manipulacje. Status postaci wzrasta o 1 poziom." },
+    
+{kind: "Zaleta",
+name: "Soul of Artistry", 
+name_pl: "Dusza Artysty" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Postać wyuczyła się umiejętności Artystycznych lub Rzemieślniczych. Jeśli postać będzie miała wykonać rzut na umiejętność której nie posiada z dziedziny którą wybrała nabywając tę zaletę, wykonuje rzut tak jakby posiadała umiejętności na poziomie 1. Postacie z klany Żurawia lub klasy Dworzanin mogą nabyć tę zaletę za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Strenght of the Earth", 
+name_pl: "Potęga Ziemi" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Duch postaci jest twardy jak skała, dzięki czemu łatwiej potrafi przezwyciężyć trudności wynikające z odniesionych ran. Postać z tą zaletą zmniejsza modyfikatory wynikające z ran o 3. Postacie klasy Bushi mogą nabyć tę zaletę za 2 punkty." },
+    
+{kind: "Zaleta",
+name: "Tactician", 
+name_pl: "Taktyk" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Postać posiada umysł przystosowany do podejmowania słusznych decyzji podczas bitew. Wykonując rzut na tabelę Bitew, może dodać lub odjąć 5 od wyniku rzutu. Postacie z klanu Lwa lub klasy Bushi mogą nabyć tę zaletę za 3 punkty." },
+    
+{kind: "Zaleta",
+name: "Touch of the Spirit Realms", 
+name_pl: "Dotknięty przez Zaświaty" ,
+sphere: "Duchowa", 
+value: ["5"],
+desc: "Niewiadomo jak, ale część któregoś z zaświatów jest obecna w duszy postaci. Postacie klasy Shugenja mogą nabyć tę zaletę za 4 punkty.
+    <ul>
+      <li> <strong>Chikushudo: </strong>Postać otrzymuje +1z1 do testów Opieki nad Zwierzętami.</li> 
+      <li> <strong>Gaki-do: </strong>Jeśli postać wykona atak który zabije przeciwnika, natychmiast leczy 5 punktów ran.</li> 
+      <li> <strong>Jigoku:  </strong> Postać może dodać wartość swojej rangi Skazy Cienia do rzutu na atak, test umiejętności lub cechy, który opiera się na cesze fizycznej (jak Siła, Zręczność). Jeśli postać jest Zgubiona, dodaje podwojoną wartość swojej rangi Skazy. Nie można wykupić tej zalety jeśli postać nie posiada Skazy Cienia.</li> 
+      <li> <strong>Maigo  no Musha: </strong>  Gdy postać zyskuje co najmniej 3 punkty Chwały zyskuje dodatkowy punkt.</li> 
+      <li> <strong>Meido:  </strong>  Postać zyskuje bonus +2z0 do wszelkich rzutów porównawczych mających na celu zmanipulowanie, poprzez rozmowę, jak np. poprzez umiejętności Dworskie.</li>
+      <li> <strong>Sakkaku:  </strong>  Postać zyskuje +1z1 do testów Szczerości (Zwodzenia).</li>
+      <li> <strong>Tengoku:  </strong>  Zaświaty niebios chronią tę postać przed wpływem Krain Cienia, postać zyskuje bonus +2z0 do testów na oparcie się Skazie Cienia.</li> 
+      <li> <strong>Toshigoku:  </strong> Wykonując ruch na spotkanie z przeciwnikiem, postać pokonuje odległość większą o 1,5m na rundę. Ta zaleta jest warta 8 Punktów zamiast 5.</li> 
+      <li> <strong>Yomi: </strong>  Postać wybiera jedną umiejętność jaką nauczyła się w szkole. Dzięki tej zalecie zyskuje +1z0 do rzutów na tę umiejętność. Ta zaleta jest warta 7 Punktów zamiast 5.</li> 
+      <li> <strong>Yume-do:  </strong>  Postać może odzyskać wszystkie punkty pustki tylko dzięki 4 godzinom snu, zamiast 8.</li> 
+    </ul>" },
+    
+{kind: "Zaleta",
+name: "Virtues", 
+name_pl: "Honorowy" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać ceni sobie honor ponad wszystko. Dzięki tej zalecie zyskuje dodatkowy poziom honoru." }, 
+    
+{kind: "Zaleta",
+name: "Voice", 
+name_pl: "Czysty Głos" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Dzięki swym wrodzonym zdolnością postać potrafi zaciekawić i zdobyć uwagę odbiorców swoich słów. Postać dostaje bonus +1z1 do wszelkich testów Artystycznych z użyciem głosu." }, 
+    
+{kind: "Zaleta",
+name: "Void Versatility", 
+name_pl: "Głębia Pustki" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Biorąc tę zaletę postać musi wybrać jakiś krąg żywiołu. Dzięki tej zalecie postać ma możliwość wymiany czarów wybranego żywiołu na czary pustki. Zaletę tę mogą wykupić tylko Shugenja którzy mają przychylność w kręgu Pustki." }, 
+    
+{kind: "Zaleta",
+name: "Wary", 
+name_pl: "Ostrożny" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać jest zawsze gotowa na niespodziewane, dzięki czemu w testach porównawczych Śledztwo(Zauważenie)/Spostrzegawczość przeciw Skradaniu(Zasadzka)/Zręczność dostaje bonus +1z1 do swojego rzutu." }, 
+    
+{kind: "Zaleta",
+name: "Way of the Land", 
+name_pl: "Syn Tej Ziemi" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Postać doskonale zna daną prowincję. Dzięki tej zalecie postać zna wszystkie wioski/ważne miejsca/szlaki znajdujące się w danej prowincji. Postacie z klanu Jednorożca mogą wykupić tę zaletę za 1 Punkt." }, 
+    
+{kind: "Zaleta",
+name: "Wealth", 
+name_pl: "Bogactwo:" ,
+sphere: "Materialna", 
+value: ["Różna"],
+desc: "Gałąź rodziny postaci jest bogatsza niż inne. Dzięki tej zalecie zaczyna z większą ilością koku, równą dwukrotnej wartości rangi tej zalety. Postacie z klanów Żurawia, Jednorożca i Rodzin Cesarskich mogą wykupić tę zaletę za 1 Pt mniej." }, 
+    
+{kind: "Wada",
+name: "Antisocial", 
+name_pl: "Aspołeczny" ,
+sphere: "Społeczna", 
+value: ["2"," 4"],
+desc: "Dworska etykieta i zwyczaje panujące na dworach sprawiają że postać czuje się nieswojo. Dzięki tej wadzie postać ma trudności z komunikacją z innymi samurajami. Jeśli postać nabyła wadę za 2 punkty, otrzymuje modyfikator -1z0 do wszystkich testów społecznych lub -1z1 jeśli nabyła ją za 4 punkty. Wada ta jest warta dodatkowy punkt dla postaci z klanu Kraba." }, 
+    
+{kind: "Wada",
+name: "Acetic", 
+name_pl: "Asceta" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Materialne przywary są jedynie obciążeniem dla postaci z tą wadą. Ekwipunek otrzymany w szkole jest wszystkim co postać potrzebuje do szczęścia. Dodatkowo za każdym razem gdy postać ma zyskać punkty Chwały zyskuje ich tylko połowę, biorąc pod uwagę to że postacie klasy Mnich na początku zyskują mniej Chwały, zyskują one tylko 1/4 punktów Chwały. Wada ta jest warta 3 Punkty dla postaci z klanu Smoka lub klasy Mnich." }, 
+    
+{kind: "Wada",
+name: "Bad Eyesight", 
+name_pl: "Słaby Wzrok" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Poprzez odniesiony rany, przebyte choroby lub dzięki innym czynnikom, wzrok postaci jest niezwykle słaby. Otrzymuje ona modyfikator -1z1 do testów strzeleckich oraz spostrzegawczości opartych na wzroku." }, 
+    
+{kind: "Wada",
+name: "Bad Fortune", 
+name_pl: "Zły Los" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Karma to potężna siła. Coś złego dzieje się wokół postaci, a ona może nawet nie wiedzieć co to póki nie będzie za późno. Zły Los może przybrać różne postacie, wszystkie są warte tyle samo punktów, przed tworzeniem postaci wada ta powinna zostać przedyskutowana z MG.</p>
+    <ul>
+      <li><strong>Tajemnicza  Miłość:</strong>  Gdzieś, ktoś jest w tobie szaleńczo zakochany i zrobi wszystko by zapobiec Twoim zalotom do kogoś. Osoba ta posunie się nawet do sabotowania zaaranżowanego małżeństwa. Innymi słowy zrobi wszystko by postać była stanu wolnego, a najlepiej by była z tą tajemniczą osobą.</li>
+      <li><strong>Znamię:</strong>  Gdzieś na widocznej części ciała postaci znajduje się jakieś znamię. W Rokuganie jest to odczytywane jako znak złego losu, co może rodzić różne komplikacje.</li> 
+      <li><strong>Złe Oko:</strong>  Jedno oko postaci ma bezbarwną tęczówkę. Inni ludzi unikają patrzenia postaci w oczy, dodatkowo panuje przekonanie że postacie z tym znamieniem przyciągają złe duchy.</li> 
+      <li><strong>Alergia:</strong>  Postać ma alergię na jakąś pospolicie występującą rzecz. Ciało postaci reaguje bardzo szybko na kontakt z daną substancją przez co może doprowadzić do nieprzyjemnych skutków, zwłaszcza na dworze.</li>
+      <li><strong>Ucięty Wątek:</strong> Gdzieś w najbliższej przyszłości, postaci nie uda się jakiś bardzo ważny rzut, MG zadecyduje kiedy to nastąpi a porażka będzie spektakularna. Żadna technika ani zaleta nie pomogą zmienić tego zdarzenia.</li>
+      <li><strong>Nieznany  Wróg:</strong> Gdzieś, pewnie nawet w innym klanie jest ktoś kto nienawidzi postaci. Postać nie ma pojęcia kto i dlaczego jej nienawidzi, ale przekona się wkrótce.</li> 
+      <li><strong>Klątwa Moto:</strong> Postać posiada wrodzoną wrażliwość na Skazę Cienia. Podczas testów na oparcie się Skazie Cienia dostaje modyfikator -1z0. Wada ta jest warta 4 Punkty i może być wykupiona tylko postacie z klanu Jednorożca.</li> 
+      <li><strong>Klątwa Yogo:</strong> Postać skazana jest na zdradę kogoś kogo kocha najmocniej. Wada ta jest warta 4 Punkty i może być nabyta tylko przez postacie z klanu Skorpiona.</li> 
+    </ul>" }, 
+    
+{kind: "Wada",
+name: "Bad Health", 
+name_pl: "Słabe Zdrowie" ,
+sphere: "Fizyczna", 
+value: ["4"],
+desc: "Siły witalne postaci nie są tak duże jak u innych. Podczas obliczania punktów życia i opierania się chorobą krąg Ziemi postaci jest liczony jak poziom niżej." }, 
+    
+{kind: "Wada",
+name: "Bitter Betrothl", 
+name_pl: "Marny Posag" ,
+sphere: "Społeczna", 
+value: ["2"],
+desc: "Postać została obiecana lub już ożeniona, z kimś z kim postać nie ma lub niemiała najmniejszej ochoty się wiązać. Wzajemne uczucia mogą sprawić wiele trudności, zarówno w sprawie zarządzania włościami jak również sprawach urzędowych. Wada ta jest warta 3 Punkty dla postaci z rodzin Cesarskich." }, 
+    
+{kind: "Wada",
+name: "Blackmailed", 
+name_pl: "Szantaż" ,
+sphere: "Społeczna", 
+value: ["Różna"],
+desc: "Ktoś zna mroczny sekret postaci. Co gorsza osoba ta każe płacić sobie za milczenie. Koszt tej wady jest równy poziomowi Statusu postaci. Osoba ta będzie kontaktować się z postacią i domagać się pewnych przysług." }, 
+    
+{kind: "Wada",
+name: "Black Sheep", 
+name_pl: "Czarna Owca" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Z jakiegoś powodu, rodzina postaci gardzi nią. Choć postać nie została wyrzucona z klanu, nie jest już mile widziana w swoich rodzinnych stronach. Postać może utrzymywać dobre relacje z członkami najbliższej rodziny tylko przez zaletę Sojusznik, jeśli postać należy do swojej 'rodzinnej' szkoły, nie może zyskiwać nowych rang w tej szkole, chyba że znajdzie chętnego nauczyciela." }, 
+    
+{kind: "Wada",
+name: "Blind", 
+name_pl: "Ślepy" ,
+sphere: "Fizyczna", 
+value: ["6"],
+desc: "Postać utraciła zdolność widzenia, potrafi jedynie słabo rozróżnić dzień od nocy. Ataki strzelecki wykonywane są z karą -3z3, a ataki wręcz z karą -1z1. PT postaci jest równe Randze Refleksu plus 5 (pancerz dodaje normalne modyfikatory). Krąg Wody jest równy dwa kręgi mniej, przy określaniu odległości jaką postać może pokonać w ciągu rundy. Każda nagła akcja ruchu wymaga test Atletyki/Zręczności o PT 20 albo postać się przewraca. Dodatkowo postać nie może wykonywać testów Spostrzegawczości opartych na wzroku." }, 
+    
+{kind: "Wada",
+name: "Brash", 
+name_pl: "Porywczy" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać posiada bardzo małą tolerancję na wszelkie zniewagi i obelgi. Za każdym razem gdy dojdzie do takie sytuacji musi wykonać test Siły Woli (dodając swoją rangę honoru) o PT 25. Jeśli test się nie powiedzie, postać natychmiast zaatakuje. Wada ta jest warta 4 Punkty dla postaci z klanu Lwa." }, 
+    
+{kind: "Wada",
+name: "Can`t Lie", 
+name_pl: "Kiepski Kłamca" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Wada dotyczy nie tylko braku umiejętności kłamania ale i poprawiania innych gdy postać wie że kłamią, jeśli nie zda testu na siłę woli o PT 20. Oczywiście wada ta jest najniebezpieczniejsza podczas spotkań dworskich." },
+    
+{kind: "Wada",
+name: "Cast Out", 
+name_pl: "Wykluczony" ,
+sphere: "Społeczna", 
+value: ["1, 3"],
+desc: "Jeśli postać wykupi wadę za 1 punkt jakaś pojedyncza świątynia uznała postać lub całą jej rodzinę za niegodną. Jeśli wada została wykupiona za 3 punkty, wada ta tyczy się całego zakonu. Przedstawiciele tej świątyni/zakonu traktują poziom Chwały jak poziom Niesławy." },
+    
+{kind: "Wada",
+name: "Compulsion", 
+name_pl: "Nawyk" ,
+sphere: "Umysłowa", 
+value: ["2,4"],
+desc: "Pewna czynność jest postaci niezwykle bliska i nieomieszka żadnej okazji by się jej poświęcić bez reszty. Nawyk może być zarówno do używek, takich jak (sake, czy opium), ale i rzeczy bardziej ulotnych jak np. zwyczaj odwiedzania każdej napotkanej świątyni. Przymusowi można się oprzeć dzięki udanemu testowi siły woli o PT 15 lub 25 w przypadku wykupienia tej wady za 4 punkty." },
+  
+{kind: "Wada",
+name: "Consumed", 
+name_pl: "Pochłonięty" ,
+sphere: "Umysłowa", 
+value: ["Różna"],
+desc: "Postać kroczy ścieżką Shourido, która pochłonęła postać bez reszty. Wybrana ścieżka staje się esencją życia postaci. Wada ta jest warta jeden punkt więcej dla postaci z klanu Pająka.</p> 
+    <ul> 
+      <li> <strong>Kontrola</strong> (4 Punkty) Postać ma nawyk kontrolowania i dominowania innych, bez względu na koszty. Dodatkowo nigdy nie przyzna się do błędu lub choćby możliwości popełnienia go, przez co otrzymuje modyfikatorów -1z1 do testów Etykiety i Szczerości.</li> 
+      <li> <strong>Determinacja</strong> (6 Punktów) Postać jest głęboko przeświadczona o tym że wszystko osiągnie sama, bez jakiejkolwiek pomocy. Postać nie może używać punktów Pustki do wzmacniania jakichkolwiek rzutów kośćmi, może natomiast używać punktów Pustki do innych rzeczy.</li> 
+      <li> <strong>Zrozumienie </strong>  (4 Punkty) Postać stara się możliwie jak najdogłębniej zrozumieć jedną ze swoich umiejętności szkolnych. Za każdym razem gdy używa danej umiejętności, musi wykonać test Siły Woli o PT 20. W przypadku porażki postać zatraca się w danej czynności i traci kontakt z rzeczywistością, dopiero fizyczny ból, głośny krzyk lub potrząśnięcie mogą przywrócić postać.</li> 
+      <li> <strong>Wiedza  </strong> (4 Punkty) Postać ma obsesję na punkcie pozyskiwania nowej wiedzy oraz możliwości szerszego zrozumienia tego co już wie. Nie ważne jak zakazana, trywialna lub nieprzydatna może być dana wiedza, postać której nie powiedzie się rzut na Siłę Woli o PT 25, zdecyduje się na zgłębienie nowego zagadnienia.</li> 
+      <li> <strong>Doskonałość </strong>  (5 Punktów) Wszystko co postać robi musi być doskonałe, nawet jeśli sytuacja tego nie wymaga. Za każdym razem gdy postać wykonuje test umiejętności lub rzucenia czaru, musi zadeklarować jedno podbicie bez żadnego efektu lub test będzie uznany za nieudany. Wada ta jest warta 6 Punktów dla postaci z klanu Żurawia.</li> 
+      <li> <strong>Siła </strong> (5 Punktów) Czysta fizyczna siła jest jedynym sposobem by pokonać swych wrogów. Finezje i sztuka dyplomacji są dla głupców. Żeby wykonać Manewr Celnego Strzału, Finty lub Rozbrojenia, postać musi wykonać dodatkowe podbicie bez żadnych efektów, dodatkowo postać otrzymuje -1z0 do testów Etykiety.</li> 
+      <li> <strong>Wola  </strong>  (4 Punkty) Ty jesteś najważniejszy, a inni są tylko po to by spełniać Twoje zachcianki. Postać za nic ma opinie innych oraz ich potrzeby. Skrajna nietolerancja powoduje modyfikator -1z1 do testów Dworskich jak i Kuszenia. </li> 
+    </ul>" },
+    
+{kind: "Wada",
+name: "Contrary", 
+name_pl: "Przekorny" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać szybko wyrabia sobie opinie i nie potrafi ich zachować dla siebie. Podczas rozmów lub zwykłych debat, postać ciągle się wtrąca i chce innym narzucić swoje zdanie. Żeby powstrzymać się od tego postać musi zdać test Siły Woli o PT (5-25), w zależności od tego jak bardzo postać chce się zaangażować. Wada ta jest warta 4 Punkty dla postaci klasy Dworzanin lub członków rodzin Cesarskich." },
+    
+{kind: "Wada",
+name: "Coursed by the Realm", 
+name_pl: "Przeklęty przez Zaświaty" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Wpływ innych światów, często jest odczuwalny w Rokuganie. Z niewyjaśnionych przyczyn postać posiada w sobie coś co sprawia że dany wymiar jest mu wrogi. Wada ta jest warta 5 Punktów dla postaci klasy Shugenja.
+    <ul> 
+      <li> <strong>Chikushudo </strong> - Postać otrzymuje -1z1 do testów Opieki na Zwierzętami.</li> 
+      <li> <strong>Gaki-do </strong>  - Stwory z krain umarłych, szczególnie upodobały sobie smak postaci. Gaki i wszelkie inne nieumarłe stwory, zaatakują tę postać w pierwszej kolejności.</li>
+      <li> <strong>Jigoku </strong> - Wymiar zła trawi duszę postaci. Wszelkie rzuty oparcia się Skazie Cienia wykonywane są z modyfikatorem -1z1.</li> 
+      <li> <strong>Maigo  no Musha </strong>  - Istnienie postaci zakłóca nici przeznaczenia. Za każdym razem gdy postać wykonuje przeciw dowolnym duchom, wykonuje je z modyfikatorem -1z1.</li> 
+      <li> <strong>Meido </strong> - Skaza wymiaru Oczekiwania sprawia że zapadasz w ospałość, zawsze kiedy nie postać nie jest zajęta jakąś czynnością lub rozmową z kimś. Stan ten daje modyfikator -1z0 do wszelkich testów Spostrzegawczości.</li> 
+      <li> <strong >Sakkaku </strong> - Duchy kawałów i kłamstw nękają postać. Przynajmniej raz w miesiącu pada ona ofiarą, jakiegoś okrutnego żartu, zrobionego przez jakiegoś ducha.</li>
+      <li> <strong>Tengoku </strong>  - Niebiosa uznały postać za niegodną. Za każdym razem gdy przebywa w świątyni (obojętnie czy kami, fortuny, smoka żywiołu czy dowolnej innej, przeznaczonej istocie boskiej) PT wszystkich testów podnosi się o 10.</li> 
+      <li> <strong>Toshigoku </strong>  - Na widok rannego wroga, postać przepełnia żądza krwi i musi wykonać test Siły Woli o PT 15 lub natychmiast zaatakuje rannego przeciwnika.</li>
+      <li> <strong>Yomi </strong>  - Postać nie może posiadać żadnych zalet ani zdolności odnoszących się do przodków.</li> 
+      <li> <strong>Yume-do  </strong>  - Postać ma straszne koszmary, przez co źle śpi, przez co odzyskuje punkty Pustki po 10 godzinach snu.</li> 
+    </ul>" },
+    
+{kind: "Wada",
+name: "Dark Fate", 
+name_pl: "Mroczne Przeznaczenie" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Na postać czeka wielkie przeznaczenie, niestety zasłynie ona czarny charakter. Dzięki tej wadzie póki postać nie wykona swojego przeznaczenia, raz na sesję gdy postać ma otrzymać śmiertelny cios, zamiast zginać zostaje ona na 1 punkcie ran do śmierci." },
+    
+{kind: "Wada",
+name: "Dark Secret", 
+name_pl: "Mroczny Sekret" ,
+sphere: "Społeczna", 
+value: ["4"],
+desc: "Postać posiada okropny sekret, choć może on dotyczyć również ludzi w jej najbliższym otoczeniu. Sekret może być np. wiedzą o czcigodnym przodku który w rzeczywistości był leniwym głupkiem lub może być czymś co uczyniła postać. Bez względu na naturę sekretu jeśli wyjdzie on na jaw, postać może zostać skazana lub poproszona o popełnienie seppuku. Wada ta jest warta 5 Punktów dla postaci klany Ninja." },
+    
+{kind: "Wada",
+name: "Dependant", 
+name_pl: "Opiekun" ,
+sphere: "Społeczna", 
+value: ["Różna"],
+desc: "Postać opiekuje się kimś innym. Może to być starsza osoba, młoda żona lub dziecko. Wartość punktowa tej wady, zależy od stopnia uciążliwości zależnej postaci. Jeśli postacią zależna jest osoba która jest w miarę samodzielna wada jest warta 2-3 Punkty, jeśli postać jest w znacznym stopniu zależna od postaci i wymaga stałej uwagi, wada warta jest 5-6 Punktów." },
+    
+{kind: "Wada",
+name: "Dishonored", 
+name_pl: "Bez Honoru" ,
+sphere: "Społeczna", 
+value: ["5"],
+desc: "Honor postaci został tak splamiony że, jej imię zostało wymazane z zapisów rodziny. Postać dostała jednak drugą szansę zamiast popełnić seppuku, ma zmyć swoją hańbę na polu bitwy. Zwyczaj ten został zapoczątkowany przez klan Lwa i znany jest jako tradycja Poszukiwaczy Śmierci. Status postaci wynosi 1 i nigdy nie może wzrosnąć póki postać nie odkupi swoich win." },
+    
+{kind: "Wada",
+name: "Disbeliver", 
+name_pl: "Wiarołomca" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: " W ciągu swojego życia, postać straciła wiarę w jakiś aspekt teologiczny Rokugańskiej religii. Być może uznała że Fortuny przestały interesować się ludźmi lub stwierdziła że Tao Shinsei jest tylko stekiem obietnic bez pokrycia. Jeśli Twoje przekonania wyjdą na jaw, wszyscy sojusznicy postaci związani z zakonami lub świątyniami, szybko przemyślą swoje nastawienie do postaci. Dodatkowo postać ma trudność rozmawiając z mnichami lub shugenja, otrzymując modyfikator +5 do PT do wszystkich testów społecznych.
+" },
+    
+{kind: "Wada",
+name: "Disturbing Countenance", 
+name_pl: "Niepokojąca Aura" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Coś w wyglądzie postaci, sprawia że inni zachowują się względem niej ostrożnie i nieufnie. Nie musi to oznaczać że postać jest nieatrakcyjna, ale po prostu inna w jakiś sposób. PT wszystkich testów Socjalnych jest większy o 5. Wada ta jest warta 4 Punkty dla postaci z klanu Pająka." },
+    
+{kind: "Wada",
+name: "Doubt", 
+name_pl: "Zwątpienie" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Postać kwestionuje pewien aspekt nauk swojej szkoły. Przeświadczenie o tym że dana umiejętność jest niewłaściwa w danej szkole, przekłada się na to na trudność podczas korzystania z niej. Postać z tą wadą musi używając wybranej umiejętności zadeklarować podbicie bez żadnego efektu." },
+    
+{kind: "Wada",
+name: "Driven", 
+name_pl: "Szalony Ce" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Postać posiada swój własny cel, żeby go osiągnąć jest w stanie poświęcić wszystko, honor, rodzinę, przyjaciół, czy wszelkie dobra materialne." },
+    
+{kind: "Wada",
+name: "Elemenatal Imbalance", 
+name_pl: "Brak Równowagi Żywiołów" ,
+sphere: "Duchowa", 
+value: ["Różna"],
+desc: "Kami wybranego żywiołu upodobały sobie postać do tego stopnia, że czasem potrafią zagłuszyć pozostałe duchy. Tylko shugenja może wybrać tę wadę. Za każdy poziom tej wady, postać zyskuje 2 Punkty Postaci. Podczas wyboru tej wady, postać wybiera jeden z żywiołów w którym postać nie posiada ułomności. Za każdym razem gdy postać chce rzucić czar z żywiołu w którym posiada tę wadę musi najpierw wykonać rzut o PT 15 + 5xRanga Wady. W przypadku niepowodzenia, coś z czarem wyjdzie na opak, zmieni się cel czaru lub jego efekt." },
+    
+{kind: "Wada",
+name: "Enlightened Madness", 
+name_pl: "Oświecone Szaleństwo" ,
+sphere: "Duchowa", 
+value: ["4", "6"],
+desc: "Postać podczas swojej ścieżki ku oświeceniu zatracił się w pewnym aspekcie. Wybierając tę wadę należy wybrać umiejętność lub Krąg Żywiołu. Za każdym razem gdy postać chce wykorzystać daną umiejętność lub wykonać akcję powiązaną z danym żywiołem musi ona wykonać test Siły Woli o PT 20 lub 30 w zależności o stopnia wady. W przypadku niepowodzenia postać przechodzi pod kontrolę MG na następne 8 godzin." },
+    
+{kind: "Wada",
+name: "Epilepsy", 
+name_pl: "Epilepsja" ,
+sphere: "Fizyczna", 
+value: ["4"],
+desc: "W Rokuganie choroba ta jest mało znana i objawia się od czasu do czasu, jako podobny do transu spazmatyczny atak. Podczas tego ataku całe ciało postaci zaczyna drgać, a z ust zaczyna toczyć się piana. Z każdym razem gdy postać jest świadkiem migających świateł lub dużego stresu, musi wykonać test Siły Woli lub dostanie ataku. Wada ta jest warta 5 Punktów dla postaci z klanu Żurawia." },
+    
+{kind: "Wada",
+name: "Fascination", 
+name_pl: "Fascynacja" ,
+sphere: "Umysłowa", 
+value: ["1"],
+desc: "W życiu postaci pojawiło się coś co ją kompletnie zafascynowało. Tradycyjnymi obiektami fascynacji samurajów mogą być muzyka, konie, poezja lub historia. Wybrana fascynacja ma wpływ na ocenę i zachowanie postaci. Żeby dowiedzieć się więcej lub doświadczyć czegoś związanego z tą fascynacją, postać posunie się nawet do czynów niehonorowych, co może prowadzić do zhańbienia postaci." },
+    
+{kind: "Wada",
+name: "Failure of Bushido", 
+name_pl: "Upadek Bushido" ,
+sphere: "Umysłowa", 
+value: ["Różna"],
+desc: "Pewien aspekt Bushido jest postaci obcy. A przestrzeganie go po prostu nie przychodzi postaci do głowy. Wada ta jest warta punkt więcej dla postaci klasy Ninja.</p>
+    <ul> 
+      <li><strong>Współczucie: </strong> (3 Punkty) Postać musi wydać Punkt Pustki, jeśli chce pomóc komuś o niższym poziomie Statusu lub należącej do niższej kasty społecznej.</li>
+      <li><strong>Odwaga: </strong> (4 Punkty) Gdy postać walczy z kimś o wyższym poziomie Chwały, Statusu lub przeciw stworom z Krain Cienia, PT wszystkich testów rośnie o 5.</li>
+      <li><strong>Uprzejmość: </strong> (4 Punkty) Za każdym razem gdy postać próbuje przeprosić lub uniknąć obrażenia kogoś, wykonując test musi wykonać podbicie bez żadnego efektu lub test zakończy się porażką.</li>
+      <li><strong>Obowiązek: </strong>  (6 Punktów) Postać nie może wydawać Punktów Pustki by zmniejszyć obrażenia.</li>
+      <li><strong>Prawdomówność: </strong>  (3 Punkty) Postać nie może wydawać Punktów Pustki do testów Szczerości, kiedy w grę wchodzi mówienie prawdy.</li>
+      <li><strong>Honor:  </strong>  (3 Punkty) Postać nie może dodawać swojego poziomu honoru do testów przesłuchiwania lub kuszenia.</li>
+      <li><strong>Szczerość: </strong>  (4 Punkty) Za każdym razem gdy postać wykonuje test Szczerości by przekonać kogoś do swoich słów, postać musi wykonać podbicie bez żadnego efektu lub test zakończy się porażką.</li>
+    </ul> " },
+    
+{kind: "Wada",
+name: "Forced Retirment", 
+name_pl: "Przymusowe Odejście" ,
+sphere: "Socjalna", 
+value: ["4"],
+desc: "Postać została zmuszona do przedwczesnego odejścia do klasztoru. Mogło się to stać ponieważ postać dokonała hańbiącego czynu lub poprzez dworskie manipulacje. Po otrzymaniu tej wady postać nie może awansować w początkowej szkole. Zamiast tego gdy postać uzbiera dość Punktów Prestiżu musi awansować w szkole Mnichów (nie należącej do żadnego klanu). Postać nie musi wykupywać do tego zalety Uczeń Wielu Szkół. Wada ta jest warta 5 Punktów dla postaci klasy Mnich." },
+    
+{kind: "Wada",
+name: "Frail Mind", 
+name_pl: "Delikatny Umysł" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać ma trudności z koncentracją. Za każdym razem gdy postać wykonuje rzut przeciwstawny z użyciem Siły Woli, przeciwnik zyskuje bonus +2z0." },
+
+{kind: "Wada",
+name: "Gaijin Name", 
+name_pl: "Gajińskie Imię" ,
+sphere: "Społeczna", 
+value: ["1"],
+desc: "Dzięki urodzeniu lub upodobaniom rodziców, postać posiada nie Rokugańskie imię. Choć nie jest to nic nie honorowego, w społeczeństwie Rokugańskim jest wystarczające by powątpiewać w czyny postaci. Podczas wykonywania testów Społecznych tylko jedna kość może 'eksplodować' a jej wynik nie może przekroczyć 20. Wada ta jest warta 2 Punkty dla postaci z Klanu Jednorożca." },
+
+{kind: "Wada",
+name: "Greedy", 
+name_pl: "Chciwość" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Dobra materialne są dla postaci ważniejsze niż cokolwiek innego. Inne postaci używając testów Kuszenia (Przekupstwo) dostają +1z1 do testu przeciwstawnego. Wada ta jest warta 4 punkty dla postaci z klanu Modliszki." },
+
+{kind: "Wada",
+name: "Gullible", 
+name_pl: "Łatwowierny" ,
+sphere: "Umysłowa", 
+value: ["4"],
+desc: "Postać bardzo ufa innym, niestety czyni ją to łatwym celem dla oszustów. Postacie które wykonują test Szczerości (Zwodzenie) przeciw postaci z tą wadą otrzymują premię +1z1." },
+
+{kind: "Wada",
+name: "Haunted", 
+name_pl: "Nawiedzony" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Jeden z przodków postaci zwrócił na nią swoją uwagę i ciągle oferuje swoją pomoc i radę. Postać musi jakoś udobruchać przodka w przeciwnym razie raz na sesję MG może odjąć od dowolnego rzutu postaci -1z1." },
+
+{kind: "Wada",
+name: "Hostage", 
+name_pl: "Zakładnik" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "W skutek kłótni między klanami, normą jest wymiana 'gości'. Taki układ pieczętuje podpisane układy. Choć postać jest traktowana z szacunkiem jako gość na ziemiach innego klanu, to nie może opuszczać swojego miejsca pobytu bez eskorty lub w przypadku wybuchu wojny między klanem gospodarza a klanem postaci, życie postaci może być poważnie zagrożone." },
+
+{kind: "Wada",
+name: "Idealistic", 
+name_pl: "Idealista" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Postać czci kodex bushido w każdym aspekcie do granic przesady. Ta adoracja sprawia że postać cały czas skupia się na tym by zachowywać się honorowo, stawiają sobie tak wysokie wymagania, że nawet najbardziej honorowi nie mogli ich spełnić. Za każdym razem gdy postać traci honor, traci 1 dodatkowy punkt. Wada ta jest warta 3 punkty dla postaci z klanu Lwa." },
+
+{kind: "Wada",
+name: "Insensitive", 
+name_pl: "Nieczuły" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Jedynym co interesuje postać jest ona sama. Radość innych nie interesuje postaci i ma trudności, nawet udawać że jest inaczej. Wyjątkiem są osoby od których bezpośrednio zależy dobre samopoczucie postaci. Za każdym razem gdy postać chce narazić swoje korzyści dla innych, musi wydać Punkt Pustki, chyba że będzie w tym miała w tym swój własny interes. Ta wada jest warta 3 punkty dla postaci z klanu Skorpiona." },
+
+{kind: "Wada",
+name: "Jealousy", 
+name_pl: "Zazdrość" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać jest opętana prześcignięciem kogoś innego w każdym aspekcie. Wykupując tę wadę należy wybrać inną postać gracza lub postać niezależną. Jeśli postać uzna że przewyższyła swój cel, natura tej wady każe mu wybrać inną postać." },
+
+{kind: "Wada",
+name: "Lame", 
+name_pl: "Kulawy" ,
+sphere: "Fizyczna", 
+value: ["4"],
+desc: "Jedna z nóg postaci jest słabsza lub sparaliżowana. Określając prędkość postaci jej krąg Wody jest o 1 mniejszy. Dowolna test wymagająca aktywności nóg, ma PT zwiększone o 10." },
+
+{kind: "Wada",
+name: "Lechery", 
+name_pl: "Lubieżny" ,
+sphere: "Fizyczna", 
+value: ["2"],
+desc: "Uciechy cielesne są dla tej postaci wodą na młyn. Przez co jest bardzo podatna na wszelkie uwodzenia. Za każdym razem gdy wykonuje rzut przeciwstawny przeciw Kuszeniu(Uwodzenie), przeciwnik otrzymuje premię +1z1 do rzutu." },
+
+{kind: "Wada",
+name: "Lord Moon`s Curse", 
+name_pl: "Klątwa Pana Księżyca" ,
+sphere: "Duchowa", 
+value: ["3","5","7"],
+desc: "Szaleństwo Pana Księżyc, Onnotangu wniknęło w duszę postaci. O zachodzie słońca, poprzedzającym pełnię, postać otrzymuje dodatkowy punkt pustki, który w razie nie wykorzystania tracony jest o wschodzie. Jednakże podczas pełni postać musi wykonać test Siły Woli o PT 15+5*Ranga Wady, jeśli wynik będzie porażką, gracz traci kontrolę nad postacią do poranka, bez jakiejkolwiek wiedzy o tym co działo się podczas nocy." },
+
+{kind: "Wada",
+name: "Lost Love", 
+name_pl: "Utracona Miłość" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać kiedyś łączyło uczucie miłości do kogoś, lecz ta więź została utracona. W sytuacji kiedy postaci zostanie ona przypomniana wpada w melancholijny stan, podczas którego wskutek utrudnionej koncentracji wszystkie PT akcji podnoszone są o 5. Stan ten trwa póki postać nie wyda punktu pustki, postać nie wpadnie w ten stan częściej niż dwa razy dziennie a między napadami melancholii musi upłynąć co najmniej godzina." },
+
+{kind: "Wada",
+name: "Low Pain Treshold", 
+name_pl: "Mała Odporność na Ból" ,
+sphere: "Fizyczna", 
+value: ["4"],
+desc: "Psychiczna odporność na ból jest mniejsza niż u przeciętnej postaci. Wszelkie modyfikatory, wynikające z odniesionych ran są większe o 5." },
+
+{kind: "Wada",
+name: "Missing Linb", 
+name_pl: "Brak Ramienia" ,
+sphere: "Fizyczna", 
+value: ["6"],
+desc: "W skutek nieszczęśliwego wypadku lub defektu podczas narodzin, postać nie posiada jednego z ramion. Wszelkie testy wymagające użycia obu rąk, mają PT zwiększone o 10." },
+
+{kind: "Wada",
+name: "Momoku", 
+name_pl: "Momoku" ,
+sphere: "Duchowa", 
+value: ["8"],
+desc: "Dusza postaci straciła równowagę i nie jest w stanie osiągnąć równowagi. Postać może wydawać Punkty Pustki tylko i wyłącznie na techniki Szkoły które do aktywacji wymagają użycia Punktu Pustki." },
+
+{kind: "Wada",
+name: "Obligation", 
+name_pl: "Zobowiązanie" ,
+sphere: "Społeczna", 
+value: ["3","6"],
+desc: "Przysługi są częstym dobrym wymiennym. Rodzaj przysługi zależy od tego komu się ją złożyło oraz od tego jak mocno jest ona dla nas wiążąca. W przypadku pierwszej rangi, będzie to przysługa wymagająca pełnej uwagi postacie, jednak nie powinna zaszkodzić postaci ani narazić postać na utratę honoru. W przypadku drugiej rangi tej wady przysługa może pociągnąć daleko idące konsekwencja dla postaci i/lub jej całej rodziny." },
+
+{kind: "Wada",
+name: "Obtsue", 
+name_pl: "Niewrażliwy na Sztukę" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Piękno natury rzeczy ucieka postaci. Poezja, malarstwo, czy inne rodzaje sztuki nic dla postaci nie znaczą. Za każdym razem gdy postać wykupuje umiejętność Godną inną niż Śledztwo lub Medycyna, musi zapłacić podwójną ilość PD. Ta wada warta jest 4 punkty dla postaci z klanu Kraba." },
+
+{kind: "Wada",
+name: "Overconfident", 
+name_pl: "Zbyt Pewny Siebie" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Postać posiada znacznie przesadzoną pewność we własne umiejętności. Za każdym razem gdy przeciwnicy mają jawną przewagę lub w innej sytuacji gdy postać ma znikome szanse na sukces, musi wykonać test percepcji o PT 20, by zorientować się w swojej sytuacji. Wada ta jest warta 4 punkty dla postaci z klanu Lwa i Modliszki." },
+
+{kind: "Wada",
+name: "Pernament Wound", 
+name_pl: "Trwała Rana" ,
+sphere: "Fizyczna", 
+value: ["4"],
+desc: "Postać otrzymała kiedyś ranę która nigdy się nie zagoi, w wyniku tego pierwszy poziom ran postaci jest zawsze w pełni zapełniony." },
+
+{kind: "Wada",
+name: "Phobia", 
+name_pl: "Fobia" ,
+sphere: "(Umysłowa", 
+value: ["1","2","3"],
+desc: "Postać irracjonalnie boi się czegoś, bez względu jak bardzo przekonuj się o bezzasadności takiego zachowania. W sytuacji napotkania obiektu fobii PT wszystkich testów jest zwiększone o 5*Ranga Wady." },
+
+{kind: "Wada",
+name: "Rumormonger", 
+name_pl: "Plotkarz" ,
+sphere: "Społeczna", 
+value: ["4"],
+desc: "Postać nie potrafi opanować się przed rozprowadzaniem plotek i pomówień, bez względu na to jak bezsensowne miały by one być. W sytuacji gdy postaci nadarzy się okazja by rozprowadzić nowe plotki, może ona wykonać test Siły Woli o PT równym najwyższemu poziomowi Chwały, osoby której mogą dotyczyć plotki. Ta wada jest warta 5 punktów dla postaci klasy Dworzanin." },
+
+{kind: "Wada",
+name: "Seven Fortune`s Curse", 
+name_pl: "Klątwa Siedmiu Fortun" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Jedna z siedmiu Fortun nie spodobało się zachowanie postaci i postanowiły okazać to postaci. Klątwa manifestuje się realnie i mało kto potrafi się jej przeciwstawić.
+    <ul>
+      <li> <strong>Klątwa Benten</strong> - Fortuna Romantycznej miłości naznaczyła postać, przez co wydaje się ona kompletnie nieatrakcyjna dla innych. W wyniku tej klątwy wszelkie test Etykiety mają PT większe o 10. </li>
+      <li> <strong>Klątwa Bishamona </strong> - Fortuna Siły uznała jakiś czyn postaci za obrazę. Siła postaci jest liczona jak o 1 punkt mniej, przy obliczaniu kostek do obrażeń.</li>
+      <li> <strong>Klątwa Daikoku </strong> - Fortuna Bogactwa odwróciła się od postaci. Postać otrzymuje modyfikator -1z1 do wszelkich testów handlu oraz jej startowe koku jest mniejsze o 1.</li>
+      <li> <strong>Klątwa Ebisu </strong> - Fortunie Uczciwej Pracy nie spodobały się czyny postaci. Wynikiem tego jest modyfikator -1z1 do wszystkich testów społecznych z nie samurajami.</li>
+      <li> <strong>Klątwa Fukurokujina </strong> - Fortuna Wiedzy zabroniła postaci wglądu w swoją domenę, wszelkie test Wiedzy mają PT większe o 5.</li>
+      <li> <strong>Klątwa Hotei </strong> - Fortuna Szczęścia przeklęła postać. Wszelkie Techniki lub Zalety wymagające Punkty Pustki do aktywacji, wymagają 2 Punktów Pustki.</li>
+      <li> <strong>Klątwa Jurojina </strong> - Fortuna Długowieczności przestała wspierać postać swoją mocą. Podczas testów oparcie się trucizną lub chorobą postać otrzymuje modyfikator -2z0.</li>
+    </ul>" },
+
+{kind: "Wada",
+name: "Shadowlands Taint", 
+name_pl: "Skaza Cienia" ,
+sphere: "Duchowa", 
+value: ["4"],
+desc: "Postać w jakiś okropnych okolicznościach otrzymała Skazę Cienia, co w zasadzie czyni ją straconą w oczach całego Cesarstwa. Postać posiada 0.5 Rangi Skazy Cienia, od postaci zależy czy jest świadoma swojej skazy, jako że nie jest ona wykrywalna na tym poziomie." },
+
+{kind: "Wada",
+name: "Small", 
+name_pl: "Mały" ,
+sphere: "Fizyczna", 
+value: ["3"],
+desc: "Postać jest wyraźnie niższa niż przeciętny Rokugańczyk. W rezultacie postać porusza się z prędkością tak jakby jej Krąg Wody był o 1 mniejszy. Dodatkowo postać otrzymuje -1z0 do wszelkich ataków w walce wręcz." },
+
+{kind: "Wada",
+name: "Social Disadventage", 
+name_pl: "Upośledzenie Społeczne" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Postać stracił swoją pozycję w Niebiańskim Porządku, a jego miejsce w społeczeństwie odzwierciedla to. Postać zaczyna z Poziomem Statusu równym 0." },
+
+{kind: "Wada",
+name: "Soft-Hearted", 
+name_pl: "Litościwy" ,
+sphere: "Umysłowa", 
+value: ["2"],
+desc: "Życie ludzkie przedstawia dla postaci wielką wartość. Jest to powodem wielu trudności w wykonywaniu swoich obowiązków jako samuraj gdyż często wiąże się ona z odbieraniem życia. Żeby zabić kogoś postać musi wykonać test Siły Woli o PT 20 lub nie będzie w stanie tego zrobić. Jeśli postać zabije innego człowieka PT wszystkich testów przez jeden dzień są zwiększone o 10, gdyż postać jest nękana z poczucia winy, modyfikator nie rośnie wraz z ilością zabitych osób. Wada ta może obejmować wszelkie życie, łącznie z istotami z krain Cienia, w takiej sytuacji wada ta powinna być odpowiednio więcej warta. Wada ta jest warta 3 punkty dla postaci z klanu Feniksa." },
+
+{kind: "Wada",
+name: "Sworn Enemy", 
+name_pl: "Zaprzysiężony Wróg" ,
+sphere: "Społeczna", 
+value: ["3"],
+desc: "Ktoś nienawidzi postaci mocno na tyle, że nie cofnie się przed niczym by dopełnić swojej zemsty. Bazowa poziom wady dotyczy postaci o randze równej randze postaci. Za każdą rangę przewagi wada jest warta 1 punkt więcej. Za dodatkowe 2 punkty przeciwnik staje się przeciwnikiem karmicznym i postać w starciu z nim nie będzie mogła wydawać Punktów Pustki." },
+
+{kind: "Wada",
+name: "Touch of the Void", 
+name_pl: "Dotknięty Przez Pustkę" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Postać doświadczyła esencji Pustki. Za każdym razem gdy postać wykorzystuje Punkt Pustki zamiast modyfikatora +1z1 otrzymuje +2z1. Jednakże zaraz potem postać musi wykonać test Siły Woli o PT 30 lub zostanie Ogłuszony na jedną turę. Ta wada warta jest 4 punkty dla postaci z klanu Feniksa." },
+
+{kind: "Wada",
+name: "True Love", 
+name_pl: "Prawdziwa Miłość" ,
+sphere: "Umysłowa", 
+value: ["3"],
+desc: "Prawdziwa miłość może być cudownym doświadczeniem, jednak biorąc pod uwagę system zawierania małżeństw, wyjątkowo rzadką rzeczą. Za każdym razem gdy postać stoi przed wyborem między miłością a obowiązkiem, musi wydać punkt pustki by móc przedłożyć obowiązki nad ukochaną osobę." },
+
+{kind: "Wada",
+name: "Unlucky", 
+name_pl: "Pech" ,
+sphere: "Duchowa", 
+value: ["2","4","6","8","10"],
+desc: "Fortuny nie sprzyjają postaci. Liczbę razy równą randze wady, MG może kazać postaci przerzucić udany rzut." },
+
+{kind: "Wada",
+name: "Weakness", 
+name_pl: "Słabość" ,
+sphere: "Fizyczna", 
+value: ["6"],
+desc: "Postać posiada słabość w pewnym zakresie. Postać wybiera dowolną Cechę, cecha ta jest o 1 mniejsza podczas wszelkich testów z nią związanych." },
+
+{kind: "Wada",
+name: "Wrath of the Kami", 
+name_pl: "Gniew Kami" ,
+sphere: "Duchowa", 
+value: ["3"],
+desc: "Kami pewnego żywiołu odwróciły się przeciw postaci, w skutek przekleństwa lub klątwy jakiejś Fortuny. Wszelkie czary z określonego żywiołu rzucane przeciw postaci, zyskują dodatkowe podbicie. Ta wada jest warta 4 punkty dla postaci klasy Shugenja. " }]
+
 
 
 School.destroy_all
@@ -4490,4 +5585,9 @@ end
 Spell.destroy_all
 spells.each do |spell|
   Spell.create(spell)
+end
+
+Trait.destroy_all
+traits.each do |trait|
+  Trait.create(trait)
 end

@@ -19,13 +19,7 @@ class School < ActiveRecord::Base
       School.where(school_class: school_class)
     elsif clan.present? && school_class.nil?
       School.where(clan: clan)
-    elsif clan[0].blank? && school_class[0].blank?
-      School.all
-    elsif clan[0].blank? && school_class[0].present?
-      School.where(school_class: school_class)
-    elsif clan[0].present? && school_class[0].blank?
-      School.where(clan: clan)
-    else
+    elsif clan.present? && school_class.present?
       School.where(clan: clan, school_class: school_class)
     end
   end

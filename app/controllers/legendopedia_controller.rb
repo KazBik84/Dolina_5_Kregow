@@ -7,8 +7,8 @@ before_filter :authenticate_user!
   end
   
   def show_schools
-    @clans = params[:clans]
-    @school_classes = params[:school_classes]
+    params[:clans].present? && params[:clans][0].present? ? @clans = params[:clans] : @clans = nil
+    params[:school_classes].present? && params[:school_classes][0].present? ? @school_classes = params[:school_classes] : @school_classes= nil
     #Funkcja find_schools jest zdefiniowana w modelu school
     @chosen_schools = School.find_schools(@clans,@school_classes)
   end
@@ -17,8 +17,8 @@ before_filter :authenticate_user!
   end
   
   def show_spells
-    @elements = params[:elements]
-    @kregi = params[:krag]
+    params[:elements].present? && params[:elements][0].present? ? @elements = params[:elements] : @elements = nil
+    params[:krag].present? && params[:krag][0].present? ? @kregi = params[:krag] : @kragi = nil
     @tags = params[:tag]
     @chosen_spells = Spell.find_spells(@elements, @kregi, @tags).to_a    
   end
@@ -27,16 +27,20 @@ before_filter :authenticate_user!
   end
   
   def show_traits
-    @kind = params[:kind]
-    @types = params[:types]
+    params[:kind].present? && params[:kind][0].present? ? @kind = params[:kind] : @kind = nil
+    params[:types].present? && params[:types][0].present? ? @types = params[:types] : @types = nil
     @from = params[:from]
     @to = params[:to]
-    @rozne = params[:rozne]
-    if @from < @to
-      @values = (@from..@to).to_a
-    else
-      @values = (@to..@from).to_a
+    @values = nil
+    unless @from.blank? || @to.blank?
+      if @from < @to
+        # Do zbioru zawsze dodawana jest wartość "Różna" bo niejest określona
+        @values = (@from..@to).to_a  << "Różna"
+      else
+        @values = (@to..@from).to_a << "Różna"
+      end
     end
+    @chosen_traits = Trait.find_traits(@kind, @types, @values).to_a
   end
   
 end
