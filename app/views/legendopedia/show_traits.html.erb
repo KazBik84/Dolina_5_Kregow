@@ -7,7 +7,7 @@
       <ul class="object_list">
       	<li><strong>Typ: </strong><%= trait.sphere %></li>
       	<li><strong>Wartość: </strong><%= trait.value.join(', ') %></li>
-      	<li><strong>Opis: </strong><%= trait.desc %></li>
+      	<li><strong>Opis: </strong><%= trait.desc.html_safe %></li>
       </ul>
 
   </div>
