@@ -324,7 +324,7 @@ RSpec.describe LegendopediaController, type: :controller do
       end
       
       it "has correct :values attr" do
-        expect(assigns(:values)).to eq(["1", "2", "3", "4"])
+        expect(assigns(:values)).to eq(["1", "2", "3", "4", "Różna"])
       end          
     end
   end 
