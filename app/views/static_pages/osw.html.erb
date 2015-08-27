@@ -1,0 +1,9 @@
+<% provide(:title, "Granie Osw") %>
+<% provide(:header_active, "Root") %>
+
+<h1>Oświęcim gra w L5k :)</h1>
+<%= form_tag osw_show_path do %>
+  <%= label_tag "Tajne hasło:" %>
+  <%= text_field_tag :password %>
+  <%= submit_tag "Szukaj!" %>
+<% end %>

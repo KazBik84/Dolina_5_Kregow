@@ -11,4 +11,15 @@ class StaticPagesController < ApplicationController
   
   def to_do
   end
+
+  def osw
+  end
+
+  def osw_show
+
+  	unless params[:password] == "Mirumoto"
+  		redirect_to osw_path
+    end
+  		
+  end
 end
