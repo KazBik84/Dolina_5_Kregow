@@ -76,6 +76,7 @@ border-radius: 0px  !important;
     position: relative;
     max-height: 9em;	
     overflow: hidden;
+    border-bottom: 1px solid black;
     p {
       margin-bottom: 0em;
       margin-left: 10px;
@@ -96,7 +97,6 @@ border-radius: 0px  !important;
   }
   .create_comment {
     padding: 5px;
-    border-top: solid black 1px;
     display: none;
     ul {
       list-style-type: none;
@@ -104,9 +104,24 @@ border-radius: 0px  !important;
   }
   .show_comment {
     display: none;
-    border-top: solid black 1px;
-    p {
-      overflow: hidden;
+    .show_comment_list {
+      margin: 0px;
+      li {
+        .show_comment_block_author {
+          width: 5%;
+          display: inline-block;
+          word-wrap: break-word;
+          vertical-align: middle;
+          line-height: normal;          
+        }      
+        .show_comment_block {
+          width: 90%;
+          display: inline-block;
+          word-wrap: break-word;
+          vertical-align: middle;
+          line-height: normal;          
+        }
+      }
     }
   }
 }

@@ -1,11 +1,11 @@
 FactoryGirl.define do
   factory :trait do
-    kind "MyString"
+    kind "Zaleta"
 name "MyString"
 name_pl "MyString"
-type ""
+sphere "Duchowa"
 desc "MyString"
-value "MyText"
+value ["MyText"]
   end
 
 end

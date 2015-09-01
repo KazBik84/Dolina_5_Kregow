@@ -1,5 +1,8 @@
 class Trait < ActiveRecord::Base
 
+  validates :kind, :sphere, :name, :name_pl, :value ,presence: true
+  validates_inclusion_of :kind, in: %w(Zaleta Wada)
+  validates_inclusion_of :sphere, in: %w(Fizyczna Społeczna Duchowa Materialna Umysłowa)
   def self.find_traits(kind, types, values)
      if kind.nil? && types.nil? && values.nil? 
      	Trait.all

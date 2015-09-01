@@ -1,0 +1,3 @@
+$('.show_comment_list').append("<%= j render partial: 'announcements/announcement_show_comment', locals: { announcement: @announcement, comment: @comment } %> ");
+$('.comment_field').val("");
+$('#comments_counter_<%=@announcement.id %>').text("Komentarze: <%= @announcement.comments.count %>");

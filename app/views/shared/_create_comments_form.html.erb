@@ -1,9 +1,10 @@
-<%= form_for(announcement.comments.create, url: announcement_comments_path(announcement.id, url) ) do |form| %>
-  <%= form.hidden_field :redirect_to, value: url %>
+<%= form_for [announcement, announcement.comments.new], remote:true do |form| %>
+  <!-- url jest przekazywany jako parametr do tego partiala -->
+  <!-- <%= form.hidden_field :from_url, value: url %> -->
   <%= form.label :author, "#{current_user.username}:" %>
   <%= form.hidden_field :author, value: current_user.username %>
   <%= form.hidden_field :user_id, value: current_user.id %>
-  <%= form.text_field :content, class: "form-control content_length" %>
+  <%= form.text_field :content, class: "form-control content_length comment_field" %>
   <div class="char_counter">255</div>
   <%= form.submit "Dodaj!", class: "btn btn-primary" %>
 <% end %>

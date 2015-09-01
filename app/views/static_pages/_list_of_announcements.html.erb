@@ -1,40 +1,30 @@
-	<% @announcements.each do |announcement| %>
-		<div class="announcement" id="<%= announcement.title %>" data-announcement>
-			<div class="announcement_header">
-				<p class="header_text"><strong>#<%= announcement.id %>  <%= link_to announcement.title, announcement %></strong></p><p class="header_text text_to_right"><strong><%= announcement.updated_at.to_date %></strong></p>
-			</div>
-			<div class="announcement_message">
-			  <!-- simple_format to funkcja która poprawnie odczytuje entery jako nowe liniie podczas zwracania tekstu -->
-				<%= simple_format(announcement.message) %>
-				<div class="link_to">
-					<%= link_to "Czytaj Więcej", announcement %>
-				</div>
-			</div>
-			<div class="show_comment" >
-				<!-- "reverse_order" jest scopem zdefiniowanym w modelu comment.rb -->
-				<% announcement.comments.reverse_order.each do |comment| %>
-					<p>
-					  <% if current_user && current_user.admin?  or current_user && current_user.id == comment.user_id %>
-					   <%= link_to "<button type='button' class='btn btn-default' aria-label='Left Align'>
-  <span class='glyphicon glyphicon-remove' aria-hidden='true'></span></button>".html_safe, announcement_comment_path(announcement.id, comment.id), method: :delete %>
-            <% end %>
-            <strong><%= comment.author.capitalize %>:</strong> <%= comment.content %>
-          </p>
-				<% end %>
-			</div>
-  		<% if current_user && user_signed_in? %>
-			  <div class="create_comment" >
-				<!-- Partiale nie przejmują zmiennych więc trzeba je przekazać w hashu 'locals', 
-				#    ale żeby hash  'locals' zadziałał trzeba wpisać 'render partial:' -->
-  			  <%= render partial: 'shared/create_comments_form', locals: {announcement: announcement, url: root_path } %>
-  			</div>
-  			<div class="  create_comment_button announcement_button float_right left_border" >
-	  		  <p><strong>Dodaj Komentarz</strong></p>
-		  	</div>
-		  <% end %> 		  	
-			<div class="<% if announcement.comments.count > 0 %> show_comment_button <% end %> announcement_button float_left right_border" >
-				<p><strong>Komentarze: <%= announcement.comments.count %></strong></p>
-			</div>					
-		</div>
-	<% end %>
-
+<% @announcements.each do |announcement| %>
+  <div class="announcement" id="<%= announcement.title %>" data-announcement>
+    <div class="announcement_header">
+      <%= render partial: 'announcements/announcement_header', locals: {announcement: announcement} %>
+    </div>
+    <div class="announcement_message">
+      <%= render partial: 'announcements/announcement_message', locals: {announcement: announcement} %>
+    </div>
+    <div class="show_comment" >
+      <ul class="show_comment_list no_dot">
+      <% announcement.comments.reverse_order.each do |comment| %>
+        <%= render partial: 'announcements/announcement_show_comment', locals: {announcement: announcement, comment: comment} %>
+      <% end %>
+      </ul>
+    </div>
+    <% if current_user && user_signed_in? %>
+      <div class="create_comment" >
+        <!-- Partiale nie przejmują zmiennych więc trzeba je przekazać w hashu 'locals', 
+        #    ale żeby hash  'locals' zadziałał trzeba wpisać 'render partial:' -->
+        <%= render partial: 'shared/create_comments_form', locals: {announcement: announcement, url: root_path } %>
+      </div>
+      <div class="  create_comment_button announcement_button float_right left_border" >
+        <p><strong>Dodaj Komentarz</strong></p>
+      </div>
+    <% end %>          
+    <div class="  show_comment_button announcement_button  float_left right_border" >
+      <p ><strong id="comments_counter_<%=announcement.id %>">Komentarze: <%= announcement.comments.count %></strong></p>
+    </div>                  
+  </div>
+<% end %>

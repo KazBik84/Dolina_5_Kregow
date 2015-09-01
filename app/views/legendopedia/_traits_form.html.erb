@@ -10,9 +10,10 @@
       <%= select_tag 'types[]', options_for_select([
                                   ["Dowolna", nil],
                                   ["Fizyczne", "Fizyczna"],
-                                  ["Duchowe", "Duchowe"],
+                                  ["Duchowe", "Duchowa"],
                                   ["Społeczne", "Społeczna"],
-                                  ["Umysłowe", "Umysłowa"]]) %>
+                                  ["Umysłowe", "Umysłowa"],
+                                  ["Materialne", "Materialna"]]) %>
     </p>
     <%= submit_tag "Szukaj!" %>
   <% end %>

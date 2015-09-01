@@ -1,0 +1,11 @@
+<!-- "reverse_order" jest scopem zdefiniowanym w modelu comment.rb -->
+
+        <li>
+          <span class="show_comment_block_author">
+            <% if current_user && current_user.admin?  or current_user && current_user.id == comment.user_id %>
+              <%= link_to "<button type='button' class='btn btn-default' aria-label='Left Align'>
+              <span class='glyphicon glyphicon-remove' aria-hidden='true'></span></button>".html_safe, 
+              announcement_comment_path(announcement.id, comment.id), method: :delete %>
+          <% end %>
+          </span> <span class="show_comment_block"><strong><%= comment.author.capitalize %>:</strong> <%= comment.content %></span>
+        </li>
