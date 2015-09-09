@@ -4,9 +4,11 @@
 </div>
 <div class="bottom_border">
   <h3>Komentarze: </h3>
-  <% @announcement.comments.reverse_order.each do |comment| %>
-    <p><strong><%= comment.author %>: </strong><%= comment.content %></p>
-  <% end %>
+  <ul class="show_comment_list no_dot">
+    <% @announcement.comments.reverse_order.each do |comment| %>
+      <%= render partial: 'announcements/announcement_show_comment', locals: {announcement: @announcement, comment: comment} %>
+    <% end %>
+  </ul>
 </div>
 <% if current_user && user_signed_in? %>
   <div>

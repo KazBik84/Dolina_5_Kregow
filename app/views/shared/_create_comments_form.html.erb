@@ -1,6 +1,6 @@
 <%= form_for [announcement, announcement.comments.new], remote:true do |form| %>
   <!-- url jest przekazywany jako parametr do tego partiala -->
-  <!-- <%= form.hidden_field :from_url, value: url %> -->
+  <%= form.hidden_field :from_url, value: url %>
   <%= form.label :author, "#{current_user.username}:" %>
   <%= form.hidden_field :author, value: current_user.username %>
   <%= form.hidden_field :user_id, value: current_user.id %>

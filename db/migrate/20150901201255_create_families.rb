@@ -4,7 +4,8 @@ class CreateFamilies < ActiveRecord::Migration
       t.string :mon_img
       t.string :desc
       t.string :name
-      t.references :clan, index: true, foreign_key: true
+      t.string :clan
+      t.string :bonus
 
       t.timestamps null: false
     end

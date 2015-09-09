@@ -1,0 +1,19 @@
+<% provide(:title, "Klany") %>
+<% provide(:header_active, "Legendopedia") %>
+
+<%= form_tag show_clan_path do %>
+  <%= select_tag 'clan[]', options_for_select([
+    ["Rody Cesarskie", "Rody Cesarskie"],
+    ["Feniks", "Feniks"],
+    ["Jednorożec", "Jednorożec"],
+    ["Krab", "Krab"],
+    ["Lew", "Lew"],
+    ["Modliszka", "Modliszka"],
+    ["Pająk", "Pająk"],
+    ["Skorpion", "Skorpion"],
+    ["Smok", "Smok"],
+    ["Żuraw", "Żuraw"],
+    ]) %>
+
+  <%= submit_tag "Szukaj!" %>
+<% end %>

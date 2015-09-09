@@ -155,11 +155,19 @@ border-radius: 0px  !important;
   }
   .object_list {
     padding: 0px 10px 0px 10px;
+    li:first-child{
+        text-indent: 5px;      
+    }
   }
+  .school_tech {
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+    li:last-child {
+    margin: 0px 10px 10px 10px;
+    }
+  }  
 }
-.first {
-  text-indent: 5px;
-}
+
 .img_middle {
   display: block;
   margin-left: auto;
@@ -173,6 +181,12 @@ border-radius: 0px  !important;
   vertical-align: top;  
 }
 
+.show_clan_list {
+  padding: 0px 10px 0px 10px;
+  li:first-child {
+    text-indent: 5px;
+  }
+}
 .Cesarskie {
   box-shadow:5px 5px 5px #187562; 
   border: 1px solid #187562;  
@@ -222,7 +236,7 @@ border-radius: 0px  !important;
   border: 1px solid #A3C326;
 }
 
-.Zuraw {
+.Żuraw {
   box-shadow:5px 5px 5px #47A0EE;
   border: 1px solid #47A0EE;
 }

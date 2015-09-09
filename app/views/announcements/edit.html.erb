@@ -4,7 +4,6 @@
 
 
     <%= form_for(@announcement) do |form| %>
-    <form >
       <div class="form-group">
         <%= render 'shared/error_messages' %>
         <%= form.label :title, "Nazwa" %>
@@ -16,3 +15,4 @@
       <div class="text-center padding_top-10">
         <%= form.submit "Edytuj Newsa ;)", class: "btn btn-primary" %>
       </div>
+    <% end %>

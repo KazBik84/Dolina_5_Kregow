@@ -42,5 +42,14 @@ before_filter :authenticate_user!
     end
     @chosen_traits = Trait.find_traits(@kind, @types, @values).to_a
   end
+
+  def clans
+  end
+
+  def show_clan
+    @clan = Clan.find_clan(params[:clan])
+    @clan_families = Family.find_families(params[:clan]).to_a
+    @clan_schools = School.find_clan_schools(params[:clan]).to_a
+  end
   
 end

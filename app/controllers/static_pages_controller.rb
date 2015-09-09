@@ -12,14 +12,16 @@ class StaticPagesController < ApplicationController
   def to_do
   end
 
+  def web_scrolls
+  end
+  
   def osw
   end
 
   def osw_show
-
-  	unless params[:password] == "Mirumoto"
+  	unless params[:password] == "Ichizo"
   		redirect_to osw_path
     end
-  		
+  	@announcement = Announcement.find(404)	
   end
 end

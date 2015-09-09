@@ -13,14 +13,17 @@ Rails.application.routes.draw do
 	post 'show_spells' => 'legendopedia#show_spells'
 	get 'traits' => 'legendopedia#traits'
 	post 'show_traits' => 'legendopedia#show_traits'
-  
+  get 'clans' => 'legendopedia#clans'
+  post 'show_clan' => 'legendopedia#show_clan'
+   
   get 'about' 	=>	'static_pages#about'
   get	'contact'	=>	'static_pages#contact'
   get	'to_do'		=>	'static_pages#to_do'
   get 'osw' => 'static_pages#osw'
   post 'osw_show' => 'static_pages#osw_show'
+  get 'web_scrolls' => 'static_pages#web_scrolls'
 
-  resources :announcements, only: [:new,:create,:update,:edit,:destroy,:show] do
+  resources :announcements, except: [:index] do
   	resources :comments, only: [:create, :destroy]
   end
 

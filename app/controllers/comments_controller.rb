@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   def create
     @announcement = Announcement.find(params[:announcement_id])
     @comment = @announcement.comments.new(comments_params)
-    #url = params[:from_url]
+    url = params[:from_url]
     respond_to do |format|    
       if @comment.save
         flash[:success] = "Komentarz dodano"
@@ -10,7 +10,7 @@ class CommentsController < ApplicationController
         format.js #render comments/create.js.erb
         
       else
-        format.html { redirect_to root_path }
+        format.html { redirect_to url }
       end
     end
   end

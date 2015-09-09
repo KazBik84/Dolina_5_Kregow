@@ -1,0 +1,18 @@
+<% provide(:title, "Klany") %>
+<% provide(:header_active, "Legendopedia") %>
+
+<div class="show_object <%=@clan.name %>">
+  <h3 class="middle_text"><strong><%= @clan.name %></h3></strong>
+  <ul class="show_clan_list">
+    <li><%= @clan.desc %></li>
+    <li><strong>Główne rody:</strong></li>
+    <% @clan_families.each do |family| %>
+      <li><br/><strong><%= family.name %></strong> (<%= family.bonus %>)</li>
+      <li><%= family.desc %></li>
+    <% end %>
+  </ul>
+  <p><strong>Główne szkoły to:</strong></p>
+  <% @clan_schools.each do |school| %>
+    <%= render partial: 'school_obj', locals: { school: school } %>  
+  <% end %>
+</div>

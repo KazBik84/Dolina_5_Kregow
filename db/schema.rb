@@ -48,12 +48,11 @@ ActiveRecord::Schema.define(version: 20150901201255) do
     t.string   "mon_img"
     t.string   "desc"
     t.string   "name"
-    t.integer  "clan_id"
+    t.string   "clan"
+    t.string   "bonus"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
-  add_index "families", ["clan_id"], name: "index_families_on_clan_id", using: :btree
 
   create_table "schools", force: :cascade do |t|
     t.string   "name"
@@ -136,5 +135,4 @@ ActiveRecord::Schema.define(version: 20150901201255) do
 
   add_foreign_key "comments", "announcements"
   add_foreign_key "comments", "users"
-  add_foreign_key "families", "clans"
 end

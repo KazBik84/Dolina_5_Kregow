@@ -1,7 +1,7 @@
 class School < ActiveRecord::Base
   validates :name, :school_desc, :bonus, :skills, :honor, :outfit, :school_class, :clan, :clan_name, presence: true
   # validates_inclusion_of, sprawdza czy w danym atrybucie znajduje się jedna z podanych wartości, w innym przypadku nie zapisze obiektu.
-  validates_inclusion_of :clan , :in=> %w( Feniks Krab Smok Jednorożec Lew Modliszka Pająk Cesarskie Pomniejsze Zuraw Skorpion)
+  validates_inclusion_of :clan, :in=> [ "Feniks", "Krab", "Smok", "Jednorożec", "Lew", "Modliszka", "Pająk", "Rody Cesarskie", "Pomniejsze", "Zuraw", "Skorpion"]
   validates_inclusion_of :school_class, in: %w( Bushi Shugenja Dworzanin Mnich Artysta Ninja)
   validates :rank1_name, :rank1_desc, :rank2_name, :rank2_desc, :rank3_name, :rank3_desc,
   # po if: należy odwołać się do funkcji poprzez symbol tej funkcji
@@ -22,6 +22,10 @@ class School < ActiveRecord::Base
     elsif clan.present? && school_class.present?
       School.where(clan: clan, school_class: school_class)
     end
+  end
+
+  def self.find_clan_schools(clan)
+    School.where(clan: clan)
   end
   
 private 

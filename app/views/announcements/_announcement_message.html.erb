@@ -1,5 +1,6 @@
       <!-- simple_format to funkcja która poprawnie odczytuje entery jako nowe liniie podczas zwracania tekstu -->
       <%= simple_format(announcement.message) %>
       <div class="link_to">
-        <%= link_to "Czytaj Więcej", announcement %>
+        <%= link_to "Czytaj Więcej", announcement %> 
+        <% if current_user && current_user.admin? %> <%= link_to "Edytuj", edit_announcement_path(announcement) %> <% end %>
       </div>
