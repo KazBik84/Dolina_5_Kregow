@@ -328,4 +328,68 @@ RSpec.describe LegendopediaController, type: :controller do
       end          
     end
   end 
+
+  describe "get #Clans" do
+    context "User not logged in" do
+
+      before(:each) do
+        get :clans
+      end
+      
+      it "should have redirect status" do
+        expect(response).to have_http_status(:redirect)
+      end 
+      
+      it "shoud be redirected to login path" do
+        expect(response).to redirect_to new_user_session_path
+      end
+    end
+    
+    context "User logged in" do
+      before(:each) do
+        @user = FactoryGirl.create(:user)
+        sign_in @user
+        get :clans
+      end 
+      it "should have redirect status" do
+        expect(response).to have_http_status(:success)
+      end 
+      
+      it "shoud be redirected to login path" do
+        expect(response).to render_template(:clans)
+      end
+    end
+  end
+  describe "post #Clans" do
+    context "User not logged in" do
+
+      before(:each) do
+        post :show_clan
+      end
+      
+      it "should have redirect status" do
+        expect(response).to have_http_status(:redirect)
+      end 
+      
+      it "shoud be redirected to login path" do
+        expect(response).to redirect_to new_user_session_path
+      end
+    end
+    
+    context "User logged in" do
+      before(:each) do
+        @user = FactoryGirl.create(:user)
+        sign_in @user
+        post :show_clan, clan: "Smok"
+      end   
+
+      it "should have http success status" do
+        expect(response).to have_http_status(:success)
+      end
+
+      it "should render correct template" do
+        expect(response).to render_template(:show_clan)
+      end
+    end
+  end     
 end
