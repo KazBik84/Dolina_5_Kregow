@@ -8,9 +8,10 @@
         <%= render partial: 'announcements/announcement_message', locals: {announcement: announcement} %>
       </div>
       <div class="show_comment" >
-        <ul class="show_comment_list no_dot">
+        <ul class="show_comment_list no_dot" id="show_comment_list_<%= announcement.id %>">
         <% announcement.comments.reverse_order.each do |comment| %>
-          <%= render partial: 'announcements/announcement_show_comment', locals: {announcement: announcement, comment: comment} %>
+          <%= render partial: 'announcements/announcement_show_comment', 
+            locals: {announcement: announcement, comment: comment, url: root_path} %>
         <% end %>
         </ul>
       </div>

@@ -9,19 +9,15 @@ RSpec.describe CommentsController, type: :controller do
   	context "With valid attributes" do
   	
   		before(:each) do
-  			post :create, comment: attributes_for(:controller_comment), announcement_id: dummy_post.id
+  			post :create, comment: attributes_for(:controller_comment), announcement_id: dummy_post.id, from_url: root_path
   		end
 			
 			it "returns http redirect" do
 				expect(response).to have_http_status(:redirect)
 			end
 			
-			it "redirects to the root_path" do
+			it "redirects to the given url" do
 				expect(response).to redirect_to(root_path)
-			end
-			
-			it "will render a flash" do
-				expect(flash[:success]).to be_present
 			end
 			
 			it "will create a comment in the db" do
@@ -102,7 +98,7 @@ RSpec.describe CommentsController, type: :controller do
 		context "Comment with too long content" do
 		
 		 before(:each) do
-  			post :create, comment: attributes_for(:controller_comment, content: %w("x"x256)), announcement_id: dummy_post.id, from_url: root_path
+  			post :create, comment: attributes_for(:controller_comment, content: %w("x"x256)), announcement_id: dummy_post.id
   		end
 			
 			it "returns http redirect" do
@@ -113,13 +109,10 @@ RSpec.describe CommentsController, type: :controller do
 				expect(response).to redirect_to(root_path)
 			end
 			
-			it "will render a flash" do
-				expect(flash).to_not be_present
-			end
-			
 			it "will not create a comment in the db" do
 				expect(Comment.count).to eq(0)
 			end	
+
 		end			
 
 
@@ -134,12 +127,12 @@ RSpec.describe CommentsController, type: :controller do
 			end
 			
 			before(:each) do
-				delete :destroy, id: dummy_comment.id, announcement_id: dummy_announcement.id
+				delete :destroy, id: dummy_comment.id, announcement_id: dummy_announcement.id, url: root_path
 			end
 		  it "returns http redirect" do
 				expect(response).to have_http_status(:redirect)
 		  end
-		  it "redirects to root path" do
+		  it "redirects to url path" do
 		  	expect(response).to redirect_to root_path
 		  end
 		  it "destroys an comment" do

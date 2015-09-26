@@ -1,11 +1,12 @@
 <!-- "reverse_order" jest scopem zdefiniowanym w modelu comment.rb -->
 
-        <li>
-          <span class="show_comment_block_author">
-            <% if current_user && current_user.admin?  or current_user && current_user.id == comment.user_id %>
-              <%= link_to "<button type='button' class='btn btn-default' aria-label='Left Align'>
-              <span class='glyphicon glyphicon-remove' aria-hidden='true'></span></button>".html_safe, 
-              announcement_comment_path(announcement.id, comment.id), method: :delete %>
+      <li>
+        <span class="show_comment_block"> 
+          <% if current_user && current_user.admin?  or current_user && current_user.id == comment.user_id %>
+            <%= link_to "<button type='button' class='glyphicon glyphicon-remove delete_button' aria-hidden='true'></button>".html_safe, 
+              announcement_comment_path(announcement.id, comment.id, url: url), method: :delete %>
           <% end %>
-          </span> <span class="show_comment_block"><strong><%= comment.author.capitalize %>:</strong> <span class="time_ago_in_words float_right"><%= time_ago_in_words(comment.updated_at) %> ago.</span> <br/> <span class="clear_both"><%= comment.content %></span></span>
-        </li>
+          <strong><%= comment.author.capitalize %>:</strong> <span class="time_ago_in_words float_right"><%= time_ago_in_words(comment.updated_at) %> ago.</span> <br/> 
+          <span class="clear_both"><%= comment.content %></span>
+        </span>
+      </li>

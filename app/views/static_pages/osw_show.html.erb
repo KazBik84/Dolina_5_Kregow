@@ -13,7 +13,7 @@ Witam w tajnej Oświęcimskiej grupie legendowej :D
       <div class="show_comment" >
         <ul class="show_comment_list no_dot">
         <% @announcement.comments.reverse_order.each do |comment| %>
-          <%= render partial: 'announcements/announcement_show_comment', locals: {announcement: @announcement, comment: comment} %>
+          <%= render partial: 'announcements/announcement_show_comment', locals: {announcement: @announcement, comment: comment, url: osw_show_path} %>
         <% end %>
         </ul>
       </div>

@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   get	'contact'	=>	'static_pages#contact'
   get	'to_do'		=>	'static_pages#to_do'
   get 'osw' => 'static_pages#osw'
+  get 'osw_show' => 'static_pages#osw_show'
   post 'osw_show' => 'static_pages#osw_show'
   get 'web_scrolls' => 'static_pages#web_scrolls'
 

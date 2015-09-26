@@ -3,12 +3,13 @@ FactoryGirl.define do
     content "MyText"
 		author "MyString"
 		announcement nil
-		# By właściwie przetestować akcję kontrollera należy dodać wartość 'redirect_to'
-		#  w taki sposób do bazwoego factory została dodana Factoria z nazwie ":controller_comment"
-		#  do której odnosi się np: attributes_for(:conttroller_comment) i dzięki temu została dodana nowa wartość
-		#  która wykorzystywana jest tylko gdy się o nią poprosi.  
+		# Poniżej tworzymy odnośnik do tej faktorii
+    #  w tym przypadku, tworzymy faktorie o nazwie 'controller_comment'
+    #  i przesyłamy dodatkowy atrybut o nazwie from_url i wartości "/"
+    #  robimy tak bo wartość from_url nie jest częścią modelu Comment
+    #  ale jest wykorzystywany przez comments_controller 
 		factory :controller_comment do
-		  redirect_to "/"
+		  from_url "/"
 		end
   end
 
