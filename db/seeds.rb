@@ -5865,6 +5865,186 @@ families = [
   desc: "Seppun był najwierniejszym towarzyszem hentei i do dziś ród Seppun jest najbliżej rodziny Cesarskiej. Samurajowie Seppun, oddani są utrzymaniu bezpieczeństwa Cesarza i Cesarstwa, zarówno na polu dworskim, jak i na polu bitwy. Zdarza się że członkowie rodu Cesarskiego, wstępują do rodziny Seppun, jeśli nie mają szans na objęcie tronu, choć żadziej niż do rodziny Otomo.",
   bonus: "+1 Zręczność"}
 ]
+
+skills = [
+{name: "Acting",
+name_pl: "Aktorstwo",
+sub_typ: ["Społeczne", "Sceniczne"],
+attr: "Intuicja",
+sphare: ["Godna"],
+emphases: "Klan, Płeć, Profesja",
+desc: "Poziom tej umiejętności, odzwierciedla to na ile postać potrafi, przezwyciężyć własne ja, by móc przybrać maskę kogoś innego. Nie ma znaczenia czy umiejętność jest wykorzystywana by zadowolić gości, czy też by przedostać się do twierdzy wroga. Umiejętność ta odzwierciedla również wiedzę postaci o różnych stylach odgrywania postaci w Rokuganie. By skutecznie wczuć się w rolę, kogoś nieznaczącego, tej samej płci klanu i profesji, wymagany jest test o PT 15. Za każdą cechę jaką chce zmienić postać PT testu, rośnie o 5. Skuteczne odgrywanie konkretnej osoby, jest znacznie trudniejsze i podnosi PT testu o 15. Dodatkowo postać może utrudnić zdemaskowanie swojej roli i wykonać dowolną liczbę podbić. Za każde podbicie PT zdemaskowania rośnie o 5. Postać która chce zdemaskować grającą postać musi wykonać test Śledztwo / Percepcja o PT 15 +5 za każde podbicie.",
+master: "<ul>
+          <li><strong>Ranga 3: </strong>PT zagrania roli zmniejsza się o 5</li>
+          <li><strong>Ranga 5: </strong>PT zagrania roli zmniejsza się o 10</li>
+          <li><strong>Ranga 7: </strong>PT zagrania roli zmniejsza się o 15</li>
+        </ul>"},
+
+{name: "Artisan",
+name_pl: "Artysta",
+sub_typ: ["Makro"],
+attr: "Intuicja",
+sphare: ["Godna"],
+emphases: "Różne w zależności od specjalizacji",
+desc: "Umiejętność ta łączy w sobie wszelkie cenione gałęzie sztuki, jakie są uprawiane w Rokuganie. Choć przede wszystkim Samurajowie pełnią funkcję jako Wojownicy, Dworzanie lub Kapłani, często oddają się sztuce, dla wyciszenia lub dla osiągnięcia wyższego stopnia samodoskonałości. Poza tym oddanie sztuce jest uznawane za wysoce honorowe i przez to cenione przez wiele klanów w Rokuganie. Tworzenie sztuki może mieć różny poziom PT i zazwyczaj jest on określany przez MG.",
+master: "<ul>
+          <li><strong></strong></li>
+        </ul>"},
+
+
+{name: "Calligraphy",
+name_pl: "Kaligrafia",
+sub_typ: ["Sceniczne"],
+attr: "Inteligencja",
+sphare: ["Godna"],
+emphases: "Szyfry, Stary Rokugański",
+desc: "Przez wielu Rokugańczyków kaligrafia uważana jest za sztukę i jest powszechnie używana przez wielu Rokugańczyków. Głównie korzystają z niej shugenja którzy szyfrują na zwojach swoją tajemną wiedzę, ale także artyści i dworzanie, którzy używają jej, by wpłynąć na innych. Nauka kaligrafii nie jest nauką pisania, jako takiego, gdyż wszyscy samurajowi umieją pisać i czytać. Nauka kaligrafii to nauka zawiłych praw tradycyjnej pisowni Rokugańskiej. Jeżeli postać posiada specjalizację 'Szyfry', uznaje się że zna jeden typ kodowania, który jest powszechnie używany w danym klanie. Szyfry klanów są wyjątkowo trudne do złamania. PT złamania szyfru różni się w zależności od tego na ile szyfr jest pospolicie używany, ale zazwyczaj wynosi wynik rzutu Kaligrafia(Szyfry)/Inteligencja, osoby która go stworzyła. Specjalizacja 'Stary Rokugański', pozwala postaci biegle tworzyć kaligrafię w tym często już zapomnianym i bardzo wyrafinowanym języku, który po dziś dzień jest używany na Cesarskim Dworze.",
+master: "<ul>
+          <li><strong>Ranga 5:</strong> Postać, zyskuje +10 do wyniku rzutu, gdy stara się złamać kod lub samemu go stworzyć.</li>
+        </ul>"},
+
+{name: "Courtier",
+name_pl: "Dyplomacja",
+sub_typ: ["Społeczne"],
+attr: "Intuicja",
+sphare: ["Godna"],
+emphases: "Plotki, Manipulacje, Retoryka",
+desc: "Umiejętność ta jest kluczowa dla każdego dworzanina w Rokuganie. Jej poziom odzwierciedla umiejętność postaci, do brania udziału w zawiłych grach dworskich, gdzie każdy szczegół ma znaczenie. Podobnie jak bushi, dworzanie, mają swoje sposoby prowadzenia starć tak by pokonać przeciwnika, potyczki takie nie żadko kończą się podobnie jak starcia wojowników. Umiejętność Dyplomacja można przedstawić jako ofensywną część profesji dworzanina. Dzięki manipulacji i retoryce, dworzanin może przedstawić dane wydarzenie w całkowicie innym świetle, zmieniając jego znaczenie. Umiejętność Dyplomacja, może być również wykorzystane do rozprzestrzenienia lub pozyskania plotek, używając specjalizacji Plotki. PT danego testu równe jest, 10 plus, poziomo Chwały celu x5, minus 5 za każdy poziom Chwały postaci. Istnieje możliwość wykonania podbicia, by zatrzeć ślad po sobie jako autora plotki. Należy jednak zaznaczyć że rozpowiadanie nieprawdziwych plotek o postaci o znacznie większym poziomie Chwały, łatwo może skończyć się śmiercią. ",
+master: "<ul>
+          <li><strong>Ranga 3:</strong> Postać zyskuje 3 punkty Prestiżu.</li>
+          <li><strong>Ranga 5:</strong> Postać zyskuje +1z0 do wszelkich przeciwstawnych testów z użyciem umiejętności Dworskie.</li>
+          <li><strong>Ranga 7:</strong></li>
+        </ul>"},
+
+{name: "Divination",
+name_pl: "Przepowiednie",
+sub_typ: ["Brak"],
+attr: "Inteligencja",
+sphare: ["Godna"],
+emphases: "Astrologia, Kawaru",
+desc: "Niektóre osoby posiadają umiejętność dostrzegania przebłysków przyszłości. Wiedzę tę czasem zyskuje się, bacznie obserwując niebo, ale częściej dzięki kawaru, czyli małym kamykom, kijom lub monetom, posiadającym wygrawerowane znaki heksagonalne. Żetony wrzucane są do misy lub podobnego naczynia, a następnie na podstawie ułożenia fantów, odczytywana jest przyszłość. Postać może użyć przepowiedni raz dziennie i wykonać test o PT 15, choć MG może dowolnie zwiększyć poziom trudności. W razie porażki, postać może wydać Punkt Pustki by wykonać kolejny test, tym razem z PT +10. W przypadku sukcesu, MG powinien opisać w dowolnie zawiły sposób, najbliższą przyszłość postaci. Np. 'nadchodzą trudne czasy', 'stary wróg powrócił', czy 'cień wisi nad Twoim domem rodzinny,'.",
+master: "<ul>
+          <li><strong>Ranga 5: </strong>Postać może wykonać drugi rzut, bez wydawania Punktu Pustki, dodatkowy modyfikator, pozostaje bez zmian.</li>
+        </ul>"},
+
+{name: "Etiquette",
+name_pl: "Etykieta",
+sub_typ: ["Społeczne"],
+attr: "Intuicja",
+sphare: ["Godna"],
+emphases: "Biurokracja, Konwersacja, Grzeczność",
+desc: "W mocno hierarchizowanym społeczeństwie, jakim jest Szmaragdowe Cesarstwo, wiedza jak się zachować, potrzebna jest, najbardziej honorowym samurajom, jak i najbardziej nieokrzesanym gburom. Wiedza o zawiłych rytuałach dworskich, może uchronić samuraja przed utratą honoru, a w niektórych sytuacjach nawet życia. Etykieta przydatna jest również w konfrontacji z rokugańską biurokracją. Kiedy potrzebne jest szybkie załatwienie czegoś, wiedza gdzie się udać może zaoszczędzić wiele kłopotów. Etykieta jest społeczną tarczą samuraja. Gdy inna postać próbuje zmanipulować lub w inny sposób wpłynąć na zachowanie postaci, zazwyczaj wykonuje się przeciwstawny test, w którym postać najpewniej będzie się bronić właśnie Etykietą. Etykieta pomaga również w wyrażaniu opinii, które nie odpowiednio wypowiedziane, mogłyby zostać uznane za niestosowane. Lub gdy postać popełni błąd w kodeksie etykiety, to właśnie rzut na etykietę może postać wywabić od jego konsekwencji.",
+master: "<ul>
+          <li><strong>Ranga 3: </strong>Postać zyskuje 3 pt Prestiżu.</li>
+          <li><strong>Ranga 5: </strong>Postać zyskuje +1z0 do przeciwstawnych testów kiedy używa Etykiety.</li>
+          <li><strong>Ranga 7: </strong>Postać zyskuje dodatkowo 7 punktów Prestiżu.</li>
+        </ul>"},
+
+{name: "Games",
+name_pl: "Gry",
+sub_typ: ["Makro"],
+attr: "Różna",
+sphare: ["Godna"],
+emphases: "Różne",
+desc: "Gry stanowią istotną odskocznię, od poważnej codzienności samurajów Rokuganu. Choć niektóre klany jako zabawę, preferują potyczki fizyczne, jak zapasy czy inne formy pokazania swojej sprawności, jednak nawet przedstawiciele tych klanów, od czasu do czasu zasiadają do niezobowiązującej partii w Go dla czystego relaksu. Do popularnych gier należą; Kemari, czyli kopanie małej piłeczki tak by jak najdłużej pozostawała nad ziemią; Go gra planszowa z użyciem kolorowych kamieni, Listy, czyli zawoalowana korespondencja między dwoma osobami; Shogi gra planszowa podobna do szachów; czy Sadane, czyli wymiana argumentów na zmyślony temat. Testy gier są zazwyczaj testami przeciwstawnymi, w których wygrywa postać o wyższym wyniku testu.",
+master: "<ul>
+          <li><strong></strong></li>
+        </ul>"},
+
+{name: "Investigation",
+name_pl: "Śledztwo",
+sub_typ: [""],
+attr: "Spostrzegawczość",
+sphare: ["Godna"],
+emphases: "Przesłuchiwanie, Zauważanie, Przeszukiwanie",
+desc: "Jedną z najbardziej prestiżowych pozycji, jakie może uzyskać samuraj, jest pozycja Zarządcy. Pozycja ta, nakłada na samuraja obowiązek pilnowania przestrzegania prawa, w obrębie włości jego Pana. Zarządcy często muszą działać na podstawie śladów i przesłanek, samemu dochodząc do prawdy drogą dedukcji. We wszystkich tych czynnościach przydaje się umiejętność Śledztwo, które odzwierciedla, umiejętność łączenia faktów, jak bystry wzrok posiada samuraj. Śledztwo można też wykorzystywać do pozyskiwania informacji w dłuższym okresie czasu (godzin lub dni). W odróżnieniu do innych testów Inteligencji czy Percepcji, testy Śledztwa można przerzucać, po upływie godziny od poprzedniego testu, ale z modyfikatorem +15 do PT. Śledztwo można też użyć do dostrzeżenia kogoś, wtedy należy wykonać przeciwstawny test, przeciw umiejętności Skradanie się celu. Specjalizacja Przesłuchiwanie może być wykorzystywana przy próbie określenia czy ktoś kłamie, również jako test przeciwstawny, przeciw Szczerości celu.",
+master: "<ul>
+          <li><strong>Ranga 3:</strong> Druga próba przeszukiwania, może być wykonana bez modyfikatora do test. </li>
+          <li><strong>Ranga 5:</strong> Postać zyskuje +5 do wszystkich przeciwstawnych testów Śledztwa.</li>
+          <li><strong>Ranga 7:</strong> Postać może spróbować przeszukiwać, po raz trzeci, nawet jeśli druga próba się nie powiedzie.</li>
+        </ul>"},
+
+{name: "Lore",
+name_pl: "Wiedza",
+sub_typ: ["Makro"],
+attr: "Inteligencja",
+sphare: ["Godna","Niegodna"],
+emphases: "Różne",
+desc: "Wielu samurajów dostaje zadanie poznania określonej dziedziny wiedzy, by w razie potrzeby służyć swojemu Panu swoją wiedzą. Choć funkcja najczęściej powierzana jest shugenjom, nie jest niczym nadzwyczajnym by dworzanie lub bushi studiowali określoną gałąź wiedzy. Do najpopularniejszych zagadnień należy Heraldyka i Historia, ale postać może nabyć dowolną widzę. Testy wiedzy przeprowadzane są by sprawdzić czy postać posiada informacje z danej dziedziny wiedzy. ",
+master: "<ul>
+          <li><strong></strong></li>
+        </ul>"},
+
+{name: "Medicine",
+name_pl: "Medycyna",
+sub_typ: ["Brak"],
+attr: "Inteligencja",
+sphare: ["Godna"],
+emphases: "Antidotum, Choroby, Zielarstwo, Nieludzie, Opatrywanie ran",
+desc: "Wojna jest rzemiosłem samuraja, a jej efektem są rany i zabici. Ranny samuraj jest ciężarem dla swojego pana, nie mogąc pełnić swojej funkcji, a jednocześnie pochłaniającym jego zasoby. Dlatego sztuka Medycyny, jest szczególnie ceniona. Medycyna może być użyta by opatrzyć rany, zarówno ciała, jak i niektóre rany duszy. Choroby mogą być leczone dzięki testom Medycyny, a PT test zależeć będzie od rodzaju choroby, podobnie będzie w przypadku prób znalezienia antidotum lub sporządzenia trucizny. Specjalizacja Nieludzie, pozwala skuteczniej leczyć istoty nie będące ludźmi. Udany test Medycyny( Opatrywanie ran) z inteligencji o PT 15, pozwala na odzyskanie u leczonej postaci 1z1 punktów ran. Do testu można dodać podbicia by zwiększyć liczbę leczonych ran o +1z0 za każde podbicie. Dana postać może korzystać z opatrywania ran raz dziennie. Do testów medycyny potrzebny jest zestaw medyczny, który pozwala wykonać 10 testów zanim zapasy medykamentów całkiem się zużyją.",
+master: "<ul>
+          <li><strong>Ranga 5:</strong> Opatrywanie ran leczy dodatkowe +1z0.</li>
+        </ul>"},
+
+{name: "Meditation",
+name_pl: "Medytacja",
+sub_typ: ["Brak"],
+attr: "Pustka",
+sphare: ["Godna"],
+emphases: "Post, Odzyskiwanie pustki",
+desc: "Przyzwoity samurai jest uduchowioną osobą. By w pełni podążać ścieżką Bushido, wszyscy samurajowi zobowiązani są poznawać Tao Shinsei oraz medytować nad wiedzą w niej zawartą. Oczywiście wymogi te dotyczą głównie tradycyjnych rodów, bardziej pragmatyczne rodziny podchodzą do tego zagadnienia, w mniej rygorystyczny sposób. Nie zmienia to jednak faktu że przed bitwą w świątyniach, na medytacji i modlitwie spotykają się jedni i drudzy. Test medytacji jest drugim sposobem na odzyskani Punktów Pustki, jeśli postać wykona udany test Medytacja( Odzyskiwanie pustki) / Pustka o PT 20, może odzyskać jeden Punkt Pustki, po pół godziny medytacji. Specjalizacja Post, pozwala wykonać test Medytacji / Wytrzymałość o PT 15 + 5 za każdy dzień postu, by oprzeć się konsekwencją wynikającym z głodu i pragnienia. ",
+master: "<ul>
+          <li><strong>Ranga 3: </strong> Postać po udanym teście Medytacji, odzyskuje 2 punkty Pustki.</li>
+  <li><strong>Ranga 5: </strong> PT testów Medytacji ( Post ), są zmniejszone o 5. </li>
+  <li><strong>Ranga 7: </strong> Udany test Medytacji odzyskuje 3 Punkty Pustki. </li>
+        </ul>"},
+
+{name: "Perform",
+name_pl: "Pokaz",
+sub_typ: ["Makro"],
+attr: "Różne",
+sphare: ["Godna"],
+emphases: "Różne",
+desc: "Choć publiczne pokazywanie sztuki, nie jest tak popularne jak oddawanie się jej w samotności. Przedstawienia, wciąż są uznawane przez wiele klanów, jako ważny aspekt podtrzymywania kultury Rokuganu. Muzycy, poeci, a nawet aktorzy, zapraszani są na dwory, by zapewnić uczestnikom, rozrywkę na najwyższym poziomie. Przedstawienia to nie tylko rozrywka, ale sposób na podtrzymanie historii i tradycji wciąż żywej w pamięci samurajów. By przedstawienie się powiodło, postać musi zdać test Przedstawienia o PT zależnym od ilości widzów i ich nastroju.",
+master: "<ul>
+          <li><strong></strong></li>
+        </ul>"},
+
+{name: "Sincerity",
+name_pl: "Szczerość",
+sub_typ: ["Społeczne"],
+attr: "Intuicja",
+sphare: ["Godna","Niegodna"],
+emphases: "Prawdomówność, Zwodzenie",
+desc: "Samuraj, by chronić swojego pana lub interesy klanu, musi często naginać prawdę lub wprost kłamać. Jednak na wielu dworach, kłamanie nie jest uważane za niehonorowe, dopóki samuraj sprawia wrażenie przekonanego że to co mówi jest prawdą. Umiejętność ta jest szczególnie przydatna, podczas spotkań dworskich, kiedy samuraj może łatwo zostać wplątany w niewygodną sytuację. Nawet Bushi pełniący funkcję Yojimbo, często uczą się tej sztuki by nie stać się łatwym celem dla innych dworzan. Umiejętności można także użyć by przedstawić prawdę tak by osoba do której mówimy nie czuła się obrażona, słowami postaci. Test Szczerości najczęściej wykonywane są jako testy przeciwstawne, do testów Śledztwa osoby która powątpiewa w prawdomówność postaci, ale również jako zwykły test o PT wyznaczonym przez MG, w przypadku gdy chodzi o przekonanie większej grupy, która nie podejrzewa postaci o brak szczerości.",
+master: "<ul>
+          <li><strong>Ranga 5: </strong> Postać zyskuje +5 do testów przeciwstawnych, kiedy wykorzystuje Szczerość.</li>
+        </ul>"},
+
+{name: "Spellcraft",
+name_pl: "Czaroznastwo",
+sub_typ: ["Socjalna"],
+attr: "Inteligencja",
+sphare: ["Godna"],
+emphases: "Nakłanianie, Badanie czarów",
+desc: "Ścieżka każdego shugeny, zaczyna się wraz z możliwością komunikowania się z kami i pozostaje z nim do końca życia. Choć umiejętność tę, może nabyć postać dowolnego typu, jej zagadnienia pozostają głównie w sferze zainteresowań shugeny. Studia nad tą umiejętnością, pozwalają nie tylko lepiej zrozumieć, na czym polega inwokacja czarów, ale także pozwala na tworzenie własnych modlitw, jak i na nakłanianiu kami by wypełniały różne zadania, dla shugenjy. Specjalizacja Badanie Czarów, pozwala postaci na tworzenie nowych czarów. By stworzyć nowy czar, postać musi zdać test Czaroznastwo (Badanie Czarów) / Inteligencja, o PT równym kręgowi tworzonego czaru x 10 + 10. Dodatkowo postać musi poświęcić się nieprzerwanym badaniom, przez liczbę tygodni równą kręgowi tworzonego czaru. Nowe zaklęcie powinno zostać przedyskutowane i zaakceptowane przez MG, przed jego wykorzystaniem. Specjalizacja Nakłanianie, wykorzystywana jest razem z czarem Zespolenie(Commune) i pomaga w nakłonieniu danej kami, by była przychylna shugenjy. ",
+master: "<ul>
+          <li><strong>Ranga 5: </strong> Postać zyskuje +1z0 do testów Czaroznastwa.</li>
+        </ul>"},
+
+
+{name: "Tea Ceremony",
+name_pl: "Ceremonia Parzenia Herbaty",
+sub_typ: [""],
+attr: "Pustka",
+sphare: ["Godna"],
+emphases: "",
+desc: "Ceremonia parzenia herbaty, to starożytna i święta tradycja, która została stworzona u zarania Cesarstwa, przez samą panią Doji. Rytuał ten przekazywany jest z rodziców na dzieci, z dokładnością i czcią, dorównującą tej z jaką przekazuje się miecz z pokolenia na pokolenie. Choć rytuał różni się nieznacznie, w zależności od klanu, podana herbata zawsze spożywana jest w absolutnej ciszy. Ceremonia ta ma za zadanie przynieść spokój i wyciszenie, jej uczestnikom, tak by mogli odzyskać wewnętrzną harmonię. Gdy postać prowadzi ceremonię, musi wykonać test Ceremonia Parzenia Herbaty / Pustka o PT równym 15 + 5 za każdego uczestnika powyżej dwóch. Ceremonia przewidziana jest dla dwóch osób, ale można przeprowadzić ją dla samego siebie, lub do pięciu uczestników. Ceremonia trwa pół godziny i wymaga cichego ustronnego miejsca by zostać przeprowadzona. ",
+master: "<ul>
+          <li><strong>Ranga 5: </strong>Wszyscy uczestnicy odzyskują 2 punty Pustki.</li>
+        </ul>"}
+]
+
 School.destroy_all
 schools.each do |school|
 	School.create(school)
@@ -5890,3 +6070,7 @@ families.each do |family|
   Family.create(family)
 end
 
+Skill.destroy_all
+skills.each do |skill|
+  Skill.create(skill)
+end
