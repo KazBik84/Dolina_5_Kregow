@@ -12,8 +12,8 @@
                                ['Skorpion', 'Skorpion'],
                                ['Smok', 'Smok'],
                                ['Żuraw', 'Żuraw'],
-                               ['Rody Cesarskie', 'Rody Cesarskie'],
-                               ['Pomniejsze', 'clans[Pomniejsze']]) %>
+                               ['Rody Cesarskie', 'Rody_Cesarskie'],
+                               ['Pomniejsze', 'Pomniejsze']]) %>
     </p>
     <p><strong>Wybierz Klasę Szkoły: </strong>
       <%= select_tag 'school_classes[]', options_for_select([
@@ -54,7 +54,7 @@
       <li class="inline_block">
         <ul class="no_dot no_padding_and_margin">
           <li><%= check_box_tag 'clans[]', 'Żuraw', (true if !@clans.nil? and @clans.include? 'Żuraw'), class: "clan_checkbox" %> Żuraw</li>
-          <li><%= check_box_tag 'clans[]', 'Rody Cesarskie', (true if !@clans.nil? and @clans.include? 'Rody Cesarskie'), class: "clan_checkbox" %> Rody Cesarskie </li>
+          <li><%= check_box_tag 'clans[]', 'Rody_Cesarskie', (true if !@clans.nil? and @clans.include? 'Rody_Cesarskie'), class: "clan_checkbox" %> Rody Cesarskie </li>
           <li><%= check_box_tag 'clans[]', 'Pomniejsze', (true if !@clans.nil? and @clans.include? 'Pomniejsze'), class: "clan_checkbox" %> Pomniejsze Klany</li>
           <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_clans" %> Zaznacz Wszystkie</li>
 	      </ul>

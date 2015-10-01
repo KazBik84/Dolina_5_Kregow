@@ -51,5 +51,13 @@ before_filter :authenticate_user!
     @clan_families = Family.find_families(params[:clan]).to_a
     @clan_schools = School.find_clan_schools(params[:clan]).to_a
   end
+
+  def skills
+  end
+
+  def show_skills
+    @skills = Skill.find_skills(params[:sphare])
+  end
+
   
 end

@@ -1506,7 +1506,7 @@ rank5_desc: "Ostatnią lekcją w szkole Heichi jest kontrola własnej furii i wy
 {name: "Szkoła Gwardzistów Seppun",
 img_name: "Seppun_Bushi_by_Edwin_David.jpg",
 school_class: "Bushi",
-clan: "Rody Cesarskie", 
+clan: "Rody_Cesarskie", 
 clan_name: "Ród Cesarski",
 bonus: "+1 Spostrzegawczość",
 school_desc: "Członkowie rodu Seppun, od urodzenia uczeni są, że żyją by zapewnić bezpieczeństwo Cesarzowi. Bezpieczny Cesarz oznacza silne Cesarstwo, a ród Seppun jest gwarantem tej świetlanej przyszłości. Dla gwardzistów ze szkoły Seppun, ochrona to najwyższy priorytet, a możliwość poświęcenia swojego życia w obronie Cesarza, to największy zaszczyt. Dlatego gwardziści, szkoleni są, w rozpoznawaniu wszelkich możliwych zagrożęń, jakie mogą spotkać chronioną osobę i reagować z wyprzedzeniem.",
@@ -1527,7 +1527,7 @@ rank5_desc: "Prawdziwy gwardzista Seppun, nigdy nie jest zaskoczony i potrafi wy
 {name: "Szkoła Shugenja Seppun",
 img_name: "Seppun_Shugenja_by_Hai_An.jpg",
 school_class: "Shugenja",
-clan: "Rody Cesarskie",
+clan: "Rody_Cesarskie",
 clan_name: "Ród Cesarski",
 school_desc: "Najlepsi Bushi, Rokuganu mają zaszczyt chronić osobę Cesarza, jednak istnieją zagrożenia których niemożna, rozwiązać przy pomocą stali. Jako członkowie 'Ukrytej Gwardii', shugenja Seppun są w ciągłej gotowości, dniem i nocą, szukając najmniejszych śladów zagrożenia. Iche pieczęcie ochronne, są najpotężniejsze w Rokuganie, a ród Seppun nieprzerwania je poprawia. Shugenja Seppun są ostatnią magiczną linią ochrony Cesarza i nigdy nie zawiodą. Technika shugenja ze szkoły Seppun, pozwala im na wykorzystywanie kami, w sposób przekraczający możliwości śmiertelników, ta technika jest bardzo uniwersalna, jednak działa tylko gdy shugenja, chroni życie i zdrowie Syna Niebios.",
 bonus: "+1 Inteligencja",
@@ -1542,7 +1542,7 @@ spells: "Wyczucie, Zespolenie, Przywołanie, 3 Ogienia, 2 Ziemii, 1 Powietrza"},
 {name: "Szkoła Dworzan Otomo",
 img_name: "Otomo_Dworzanin_by_Britt_Martin.jpg",
 school_class: "Dworzanin",
-clan: "Rody Cesarskie",
+clan: "Rody_Cesarskie",
 clan_name: "Ród Cesarski",
 school_desc: "Podobnie jak ród Seppun, ród Otomo, oddany jest zapewnieniu bezpieczeństwa władzy i autorytetowi Cesarzowa. Zadanie które można osiągnąć, jedynie w sytuacji gdy nikt inny, nie zdoła zgromadzić wystarczająco wiele władzy by rzucić wyzwanie Cesarzowi. Dlatego głównym zadaniem dworzan ze szkoły Otomo, jest prowokowanie kłótni i zdrad, pośród Wielkich Klanów, tak by żaden z nich nie zagroził przewodnictwu Cesarza. Dworzanie Otomo, wykorzystują swoją pozycję i szacunek, jaką mają wśród samurajów Wilekich Klanów, i wykorzystują je do granic możliwości, by przypomnieć wszystkim że są poddanymi Cesarza. Często uciekając się do nieuczciwych praktyk, wiedząc że jego nazwisko, ochroni go przed konsekwencjami.",
 bonus: "+1 Intuicja",
@@ -1563,7 +1563,7 @@ rank5_desc: "Na tej randze, dworzanin Otomo, jest w stanie w pełni użyć autor
 {name: "Szkoła Heraldów Miya",
 img_name: "Miya_herald_by_April_Lee.jpg",
 school_class: "Dworzanin",
-clan: "Rody Cesarskie",
+clan: "Rody_Cesarskie",
 clan_name: "Miya",
 school_desc: "Heraldzi Miya, służą jako posłańcy Cesarza, którzy rozgłaszają słowa Cesarza i Cesarskiego Dworu. Choć w większości, chronieni są przez Cesarskie edykty, wysłannicy, Miya muszą często przemierzać niebezpieczne tereny, ogarnięte wojną i dlatego przechodzą przeszkolenie, mocno różniące się od szkolenia innych dworzan w Rokuganie. Heraldzi Miya, specjalizuję się w budowaniu zaufania i serdecznych relacji z innymi. Potrafią przemawiać z wielką pewnością i spokojem. Heraldzi Miya, uczą się sztuki obrony i negocjacji, by urzeczywistnić sen, o silnym i zjednoczonym Cesarstwie.",
 bonus: "+1 Intuicja",
@@ -5611,7 +5611,7 @@ clans = [
   mon_img: "",
   desc: "Potężni samurajowie z klanu Kraba, są pierwszą linią obrony, jaką posiada Rokugan przeciw istotom z Krain Cienia. Lata służby i poświęcenia, sprawiły że samurajowie z klanu Kraba stali się chłodni i prości. Wieki walk z nieustępliwym przeciwnikiem sprawiły że samurajowie z klanu Kraba, znacznie przewyższają tężyzną innych samurajów. Jednak ciągły stan gotowości i wieki poświęceń, uczyniły z Krabów, ludzi prostych i pragmatycznych, żadko kiedy przeykładających wagę, do sztuki, czy piękna. Dlatego w 'spokojniejszych' częściach Rokuganu postrzegani, częśto są z prostaków i barbarzyńców."}, 
 
-    {name: "Rody Cesarskie",
+    {name: "Rody_Cesarskie",
   mon_img: "",
   desc: "Rodziny Cesarskie, poprzysięgły pełne oddanie dynastii Cesarskiej, a każdy czyn podyktowany jest dobrem Cesarstwa. Samurajowie Miya podróżują jako po Rokuganie jako 'głos Cesarza', upewniając się że dekrety Cesarza są przestrzegane. Ród Seppun to tarcza Cesarza, pełnią rolę osobistych ochroniarzy, jak i tworzą Cesarskie Legiony, będące zawsze do dyspozycji cesarza. Z kolei ród Otomo reprezentuje osobę cesarza na dworach Rokufanu, dworzanie tego rodu są mistrzami intryg, oddanymi wyższemu dobru jakim jest dobro Cesarstwa. Dzięki dostępowi do najlepszych nauczycieli, nieograniczonych środków i przewagi statusu, rodziny cesarskie, są elitą pośród samurajów Rokuganu."}
 ]
@@ -5851,17 +5851,17 @@ families = [
   bonus: "+1 Intuicja"},
 
 { name: "Miya",
-  clan: "Rody Cesarskie",
+  clan: "Rody_Cesarskie",
   desc: "U zarania Cesarstwa, Miya dostał rozkaz, rozpowiadania wieści o porażce Fu Lenga. Od tego czasu, ród Miya, z dumą i godnością,  pełni rolę heraldów i posłanników Cesarza. Samurajowie Miya są zazwyczaj spokojni i patetyczni, ale zawsze skoncentrowani na powierzonej im wielkiej odpowiedzialności.",
   bonus: "+1 Refleks"}, 
 
 { name: "Otomo",
-  clan: "Rody Cesarskie",
+  clan: "Rody_Cesarskie",
   desc: "O rodzinie Otomo, często mówi się z nutką strachu i nie jest to wcale oznaka słabości. Dworzanie Otomo to łowcy dworów Cesarstwa, wykorzystujących wszelkie przewagi jakie daje im pozycja rodziny cesarskiej, by zdominować przeciwnika. Dworzanie Otomo, to manipulanci, obdarzeni nadludzki sprytem, którzy nie mają oporów, przed słownym i politycznym niszczeniem swoich wrogów. Mówi się że dwór, to pole bitwy bardziej niebezpieczne od pola bitwy, a Otomo są tego żywym przykładem. Członkowie Cesarskiej rodziny, którzy nie mają szans na objęcie tronu, często zrzekają się swojego nazwiska i wstępują do rodziny Otomo.",
   bonus: "+1 Inteligencja"}, 
 
 { name: "Seppun",
-  clan: "Rody Cesarskie",
+  clan: "Rody_Cesarskie",
   desc: "Seppun był najwierniejszym towarzyszem hentei i do dziś ród Seppun jest najbliżej rodziny Cesarskiej. Samurajowie Seppun, oddani są utrzymaniu bezpieczeństwa Cesarza i Cesarstwa, zarówno na polu dworskim, jak i na polu bitwy. Zdarza się że członkowie rodu Cesarskiego, wstępują do rodziny Seppun, jeśli nie mają szans na objęcie tronu, choć żadziej niż do rodziny Otomo.",
   bonus: "+1 Zręczność"}
 ]
@@ -5887,9 +5887,7 @@ attr: "Intuicja",
 sphare: ["Godna"],
 emphases: "Różne w zależności od specjalizacji",
 desc: "Umiejętność ta łączy w sobie wszelkie cenione gałęzie sztuki, jakie są uprawiane w Rokuganie. Choć przede wszystkim Samurajowie pełnią funkcję jako Wojownicy, Dworzanie lub Kapłani, często oddają się sztuce, dla wyciszenia lub dla osiągnięcia wyższego stopnia samodoskonałości. Poza tym oddanie sztuce jest uznawane za wysoce honorowe i przez to cenione przez wiele klanów w Rokuganie. Tworzenie sztuki może mieć różny poziom PT i zazwyczaj jest on określany przez MG.",
-master: "<ul>
-          <li><strong></strong></li>
-        </ul>"},
+master: ""},
 
 
 {name: "Calligraphy",
@@ -5913,7 +5911,7 @@ desc: "Umiejętność ta jest kluczowa dla każdego dworzanina w Rokuganie. Jej 
 master: "<ul>
           <li><strong>Ranga 3:</strong> Postać zyskuje 3 punkty Prestiżu.</li>
           <li><strong>Ranga 5:</strong> Postać zyskuje +1z0 do wszelkich przeciwstawnych testów z użyciem umiejętności Dworskie.</li>
-          <li><strong>Ranga 7:</strong></li>
+          <li><strong>Ranga 7:</strong> Postać zyskuje dodatkowo 7 punktów Prestiżu.</li>
         </ul>"},
 
 {name: "Divination",
@@ -5947,9 +5945,7 @@ attr: "Różna",
 sphare: ["Godna"],
 emphases: "Różne",
 desc: "Gry stanowią istotną odskocznię, od poważnej codzienności samurajów Rokuganu. Choć niektóre klany jako zabawę, preferują potyczki fizyczne, jak zapasy czy inne formy pokazania swojej sprawności, jednak nawet przedstawiciele tych klanów, od czasu do czasu zasiadają do niezobowiązującej partii w Go dla czystego relaksu. Do popularnych gier należą; Kemari, czyli kopanie małej piłeczki tak by jak najdłużej pozostawała nad ziemią; Go gra planszowa z użyciem kolorowych kamieni, Listy, czyli zawoalowana korespondencja między dwoma osobami; Shogi gra planszowa podobna do szachów; czy Sadane, czyli wymiana argumentów na zmyślony temat. Testy gier są zazwyczaj testami przeciwstawnymi, w których wygrywa postać o wyższym wyniku testu.",
-master: "<ul>
-          <li><strong></strong></li>
-        </ul>"},
+master: ""},
 
 {name: "Investigation",
 name_pl: "Śledztwo",
@@ -5971,9 +5967,7 @@ attr: "Inteligencja",
 sphare: ["Godna","Niegodna"],
 emphases: "Różne",
 desc: "Wielu samurajów dostaje zadanie poznania określonej dziedziny wiedzy, by w razie potrzeby służyć swojemu Panu swoją wiedzą. Choć funkcja najczęściej powierzana jest shugenjom, nie jest niczym nadzwyczajnym by dworzanie lub bushi studiowali określoną gałąź wiedzy. Do najpopularniejszych zagadnień należy Heraldyka i Historia, ale postać może nabyć dowolną widzę. Testy wiedzy przeprowadzane są by sprawdzić czy postać posiada informacje z danej dziedziny wiedzy. ",
-master: "<ul>
-          <li><strong></strong></li>
-        </ul>"},
+master: ""},
 
 {name: "Medicine",
 name_pl: "Medycyna",
@@ -6006,9 +6000,7 @@ attr: "Różne",
 sphare: ["Godna"],
 emphases: "Różne",
 desc: "Choć publiczne pokazywanie sztuki, nie jest tak popularne jak oddawanie się jej w samotności. Przedstawienia, wciąż są uznawane przez wiele klanów, jako ważny aspekt podtrzymywania kultury Rokuganu. Muzycy, poeci, a nawet aktorzy, zapraszani są na dwory, by zapewnić uczestnikom, rozrywkę na najwyższym poziomie. Przedstawienia to nie tylko rozrywka, ale sposób na podtrzymanie historii i tradycji wciąż żywej w pamięci samurajów. By przedstawienie się powiodło, postać musi zdać test Przedstawienia o PT zależnym od ilości widzów i ich nastroju.",
-master: "<ul>
-          <li><strong></strong></li>
-        </ul>"},
+master: ""},
 
 {name: "Sincerity",
 name_pl: "Szczerość",
@@ -6023,7 +6015,7 @@ master: "<ul>
 
 {name: "Spellcraft",
 name_pl: "Czaroznastwo",
-sub_typ: ["Socjalna"],
+sub_typ: ["Społeczne"],
 attr: "Inteligencja",
 sphare: ["Godna"],
 emphases: "Nakłanianie, Badanie czarów",

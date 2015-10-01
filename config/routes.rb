@@ -15,6 +15,8 @@ Rails.application.routes.draw do
 	post 'show_traits' => 'legendopedia#show_traits'
   get 'clans' => 'legendopedia#clans'
   post 'show_clan' => 'legendopedia#show_clan'
+  get 'skills' => 'legendopedia#skills'
+  post 'show_skills' => 'legendopedia#show_skills'
    
   get 'about' 	=>	'static_pages#about'
   get	'contact'	=>	'static_pages#contact'

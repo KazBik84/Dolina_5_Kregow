@@ -1,0 +1,10 @@
+<article>
+  <%= form_tag show_skills_path do %>
+    <p><strong>Wybierz typ umiejętności: </strong></p>
+    <%= select_tag 'sphare', options_for_select([
+                                                ['Wszystkie', ''],
+                                                ['Godne', 'Godna']
+                                                ]) %>
+    <%= submit_tag "Szukaj" %>
+  <% end %>
+</article>
