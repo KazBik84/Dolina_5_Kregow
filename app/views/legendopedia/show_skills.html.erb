@@ -1,21 +1,22 @@
 <% provide(:title, "Umiejętności") %>
 <% provide(:header_active, "Legendopedia") %>
 <a name="top"></a>
-
-<% @skills.each do |skill| %>
-  <article class ="show_object skill">
-    <h3 class="middle_text"><strong><%= skill.name_pl %></strong> (<%= skill.name %>)</h3>
-    <ul class="no_dot">
-      <li><strong>Atrybut: </strong> <%= skill.attr %></li>
-      <li><strong>Typ umiejętności: </strong> <% skill.sphare.each do |sphare| %> <%= sphare %> <% end %></li>
-      <li><strong>Rodzaj umiejętności: </strong> <% skill.sub_typ.each do |typ| %> <%= typ %> <% end %></li>
-      <li><strong>Specjalizacje: </strong> <%= skill.emphases %></li>
-      <li><strong>Opis: </strong> <%= skill.desc %></li>
-      <% unless skill.master.blank? %>
-        <li><strong>Mistrzostwo: </strong></li>
-        <li><%= skill.master.html_safe %></li>
-      <% end %>
-    </ul>
-  </article>
-<% end %>
+<article>
+  <% @skills.each do |skill| %>
+    <section class ="show_object skill">
+      <h3 class="middle_text"><strong><%= skill.name_pl %></strong> (<%= skill.name %>)</h3>
+      <ul class="no_dot show_skill_list">
+        <li><strong>Atrybut: </strong> <%= skill.attr %></li>
+        <li><strong>Typ umiejętności: </strong> <% skill.sphare.each do |sphare| %> <%= sphare %> <% end %></li>
+        <li><strong>Rodzaj umiejętności: </strong> <% skill.sub_typ.each do |typ| %> <%= typ %> <% end %></li>
+        <li><strong>Specjalizacje: </strong> <%= skill.emphases %></li>
+        <li><strong>Opis: </strong> <%= skill.desc %></li>
+        <% unless skill.master.blank? %>
+          <li><strong>Mistrzostwo: </strong></li>
+          <li><%= skill.master.html_safe %></li>
+        <% end %>
+      </ul>
+    </section>
+  <% end %>
+</article>
 <a href="#top">Do góry</a>

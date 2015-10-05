@@ -379,6 +379,7 @@ RSpec.describe LegendopediaController, type: :controller do
     context "User logged in" do
       before(:each) do
         @user = FactoryGirl.create(:user)
+        @clan = FactoryGirl.create(:clan, name: "Smok")
         sign_in @user
         post :show_clan, clan: "Smok"
       end   
@@ -389,6 +390,33 @@ RSpec.describe LegendopediaController, type: :controller do
 
       it "should render correct template" do
         expect(response).to render_template(:show_clan)
+      end
+    end
+  end
+  describe "GET skills" do
+    context "user not logged in" do
+      before(:each) do 
+        get :skills
+      end
+      it "should have redirect status" do
+        expect(response). to have_http_status(:redirect)
+      end
+
+      it "should redirect to log in page" do
+        expect(response).to redirect_to new_user_session_path
+      end
+    end
+    context "user logged in" do
+      before(:each) do
+        @user = FactoryGirl.create(:user)
+        sign_in @user
+        get :skills
+      end
+      it "should have success http status" do
+        expect(response).to have_http_status(:success)
+      end
+      it "should render skills template" do
+        expect(response).to render_template(:skills)
       end
     end
   end     
