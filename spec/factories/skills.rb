@@ -4,7 +4,7 @@ FactoryGirl.define do
     name_pl "MyString"
     sub_typ "MyText"
     attr "MyString"
-    sphare ["Godna"]
+    sphare ["Godna","Niegodna"]
     emphases ["MyString"]
     desc "MyString"
     master "MyString"
