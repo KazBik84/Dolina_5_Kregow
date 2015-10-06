@@ -1,0 +1,14 @@
+<% provide(:title, @character.name) %>
+<% provide(:header_active, "Login") %>
+
+<article>
+  <section>
+    <h3><%= @character.name %></h3>
+    <ul class="no_dot">
+      <li><strong>Klan: </strong><%= @character.clan %></li>
+      <li><strong>Opis: </strong></li>
+      <li><%= simple_format(@character.desc) %></li>
+    </ul> 
+  </section>
+</article>
+<%= link_to "Powrót", current_user %>

@@ -5909,7 +5909,7 @@ skills = [
   emphases: "Szyfry, Stary Rokugański",
   desc: "Przez wielu Rokugańczyków kaligrafia uważana jest za sztukę i jest powszechnie używana przez wielu Rokugańczyków. Głównie korzystają z niej shugenja którzy szyfrują na zwojach swoją tajemną wiedzę, ale także artyści i dworzanie, którzy używają jej, by wpłynąć na innych. Nauka kaligrafii nie jest nauką pisania, jako takiego, gdyż wszyscy samurajowi umieją pisać i czytać. Nauka kaligrafii to nauka zawiłych praw tradycyjnej pisowni Rokugańskiej. Jeżeli postać posiada specjalizację 'Szyfry', uznaje się że zna jeden typ kodowania, który jest powszechnie używany w danym klanie. Szyfry klanów są wyjątkowo trudne do złamania. PT złamania szyfru różni się w zależności od tego na ile szyfr jest pospolicie używany, ale zazwyczaj wynosi wynik rzutu Kaligrafia(Szyfry)/Inteligencja, osoby która go stworzyła. Specjalizacja 'Stary Rokugański', pozwala postaci biegle tworzyć kaligrafię w tym często już zapomnianym i bardzo wyrafinowanym języku, który po dziś dzień jest używany na Cesarskim Dworze.",
   master: "<ul>
-            <li><strong>Ranga 5:</strong> Postać, zyskuje +10 do wyniku rzutu, gdy stara się złamać kod lub samemu go stworzyć.</li>
+            <li><strong>Ranga 5:</strong>Postać, zyskuje +10 do wyniku rzutu, gdy stara się złamać kod lub samemu go stworzyć.</li>
           </ul>"},
 
   {name: "Courtier",
@@ -5920,9 +5920,9 @@ skills = [
   emphases: "Plotki, Manipulacje, Retoryka",
   desc: "Umiejętność ta jest kluczowa dla każdego dworzanina w Rokuganie. Jej poziom odzwierciedla umiejętność postaci, do brania udziału w zawiłych grach dworskich, gdzie każdy szczegół ma znaczenie. Podobnie jak bushi, dworzanie, mają swoje sposoby prowadzenia starć tak by pokonać przeciwnika, potyczki takie nie żadko kończą się podobnie jak starcia wojowników. Umiejętność Dyplomacja można przedstawić jako ofensywną część profesji dworzanina. Dzięki manipulacji i retoryce, dworzanin może przedstawić dane wydarzenie w całkowicie innym świetle, zmieniając jego znaczenie. Umiejętność Dyplomacja, może być również wykorzystane do rozprzestrzenienia lub pozyskania plotek, używając specjalizacji Plotki. PT danego testu równe jest, 10 plus, poziomo Chwały celu x5, minus 5 za każdy poziom Chwały postaci. Istnieje możliwość wykonania podbicia, by zatrzeć ślad po sobie jako autora plotki. Należy jednak zaznaczyć że rozpowiadanie nieprawdziwych plotek o postaci o znacznie większym poziomie Chwały, łatwo może skończyć się śmiercią. ",
   master: "<ul>
-            <li><strong>Ranga 3:</strong> Postać zyskuje 3 punkty Prestiżu.</li>
-            <li><strong>Ranga 5:</strong> Postać zyskuje +1z0 do wszelkich przeciwstawnych testów z użyciem umiejętności Dworskie.</li>
-            <li><strong>Ranga 7:</strong> Postać zyskuje dodatkowo 7 punktów Prestiżu.</li>
+            <li><strong>Ranga 3: </strong>Postać zyskuje 3 punkty Prestiżu.</li>
+            <li><strong>Ranga 5: </strong>Postać zyskuje +1z0 do wszelkich przeciwstawnych testów z użyciem umiejętności Dworskie.</li>
+            <li><strong>Ranga 7: </strong>Postać zyskuje dodatkowo 7 punktów Prestiżu.</li>
           </ul>"},
 
   {name: "Divination",
@@ -5966,9 +5966,9 @@ skills = [
   emphases: "Przesłuchiwanie, Zauważanie, Przeszukiwanie",
   desc: "Jedną z najbardziej prestiżowych pozycji, jakie może uzyskać samuraj, jest pozycja Zarządcy. Pozycja ta, nakłada na samuraja obowiązek pilnowania przestrzegania prawa, w obrębie włości jego Pana. Zarządcy często muszą działać na podstawie śladów i przesłanek, samemu dochodząc do prawdy drogą dedukcji. We wszystkich tych czynnościach przydaje się umiejętność Śledztwo, które odzwierciedla, umiejętność łączenia faktów, jak bystry wzrok posiada samuraj. Śledztwo można też wykorzystywać do pozyskiwania informacji w dłuższym okresie czasu (godzin lub dni). W odróżnieniu do innych testów Inteligencji czy Percepcji, testy Śledztwa można przerzucać, po upływie godziny od poprzedniego testu, ale z modyfikatorem +15 do PT. Śledztwo można też użyć do dostrzeżenia kogoś, wtedy należy wykonać przeciwstawny test, przeciw umiejętności Skradanie się celu. Specjalizacja Przesłuchiwanie może być wykorzystywana przy próbie określenia czy ktoś kłamie, również jako test przeciwstawny, przeciw Szczerości celu.",
   master: "<ul>
-            <li><strong>Ranga 3:</strong> Druga próba przeszukiwania, może być wykonana bez modyfikatora do test. </li>
-            <li><strong>Ranga 5:</strong> Postać zyskuje +5 do wszystkich przeciwstawnych testów Śledztwa.</li>
-            <li><strong>Ranga 7:</strong> Postać może spróbować przeszukiwać, po raz trzeci, nawet jeśli druga próba się nie powiedzie.</li>
+            <li><strong>Ranga 3: </strong>Druga próba przeszukiwania, może być wykonana bez modyfikatora do test. </li>
+            <li><strong>Ranga 5: </strong>Postać zyskuje +5 do wszystkich przeciwstawnych testów Śledztwa.</li>
+            <li><strong>Ranga 7: </strong>Postać może spróbować przeszukiwać, po raz trzeci, nawet jeśli druga próba się nie powiedzie.</li>
           </ul>"},
 
   {name: "Lore",
@@ -5988,7 +5988,7 @@ skills = [
   emphases: "Antidotum, Choroby, Zielarstwo, Nieludzie, Opatrywanie ran",
   desc: "Wojna jest rzemiosłem samuraja, a jej efektem są rany i zabici. Ranny samuraj jest ciężarem dla swojego pana, nie mogąc pełnić swojej funkcji, a jednocześnie pochłaniającym jego zasoby. Dlatego sztuka Medycyny, jest szczególnie ceniona. Medycyna może być użyta by opatrzyć rany, zarówno ciała, jak i niektóre rany duszy. Choroby mogą być leczone dzięki testom Medycyny, a PT test zależeć będzie od rodzaju choroby, podobnie będzie w przypadku prób znalezienia antidotum lub sporządzenia trucizny. Specjalizacja Nieludzie, pozwala skuteczniej leczyć istoty nie będące ludźmi. Udany test Medycyny( Opatrywanie ran) z inteligencji o PT 15, pozwala na odzyskanie u leczonej postaci 1z1 punktów ran. Do testu można dodać podbicia by zwiększyć liczbę leczonych ran o +1z0 za każde podbicie. Dana postać może korzystać z opatrywania ran raz dziennie. Do testów medycyny potrzebny jest zestaw medyczny, który pozwala wykonać 10 testów zanim zapasy medykamentów całkiem się zużyją.",
   master: "<ul>
-            <li><strong>Ranga 5:</strong> Opatrywanie ran leczy dodatkowe +1z0.</li>
+            <li><strong>Ranga 5: </strong>Opatrywanie ran leczy dodatkowe +1z0.</li>
           </ul>"},
 
   {name: "Meditation",
@@ -5999,9 +5999,9 @@ skills = [
   emphases: "Post, Odzyskiwanie pustki",
   desc: "Przyzwoity samurai jest uduchowioną osobą. By w pełni podążać ścieżką Bushido, wszyscy samurajowi zobowiązani są poznawać Tao Shinsei oraz medytować nad wiedzą w niej zawartą. Oczywiście wymogi te dotyczą głównie tradycyjnych rodów, bardziej pragmatyczne rodziny podchodzą do tego zagadnienia, w mniej rygorystyczny sposób. Nie zmienia to jednak faktu że przed bitwą w świątyniach, na medytacji i modlitwie spotykają się jedni i drudzy. Test medytacji jest drugim sposobem na odzyskani Punktów Pustki, jeśli postać wykona udany test Medytacja( Odzyskiwanie pustki) / Pustka o PT 20, może odzyskać jeden Punkt Pustki, po pół godziny medytacji. Specjalizacja Post, pozwala wykonać test Medytacji / Wytrzymałość o PT 15 + 5 za każdy dzień postu, by oprzeć się konsekwencją wynikającym z głodu i pragnienia. ",
   master: "<ul>
-            <li><strong>Ranga 3: </strong> Postać po udanym teście Medytacji, odzyskuje 2 punkty Pustki.</li>
-    <li><strong>Ranga 5: </strong> PT testów Medytacji ( Post ), są zmniejszone o 5. </li>
-    <li><strong>Ranga 7: </strong> Udany test Medytacji odzyskuje 3 Punkty Pustki. </li>
+            <li><strong>Ranga 3: </strong>Postać po udanym teście Medytacji, odzyskuje 2 punkty Pustki.</li>
+            <li><strong>Ranga 5: </strong>PT testów Medytacji ( Post ), są zmniejszone o 5. </li>
+            <li><strong>Ranga 7: </strong>Udany test Medytacji odzyskuje 3 Punkty Pustki. </li>
           </ul>"},
 
   {name: "Perform",
@@ -6021,7 +6021,7 @@ skills = [
   emphases: "Prawdomówność, Zwodzenie",
   desc: "Samuraj, by chronić swojego pana lub interesy klanu, musi często naginać prawdę lub wprost kłamać. Jednak na wielu dworach, kłamanie nie jest uważane za niehonorowe, dopóki samuraj sprawia wrażenie przekonanego że to co mówi jest prawdą. Umiejętność ta jest szczególnie przydatna, podczas spotkań dworskich, kiedy samuraj może łatwo zostać wplątany w niewygodną sytuację. Nawet Bushi pełniący funkcję Yojimbo, często uczą się tej sztuki by nie stać się łatwym celem dla innych dworzan. Umiejętności można także użyć by przedstawić prawdę tak by osoba do której mówimy nie czuła się obrażona, słowami postaci. Test Szczerości najczęściej wykonywane są jako testy przeciwstawne, do testów Śledztwa osoby która powątpiewa w prawdomówność postaci, ale również jako zwykły test o PT wyznaczonym przez MG, w przypadku gdy chodzi o przekonanie większej grupy.",
   master: "<ul>
-            <li><strong>Ranga 5: </strong> Postać zyskuje +5 do testów przeciwstawnych, kiedy wykorzystuje Szczerość.</li>
+            <li><strong>Ranga 5: </strong>Postać zyskuje +5 do testów przeciwstawnych, kiedy wykorzystuje Szczerość.</li>
           </ul>"},
 
   {name: "Spellcraft",
@@ -6032,7 +6032,7 @@ skills = [
   emphases: "Nakłanianie, Badanie czarów",
   desc: "Ścieżka każdego shugeny, zaczyna się wraz z możliwością komunikowania się z kami i pozostaje z nim do końca życia. Choć umiejętność tę, może nabyć postać dowolnego typu, jej zagadnienia pozostają głównie w sferze zainteresowań shugeny. Studia nad tą umiejętnością, pozwalają nie tylko lepiej zrozumieć, na czym polega inwokacja czarów, ale także pozwala na tworzenie własnych modlitw, jak i na nakłanianiu kami by wypełniały różne zadania, dla shugenjy. Specjalizacja Badanie Czarów, pozwala postaci na tworzenie nowych czarów. By stworzyć nowy czar, postać musi zdać test Czaroznastwo (Badanie Czarów) / Inteligencja, o PT równym kręgowi tworzonego czaru x 10 + 10. Dodatkowo postać musi poświęcić się nieprzerwanym badaniom, przez liczbę tygodni równą kręgowi tworzonego czaru. Nowe zaklęcie powinno zostać przedyskutowane i zaakceptowane przez MG, przed jego wykorzystaniem. Specjalizacja Nakłanianie, wykorzystywana jest razem z czarem Zespolenie(Commune) i pomaga w nakłonieniu danej kami, by była przychylna shugenjy. ",
   master: "<ul>
-            <li><strong>Ranga 5: </strong> Postać zyskuje +1z0 do testów Czaroznastwa.</li>
+            <li><strong>Ranga 5: </strong>Postać zyskuje +1z0 do testów Czaroznastwa.</li>
           </ul>"},
 
 

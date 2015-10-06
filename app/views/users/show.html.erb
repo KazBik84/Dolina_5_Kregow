@@ -1,4 +1,14 @@
 <% provide(:title, "#{@user.username}") %>
 <% provide(:header_active, "Login") %>
 <h1>Witaj <%= @user.username %></h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<%= link_to "Dodaj Postać", new_user_character_path(@user) %>
+
+<% if @characters.count > 0 %>
+  <p><strong>Oto Twoje postacie: </strong></p>
+  <ul class= "no_dot">
+    <% @characters.each do |character| %>
+      <li><%= link_to "#{character.name}", user_character_path(@user, character.id) %></li>
+    <% end %>
+  </ul>
+<% end %>
+

@@ -1,9 +1,19 @@
 Rails.application.routes.draw do
 
  
+  get 'characters/new'
+
+  get 'characters/show'
+
   devise_for :users, controllers: { sessions: "users/sessions" }
-  resources :users, only:[:show, :index]
-  
+  resources :users, only:[:show, :index] do
+    resources :characters, except: [:index] 
+  end
+
+  resources :announcements, except: [:index] do
+    resources :comments, only: [:create, :destroy]
+  end  
+
   root 'static_pages#home'
 
   get 'schools' => 'legendopedia#schools'
@@ -26,8 +36,8 @@ Rails.application.routes.draw do
   post 'osw_show' => 'static_pages#osw_show'
   get 'web_scrolls' => 'static_pages#web_scrolls'
 
-  resources :announcements, except: [:index] do
-  	resources :comments, only: [:create, :destroy]
-  end
+
+
+
 
 end
