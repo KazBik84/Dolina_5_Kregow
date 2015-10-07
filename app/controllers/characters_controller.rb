@@ -16,7 +16,28 @@ class CharactersController < ApplicationController
   end
 
   def show
-    @character = Character.find(params[:id])
+    @user = User.find(params[:user_id])
+    @character = @user.characters.find(params[:id])
+  end
+
+  def update
+    @user = User.find(params[:user_id])
+    @character = @user.characters.find(params[:id])
+    if @character.update_attributes(character_params)
+      redirect_to current_user
+    else
+      render 'edit'
+    end
+  end
+
+  def edit
+    @user = User.find(params[:user_id])
+    @character = @user.characters.find(params[:id])
+  end
+
+  def destroy
+    Character.find(params[:id]).destroy
+    redirect_to current_user
   end
 
 private

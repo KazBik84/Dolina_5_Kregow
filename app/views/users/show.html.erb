@@ -7,7 +7,10 @@
   <p><strong>Oto Twoje postacie: </strong></p>
   <ul class= "no_dot">
     <% @characters.each do |character| %>
-      <li><%= link_to "#{character.name}", user_character_path(@user, character.id) %></li>
+      <li><%= link_to "#{character.name}", user_character_path(@user, character.id) %>, 
+        <%= link_to "Edytuj", edit_user_character_path(@user, character.id) %>, 
+        <%= link_to "Usuń", user_character_path(@user, character.id), method: :delete %>
+      </li>
     <% end %>
   </ul>
 <% end %>
