@@ -1,7 +1,17 @@
 class CharactersController < ApplicationController
+
+  before_filter :authenticate_user!
+  before_filter :right_user?
+  
   def new
     @user = User.find(params[:user_id])
     @character = Character.new
+    @clan = Clan.where(name: params[:clan]).take || Clan.where(name: "Feniks").take
+    respond_to do |format|
+      format.js      
+      format.html 
+ #render comments/create.js.erb            
+    end
   end
 
   def create

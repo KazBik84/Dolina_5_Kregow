@@ -48,7 +48,7 @@ before_filter :authenticate_user!
 
   def show_clan
     @clan = Clan.find_clan(params[:clan])
-    @clan_families = Family.find_families(@clan.name).to_a
+    @clan_families = @clan.families.to_a
     @clan_schools = School.find_clan_schools(@clan.name).to_a
   end
 

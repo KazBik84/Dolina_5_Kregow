@@ -1,0 +1,31 @@
+<article class="character_form <%= @clan.name %>">
+  <%= form_for [@user, @user.characters.new] do |form| %>
+
+    <%= form.label :name, "Imię: " %>
+    <%= form.text_field :name %><br/>
+
+    <%= form.label :clan, "Klan: " %>
+    <%= form.select :clan, options_for_select([
+      ["Feniks", "Feniks"],
+      ["Jednorożec", "Jednorożec"],
+      ["Krab", "Krab"],
+      ["Lew", "Lew"],
+      ["Modliszka", "Modliszka"],
+      ["Pająk", "Pająk"],
+      ["Skorpion", "Skorpion"],
+      ["Smok", "Smok"],
+      ["Żuraw", "Żuraw"],
+      ["Rody Cesarskie", "Rody_Cesarskie"],
+      ["Pomniejsze Klany", "Pomniejsze"]
+      ],selected: @clan.name) %><br/>
+
+    <%= form.label :family, "Rodzina: " %>
+    <%= form.select :family, options_from_collection_for_select(@clan.families.to_a, 'id', 'name') %><br/>
+
+    <%= form.label :desc, "Opis Postaci" %>
+    <%= form.text_area :desc, size: "48x12", class: "form-control" %>
+ 
+    <%= form.submit "Zapisz", class: "btn btn-primary" %>
+
+  <% end %>
+</article>
