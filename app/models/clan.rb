@@ -1,5 +1,8 @@
 class Clan < ActiveRecord::Base
 
+  has_many :families, dependent: :destroy
+
+
   validates :name, :desc, presence: true
   validates_inclusion_of :name, :in=> [ "Feniks", "Krab", "Smok", "Jednorożec", "Lew", "Modliszka", "Pająk", "Rody_Cesarskie", "Pomniejsze", "Żuraw", "Skorpion" ]
 

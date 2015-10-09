@@ -6,6 +6,6 @@
 <ul class="no_dot">
   <!--id_order to scope zdef w modelu user -->
   <% @users.id_order.each do |user| %>
-    <li><strong><%= user.id %>.</strong> <%= user.username %>
+    <li><strong><%= user.id %>.</strong><strong>Username:</strong> <%= user.username %>, <strong>Mail:</strong> <%= user.email %>, <strong>Liczba logowań: </strong> <%= user.sign_in_count %>, <strong>Ostatnie logowanie: </strong> <%= user.current_sign_in_at.to_date %></li><br/>
   <% end %>
 </ul>

@@ -13,6 +13,15 @@ class ApplicationController < ActionController::Base
       redirect_to root_path
     end
   end
+
+  def right_user?
+    if  current_user.id == params[:id].to_i || current_user.id == params[:user_id].to_i
+      true
+    else
+      flash[:alert] = "Nie masz dostępu do tej sekcji"
+      redirect_to root_path
+    end
+  end
   
   protected
   

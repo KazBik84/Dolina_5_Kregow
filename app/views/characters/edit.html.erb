@@ -1,0 +1,33 @@
+<% provide(:title, @character.name) %>
+<% provide(:header_active, "Login") %>
+
+<article>
+  <h1>Edytuj <%= @character.name %></h1>
+   <%= form_for [@user, @character] do |form| %>
+
+    <%= form.label :name, "Imię" %>
+    <%= form.text_field :name, class: "form-control" %>
+
+    <%= form.label :clan, "Klan" %>
+    <%= form.select :clan, options_for_select([
+      ["Feniks", "Feniks"],
+      ["Jednorożec", "Jednorożec"],
+      ["Krab", "Krab"],
+      ["Lew", "Lew"],
+      ["Modliszka", "Modliszka"],
+      ["Pająk", "Pająk"],
+      ["Skorpion", "Skorpion"],
+      ["Smok", "Smok"],
+      ["Żuraw", "Żuraw"],
+      ["Rody Cesarskie", "Rody_Cesarskie"],
+      ["Pomniejsze Klany", "Pomniejsze"]
+      ], selected: @character.clan) %><br/>
+
+    <%= form.label :desc, "Opis Postaci" %>
+    <%= form.text_area :desc, size: "48x12", class: "form-control" %>
+ 
+    <%= form.submit "Zapisz", class: "btn btn-primary" %>
+
+  <% end %>
+
+</article>

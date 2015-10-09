@@ -1,4 +1,7 @@
 class AnnouncementsController < ApplicationController
+
+  before_filter :authenticate_user!
+  before_filter :is_admin?
   def new
     @announcement = Announcement.new
   end

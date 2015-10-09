@@ -1,4 +1,8 @@
 class CommentsController < ApplicationController
+
+  before_filter :authenticate_user!
+  before_filter :right_user?
+  
   def create
     @announcement = Announcement.find(params[:announcement_id])
     @comment = @announcement.comments.new(comments_params)

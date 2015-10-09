@@ -5629,13 +5629,13 @@ clans = [
 
 families = [
   { name: "Agasha",
-    clan: "Feniks",
+    clan_name: "Feniks",
     desc: "Niegdyś ród ten stanowił część klanu Smoka, jednak podczas panowania Hitomi, uznał że klan Smoka porzucił swoje obowiązki względem Cesarstwa i przeszła do klanu Feniksa. Ród prowadzi jedną z najstarszych szkół shugenja, a samurajowie z tego rodu cechują się ciekawością oraz potrzebą ciągłego poszerzania swojej wiedzy na temat tego jak działa świat kami, pokonując jedne granice zaraz wyznaczają kolejne.",
     bonus: "+1 Spostrzegawczość",  
     mon_img: ""},
 
   { name: "Asako", 
-    clan: "Feniks",
+    clan_name: "Feniks",
     desc: "Ród Asako, swoją organizacją zbliżony jest do zakonu mnichów, prowadząc ascetyczne życie, jak inne zakony Shinsei. Z tego rodu wywodzą się dworzanie klanu Feniksa oraz tajemniczy mnisi Henshin. Zamyśleni i powściągliwi, nie posiadają własnych ambicji, poza tą by służyć klanowi.",
     bonus: "+1 Intuicja ",  
     mon_img: ""},
@@ -5647,133 +5647,133 @@ families = [
     mon_img: ""},
 
   { name: "Shiba",
-    clan: "Feniks",
+    clan_name: "Feniks",
     desc: "Ród Shiba stanowi zbrojne ramię klanu Feniksa. W czasach pokoju, jak i w sytuacjach konfliktowych preferujący rozwiązania pokojowe, w czasie wojny bez wahania i wątpliwości stają do walki w ramach obrony klanu.",
     bonus: "+1 Spostrzegawczość",  
     mon_img: ""},
 
-  { name: "Horiuchi ( +1 Siła Woli ) - Najmniejszy ród klanu Jednorożca, jest ród Horiuchi, będący odłamem od rodu Iuchi i w najlepszym okresie liczył około 50 członków. Ród wyspecjalizował się w magii ochronnej, samurajowie z tego rodu są czułymi indywidualistami, mieszających się w sprawy innych w czasie kryzysu.",
-    clan: "Jednorożec",
+  { name: "Horiuchi",
+    clan_name: "Jednorożec",
     desc: "Najmniejszy ród klanu Jednorożca, jest ród Horiuchi, będący odłamem od rodu Iuchi i w najlepszym okresie liczył około 50 członków. Ród wyspecjalizował się w magii ochronnej, samurajowie z tego rodu są czułymi indywidualistami, mieszających się w sprawy innych w czasie kryzysu.",
     bonus: "+1 Siła Woli",  
     mon_img: ""},
 
   { name: "Ide",
-    clan: "Jednorożec",
+    clan_name: "Jednorożec",
     desc: "Rodem dbającym o twarz klanu Jednorożca, na dworach jest ród Ide. Idealne połączenie tradycji rokugańskich z własnymi zwyczajami, sprawia że łatwo im poruszać się nawet po najbardziej wytwornych dworach. Samurajowie z tego rodu są opanowani i otwarci na nowe znajomości, co sprawia że bardzo łatwo nawiązują przyjaźnie i sojusze.",
     bonus: "+1 Spostrzegawczość",  
     mon_img: ""},    
 
   { name: "Iuchi",
-    clan: "Jednorożec",
+    clan_name: "Jednorożec",
     desc: "Ród Iuchi, prowadzą pierwszą szkołę shugenja w klanie Jednorożca, będąca jedną z najbardziej militarnie nastawioną rodziną w Rokuganie. Samurajowie z tego rodu, choć prowadzą życie kapłanów, to w sytuacji zagrożenia nie boją się sięgnąć po kami, by dobitnie rozprawić się z przeciwnikiem.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},    
 
   { name: "Moto",
-    clan: "Jednorożec",
+    clan_name: "Jednorożec",
     desc: "Ród ten jest uosobieniem wszystkich negatywnych stereotypów, jakie ma przeciętny rokugańczyk o klanie Jednorożca. Ród ten jest najbardziej przesycony gajińską krwią, co sprawia że samurajowie z rodu Moto są opryskliwi i żywiołowi, przez co rzadko kiedy potrafią wpasować się w towarzystwo innych samurajów.",
     bonus: "+1 Zręczność",  
     mon_img: ""},    
 
   { name: "Shinjo",
-    clan: "Jednorożec",
+    clan_name: "Jednorożec",
     desc: "Shinjo jest najstarszym rodem w klanie Jednorożca, który przez większość czasu przewodził klanowi, do momentu gdy reinkarnacja kami Shinjo, nie usunęła go od władzy z powodu korupcji wewnątrz rodziny. Nie mniej samurajowie z rodu Shinjo, są bardzo przedsiębiorczy i potrafią dopasować się do każdej sytuacji, podobnie jak porozumieć z każdym.",
     bonus: "+1 Refleks",  
     mon_img: ""},     
 
   { name: "Utaku",
-    clan: "Jednorożec",
+    clan_name: "Jednorożec",
     desc: "Matriarchalna rodzina Utaku jest najbardziej honorowym rodem w klanie Jednorożca. Tylko kobiety z tego rodu mogą przystąpić do szkoły Utaku, która szkoli najlepszych kawalerzystów w Rokuganie. Mężczyźni z rodu Utaku, zajmują się domostwem oraz w czasie wojny powoływani są jako piechota rodu.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""},  
 
   { name: "Toritaka",
-    clan: "Krab",
+    clan_name: "Krab",
     desc: "Najmniejszym rodem w ramach klanu Kraba, jest ród Toritaka, będący potomkami klanu Sokoła, który to został przyłączony do klanu Kraba po tragedii jaka spotkała ich stolicę. Ród Toritaka pochodzi z ziem, które często są nawiedzane przez duchy z innych światów, badania oraz sposoby radzenia sobie z tego typu stworami są główną powinnością tego rodu.",
     bonus: "+1 Spostrzegawczość",  
     mon_img: ""},  
 
   { name: "Hida",
-    clan: "Krab",
+    clan_name: "Krab",
     desc: "Potomkowie Kami Hida należą do największych i najpotężniejszych samurajów w całym Cesarstwie. Brzemię obrońców Rokuganu, sprawiło że są nie tylko niezrównanymi wojownikami, ale i utalentowanymi taktykami. Samurajowie z rodu Hida, często mają za złe samurajom z innych klanów ich poczucie bezpieczeństwa, opłacone kosztem samurajów z klanu Kraba oraz drwiny z braku manier.",
     bonus: "+1 Siła",  
     mon_img: ""},  
       
   { name: "Hiruma",
-    clan: "Krab",
+    clan_name: "Krab",
     desc: "Cisi i zabójczy, Ród Hiruma odpowiada głównie za zwiad i ochronę dworzan. Samurajowie z rodu Hiruma są zwinni i sprytni, tak samo jak Hida jest potężny, co sprawia że wojownicy z obu rodów, często walczą razem wzajemnie się uzupełniając. Zwiad w Krainach Cienia jest wątpliwym obowiązkiem rodu Hiruma, jednak wykonywany jest z największym oddaniem i poświęceniem, choć wielu prowadzi do śmierci lub jeszcze gorszego końca.",
     bonus: "+1 Zręczność",  
     mon_img: ""},  
 
   { name: "Kaiu",
-    clan: "Krab",
+    clan_name: "Krab",
     desc: "Ród Kaiu słyną głównie ze swoich umiejętności inżynieryjskich i jest odpowiedzialny za najwspanialsze i najdłużej trwające budowle na ziemiach klanu Kraba. Główna powinnością rodu jest ciągły rozwój zarówno technika obronnych, jak i oblężniczych oraz stała modernizacja istniejących budowli na ziemiach Kraba oraz na wielkim Murze Cieśli. Choć bardziej oddani sztuce obrony i oblężeń, ród Kaiu nie odpuszcza szkolenia w zakresie walki i taktyki wojennej, by w każdej chwili służyć klanowi możliwie najlepszy sposób.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
 
   { name: "Kuni",
-    clan: "Krab",
+    clan_name: "Krab",
     desc: "Ród Kuni jest najbardziej złowieszczym z rodów shugenja w całym Rokuganie. A ich wygląd jest tylko wstępem do ich prawdziwej natury. Dawno temu przywódcy rodu stwierdzili, że jedyną szansą na pokonanie Krain Cienia jest ich zrozumienie. Od tego czasu Kuni poznali sekrety, które przeciętnego rokugańczyka doprowadziły by do szaleństwa. Choć często posądzani o konszachty z Krainami Cienia, niema w Rokuganie, rodu chętnego przejąć ich obowiązki, tylko ród Isawa z klanu Feniksa, a dokładnie ich odłam inkwizycji, potrafi w pełni zrozumieć ich oddanie i poświęcenie dla Rokuganu.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
       
   { name: "Yasuki",
-    clan: "Krab",
+    clan_name: "Krab",
     desc: "Do trzeciego wieku, klan Kraba nie posiadał własnej szkoły dworskiej. Wszystko zmieniło się gdy ród Yasuki postanowił oderwać się od klanu Żurawia i przyłączyć do klanu Kraba, co doprowadziło do pierwszej poważnej wojny domowej w ramach Cesarstwa. Ród Yasuki zajmuje się zarówno handlem jak i reprezentowanie interesów klanu Kraba na dworach, nie ustępują jednak w ciągłym poszukiwaniu możliwości, powiększenia własnych zysków i wpływów. Choć ich skłonność przywiązywania się do pieniędzy, wykracza poza ramy honorowe wielu klanów, członkowie tego rodu nie wiele sobie z tego robią.",
     bonus: "+1 Intuicja",  
     mon_img: ""}, 
 
   { name: "Akodo",
-    clan: "Lew",
+    clan_name: "Lew",
     desc: "Rodem władającym klanem Lwa jest ród Akodo, z którego szeregów wywodzą się najlepsi stratedzy w Rokuganie. Powiada się że armia prowadzona przez kogoś z rodu Akodo nigdy nie zaznała porażki i choć jest to przesada, to nie bardzo daleka od prawdy. Samurajowie z rodu Akodo są spokojni i metodyczni, co często jest sprzeczne ze stereotypowym poglądem samurajów klanu Lwa jako porywczych.",
     bonus: "+1 Zręczność",  
     mon_img: ""},  
 
   { name: "Ikoma",
-    clan: "Lew",
+    clan_name: "Lew",
     desc: "Ród Ikoma pełni rolę głosu Lwa, prowadząc pierwszą szkołę dworską klanu. Ród zajmuje się również, dbaniem o historię klanu jak i Rokuganu, nie kończąc tylko na badaniu przeszłości, ale jednocześnie przekazując ją kolejnym pokoleniom, tak by każdy samuraj z klanu Lwa dokładnie znał swoją przeszłość. W czasach wojny, ród zapewnia doskonałych zwiadowców, którzy skłonni są poświęcić własny honor w imię potrzeb klanu.",
     bonus: "+1 Intuicja",  
     mon_img: ""},  
       
   { name: "Kitsu",
-    clan: "Lew",
+    clan_name: "Lew",
     desc: "Cisi i powściągliwi członkowie rodu Kitsu, stanowią jedną z najbardziej tradycjonalistycznych i konserwatywnych rodzin w całym Rokuganie. Ród powstał z połączenia ludzi i starożytnych istot Kitsu, dzięki temu połączeniu, ród Kitsu niektórzy członkowie rodu, posiadają umiejętności nieosiągalne dla przeciętnego człowieka, jak możliwość przenikania między światem ludzkim a światem duchów.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
 
   { name: "Matsu",
-    clan: "Lew",
+    clan_name: "Lew",
     desc: "Ród Matsu jest najliczniejszym z rodów w klanie Lwa, co jest powodem stereotypowego postrzegania tego klanu jako porywczego. Ród Matsu składa się praktycznie wyłącznie z wojowników o ogromnej odwadze i wyjątkowej porywczości. Ród Matsu jest matriarchalny, a mężczyźni wchodzący do rodu, muszą przyjąć nazwisko po żonie.",
     bonus: "+1 Siła",  
     mon_img: ""},  
 
   { name: "Kitsune",
-    clan: "Modliszka",
+    clan_name: "Modliszka",
     desc: "Kitsune to ród który tworzył klan Lisa, który przystąpił do klanu Modliszki jako ostatni, prosząc ich o pomoc gdyż jako klan znajdował się na kraju zagłady. Lata spędzone w mistycznej puszczy Kitsune, sprawiły że w ród ten posiada wielu shugenja, a ród prowadzi własną szkołę shugenja, której specjalizacją jest komunikowanie się duchami przyrody. Samurajowi z tego rodu to w większości prości ludzie którzy zamiast uganiać się za chwałą i honorem, wolą poznawać naturę duchów lasu.",
     bonus: "+1 Intuicja",  
     mon_img: ""},  
       
   { name: "Moshi",
-    clan: "Modliszka",
+    clan_name: "Modliszka",
     desc: "Matriarchalny ród Moshi nim przyłączył się do klanu Modliszki stanowił osobny klan Stonogi. Ród od wieków czci słońce jako boginię, ród prowadzi szkołę shugenja, która specjalizuje się w czarach ognia i piorunów. Wiele statków z klanu Modliszki ma na pokładzie jakąś kapłankę Moshi.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},     
 
   { name: "Tsuruchi",
-    clan: "Modliszka",
+    clan_name: "Modliszka",
     desc: "Tsuruchi dawniej stanowili klan Osy, jest to mały ród, który specjalizuje się w sztuce łucznictwa. Samurajowie z tego rodu, w znaczącej większości to bushi, w czasach wojny dający klanowi Modliszki wsparcie łucznicze, w czasach pokoju dzięki umiejętnościom tropienia i śledzenia, często pełnią rolę zarządców.",
     bonus: "+1 Spostrzegawczość",  
     mon_img: ""},  
       
   { name: "Yoritomo",
-    clan: "Modliszka",
+    clan_name: "Modliszka",
     desc: "Pierwszy ród klanu Modliszki, najliczniejszy, skupiający w swych ramach największą władzę. Samurajowie z rodu Yoritomo to przedsiębiorczy ludzie, którzy nie wstydzą się handlować jak inne rody, dodatkowym atutem jest posiadanie największej floty handlowej, która w czasie wojny szybko może zamienić się na flotę bojową.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""}, 
 
   { name: "Bayushi",
-    clan: "Skorpion",
+    clan_name: "Skorpion",
     desc: "Myśląc o klanie Skorpiona, pierwszym rodem jaki przychodzi na myśl jest ród Bayushi. Bezwzględni i zdecydowani władcy klanu Skorpiona, odnajdują się na wielu polach, jednak na każdym z nich korzystają z technik które większości rokugańczyków nie przeszły by nawet przez myśl. Wszystko oczywiście w służbie Cesarzowej i klanowi. Samurajowie z rodu Bayushi prawie zawsze noszą maski, które skrywają i twarze, a wraz z nimi ich tajemnice, sekrety i intrygi które się z nimi wiążą.",
     bonus: "+1 Zręczność",  
     mon_img: ""},  
@@ -5785,94 +5785,94 @@ families = [
     mon_img: ""}, 
 
   { name: "Soshi",
-    clan: "Skorpion",
+    clan_name: "Skorpion",
     desc: "Utworzony u zalania klanu Skorpiona, ród Soshi, prowadzi główną szkołę shugenja w ramach klanu Skorpiona. Adepci tej szkoły szkoleni są przede wszystkim w czarach powietrza, które najłatwiej mamią zmysły i pozwalają manipulować innymi. Nie rzadko są również wysyłani razem z agentami rodu Shosuro by służyć im jako wsparcie.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
       
   { name: "Yogo",
-    clan: "Skorpion",
+    clan_name: "Skorpion",
     desc: "Małżeństwo z kimś z rodu Yogo jest jedną z najgorszych rzeczy jakie mogą spotkać samuraja. Yogo wywodził się z klanu Feniksa, z którego został wygnany i przeklęty za zdradę tej którą kochał najmocniej. Klątwa zdrady przekazywana od tamtej pory przekazywana jest w linii krwi, tego rodu. Niemniej ród z powodzeniem prowadzi drugą co do wielkości szkołę shugenja w klanie Skorpiona.",
     bonus: "+1 Siła Woli",  
     mon_img: ""},     
 
   { name: "Kitsuki",
-    clan: "Smok",
+    clan_name: "Smok",
     desc: "'Uprzejme Smoki' bo tak zwykło nazywać się przedstawicieli rodu Kitsuki, służą głównie jako dworzanie i zarządczy klanu Smoka, choć wywodzą się od rodziny Agasha, nie prowadzą szkoły shugenja. Ród Kitsuki, szkoli dworzan którzy specjalizują się w wyłapywaniu kłamstw i oszustw, co znacząco pozwala całemu klanowi szybko orientować się w rzeczywistej sytuacji politycznej Rokuganu.",
     bonus: "+1 Intuicja",  
     mon_img: ""},  
       
   { name: "Mirumoto ",
-    clan: "Smok",
+    clan_name: "Smok",
     desc: "Ród Mirumoto, są rodem który trzyma władzę nad klanem Smoka. Podczas gdy zakon Togashi podąża ścieżką oświecenia, ród Mirumoto zajmuje się codziennymi obowiązkami zarządzania klanem, w rękach tego rodu, spoczywa również dowództwo nad wojskiem. Liczebnie ród Mirumoto również dominuje nad innymi rodami, gdyż członkowie tego rodu stanowią ponad połowę wszystkich członków klanu Smoka.",
     bonus: "+1 Zręczność",  
     mon_img: ""}, 
       
   { name: "Tamori",
-    clan: "Smok",
+    clan_name: "Smok",
     desc: "Prawdopodobnie najbardziej wojowniczy shugenja w Rokuganie pochodzą z rodu Tamori, będącymi bezpośrednimi spadkobiercami, rodu Agasha z przed ich schizmy na rzecz klanu Feniksa. Ród Tamori prowadzi główną szkołę shugenja w klanie Smoka, ich techniki w unikalny sposób łączą alchemię, kowalstwo, tworząc sztukę magii i wojny. Zła sława rodu Tamori, związana jest z ich skłonnością do przemocy, która obca jest innym rodom shugenja.",
     bonus: "+1 Siła Woli",  
     mon_img: ""},  
       
   { name: "Togashi",
-    clan: "Smok",
+    clan_name: "Smok",
     desc: "Ród Togashi, tak naprawdę jest wielki zakonem mnichów, przyjmujących wszystkich tych którzy chcą wstąpić w jego szeregi, jeśli tylko okażą się oni godni przyjęcia. Zakon Togashi pełni rolę duchowego przewodnika klanu Smoka, stojąc na straży tradycji i właściwej interpretacji dzieł Shinsei.",
     bonus: "+1 Refleks",  
     mon_img: ""},   
       
   { name: "Asahina",
-    clan: "Żuraw",
+    clan_name: "Żuraw",
     desc: "Cichy i spokojny ród Asahina, jest jednym z najbardziej zakonnych rodów w Rokuganie. Ród ten jest najbardziej pokojowym rodem w Rokuganie, w swym usposobieniu wierniejszym swym przekonaniom, nawet od rodów klanu Feniksa. Asahina rodem prowadzonym główną szkołę shugenja na ziemiach Żurawia i to stanowi ich główne zadanie w ramach klanu. Członkowie tego rodu, na równi ze swoimi obowiązkami zajmują się również zgłębianiem sztuki i filozofii.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
       
   { name: "Daidoji",
-    clan: "Żuraw",
+    clan_name: "Żuraw",
     desc: "'Żelazne Żurawie', czyli ród Daidoji, odpowiada za siły zbrojne klanu. Ród ten jest gwarantem stałej gotowości do wojny lub innych zadań wyznaczonych przez rody Doji i Kakita. Choć wojownikom tego rodu brakuje finezji członków rodu Kakita. Ród Daidoji zajmuje się taktyką oraz technikami wojskowymi, często musząc podejmować decyzje które pozostali członkowie klanu uznali by za niehonorowe, ród ten jest jednak gotowy na wiele wyrzeczeń w imię obrony swojego klanu.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""},  
       
   { name: "Doji",
-    clan: "Żuraw",
+    clan_name: "Żuraw",
     desc: "Ród ten przewodzi całemu klanowi Żurawia, będąc niekwestionowanymi mistrzami zarówno w dziedzinie polityki jak i kultury. Dzięki wskazówką i zasadom jakie pozostawiła po sobie kami Doji, ród ten potrafił przez ponad tysiąc lat zapewnić przewagę klanu nad innymi, pomimo posiadania mniej licznych wojsk.",
     bonus: "+1 Intuicja",  
     mon_img: ""},
       
   { name: "Kakita",
-    clan: "Żuraw",
+    clan_name: "Żuraw",
     desc: "Kakita są rodem, najbliżej spokrewnionym z rodem Doji i zajmują drugą pozycję w klanie. Członkowie tego rodu wyznają zasadę doskonałości w danej sztuce. Dla Kakity 'sztuką' może być wszystko taktyka, origami czy poezja. Sztuką którą Kakita szczególnie sobie upodobali idąc za założycielem rodu, jest sztuka pojedynku. Ród Kakita często zapewnia yojimbo dla dworzan Doji, choć rola tego rodu nie jest bliżej określona ze względu na rozmaitość 'sztuk' które członkowie tego rodu opanowują.",
     bonus: "+1 Zręczność",  
     mon_img: ""},   
       
   { name: "Chuda",
-    clan: "Pająk",
+    clan_name: "Pająk",
     desc: "Shugenja którzy przyjmują to nazwisko, odwołują się do rodziny Chuda, która została wybita wieki temu. Rodziny która miała zajmować się śledzeniem i niszczeniem shugeny - maho. Ale sama popadła w sidła Krain Cienia. Obecnie ród Chuda, to zbiór shugenja, żadnych władzy i potęgi, którzy nie cofną się przed niczym by tylko zgłębić kolejne zagadnienia związane z zakazaną magią krwii. Nawet wewnątrz klanu Pająka, ich lojaność jest mocno nie pewna i tylko strach przed demaskacją skłania ich do posłuszeństwa względem rodziny Daigotsu.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
       
   { name: "Daigotsu",
-    clan: "Pająk",
+    clan_name: "Pająk",
     desc: "Ród Daigotsu, jest najliczniejszym, z rodów klanu, a jego członkowie są bardzo różni. W czasach gdy nie istniał jeszcze klan Pająka, nazwisko Daigotsu, przyjmowali samurajowi naznaczeni Skazą Cienia lub ci którzy chcieli podążać ścieżką filozofii Daigotsu, opierającej się na sile, a nie na współczuciu. Choć nie wszyscy członkowie tej rodziny są skarzeni Skazą Cienia, większość z nich przynajmniej otarła się o nią.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""},  
       
   { name: "Susumu",
-    clan: "Pająk",
+    clan_name: "Pająk",
     desc: "Rodzina Susumu została założona w roku 1173, po dekrecie Cesarzowej, który umieścił klan Pająka na równi z pozostałymi wielkimi klanami. Ród przyjął nazwę Susumu, chociaż jej 'założyciel', nigdy zmarł po jej ustanowieniu i nigdy nie był jej Daimio. Daigotsu Susumu był znany ze swych umiejętności dyplomacji i wrodzonego wdzięki. Wielu uległo jego naturalnym skłonnościom do przekonywania innych. Byli jednak i tacy którzy poznali Susumu, z jego mrocznej strony, osoby bezwzględnej, która wykorzysta każdą sposobność by zniszczyć swoją ofiarę. Pomimo swojej pozycji Cesarskiego doradcy, nigdy nie nadużywał swojej pozycji dla własnych korzyści i do końca pozostał wierny dwóm władcom, Daigotsu i Iweko. Techniki jakimi posługiwał się Susumu, stały się fundamentem szkoły dworskiej rodziny Susumu, pomimo że sam Susumu nigdy nie miał uczniów. Swoją wiedzą i doświadczeniami, często dzielił się ze swoją żoną Kakita Shizuka oraz jej córką, Kuroko. Po śmierci ojca Kuroko, przyjeła nazwisko Susumu i została pierwszym Daimyo tej rodziny. Choć ród Susumu nie posiada własnego Dojo, Kuroko chętnie dzieli się wiedzą, z dworzanami klanu Pająka. I tak ród Susumu, stał się ustami swojego klanu, którzy chętnie poświęcają się roli doradców władców z innych klanów, służąc dwóm panom, tak jak czynił to Daigotsu Susumu. ",
     bonus: "+1 Intuicja"},
 
   { name: "Miya",
-    clan: "Rody_Cesarskie",
+    clan_name: "Rody_Cesarskie",
     desc: "U zarania Cesarstwa, Miya dostał rozkaz, rozpowiadania wieści o porażce Fu Lenga. Od tego czasu, ród Miya, z dumą i godnością,  pełni rolę heraldów i posłanników Cesarza. Samurajowie Miya są zazwyczaj spokojni i patetyczni, ale zawsze skoncentrowani na powierzonej im wielkiej odpowiedzialności.",
     bonus: "+1 Refleks"}, 
 
   { name: "Otomo",
-    clan: "Rody_Cesarskie",
+    clan_name: "Rody_Cesarskie",
     desc: "O rodzinie Otomo, często mówi się z nutką strachu i nie jest to wcale oznaka słabości. Dworzanie Otomo to łowcy dworów Cesarstwa, wykorzystujących wszelkie przewagi jakie daje im pozycja rodziny cesarskiej, by zdominować przeciwnika. Dworzanie Otomo, to manipulanci, obdarzeni nadludzki sprytem, którzy nie mają oporów, przed słownym i politycznym niszczeniem swoich wrogów. Mówi się że dwór, to pole bitwy bardziej niebezpieczne od pola bitwy, a Otomo są tego żywym przykładem. Członkowie Cesarskiej rodziny, którzy nie mają szans na objęcie tronu, często zrzekają się swojego nazwiska i wstępują do rodziny Otomo.",
     bonus: "+1 Inteligencja"}, 
 
   { name: "Seppun",
-    clan: "Rody_Cesarskie",
+    clan_name: "Rody_Cesarskie",
     desc: "Seppun był najwierniejszym towarzyszem hentei i do dziś ród Seppun jest najbliżej rodziny Cesarskiej. Samurajowie Seppun, oddani są utrzymaniu bezpieczeństwa Cesarza i Cesarstwa, zarówno na polu dworskim, jak i na polu bitwy. Zdarza się że członkowie rodu Cesarskiego, wstępują do rodziny Seppun, jeśli nie mają szans na objęcie tronu, choć żadziej niż do rodziny Otomo.",
     bonus: "+1 Zręczność"}
 ]
@@ -6068,10 +6068,15 @@ clans.each do |clan|
   Clan.create(clan)
 end
 
+
 Family.destroy_all
-families.each do |family|
-  Family.create(family)
+clans = Clan.all
+clans.each do |clan|
+  families.each do |family|
+    clan.families.create(family) if clan.name == family[:clan_name]
+  end
 end
+
 
 Skill.destroy_all
 skills.each do |skill|
