@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   
   
   def is_admin?
-    if current_user.admin == true
+    if current_user && current_user.admin == true
       true
     else
       flash[:alert] = "Nie posiadasz dostępu do tej sekcji"
@@ -15,6 +15,11 @@ class ApplicationController < ActionController::Base
   end
 
   def right_user?
+
+    #p "To jest current_user.id>> #{current_user.id}"
+    #p "To jest params[:id] >> #{params[:id]}"
+    #p "To jest params[:user_id] >> #{params[:user_id]}"
+    #p "To jest params >> #{params}"
     if  current_user.id == params[:id].to_i || current_user.id == params[:user_id].to_i
       true
     else

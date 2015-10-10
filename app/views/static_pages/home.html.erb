@@ -1,6 +1,6 @@
 <% provide(:header_active, "Root") %>
 <% if current_user %>
-  <h1><strong>Witaj <%= current_user.username %></strong></h1>
+  <h1><strong>Witaj <%= current_user.username %> To Twoje id: <%= current_user.id %></strong></h1>
 <% end %>
 <p>Jak obiecałem tak się stało :)</p>
 <p>Strona ta będzie kontynuacją i rozwinięciem strony: <%= link_to "L5k by Kask", "http://l5k.cba.pl" %></p> 

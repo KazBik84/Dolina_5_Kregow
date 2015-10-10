@@ -1,7 +1,8 @@
 class CommentsController < ApplicationController
 
   before_filter :authenticate_user!
-  before_filter :right_user?
+  before_filter :right_user_comment_create?, only: :create
+  before_filter :right_user_comment_destroy?, only: :destroy
   
   def create
     @announcement = Announcement.find(params[:announcement_id])
@@ -34,6 +35,27 @@ class CommentsController < ApplicationController
     #  a jedynie dopuszczamy do kontrolera :)
     def url_permit
       params.require(:comment).permit(:from_url)
+    end
+
+    def right_user_comment_create?
+      if current_user && current_user.id == params[:comment][:user_id].to_i 
+        true
+      else
+        flash[:alert] = "Nie masz dostępu do tej akcji"
+        redirect_to root_path
+      end
+    end
+
+    def right_user_comment_destroy?
+      @announcement = Announcement.find(params[:announcement_id])
+      @comment = @announcement.comments.find(params[:id])      
+      if current_user && current_user.id == @comment.user_id or current_user.admin?
+        true
+      else
+        flash[:alert] = "Nie masz dostępu do tej akcji"
+        redirect_to root_path
+      end        
+
     end
 
 

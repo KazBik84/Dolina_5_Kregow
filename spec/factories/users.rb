@@ -4,6 +4,7 @@ FactoryGirl.define do
     email "kask@wp.pl"
     password "qwe1234r"  
     password_confirmation "qwe1234r"
+    admin false
   end
 
 end

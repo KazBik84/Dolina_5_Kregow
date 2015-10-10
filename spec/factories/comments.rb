@@ -2,7 +2,8 @@ FactoryGirl.define do
   factory :comment do
     content "MyText"
 		author "MyString"
-		announcement nil
+		announcement_id nil
+    user_id "1"    
 		# Poniżej tworzymy odnośnik do tej faktorii
     #  w tym przypadku, tworzymy faktorie o nazwie 'controller_comment'
     #  i przesyłamy dodatkowy atrybut o nazwie from_url i wartości "/"

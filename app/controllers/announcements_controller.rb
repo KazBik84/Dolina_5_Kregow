@@ -1,7 +1,6 @@
 class AnnouncementsController < ApplicationController
 
-  before_filter :authenticate_user!
-  before_filter :is_admin?
+  before_filter :is_admin?, except: :show
   def new
     @announcement = Announcement.new
   end

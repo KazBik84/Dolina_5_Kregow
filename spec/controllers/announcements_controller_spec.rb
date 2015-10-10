@@ -3,20 +3,51 @@ require 'rails_helper'
 RSpec.describe AnnouncementsController, type: :controller do
 	
   describe "GET #new" do
-  	before(:each) do
-  		get :new
-  	end
-    it "returns http success" do
-      expect(response).to have_http_status(:success)
+    context "user no logged in" do
+    	before(:each) do
+    		get :new
+    	end
+      it "returns http redirect" do
+        expect(response).to have_http_status(:redirect)
+      end
+      it "renders redirect to root_path" do
+      	expect(response).to redirect_to root_path
+      end
     end
-    it "renders new template" do
-    	expect(response).to render_template :new
-    end
+
+    context "user log in but not admin" do
+      before(:each) do
+        @user = FactoryGirl.create(:user)
+        sign_in @user
+        get :new
+      end
+      it "returns http redirect" do
+        expect(response).to have_http_status(:redirect)
+      end
+      it "renders redirect to root_path" do
+        expect(response).to redirect_to root_path
+      end
+    end  
+    context "user log in with admin: true" do
+      before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user
+        get :new
+      end
+      it "returns http success" do
+        expect(response).to have_http_status(:success)
+      end
+      it "renders new template" do
+        expect(response).to render_template 'new'
+      end
+    end        
   end
 
   describe "POST #create" do
   	context 'with valid attributes' do
   		before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user        
   			post :create, announcement: attributes_for(:announcement)
   		end
   		
@@ -36,6 +67,8 @@ RSpec.describe AnnouncementsController, type: :controller do
   	
   	context "with title equal nil" do
   		before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user        
   			post :create, announcement: attributes_for(:announcement, title: nil)
   		end
   		
@@ -51,6 +84,8 @@ RSpec.describe AnnouncementsController, type: :controller do
   	end
   	context "with message equal nil" do
   		before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user        
   			post :create, announcement: attributes_for(:announcement, message: nil)
   		end
   		
@@ -73,6 +108,8 @@ RSpec.describe AnnouncementsController, type: :controller do
 		end 		 
 		
   	before(:each) do
+      @user = FactoryGirl.create(:user, admin: true)
+      sign_in @user      
   		get :edit, id: dummy_post.id
   	end
     it "returns http success" do
@@ -98,6 +135,8 @@ RSpec.describe AnnouncementsController, type: :controller do
 			end		
 				
 			before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user        
 				put :update, id: dummy_post.id, announcement: attr
 			end
 			
@@ -125,6 +164,8 @@ RSpec.describe AnnouncementsController, type: :controller do
 		  	{ title: '', message: 'new content' }
 			end	
 			before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user        
 				put :update, id: dummy_post.id, announcement: attr
 			end
 			
@@ -149,6 +190,8 @@ RSpec.describe AnnouncementsController, type: :controller do
 		  	{ title: 'jakis tytul', message: '' }
 			end	
 			before(:each) do
+        @user = FactoryGirl.create(:user, admin: true)
+        sign_in @user        
 				put :update, id: dummy_post.id, announcement: attr
 			end
 			
@@ -175,6 +218,8 @@ RSpec.describe AnnouncementsController, type: :controller do
 		end 	
 		  
   	before(:each) do
+      @user = FactoryGirl.create(:user, admin: true)
+      sign_in @user      
     	delete :destroy, id: delete_post.id
   	end
   	
@@ -201,6 +246,8 @@ RSpec.describe AnnouncementsController, type: :controller do
 		end 
 		
   	before(:each) do
+      @user = FactoryGirl.create(:user)
+      sign_in @user          
   		get :show, id: dummy_post.id
   	end
   	
