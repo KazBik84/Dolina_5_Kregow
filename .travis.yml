@@ -5,5 +5,5 @@ rvm:
 env:
   - DB=postgresql
 before_script:
-  - psql -c "CREATE USER dpk WITH PASSWORD 'dpk';" -U postgres
+  - cp config/database.yml.travis config/database.yml
   - psql -c 'create database travis_ci_test;' -U postgres
