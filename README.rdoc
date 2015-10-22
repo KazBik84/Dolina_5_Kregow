@@ -1,3 +1,4 @@
+https://travis-ci.org/KazBik84/Dolina_5_Kregow.svg?branch=master
 == README
 
 This README would normally document whatever steps are necessary to get the
