@@ -5624,7 +5624,18 @@ clans = [
   {name: "Rody_Cesarskie",
   clan_name: "Rody Cesarskie",
   mon_img: "",
-  desc: "Rodziny Cesarskie, poprzysięgły pełne oddanie dynastii Cesarskiej, a każdy czyn podyktowany jest dobrem Cesarstwa. Samurajowie Miya podróżują jako po Rokuganie jako 'głos Cesarza', upewniając się że dekrety Cesarza są przestrzegane. Ród Seppun to tarcza Cesarza, pełnią rolę osobistych ochroniarzy, jak i tworzą Cesarskie Legiony, będące zawsze do dyspozycji cesarza. Z kolei ród Otomo reprezentuje osobę cesarza na dworach Rokufanu, dworzanie tego rodu są mistrzami intryg, oddanymi wyższemu dobru jakim jest dobro Cesarstwa. Dzięki dostępowi do najlepszych nauczycieli, nieograniczonych środków i przewagi statusu, rodziny cesarskie, są elitą pośród samurajów Rokuganu."}
+  desc: "Rodziny Cesarskie, poprzysięgły pełne oddanie dynastii Cesarskiej, a każdy czyn podyktowany jest dobrem Cesarstwa. Samurajowie Miya podróżują jako po Rokuganie jako 'głos Cesarza', upewniając się że dekrety Cesarza są przestrzegane. Ród Seppun to tarcza Cesarza, pełnią rolę osobistych ochroniarzy, jak i tworzą Cesarskie Legiony, będące zawsze do dyspozycji cesarza. Z kolei ród Otomo reprezentuje osobę cesarza na dworach Rokufanu, dworzanie tego rodu są mistrzami intryg, oddanymi wyższemu dobru jakim jest dobro Cesarstwa. Dzięki dostępowi do najlepszych nauczycieli, nieograniczonych środków i przewagi statusu, rodziny cesarskie, są elitą pośród samurajów Rokuganu."},
+
+  {name: "Ronin",
+  clan_name: "Ronin",
+  mon_img: "",
+  desc: "Będąc na granicy kasty samurajskiej, ronini są samurajami bez pana, co w oczach wielu członków Wielkich Klanów, czyni nich nic niewartymi. Jednak mocno myli się ten kto wrzuca ich wszystkich do jednego worka. Podstawowy podział roninów dzieli ich na roninów klanowych i prawdziwych roninów. Pierwsi to samurajowie którzy urodzili się w klanie, lecz na skutek zbiegów wydarzeń zostali wygnani z klanu, z zakazem używania nazwiska rodowego i mon klanu, a ich szkoła zamknęła się na nich. Prawdziwi ronini, są dziećmi ze związków w których choć jeden rodzic był samurajem i którzy nie przysięgli wierności żadnemu klanowi."},
+
+  {name: "Pomniejsze",
+  clan_name: "Pomniejsze",
+  mon_img: "",
+  desc: "Gdy samuraj dokona heroiczengo czynu, na rzecz Rokuganu lub Cesarza, w nagrodę może założyć własną rodzinę. Gromadzi wtedy tych którzy chcą podążać jego ścieżką, jako swoich pierwszych poddanych. Na przestrzeni stuleci przywilej ten był nadawany wielokrotnie, a powstałe w ten sposób unikatowe klany, choć mniej znaczące od Wielkich Klanów, nie raz decydowały o przechyleniu szali zwycięstwa w potyczkach między nimi. Teksty dotyczące zawartych tu mniejszych klanów, możemy oglądać dzięki Hehosowi, który je przetłumaczył."}
+
 ]
 
 families = [

@@ -16,11 +16,12 @@
       ["Smok", "Smok"],
       ["Żuraw", "Żuraw"],
       ["Rody Cesarskie", "Rody_Cesarskie"],
-      ["Pomniejsze Klany", "Pomniejsze"]
+      ["Pomniejsze Klany", "Pomniejsze"],
+      ["Ronin","Ronin"]
       ],selected: @clan.name) %><br/>
 
     <%= form.label :family, "Rodzina: " %>
-    <%= form.select :family, options_from_collection_for_select(@clan.families.to_a, 'id', 'name') %><br/>
+    <%= form.select :family, options_from_collection_for_select(@clan.families.to_a, 'name', 'name') %><br/>
 
     <%= form.label :desc, "Opis Postaci" %>
     <%= form.text_area :desc, size: "48x12", class: "form-control" %>
