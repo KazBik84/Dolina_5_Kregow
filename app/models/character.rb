@@ -2,5 +2,6 @@ class Character < ActiveRecord::Base
   belongs_to :user
 
   validates :name, :clan, :desc, presence: true
-  validates_inclusion_of :clan, in: %w( Krab Feniks Smok Jednorożec Lew Modliszka Pająk Skorpion Żuraw Rody_Cesarskie Pomniejsze )
+  #CLAN_NAMES is located in: config/initializers/constants.rb  
+  validates_inclusion_of :clan, in: CLAN_NAMES
 end
