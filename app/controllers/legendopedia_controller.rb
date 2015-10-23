@@ -1,5 +1,5 @@
 class LegendopediaController < ApplicationController
-before_filter :authenticate_user!
+
   def main
   end
   
@@ -47,7 +47,7 @@ before_filter :authenticate_user!
   end
 
   def show_clan
-    @clan = Clan.find_clan(params[:clan])
+    @clan = Clan.find_clan(params[:clan_name])
     @clan_families = @clan.families.to_a
     @clan_schools = School.find_clan_schools(@clan.name).to_a
   end
