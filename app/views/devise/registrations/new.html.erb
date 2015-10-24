@@ -1,5 +1,7 @@
 <% provide(:title, "Zaloguj się") %>
 <% provide(:header_active, "Login") %>
+<% breadcrumb :sign_up %>
+
 <h2>Zarejestruj się</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>

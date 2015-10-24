@@ -9,7 +9,6 @@
         <li <% if yield(:header_active) == "Legendopedia" %> class="active" <% end %> >
           <%= link_to "Legendopedia", legendopedia_path %>
         </li>
-        <li><%= link_to "Dział MG", "#" %></li>
         <li <%if yield(:header_active) == "Zwoje_z_Sieci" %> class="active" <% end %> ><%= link_to "Zwoje z Sieci", web_scrolls_path %></li>
         <% if current_user && current_user.admin? %>
           <li <% if yield(:header_active) == "Index_Userow" %> class="active" <% end %> > <%= link_to "Index userów", users_path %>

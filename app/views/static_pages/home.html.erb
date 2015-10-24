@@ -1,4 +1,5 @@
 <% provide(:header_active, "Root") %>
+<% breadcrumb :root %>
 <% if current_user %>
   <h1><strong>Witaj <%= current_user.username %> </strong></h1>
 <% end %>

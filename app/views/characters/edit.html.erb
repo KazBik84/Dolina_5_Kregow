@@ -1,5 +1,6 @@
 <% provide(:title, @character.name) %>
 <% provide(:header_active, "Login") %>
+<% breadcrumb :edit_character, @character, current_user.id %>
 
 <article>
   <h1>Edytuj <%= @character.name %></h1>

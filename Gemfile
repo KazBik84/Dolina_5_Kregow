@@ -17,6 +17,7 @@ gem 'jquery-turbolinks'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'devise'
+gem "gretel"
 
 gem 'sdoc', group: :doc
 

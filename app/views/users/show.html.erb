@@ -1,5 +1,6 @@
 <% provide(:title, "#{@user.username}") %>
 <% provide(:header_active, "Login") %>
+<% breadcrumb :show_user %>
 <h1>Witaj <%= @user.username %></h1>
 <%= link_to "Dodaj Postać", new_user_character_path(@user) %>
 

@@ -1,5 +1,6 @@
 <% provide(:title, "Klany") %>
 <% provide(:header_active, "Legendopedia") %>
+<% breadcrumb :legendopedia_clans %>
 
 <%= form_tag show_clan_path do %>
   <%= select_tag 'clan[]', options_for_select([
@@ -13,6 +14,7 @@
     ["Skorpion", "Skorpion"],
     ["Smok", "Smok"],
     ["Żuraw", "Żuraw"],
+    ["Pomniejsze", "Pomniejsze"]
     ]) %>
 
   <%= submit_tag "Szukaj!" %>

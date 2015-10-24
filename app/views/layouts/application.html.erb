@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title><%= title_function(yield(:title)) %></title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  
-
-<script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
-<script>CookieAlert.init();</script>
-
-
-</head>
-<body class="full">
-  <%= render ('layouts/header') %>
-  <div class="middle_box">
-  <!-- https://gist.github.com/suryart/7418454 << rozwiązanie problemów flasha i bootstrapa -->
-    <%= flash_messages %>
-    <!--<% flash.each do |flash_type, message| %>
-      <div class="alert alert-<%= flash_type %>">
-        <%= message %>
-      </div>
-    <% end %>  -->
-    <%= yield %>
-  </div> 
-  <%= render ('layouts/footer') %>
-</body>
+  <head>
+    <title><%= title_function(yield(:title)) %></title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>    
+    <script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+    <script>CookieAlert.init();</script>
+  </head>
+  <body class="full">
+    <%= render ('layouts/header') %>
+    <div class="middle_box">
+    <!-- https://gist.github.com/suryart/7418454 << rozwiązanie problemów flasha i bootstrapa -->
+      <%= flash_messages %>
+      <%= render ('layouts/gretel') %>
+      <%= yield %>
+    </div> 
+    <%= render ('layouts/footer') %>
+  </body>
 </html>
