@@ -7,7 +7,7 @@ RSpec.describe Spell, type: :model do
   end
   
   it "is invalid with blank nazwa" do
-    expect(build(:spell, nazwa: nil)).to_not be_valid
+    expect(build(:spell, name: nil)).to_not be_valid
   end
   
   it "is invalid with blank obszar" do

@@ -24,26 +24,4 @@ RSpec.describe StaticPagesController, type: :controller do
     end	    
   end
 
-  describe "GET #about" do
-    it "returns http success" do
-      get :about
-      expect(response).to have_http_status(:success)
-    end
-    it "renders about template" do
-    	get :about
-    	expect(response).to render_template :about
-    end	    
-  end
-  
-  describe "Get #to do" do
-  	it "returns http success" do
-  		get :to_do
-  		expect(response).to have_http_status(:success)
-  	end
-  	it "renders to do temple" do
-  		get :to_do
-  		expect(response).to render_template :to_do
-  	end
-  end
-
 end

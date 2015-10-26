@@ -2,7 +2,7 @@ FactoryGirl.define do
   factory :spell do
     zywiol "Ogień"
     krag "1"
-    nazwa "MyString"
+    name "MyString"
     img_name "MyString"
     obszar "MyString"
     zasieg "MyString"
