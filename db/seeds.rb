@@ -127,7 +127,7 @@ schools = [{
   {name: "Szkoła Bushi Moto",
   img_name: "Moto_bushi_by_Gong_Studios.jpg",
   school_class: "Bushi",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   bonus: "+1 Siła",
   school_desc: "Bushi ze szkoły Moto, to żywe przykłady, zasadności wszelkich stereotypów, na temat klanu Jednorożca. Zdecydowana większość członków tej rodziny, jest pokłosiem unii zawartej między Rokugańczykami i gajinami, którzy dołączyli do klanu Jednorożca, podczas wędrówki Shinjo. Będąc spadkobiercami odludnych, dzikich, barbarzyńskich plemion z północnych stepów, ród Moto praktykuje, nieskrępowany style walki, który czyni ich wprawnymi wojownikami, którzy pomimo negatywnych stereotypów, zyskał uznanie nie jednego dowódcy. Kawaleria Moto, to formacja ciężkiej jazdy, a techniki których uczą, podopiecznych w dojo tej szkoły, skupiają się na pierwszej szarży w pełnym pędzie, usprawniając manewr Pełnego Ataku oraz zwiększenie obrażeń.",
@@ -148,7 +148,7 @@ schools = [{
   {name: "Szkoła Kapłanów Śmierci Moto",
   img_name: "Moto_Shugenja_by_Jason_Behnke.jpg",
   school_class: "Shugenja",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   bonus: "+1 Siła Woli",
   school_desc: "Shugenja zwani Kapłanami Śmierci, są posłannikami Shi-Tien Yen-Wang, panteonu gniewnych bogów śmierci i sądu, których czcili przodkowie rodziny Moto, zanim spotkali panią Shinjo i przyłączyli się do klanu Jednorożca. Czyn ten przez wieki wprowadzał w gniew, dawnych bogów rodziny Moto, którzy szukali swoich dawnych wyznawców, by odnaleźć ich w Rokuganie i ukarać ich straszliwą klątwą, która przyniosła całemu rodowi, zły los i smutek, co później zostało nazwane klątwą Moto. Dopiero Moto Gaheris, skontaktował się bezpośrednio z dawnymi bogami, by dobić targu który ma trwać póki istnieje ród Moto. Bogowie Śmierci oddalą swoją klątwę i gniew, w zamian za powrót rodu Moto, do właściwej wiary. Po dobiciu targu, dawna wiara szybko rozprzestrzeniła się po całej rodzinie, a także poza nią w obrębie klanu Jednorożca. Niedługo później bogowie śmierci, zostali wyniesieni do godności pomniejszych fortun. Zakorzenieni w Świecie Oczekiwania, osądzają tych którzy czekają na reinkarnacje, a ich pozycja przyciągała od tego czasu nawet niewielkie grupy wyznawców, spoza klanu Jednorożca. Kapłani Shi-Tien Yen-wang, potrafią zachwiać karmiczną więź śmiertelników, a także specjalizują się w czarach Podróży.",
@@ -163,7 +163,7 @@ schools = [{
   {name: "Szkoła Obrońców Moto",
   img_name: "Moto_defender_by_Jonathan_Moore.jpg",
   school_class: "Bushi",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   bonus: "+1 Siła Woli",
   school_desc: "W dziewiątym wieku, rodzina Moto, poniosła wielką stratę, zarówno na swoim morale, jak i na swoim honorze, gdy panujący wtedy daimyo Moto Tsume, ogarnięty dumą i arogancja, wjechał w głąb Krain Cienia, z większą częścią swoich wojsk. W końcu zarówno on sam, jak i wszyscy jego wojownicy, ulegli potędze ciemności i stali się jednym z najpotężniejszych oręży, sił Jigoku w walce z Rokuganem. Moto którzy ocaleli lub zostali w tyle i wrócili, byli głęboko zhańbieni i poprzysięgli zniszczyć wszelkie ślady Skazy Cienia. Przysięga ta stała się podwalina elitarnej Białej Straży, jak i Obrońców Moto. Choć szkoła Obrońców Moto istniał przed upadkiem Moto, szkoła nie była nakierowana głównie na walkę ze stworami Krain Cienia, a techniki których uczono, nie były jeszcze w pełni rozwinięte. Lecz hańba Tsume, zmieniła wszystko. Mroczni Moto, to okropne stworzenia, poruszają się na monstrualnych koniach, które nigdy się nie męczą, napełnieni nadludzką siłą i mroczną mocą, by zniszczyć każdego przeciwnika sił Krain Cienia. I to właśnie zagrożenie tchnęło szkołę Obrońców Moto, by stali się jeszcze silniejsi, na tyle silni, by w pojedynkę mogli wygrać ze swymi mrocznymi krewnymi. Szkoleni by zauważać najmniejsze nawet oznaki Krain Cienia i by neutralizować ich przewagi. Władze rodu dołożyły wszelkich starań, by Obrońcy Moto posiadali możliwie najpełniejszą wiedzę, a klan Kraba chętnie pomógł w tym zakresie, zwłaszcza po pomocy jaką klan Jednorożca okazał rodzinie Hiruma, podczas odbudowy ich własnej szkoły. Gdy Obrońca Moto trafi na trop, Krain Cienia nie spocznie póki on lub przeciwnik nie będzie martwy.",
@@ -185,7 +185,7 @@ schools = [{
   {name: "Szkoła Shugenja Horiuchi",
   img_name: "Horiuchi_shugenja_by_Joachim_Gmoser.jpg",
   school_class: "Shugenja",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   bonus: "+1 Wytrzymałość",
   school_desc: "Rodzina Horiuchi, została założona w późnym okresie, klanu Jednorożca, ale korzenie tego rodu, sięgają głęboko, w czasy przed powstaniem Wielkich Klanów. Podczas podróży poza Szmaragdowe Cesarstwo, klan Jednorożca odkrył wiele dziwnych stylów rzucania czarów, zarówno od przyjaciół, jak i wrogów. Każdy nowy sposób rozmowy z kami, był badany i wplatany w jedną metodę. Gdy utworzono ród Horiuch, stał się on głównym kultywatorem, stylu Meishodo. Pradawni szamani, którzy stworzyli podwaliny tej techniki, nie potrafili rozmawiać z kami, ani nie mieli bezpośredniego dostępu do fortun. Zamiast tego tworzyli amulety, z zawartą mocą, którą w chwili potrzeby uwalniali z amuletu, poprzez nazwanie prawdziwym imieniem przyzywanych żywiołów. Gdy shugenja klanu Jednorożca przyjrzeli się tym amuletom, odkrył że zawierają oni zamknięte kami żywiołów. Klan Jednorożca zmienił i zaadaptował tę technikę, tak by był zgodny z ich wierzeniami. Obecnie amulety nie więzią już kami, ale odwołują się do żywiołów zawartych w pobliżu amuletu, w chwili aktywacji. Jednak podobnie jak w przypadku danych szamanów, amulety zawierają tylko jeden czar. Meishodo, jest sekretem zazdrośnie strzeżonym przez klan. Meishodo, przedkłada szybkość nad moc, a szybkość zawsze była ważnym aspektem klanu Jednorożca.",
@@ -200,7 +200,7 @@ schools = [{
   {name: "Szkoła Shugenja Iuchi",
   img_name: "Iuchi_Shugenja_by_Matt_Zeilinger.jpg",
   school_class: "Shugenja",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   bonus: "+1 Spostrzegawczość",
   school_desc: "Pomijając może rodzinę Tamori, Iuchi są najmniej konwencjonalną i konserwatywną rodziną shugenja w Rokuganie. Z natury dzicy i beztroscy, tak jak nauki przekazywane im przez nauczycieli na otwartych równinach, w pobliżu świątyni w której znajduje się szkoła. Natura ta wypływa z historii klanu, który długo wędrował, przez odlegle ziemie. Ten okres historii ma także wpływ na różnorodne style uprawiania magii, wliczając w to Meishodo, czyli sztukę tworzenia talizmanów które pozwalają kierować kami. Będąc główną szkołą shugenja w klanie Jednorożca, techniki których uczą w szkole, pozwalają zwiększyć mobilność i szybkość. A wzmocnienie czarów Podróży dodatkowo usprawnia ich na tym polu.",
@@ -216,7 +216,7 @@ schools = [{
   {name: "Szkoła Emisariuszy Ide",
   img_name: "Ide_courtier_by_Jorge_Matar.jpg",
   school_class: "Dworzanin",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   bonus: "+1 Intuicja",
   school_desc: "Szkoła Emisariuszy Ide, skupia się na spokojnym umyśle, jasności we wszystkim i mediacji. Szkoła ta jest najbardziej pacyfistyczną z pośród wszystkich szkół dworskich, w całym Rokuganie, może z wyłączeniem szkoły Asako z klanu Feniksa. Silne przekonanie do pacyfizmu, topniało i chwiało się na przestrzeni wieków, jednak pozostali oni wierni zasadzie, że lepiej jest oddalać konflikty, niż je wywoływać. Dzięki temu są mile widzianymi sojusznikami, niektórych klanów i złem koniecznym innych. Ide akceptuje te komplementy i krytyki z równą radością. Techniki szkoły Ide, różnią się znacznie od technik, których uczą w innych klanach, gdyż są ona całkowicie nie agresywne. Ide specjalizują się w chronieniu siebie, od konsekwencji swoich działań i próbie załagodzenia konfliktów między innymi.",
@@ -238,7 +238,7 @@ schools = [{
   img_name: "Shinjo_bushi_by_Sergio_Camarena.jpg",
   school_class: "Bushi",
   bonus: "+1 Zręczność",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   school_desc: "Shinjo, do perfekcji opanowali taktykę walki konnej, popularnej w klanie Jednorożca. Styl walki którego uczą w szkole Shinjo, łączy szereg gajińskich stylów walki, z którymi ród ten spotkał się podczas swojej długiej wędrówki poza granicami Cesarstwa. W wyniku tych doświadczeń, rodzina uczy stylu walki opartego na różnych rodzajach obrony, wliczając w to techniki parowania, riposty i inne niecodzienne manewry, z którymi większość Rokugańczyków nie jest zaznajomiona.",
   skills: "Atletyka, Obrona, Jazda konna 2, Kyujutsu, Dowolna inna umiejętność.",
@@ -259,7 +259,7 @@ schools = [{
   img_name: "Utaku_Bushi_by_Jazz_Siy.jpg",
   school_class: "Bushi",
   bonus: "+1 Refleks",
-  clan: "Jednorożec",
+  clan: "Jednorozec",
   clan_name: "Jednorożec",
   school_desc: "Dziewice Wojny Utaku, znane są również jako Shiotome i stanowią najlepiej wyszkoloną jazdę w całym Rokuganie, których wrogowie obawiają się bardziej nawet, niż i krewnych ze szkół Moto, czy Shinjo. Choć większości koni klanu Jednorożca, to gajinskie konie, które są większe i silniejsze od Rokugańskich kuców. Tylko rodzina Utaku ma prawo hodować i wykorzystywać legendarne konie Utaku, które są najlepszymi wierzchowcami w znanym świecie. Podobnie jak większość szkół Bushi z klanu Jednorożca, szkoła Dziewic Wojny Utaku, kładzie duży nacisk na walkę konną, choć nie zaniedbuje również technik walki pieszej. Jednakże pełnię swoich możliwości Dziewica Wojny Utaku osiąga walcząc konno, stanowiąc wtedy zagrożenia dla praktycznie każdego ludzkiego przeciwnika. Honor jest również ważny dla Dziewic Wojny i w miarę jak postać staje się coraz bardziej honorowa, tym potężniejszą, staje się bronią dla Dziewicy Wojny.",
   skills: "Taktyka, Obrona, Jazda konna 2, Kenjutsu, Szczerość, Dowolna umiejętność Godna lub Bugei.",
@@ -733,7 +733,7 @@ schools = [{
   {name: "Szkoła Bushi Daigotsu",
   img_name: "Daigotsu_Bushi_by_Hannah_Boving.jpg",
   school_class: "Bushi",
-  clan: "Pająk",
+  clan: "Pajak",
   clan_name: "Pająk",
   bonus: "+1 Siła",
   school_desc: "Legiony wojowników wiernych Daigotsu uzywają stylu walki, będącego zlepkiem różnych technik, których uczyli się w poprzednich szkołach. W rezultacie powstała technika, brutalnie skuteczna, która może okaleczyć nie tylko ciało przeciwnika, ale i jego duszę, a następnie wykorzystać to dla własnej korzyści. Techniki Szkoły Bushi Daigotsu wyraźnie wskazują na ich związek, z ich bogiem i mistrzem, Fu - Lengiem. Zdolność do zwiększenia obrażeń i zaszczepiania strachu w przeciwnikach sprawia, że stanowią wyzwanie nawet dla najpotężniejszego wroga, a moc Bushi Daigotsu może wzrosnąć wielokrotnie jeśli sięgną po moc Krain Cienia, co wiąże się oczywiście z ryzykiem.",
@@ -754,7 +754,7 @@ schools = [{
   {name: "Szkoła Dworzan Daigotsu",
   img_name: "Daigotsu_courtier_by_Britt_Martin.jpg",
   school_class: "Dworzanin",
-  clan: "Pająk",
+  clan: "Pajak",
   clan_name: "Pająk",
   bonus: "+1 Spostrzegawczość",
   school_desc: "Najprawdopodobniej największym zwycięstwem klanu Pająka, była powolna infiltracja wielu dworów należących do Wielkich Klanów. Przebrani za roninów i emistariuszy pomniejszych gałęzi innych rodów, dworzanie Daigotsu rozszerzali siatkę informacji klanu Pająka, szantażując swoje ofiary oraz namawiając łasych na władzę, by tylko wzmocnić pozycję klanu. Działając z pozycji siły, dworzanie Daigotsu starają się wmanipulować innych w konflikty, które będą na ręke klanowi Pająka, jednocześnie dbając o to by uwaga, zwrocona była jak najdalej od ich klanu. Największa siła uczniów tej szkoły nie leży w technikach jakiech ona uczy, choć są one bardzo uniwersalne, a w umiejętności wykorzystania Sazy Cienia. Technika ta skupia się na rozpraszaniu innych, tworząc w ktorym dworzanin Daigotsu może działać, tak by w razie konieczności odbić winę na kogoś innego. Pozwala to zarówno przetrwać, jak i osiągnąc korzyści dla klanu Pająka.",
@@ -775,7 +775,7 @@ schools = [{
   {name: "Szkoła Shugenja Chuda",
   img_name: "Chuda_shugenja_by_Jaime_Jones.jpg",
   school_class: "Shugenja",
-  clan: "Pająk",
+  clan: "Pajak",
   clan_name: "Pająk",
   bonus: "+1 Siła Woli",
   school_desc: "Ród Chuda od wieków praktykuje Maho, a widza i techniki są przekazywane w sekrecie, od momentu jak ród zostal wyniszczony przez klan Feniksa. Po przyłączeniu do klanu Pająka, spadkobiercy klanu Węża wypełnili lukę jaka powstała w nowo powstałym klani Pająka. Chuda to najbardziej żarliwi badacze Maho, szukający granic tej mocy, tylko po to by móc je potem pokonać. Wieki specjalizacji w czarach Maho, sprawiły że choć formalnie członkowie tego rodu to shugenja, to jednak wieki spędzone nad czarami Maho, sprawiły że czary oparte na kami żywiołów są dla nich trudniejsze.",
@@ -790,7 +790,7 @@ schools = [{
   {name: "Szkoła Mnichów Pająka",
   img_name: "spider_monk_by_Jeff_Hill.jpg",
   school_class: "Mnich",
-  clan: "Pająk",
+  clan: "Pajak",
   clan_name: "Pająk",
   bonus: "+1 Zręczność",
   school_desc: "Pochodzenie tego enigmatycznego zakonu, jest owiane tajemnicą, nawet dla wysokopostawionych członków klanu. Zakon założył upadły mnich Roshungi, jendak dopiero jego uczeń Michio rozpoczął poszukiwanie nowej ścieżki, bez względu na konsekwencje jakie, niosła za sobą ta decyzja. Członkowie zakonu Pająka, są bezlitośni i mają zasłużona reputacje brutalnych. Styl ich walki opiera się na walce wręcz jak i przy użyciu różnego rodzaju broni. Choć zakon działa obecnie w pełni w ramach klanu Pająka, tylko niewielka część z jego członków posiada Skazę Cienia. Styl walki mnichów z zakonu Pająka, skupia się na okaleczaniu przeciwnika oraz odpieraniu wszelkiego rodzaju manipulacji, jak i magii.",
@@ -1114,7 +1114,7 @@ schools = [{
   {name: "Akademia Pojedynku Kakita",
   img_name: "Kakita_Shinichi_by_Immar_Palomera.jpg",
   school_class: "Bushi",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus:  "+1 Refleks",
   school_desc: "Uświęcona Sztuka Iaijutsu jest praktykowane przez wszystkie klany, ale żaden z nich nie opanował jej taki sposób, jak Akademii Pojedynku Kakita. Szkoła skupia się niemal całkowicie na pojedynku. Inne umiejętności są częścią nauk podstawowych, ale są one uważane za przypadkowe, a w wielu przypadkach oferowane są tylko dlatego, że niektóre z ich aspektów, odnoszą się w jakiś sposób do Iaijutsu. Chociaż w Cesarstwie są tacy, którzy krytykowali tę szkołę za wąską specjalizację, niewielu może polemizować z wynikami. Wiele bitew zostało wygranych przez Żurawia, bo wróg został zabity w pojedynku, zanim bitwa się rozpoczęła. Podobnie potęga dworska Żurawia jest łatwiejsza do utrzymania, gdy wyzwanie może być odebrane przez jednego z uczniów akademii Kakita, który stanie w obronie dworzanina. Techniki Kakita kładą największy nacisk na Iaijutsu, ale niektóre z nich mogą być stosowane zarówno w pojedynku, jak i podczas zwykłej potyczki. Kakita są na ogół szybsi niż większość przeciwników, odzwierciedla to ich premia do inicjatywy i są w stanie wykorzystać manewr Skupienia dla większych korzyści niż normalnie, zarówno w pojedynku jak i poza nim.",
@@ -1135,7 +1135,7 @@ schools = [{
   {name: "Akademia Artystów Kakita",
   img_name: "Kakita_Hikai_by_Albert_Tavira.jpg",
   school_class: "Artysta",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus: "+1 Intuicja",
   school_desc: "W przeciwieństwie do swoich adwersarzy z rodu Shiba, artyści Kakita, nie ograniczają się jedynie do tworzenia fizycznej sztuki, takiej jak, malarstwo i poematy. Akademia Artystów Kakita poświęca się badaniom każdego rodzaju sztuki, czy to opartej na występie czy na pracy rąk, tak by jak najlepiej mogła się ona przysłużyć klanowi Żurawia.",
@@ -1156,7 +1156,7 @@ schools = [{
   {name: "Szkoła Shugenja Asahina",
   img_name: "Asahina_Michiru_by_Jorge_Matar.jpg",
   school_class: "Shugenja",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus: "+1 Intuicja",
   school_desc: "Podobnie jak rodzina jako całości, Szkoła Shugenja Asahina, uczą przewagi cnoty ochrony życia, nad bezmyślną destrukcją. Szkoła Asahina koncentruje się na duchowych celach oraz medytacji, jako sposobowi do odnalezienia drogi w świecie. Shugenja Asahina pełnią tę samą funkcję dla klanu Żurawia, jaką pełnią inne rodziny shugenja dla swoich klanów, ale korzystają z okazji do szukania pytań, u uczestników lub obserwatorów ich rytuałów. Dla shugenjy Asahina wszystko co dzieje się wokół niego, jest możliwością do zadawania pytań. Podobnie szkoła kładzie duży nacisk na tworzenie dzieł sztuki, akt uważany za istotny dla poprawy świata wokół nich Przede wszystkim, Szkoła Asahina skupia się na obronie i ochronie, techniki nauczane w szkole zachęcają do poznawania zaklęć, które zmniejszają uszkodzenia i chronią innych przed atakiem. Inne czary posiadane przez shugenja Asahina skupiają się na tworzeniu i czarach Rzemieślniczych.",
@@ -1171,7 +1171,7 @@ schools = [{
   {name: "Szkoła Dworzan Doji",
   img_name: "Doji_Dainagon_by_Edwin_David.jpg",
   school_class: "Dworzanin",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus: "+1 Intuicja",
   school_desc: "Dworzanie z Klanu Żurawia są uważani za niekwestionowanych mistrzów dworskich, a reputacja nie będąca ani trochę przesadzona, została osiągnięta tylko i wyłącznie dzięki, sekretnym technikom Dworskiej Szkoły Doji. Priorytetem szkoły jest tworzenie rozległych sieci sojuszników, do których klan Żurawia może się odwołać w razie dowolnej potrzeby, a w szczególności tych którzy mają u nich jakiś dług. Program nauczania w szkole Doji jest dość szeroki i obejmuje mnóstwo tematów, więcej niż może być opanowane przez jednego samuraja, nie ważne jak utalentowanego. Na szczęście sensei dbają by w danym czasie istniała wystarczająca liczba dworzan biegłych w każdym aspekcie. Szkoła Dworzan Doji zbudowana jest sztuce wymiany przysług. Nie jest to jednak cała prawda, dobrze wyszkolony dworzanin szkoły Doji, potrafi wyczuć potrzeby innych i zaproponować je w taki sposób by odmowa był trudna jeśli nie niemożliwa.",
@@ -1192,7 +1192,7 @@ schools = [{
   {name: "Szkoła Zarządców Doji",
   img_name: "Doji_Shigeyuki_by_Diego_Gisbert_Llorens.jpg",
   school_class: "Bushi",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus: "+1 Refleks",
   school_desc: "Rodzina Doji jest poświęcona ochronie swoich ziem i ludzi od wszystkich zagrożeń, co jest wyrazem oddania Klanu Żurawia cnocie współczucia. W związku z tym, utrzymuje szkołę zarządców, ucząc w niej technik organów ścigania i utrzymania porządku. Chociaż mniej znana ze swoich czynów, szkoła zarządców Doji, wyprzedza inne bardziej znane szkoły zarządców z innych klanów, a nawet Szmaragdowych Zarządców. Pomimo nazwy szkoły, w rzeczywistości tylko niewielka część jego uczniów jest w rzeczywiści mianowana na zarządców. Bardziej prawdopodobne jest że uczniowie zostaną mianowani jako yoriki, pomoc dla zarządców, jako straż pogranicza lub miasteczka. Mimo tego uczniowie tej szkoły często są pośród pierwszych, do uzyskania nominacji na zarządcę, gdy taka pozycje będzie dostępna, nie jest rzadkością również by uczniowie tej szkoły zostali Szmaragdowymi lub Jadeitowymi Zarządcami.",
@@ -1213,7 +1213,7 @@ schools = [{
   {name: "Szkoła Żelaznych Wojowników Daidoji",
   img_name: "Daidoji_Botan_by_Edwin_David.jpg",
   school_class: "Bushi",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus: "+1 Zręczność",
   school_desc: "Dzięki umiejętnością rodów Doji i Kakita klan Żurawia zdobył pozycję władców dworskich, lecz słowa czasami nie mogą przynieść zwycięstwa. Wtedy właśnie wkraczają Żelaźni Wojownicy ze szkoły Daidoji, dzierżąc siłę i odwagę, która potrzebna jest tam gdzie zawodzą słowa. Daidoji od zawsze uważali się za ciche ostrze klanu Żurawia, pełniąc funkcję zarówno ciężkiej piechoty armii klanu, stanowiąc pokaźny odsetek, pierwszej armii oraz zdecydowaną większość drugiej armii, klanu Żurawia. W czasie pokoju bushi Daidoji służą jako Yojimbo i ta role często jest powodem stereotypów na temat Żelaznych Wojowników. Ród Daidoji jest bardzo elastyczny, a techniki szkoły, pozwalają na zwiększenie wytrzymałości wojownika, jak i uczą jak skutecznie ochraniać innych podczas starć.",
@@ -1234,7 +1234,7 @@ schools = [{
   {name: "Szkoła Zwiadowców Daidoji",
   img_name: "daidoji_yuki_by_Diego_Gisbert_Llorens.jpg",
   school_class: "Bushi",
-  clan: "Żuraw",
+  clan: "Zuraw",
   clan_name: "Żuraw",
   bonus: "+1 Refleks",
   school_desc: "Chociaż Żelaźni Wojownicy stanowią najbardziej rozpoznawalną formację rodu Daidoji, ród ten specjalizuje się w szkoleniu zwiadowców, do przeprowadzania zasadzek i precyzyjnych ataków na wrażliwe pozycje armii przeciwnika. Zwiadowcy Daidoji są mistrzami w tworzeniu i zastawianiu pułapek, przeprowadzaniu ataków z zaskoczenia, akceptując przy tym ujmę na własnym honorze w imię dobra klanu, licząc na wsparcie polityczne które będzie przykrywką ich wątpliwych, pod względem honoru czynów.",
@@ -1585,7 +1585,7 @@ spells = [
   #-------------------------------------------------Ogień---------------------------------------------------------
   #-------------------------------------------------Krąg 1 (10)----------------------------------------------------
   #-------------------------------------------------Krąg 1 (10)----------------------------------------------------
-  {nazwa:"Stal Która Kąsa",
+  {name:"Stal Która Kąsa",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1597,7 +1597,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]}, 
 
-  {nazwa:"Ognisty Pocałunek Stali",
+  {name:"Ognisty Pocałunek Stali",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1609,7 +1609,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]}, 
 
-  {nazwa:"Zazdrosny Ogień",
+  {name:"Zazdrosny Ogień",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1621,7 +1621,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Zgaszenie",
+  {name:"Zgaszenie",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1633,7 +1633,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Ogień Czystości",
+  {name:"Ogień Czystości",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1645,7 +1645,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]}, 
 
-  {nazwa:"Ogień Który Oczyszcza",
+  {name:"Ogień Który Oczyszcza",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1657,7 +1657,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Furia Osano-Wo",
+  {name:"Furia Osano-Wo",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1669,7 +1669,7 @@ spells = [
   specjalne: "",
   tagi: ["Grom"]}, 
 
-  {nazwa:"Katana Ognia",
+  {name:"Katana Ognia",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1681,7 +1681,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa", "Rzemiosło"]}, 
 
-  {nazwa:"Nigdy Sam",
+  {name:"Nigdy Sam",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1693,7 +1693,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Buchająca Kuźnia",
+  {name:"Buchająca Kuźnia",
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
@@ -1705,7 +1705,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]},
   #----------------------------------------------- Krąg 2 (8) -----------------------------------------------------
-  {nazwa:"Zakłócenie Aury",
+  {name:"Zakłócenie Aury",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1717,7 +1717,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Kuszący Taniec Płomieni",
+  {name:"Kuszący Taniec Płomieni",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1729,7 +1729,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Ogień z Wnętrza",
+  {name:"Ogień z Wnętrza",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1741,7 +1741,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Pośpieszne Kroki",
+  {name:"Pośpieszne Kroki",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1753,7 +1753,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Szybkość Umysłu",
+  {name:"Szybkość Umysłu",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1765,7 +1765,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Nieustepliwe Ciepło",
+  {name:"Nieustepliwe Ciepło",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1777,7 +1777,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Ogon Smoka Ognia",
+  {name:"Ogon Smoka Ognia",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1789,7 +1789,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Pieczęć Czystości",
+  {name:"Pieczęć Czystości",
   krag: "2",
   zywiol: "Ogień",
   img_name: "",
@@ -1801,7 +1801,7 @@ spells = [
   specjalne: "Choć tradycyjnym żywiołem do zwalczania Krain Cienia jest ziemia, kami ognia również mogą być nakłonione do niszczenia tych abominacji. Czar ten wiąże poprzez dotyk kami ognia z wybranym miejscem i sprawia że będą go chronić przed siłami z Krain Cienia. Podczas rzucania czaru shugenja musi nakreślić odpowiednie symbole na płaskiej powieżchni przy pomocy atramentu lub kredą, a proces kreślenia trwa minutę, po upływie której wykonuje się rzut na czar. Od tego momentu kami ognia chronią to miejsce przed istotami z Krain Cienia lub Kłamiącej Ciemności. Jeśli osoba lub stwór posiada przynajmniej 1 poziom Skazy Cienia lub jest pod kontrolą Kłamiącej Ciemności, musi wykonać udany rzut przeciwstawny Siły Woli przeciw Sile Woli shugenjy +5, który umieścił pieczęć lub nie będzie wstanie wejść w obręb chroniony pieczęciom. Nawet jeśli istocie uda się wejść w obręb chroniony pieczęcią, zacznie ona odczuwać wielki ból, jakoże kami ognia zaczną ją wypalać, ciało intruza staje w płomieniach, przez co otrzymują obrażenia równe Kręgowi Ognia/Ranga Szkoły, podczas każdej rundy przebywania w chroniony obszarze. Ataki dystansowe oraz czary wykonane spoza chronionego obszaru nie są w żaden sposób dotknięte pieczęcią, obiekt na którym wymalowano pieczęć musi przez cały czas pozostać w bezruchu oraz musi być widoczny przez cały czas lub czar zostanie rozproszony. Kilka Pieczęci czystości nachodzących na siebie w żaden sposób nie wzmacni efektu czaru.",
   tagi: ["Pieczęć"]},
   #------------------------------------- Krag 3 (7) ----------------------------------------------------------
-  {nazwa:"Oddech Ognistego Smoka",
+  {name:"Oddech Ognistego Smoka",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1813,7 +1813,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Gniew Płomieni",
+  {name:"Gniew Płomieni",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1825,7 +1825,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Pięść Osano-Wo",
+  {name:"Pięść Osano-Wo",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1837,7 +1837,7 @@ spells = [
   specjalne: "",
   tagi: ["Grom"]},
 
-  {nazwa:"Bitewny Zgiełk",
+  {name:"Bitewny Zgiełk",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1849,7 +1849,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Głodne Ostrze",
+  {name:"Głodne Ostrze",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1861,7 +1861,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]},
 
-  {nazwa:"Wygłodniały Roje",
+  {name:"Wygłodniały Roje",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1873,7 +1873,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Błyszczące Światło",
+  {name:"Błyszczące Światło",
   krag: "3",
   zywiol: "Ogień",
   img_name: "",
@@ -1885,7 +1885,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
   #--------------------------------------- Krag 4 (6) ----------------------------------------------
-  {nazwa:"Śmierć Ognia",
+  {name:"Śmierć Ognia",
   krag: "4",
   zywiol: "Ogień",
   img_name: "",
@@ -1897,7 +1897,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Ochrona Burzy Ognia",
+  {name:"Ochrona Burzy Ognia",
   krag: "4",
   zywiol: "Ogień",
   img_name: "",
@@ -1909,7 +1909,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Kuźnia Naprawy",
+  {name:"Kuźnia Naprawy",
   krag: "4",
   zywiol: "Ogień",
   img_name: "",
@@ -1921,7 +1921,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]},
 
-  {nazwa:"Symbol Ognia",
+  {name:"Symbol Ognia",
   krag: "4",
   zywiol: "Ogień",
   img_name: "",
@@ -1933,7 +1933,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
 
-  {nazwa:"Ściana Ognia",
+  {name:"Ściana Ognia",
   krag: "4",
   zywiol: "Ogień",
   img_name: "",
@@ -1945,7 +1945,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Pieczęć Gromu",
+  {name:"Pieczęć Gromu",
   krag: "4",
   zywiol: "Ogień",
   img_name: "",
@@ -1958,7 +1958,7 @@ spells = [
   tagi: ["Obrona", "Pieczęć", "Grom"]},
   # ---------------------------------- Krag 5 (5)
 
-  {nazwa:"Fala Zniszczenia",
+  {name:"Fala Zniszczenia",
   krag: "5",
   zywiol: "Ogień",
   img_name: "",
@@ -1970,7 +1970,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Wiecznie Płonący Szał",
+  {name:"Wiecznie Płonący Szał",
   krag: "5",
   zywiol: "Ogień",
   img_name: "",
@@ -1982,7 +1982,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Ścieżka Ognia",
+  {name:"Ścieżka Ognia",
   krag: "5",
   zywiol: "Ogień",
   img_name: "",
@@ -1994,7 +1994,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Światło Słońca",
+  {name:"Światło Słońca",
   krag: "5",
   zywiol: "Ogień",
   img_name: "",
@@ -2006,7 +2006,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit"]}, 
 
-  {nazwa:"Skrzydła Feniksa",
+  {name:"Skrzydła Feniksa",
   krag: "5",
   zywiol: "Ogień",
   img_name: "",
@@ -2019,7 +2019,7 @@ spells = [
   tagi: ["Podróż"]}, 
 
   #----------------------------------- Krag 6 (3) -----------------------------------------------------
-  {nazwa:"Piekielny Promień",
+  {name:"Piekielny Promień",
   krag: "6",
   zywiol: "Ogień",
   img_name: "",
@@ -2031,7 +2031,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Sfera Wiecznego Słońca",
+  {name:"Sfera Wiecznego Słońca",
   krag: "6",
   zywiol: "Ogień",
   img_name: "",
@@ -2043,7 +2043,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]}, 
 
-  {nazwa:"Ostrze Duszy",
+  {name:"Ostrze Duszy",
   krag: "6",
   zywiol: "Ogień",
   img_name: "",
@@ -2057,7 +2057,7 @@ spells = [
   #------------------------------ Powietrze ----------------------------------------------
   #------------------------------ Krag 1 (13) --------------------------------------------
 
-  {nazwa:"Lot Strzały",
+  {name:"Lot Strzały",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2069,7 +2069,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Błogosławiony Wiatr",
+  {name:"Błogosławiony Wiatr",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2081,7 +2081,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Dzięki Światłu Księżyca",
+  {name:"Dzięki Światłu Księżyca",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2093,7 +2093,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Płaszcz Nocy",
+  {name:"Płaszcz Nocy",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2105,7 +2105,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Zbierający Wir",
+  {name:"Zbierający Wir",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2117,7 +2117,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Spuścizna Kaze-no-Kami",
+  {name:"Spuścizna Kaze-no-Kami",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2129,7 +2129,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]},
 
-  {nazwa:"Dotyk Natury",
+  {name:"Dotyk Natury",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2141,7 +2141,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Podmuch Wiatru",
+  {name:"Podmuch Wiatru",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2153,7 +2153,7 @@ spells = [
   specjalne: "",
   tagi: ["Grom"]},
 
-  {nazwa:"Pozorny Przedmiot",
+  {name:"Pozorny Przedmiot",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2165,7 +2165,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło", "Iluzja"]},
 
-  {nazwa:"W Poszukiwanie Prawdy",
+  {name:"W Poszukiwanie Prawdy",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2177,7 +2177,7 @@ spells = [
   specjalne: "Czas trwania (+1 minuta)",
   tagi: [""]},
 
-  {nazwa:"Głos Wiatru",
+  {name:"Głos Wiatru",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2189,7 +2189,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Droga Ułudy",
+  {name:"Droga Ułudy",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2201,7 +2201,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Yari Powietrza",
+  {name:"Yari Powietrza",
   krag: "1",
   zywiol: "Powietrze",
   img_name: "",
@@ -2213,7 +2213,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło", "Grom"]},
   #---------------------------------------------krag 2 (14) -------------------------------------------
-  {nazwa:"Dotyk Benten",
+  {name:"Dotyk Benten",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2225,7 +2225,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Wezwanie Wiatru",
+  {name:"Wezwanie Wiatru",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2237,7 +2237,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Szyfr Żywiołów",
+  {name:"Szyfr Żywiołów",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2249,7 +2249,7 @@ spells = [
   specjalne: "Czar ten znany jest tylko członka rodzin Cesarskich, jest ulubionym czarem shugenja z rodziny Seppun.",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Lot Gołębicy",
+  {name:"Lot Gołębicy",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2261,7 +2261,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Swoboda Powietrza",
+  {name:"Swoboda Powietrza",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2273,7 +2273,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
 
-  {nazwa:"Ukryty Obraz",
+  {name:"Ukryty Obraz",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2285,7 +2285,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Szept Kami",
+  {name:"Szept Kami",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2297,7 +2297,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Mgła Ułudy",
+  {name:"Mgła Ułudy",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2309,7 +2309,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło", "Iluzja"]},
 
-  {nazwa:"Cichość Powietrza",
+  {name:"Cichość Powietrza",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2321,7 +2321,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
 
-  {nazwa:"Prośba do Hato-no-Kami",
+  {name:"Prośba do Hato-no-Kami",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2333,7 +2333,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Sekrety Wiatru",
+  {name:"Sekrety Wiatru",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2345,7 +2345,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Szepczący Wiatr",
+  {name:"Szepczący Wiatr",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2357,7 +2357,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Sen który Niesie Wiatr",
+  {name:"Sen który Niesie Wiatr",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2369,7 +2369,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Propozycja Wilka",
+  {name:"Propozycja Wilka",
   krag: "2",
   zywiol: "Powietrze",
   img_name: "",
@@ -2381,7 +2381,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
   #--------------------------------------- Krag 3 (11) ----------------------------------------------
-  {nazwa:"Błogosławieństwo Kami Powietrza",
+  {name:"Błogosławieństwo Kami Powietrza",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2393,7 +2393,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Esencja Powietrza",
+  {name:"Esencja Powietrza",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2405,7 +2405,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Oko Nie Zobaczy",
+  {name:"Oko Nie Zobaczy",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2417,7 +2417,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Giętki Język",
+  {name:"Giętki Język",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2429,7 +2429,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Maska Wiatru",
+  {name:"Maska Wiatru",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2441,7 +2441,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Dusza Kaze-no-Kami",
+  {name:"Dusza Kaze-no-Kami",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2453,7 +2453,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Uderzenie Burzy",
+  {name:"Uderzenie Burzy",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2465,7 +2465,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Przyzwanie Wichury",
+  {name:"Przyzwanie Wichury",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2477,7 +2477,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Przyzwanie Mgły",
+  {name:"Przyzwanie Mgły",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2489,7 +2489,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Dotyk Wdzięku Powietrza",
+  {name:"Dotyk Wdzięku Powietrza",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2501,7 +2501,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Poznaj Serce Wroga",
+  {name:"Poznaj Serce Wroga",
   krag: "3",
   zywiol: "Powietrze",
   img_name: "",
@@ -2513,7 +2513,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
   # -------------------------------- Krag 4 (14) --------------------------------------------------------------
-  {nazwa:"Wezwanie Ducha",
+  {name:"Wezwanie Ducha",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2525,7 +2525,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Zamek z Powietrza",
+  {name:"Zamek z Powietrza",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2537,7 +2537,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona", "Iluzja"]}, 
 
-  {nazwa:"Fałszywa Kraina",
+  {name:"Fałszywa Kraina",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2549,7 +2549,7 @@ spells = [
   specjalne: "Obszar działania (+3m), czas trwania (+10 min)",
   tagi: ["Bitwa", "Iluzja"]}, 
 
-  {nazwa:"Ostatnie Widzenie",
+  {name:"Ostatnie Widzenie",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2561,7 +2561,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Podarunek Wiatru",
+  {name:"Podarunek Wiatru",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2573,7 +2573,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},  
 
-  {nazwa:"Skowyt Isory",
+  {name:"Skowyt Isory",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2585,7 +2585,7 @@ spells = [
   specjalne: "",
   tagi: ["Grom"]}, 
 
-  {nazwa:"Poznanie Umysłu",
+  {name:"Poznanie Umysłu",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2597,7 +2597,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Wejrzenie do wnętrza",
+  {name:"Wejrzenie do wnętrza",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2609,7 +2609,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Netsuke z Wiatru",
+  {name:"Netsuke z Wiatru",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2621,7 +2621,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło", "Iluzja"]},
 
-  {nazwa:"Poszukując Drogi",
+  {name:"Poszukując Drogi",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2633,7 +2633,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Symbol Powietrza",
+  {name:"Symbol Powietrza",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2645,7 +2645,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
 
-  {nazwa:"Ucho Tenjin",
+  {name:"Ucho Tenjin",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2657,7 +2657,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Zapomniane Szepty",
+  {name:"Zapomniane Szepty",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2669,7 +2669,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Mądrość Kami",
+  {name:"Mądrość Kami",
   krag: "4",
   zywiol: "Powietrze",
   img_name: "",
@@ -2682,7 +2682,7 @@ spells = [
   tagi: [""]},
   #----------------------------------------- Krag 5 (7) -----------------------------------------------
 
-  {nazwa:"Zaćmienie Umysłu",
+  {name:"Zaćmienie Umysłu",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "",
@@ -2694,7 +2694,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Obrońca z Poza Świata",
+  {name:"Obrońca z Poza Świata",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "",
@@ -2706,7 +2706,7 @@ spells = [
   specjalne: "Shugenja musi urodzić się w rodzie Kitsu",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Odesłanie Cieni",
+  {name:"Odesłanie Cieni",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "",
@@ -2718,7 +2718,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Echo na Wietrze",
+  {name:"Echo na Wietrze",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "",
@@ -2730,7 +2730,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Mierząc się ze Swymi Demonami",
+  {name:"Mierząc się ze Swymi Demonami",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "To niebezpieczne i potężne zaklęcie, które pojawiało się wśród shugenja roninów, od czasu do czasu przez prawie tysiąc lat historii Rokuganu. Shugenja z Wielkich Klanów postrzegają ten czar jako niewłaściwy, a ronini, którzy uczą się go strzegą tej wiedzy i przekazują ją tylko swoim zaufanym uczniom. Zazwyczaj nie więcej niż jeden lub dwóch shugenja w pokoleniu będzie mogło się go nauczyć. W czasie Wojny Klanów, ronin Heichi Chokei, był najsłynniejszym shugenjom znającym ten czar, twierdził on, że jest potomkiem dawno zapomnianego klanu Dzika. Kiedy został zapytany o cel czaru, Chokei odpowiedział z uśmiechem: 'To jest dla tego, kto jest na tyle odważny, aby go używać'. W późniejszych latach, czar zyskał uznanie również, jako ulubiony czar Naka Kuro, tzw Wielkiego Mistrza Żywiołów, a potem jego uczenia i następcy Naka Tokei. Mierząc się ze Swymi Demonami wzywa kami Powietrza by przetestować równowagę żywiołów oraz karmy duszy miesza równowagę żywiołów celu. Czar zamienia najwyższą i najniższą cechę celu na czas trwania zaklęcia, co może to prowadzić do zmian w kręgach postaci, z wszelkimi konsekwencjami (np. obniżenie kręgu Ziemi). Rzucający może wybrać cechy które chce zamienić w przypadku remisu. Ci, którzy używają stojących Mierząc się ze Swymi Demonami widzą go jako lekcję jak ważna jest równowaga, historia zna jednak wiele niehonorowych zastosowań tego czaru i stąd jego zła sława. Duchy powietrza uważają ten czar za bardzo zabawny, ponieważ nie zauważają i nie potrafią zrozumieć jego konsekwencji.",
@@ -2742,7 +2742,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Legion Księżyca",
+  {name:"Legion Księżyca",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "",
@@ -2754,7 +2754,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Ostrze Zabójcy",
+  {name:"Ostrze Zabójcy",
   krag: "5",
   zywiol: "Powietrze",
   img_name: "",
@@ -2767,7 +2767,7 @@ spells = [
   tagi: ["Grom"]},
 
   # ----------------------------------- KRag 6 (5) ----------------------------------------------
-  {nazwa:"Przywołanie Wiatru",
+  {name:"Przywołanie Wiatru",
   krag: "6",
   zywiol: "Powietrze",
   img_name: "",
@@ -2779,7 +2779,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Legion Ułudy",
+  {name:"Legion Ułudy",
   krag: "6",
   zywiol: "Powietrze",
   img_name: "",
@@ -2791,7 +2791,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa", "Iluzja"]},
 
-  {nazwa:"Wezwanie Niebios",
+  {name:"Wezwanie Niebios",
   krag: "6",
   zywiol: "Powietrze",
   img_name: "",
@@ -2803,7 +2803,7 @@ spells = [
   specjalne: "Postać musi pochodzić z klanu Feniksa",
   tagi: [""]},
 
-  {nazwa:"Księżycowy Wiatr",
+  {name:"Księżycowy Wiatr",
   krag: "6",
   zywiol: "Powietrze",
   img_name: "",
@@ -2815,7 +2815,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Gniew Kaze - no - Kami",
+  {name:"Gniew Kaze - no - Kami",
   krag: "6",
   zywiol: "Powietrze",
   img_name: "",
@@ -2829,7 +2829,7 @@ spells = [
   #----------------------------------- Woda -----------------------------------------------------
   #----------------------------------- Krag 1 (10) --------------------------------------------------
 
-  {nazwa:"Bo Wody",
+  {name:"Bo Wody",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2841,7 +2841,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]},
 
-  {nazwa:"Jasność Celu",
+  {name:"Jasność Celu",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2853,7 +2853,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Przepływająca Siła",
+  {name:"Przepływająca Siła",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2865,7 +2865,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Ścieżka ku Wewnętrznej Harmonii",
+  {name:"Ścieżka ku Wewnętrznej Harmonii",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2877,7 +2877,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Odbicie Pan-Ku",
+  {name:"Odbicie Pan-Ku",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2890,7 +2890,7 @@ spells = [
   specjalne: "Żadne",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Odwrócenie Fortuny",
+  {name:"Odwrócenie Fortuny",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2902,7 +2902,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Napierające Fale",
+  {name:"Napierające Fale",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2914,7 +2914,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Szybkość Wodospadu",
+  {name:"Szybkość Wodospadu",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2926,7 +2926,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Duch Wody",
+  {name:"Duch Wody",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2938,7 +2938,7 @@ spells = [
   specjalne: "Zasięg (+1,5m), Specjalna (Dodanie akcji pełnej za 5 podbić)",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Wspierające Energie",
+  {name:"Wspierające Energie",
   krag: "1",
   zywiol: "Woda",
   img_name: "",
@@ -2951,7 +2951,7 @@ spells = [
   tagi: [""]},
   # -------------------------------------- KRag 2 (8) ------------------------------------------------
 
-  {nazwa:"Płaszcz Miya",
+  {name:"Płaszcz Miya",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -2963,7 +2963,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Błogosławieństwo Inariego",
+  {name:"Błogosławieństwo Inariego",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -2975,7 +2975,7 @@ spells = [
   specjalne: "",
   tagi: ["Rzemiosło"]},
 
-  {nazwa:"Zwierciadło Wody",
+  {name:"Zwierciadło Wody",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -2987,7 +2987,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Oczyszczające Opary",
+  {name:"Oczyszczające Opary",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -2999,7 +2999,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Stojąc Naprzeciw Falą",
+  {name:"Stojąc Naprzeciw Falą",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -3011,7 +3011,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Więź Która Łączy",
+  {name:"Więź Która Łączy",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -3023,7 +3023,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Z Szybkością Fali",
+  {name:"Z Szybkością Fali",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -3035,7 +3035,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Mądrość i Jasność",
+  {name:"Mądrość i Jasność",
   krag: "2",
   zywiol: "Woda",
   img_name: "",
@@ -3047,7 +3047,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
   #------------------------------------- Krag 3 (7 ) -------------------------------------
-  {nazwa:"Kojący Chłód",
+  {name:"Kojący Chłód",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3059,7 +3059,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Zasklepienie Rany",
+  {name:"Zasklepienie Rany",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3072,7 +3072,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Cicha Woda",
+  {name:"Cicha Woda",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3084,7 +3084,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Uderzenie Tsunami",
+  {name:"Uderzenie Tsunami",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3096,7 +3096,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Wizja Przyszłości",
+  {name:"Wizja Przyszłości",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3108,7 +3108,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Chodząc Pośród Fal",
+  {name:"Chodząc Pośród Fal",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3120,7 +3120,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Błogosłwaieństwo Kami Wody",
+  {name:"Błogosłwaieństwo Kami Wody",
   krag: "3",
   zywiol: "Woda",
   img_name: "",
@@ -3132,7 +3132,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
   # ----------------------------------- Krag 4 (6) --------------------------------------------
-  {nazwa:"Dominium Suitengu",
+  {name:"Dominium Suitengu",
   krag: "4",
   zywiol: "Woda",
   img_name: "",
@@ -3144,7 +3144,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Przypływy i Odpływy Bitwy",
+  {name:"Przypływy i Odpływy Bitwy",
   krag: "4",
   zywiol: "Woda",
   img_name: "",
@@ -3156,7 +3156,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Serce Smoka Wody",
+  {name:"Serce Smoka Wody",
   krag: "4",
   zywiol: "Woda",
   img_name: "",
@@ -3168,7 +3168,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Ścieżka Niewybrana",
+  {name:"Ścieżka Niewybrana",
   krag: "4",
   zywiol: "Woda",
   img_name: "",
@@ -3180,7 +3180,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Uderzenie Płynącej Wody",
+  {name:"Uderzenie Płynącej Wody",
   krag: "4",
   zywiol: "Woda",
   img_name: "",
@@ -3193,7 +3193,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Symbol Wody",
+  {name:"Symbol Wody",
   krag: "4",
   zywiol: "Woda",
   img_name: "",
@@ -3205,7 +3205,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
   #--------------------------------- Krag 5 (5)------------------------------------------------
-  {nazwa:"Wiecznie Falujące Fale",
+  {name:"Wiecznie Falujące Fale",
   krag: "5",
   zywiol: "Woda",
   img_name: "",
@@ -3217,7 +3217,7 @@ spells = [
   specjalne: "",
   tagi: ["Iluzja"]},
 
-  {nazwa:"Ostateczna Więź",
+  {name:"Ostateczna Więź",
   krag: "5",
   zywiol: "Woda",
   img_name: "",
@@ -3229,7 +3229,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Dłonie Fal",
+  {name:"Dłonie Fal",
   krag: "5",
   zywiol: "Woda",
   img_name: "",
@@ -3241,7 +3241,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa", "Podróż"]},
 
-  {nazwa:"Potęga Oceanu",
+  {name:"Potęga Oceanu",
   krag: "5",
   zywiol: "Woda",
   img_name: "",
@@ -3253,7 +3253,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Uwielbienie Suitenga",
+  {name:"Uwielbienie Suitenga",
   krag: "5",
   zywiol: "Woda",
   img_name: "",
@@ -3265,7 +3265,7 @@ spells = [
   specjalne: "",
   tagi: ["Grom"]},
   # -------------------------------------- Krag 6 (3)----------------------------------
-  {nazwa:"Spokój Kami",
+  {name:"Spokój Kami",
   krag: "6",
   zywiol: "Woda",
   img_name: "",
@@ -3277,7 +3277,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Powstań Wodo",
+  {name:"Powstań Wodo",
   krag: "6",
   zywiol: "Woda",
   img_name: "",
@@ -3289,7 +3289,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Przejrzystość Wody",
+  {name:"Przejrzystość Wody",
   krag: "6",
   zywiol: "Woda",
   img_name: "",
@@ -3303,7 +3303,7 @@ spells = [
   #----------------------------- Ziemia ---------------------------------------------
   # ---------------------------- Krag 1  (10)------------------------------------------------
 
-  {nazwa:"Pancerz Ziemi",
+  {name:"Pancerz Ziemi",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3315,7 +3315,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa", "Obrona"]},
 
-  {nazwa:"Odwaga Siedmiu Gromów",
+  {name:"Odwaga Siedmiu Gromów",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3327,7 +3327,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Spowolnienie Ziemi",
+  {name:"Spowolnienie Ziemi",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3339,7 +3339,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Dotyk Ziemi",
+  {name:"Dotyk Ziemi",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3351,7 +3351,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Pieczęć Żywiołów",
+  {name:"Pieczęć Żywiołów",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3363,7 +3363,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
 
-  {nazwa:"Jadeitowy Atak",
+  {name:"Jadeitowy Atak",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3375,7 +3375,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit","Grom"]},
 
-  {nazwa:"Balsam Jurojin`a",
+  {name:"Balsam Jurojin`a",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3387,7 +3387,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Pomniejsze Związanie",
+  {name:"Pomniejsze Związanie",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3399,7 +3399,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Dusza z Kamienia",
+  {name:"Dusza z Kamienia",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "Czar ten napełnia duszę celu, nieustępliwą naturą zywiołu ziemi. Przez czas trwania zaklęcia, uczucia i przekonania postaci są nie zmienialne, a jaka kolwiek próba wpłynięcia na postać napotyka na nadnaturalny opór. Postać otrzymuje +3z0 do oparcia się wszelkim emocjonalnym manipulacją i próbom wpływania na postawy i przekonania postaci, w sytuacjach spornych MG decyduje o przyznaniu bonusu. Jednakże czar ten wpływa też na Intuicję postaci i otrzymuje ona -1z0 do rzutów na intuicję oraz umiejętności z nią związane.",
@@ -3411,7 +3411,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Tetsubo Ziemi",
+  {name:"Tetsubo Ziemi",
   krag: "1",
   zywiol: "Ziemia",
   img_name: "",
@@ -3425,7 +3425,7 @@ spells = [
 
   # -------------------------------------------- Krag 2 (8) ---------------------------------------------------
 
-  {nazwa:"Być Niczym Góra",
+  {name:"Być Niczym Góra",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3437,7 +3437,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Ziemia Która Stała się Niebem",
+  {name:"Ziemia Która Stała się Niebem",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3449,7 +3449,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit", "Grom"]},
 
-  {nazwa:"Uwielbienie Kenro-Ji-Jin",
+  {name:"Uwielbienie Kenro-Ji-Jin",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3461,7 +3461,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Siła Duszy",
+  {name:"Siła Duszy",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3473,7 +3473,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]},
 
-  {nazwa:"Uchwyt Ziemi",
+  {name:"Uchwyt Ziemi",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3485,7 +3485,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Dłonie z Gliny",
+  {name:"Dłonie z Gliny",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3497,7 +3497,7 @@ spells = [
   specjalne: "",
   tagi: ["Podróż"]},
 
-  {nazwa:"Stopa Góry",
+  {name:"Stopa Góry",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3509,7 +3509,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]}, 
 
-  {nazwa:"Całość Świata",
+  {name:"Całość Świata",
   krag: "2",
   zywiol: "Ziemia",
   img_name: "",
@@ -3522,7 +3522,7 @@ spells = [
   tagi: ["Obrona"]}, 
   #--------------------------------- Krag 3 (7) -------------------------------------------------------
 
-  {nazwa:"Więzy Ningen-Do",
+  {name:"Więzy Ningen-Do",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3534,7 +3534,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]}, 
 
-  {nazwa:"Błogosławieństwo Kami Ziemi",
+  {name:"Błogosławieństwo Kami Ziemi",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3546,7 +3546,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]}, 
 
-  {nazwa:"Ochrona Ziemi",
+  {name:"Ochrona Ziemi",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3558,7 +3558,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Wypalenie Skazy",
+  {name:"Wypalenie Skazy",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3570,7 +3570,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit"]}, 
 
-  {nazwa:"Silni Siłą Wielu",
+  {name:"Silni Siłą Wielu",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3582,7 +3582,7 @@ spells = [
   specjalne: "Czas trwania (+1 runda), Zasięg (+1,5m)",
   tagi: [""]}, 
 
-  {nazwa:"Siła Kruka",
+  {name:"Siła Kruka",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3594,7 +3594,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit"]}, 
 
-  {nazwa:"Wilcza Łaska",
+  {name:"Wilcza Łaska",
   krag: "3",
   zywiol: "Ziemia",
   img_name: "",
@@ -3607,7 +3607,7 @@ spells = [
   tagi: [""]}, 
   # ----------------------------------------Krag 4(5) ------------------------------------------------------
 
-  {nazwa:"Pancerz Cesarza",
+  {name:"Pancerz Cesarza",
   krag: "4",
   zywiol: "Ziemia",
   img_name: "",
@@ -3620,7 +3620,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]}, 
 
-  {nazwa:"Esensja Ziemi",
+  {name:"Esensja Ziemi",
   krag: "4",
   zywiol: "Ziemia",
   img_name: "",
@@ -3632,7 +3632,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]}, 
 
-  {nazwa:"Symbol Ziemi",
+  {name:"Symbol Ziemi",
   krag: "4",
   zywiol: "Ziemia",
   img_name: "",
@@ -3644,7 +3644,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]}, 
 
-  {nazwa:"Jadeitowy Grobowiec",
+  {name:"Jadeitowy Grobowiec",
   krag: "4",
   zywiol: "Ziemia",
   img_name: "",
@@ -3656,7 +3656,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit"]}, 
 
-  {nazwa:"Ścian Ziemi",
+  {name:"Ścian Ziemi",
   krag: "4",
   zywiol: "Ziemia",
   img_name: "",
@@ -3669,7 +3669,7 @@ spells = [
   tagi: ["Obrona"]}, 
   #---------------------------------------- Krag 5 (5) ---------------------------------------------------
 
-  {nazwa:"Trzęsienie Ziemi",
+  {name:"Trzęsienie Ziemi",
   krag: "5",
   zywiol: "Ziemia",
   img_name: "",
@@ -3681,7 +3681,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Większe Związanie",
+  {name:"Większe Związanie",
   krag: "5",
   zywiol: "Ziemia",
   img_name: "",
@@ -3693,7 +3693,7 @@ spells = [
   specjalne: "",
   tagi: ["Jadeit", "Pieczęć"]}, 
 
-  {nazwa:"Uderznie w korzenie",
+  {name:"Uderznie w korzenie",
   krag: "5",
   zywiol: "Ziemia",
   img_name: "",
@@ -3705,7 +3705,7 @@ spells = [
   specjalne: "",
   tagi: [""]}, 
 
-  {nazwa:"Siła Kami",
+  {name:"Siła Kami",
   krag: "5",
   zywiol: "Ziemia",
   img_name: "",
@@ -3717,7 +3717,7 @@ spells = [
   specjalne: "",
   tagi: ["Bitwa"]}, 
 
-  {nazwa:"Wola Kami",
+  {name:"Wola Kami",
   krag: "5",
   zywiol: "Ziemia",
   img_name: "",
@@ -3730,7 +3730,7 @@ spells = [
   tagi: ["Obrona"]}, 
   #--------------------------------------- Krag 6 (4) ------------------------------------------------------
 
-  {nazwa:"Esensja Jadeitu",
+  {name:"Esensja Jadeitu",
   krag: "6",
   zywiol: "Ziemia",
   img_name: "",
@@ -3742,7 +3742,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona", "Jadeit"]}, 
 
-  {nazwa:"Potega Smoka Ziemi",
+  {name:"Potega Smoka Ziemi",
   krag: "6",
   zywiol: "Ziemia",
   img_name: "",
@@ -3754,7 +3754,7 @@ spells = [
   specjalne: "",
   tagi: ["Obrona"]},
 
-  {nazwa:"Więzienie Ziemi",
+  {name:"Więzienie Ziemi",
   krag: "6",
   zywiol: "Ziemia",
   img_name: "",
@@ -3766,7 +3766,7 @@ spells = [
   specjalne: "",
   tagi: ["Pieczęć"]},
 
-  {nazwa:"Ziemia Powstanie",
+  {name:"Ziemia Powstanie",
   krag: "6",
   zywiol: "Ziemia",
   img_name: "",
@@ -3781,7 +3781,7 @@ spells = [
   #------------------------------------------- Pustka -----------------------------------------------------
   #------------------------------------------ Krag 1 (8) ----------------------------------------------------
 
-  {nazwa:"Wzrok Bez Granic",
+  {name:"Wzrok Bez Granic",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3793,7 +3793,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Zanurzenie się w Pustce",
+  {name:"Zanurzenie się w Pustce",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3805,7 +3805,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Płynąc Poprzez Pustkę",
+  {name:"Płynąc Poprzez Pustkę",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3817,7 +3817,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Widząc Poprzez Kłamstwa",
+  {name:"Widząc Poprzez Kłamstwa",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3829,7 +3829,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Wyczucie Pustki",
+  {name:"Wyczucie Pustki",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3841,7 +3841,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Dotyk Pustki",
+  {name:"Dotyk Pustki",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3853,7 +3853,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Pieszczoty Pustki",
+  {name:"Pieszczoty Pustki",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3865,7 +3865,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Świadek Niewypowiedzianego",
+  {name:"Świadek Niewypowiedzianego",
   krag: "1",
   zywiol: "Pustka",
   img_name: "",
@@ -3878,7 +3878,7 @@ spells = [
   tagi: ["Przepowiednie"]},
   # ------------------------------------Krag 2 (6) ------------------------------------------------------------
 
-  {nazwa:"Zmieniając kurs",
+  {name:"Zmieniając kurs",
   krag: "2",
   zywiol: "Pustka",
   img_name: "",
@@ -3890,7 +3890,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Czerpiąc z Twojej Esencji",
+  {name:"Czerpiąc z Twojej Esencji",
   krag: "2",
   zywiol: "Pustka",
   img_name: "",
@@ -3902,7 +3902,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Pusty Głos",
+  {name:"Pusty Głos",
   krag: "2",
   zywiol: "Pustka",
   img_name: "",
@@ -3914,7 +3914,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Fałszywe Szepty",
+  {name:"Fałszywe Szepty",
   krag: "2",
   zywiol: "Pustka",
   img_name: "",
@@ -3926,7 +3926,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Dotyk Przez Pustkę",
+  {name:"Dotyk Przez Pustkę",
   krag: "2",
   zywiol: "Pustka",
   img_name: "",
@@ -3938,7 +3938,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Oddzielenie od Strumienia",
+  {name:"Oddzielenie od Strumienia",
   krag: "2",
   zywiol: "Pustka",
   img_name: "",
@@ -3951,7 +3951,7 @@ spells = [
   tagi: [""]},
   #------------------------------------------ Krag 3 (5) -------------------------------------------------
 
-  {nazwa:"Echo w Pustce",
+  {name:"Echo w Pustce",
   krag: "3",
   zywiol: "Pustka",
   img_name: "",
@@ -3963,7 +3963,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Karmiczne Łącze",
+  {name:"Karmiczne Łącze",
   krag: "3",
   zywiol: "Pustka",
   img_name: "",
@@ -3975,7 +3975,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Moment Jasności Umysłu",
+  {name:"Moment Jasności Umysłu",
   krag: "3",
   zywiol: "Pustka",
   img_name: "",
@@ -3987,7 +3987,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Czytając z Esencji",
+  {name:"Czytając z Esencji",
   krag: "3",
   zywiol: "Pustka",
   img_name: "",
@@ -3999,7 +3999,7 @@ spells = [
   specjalne: "",
   tagi: ["Przepowiednie"]},
 
-  {nazwa:"Uwolnienie Pustki",
+  {name:"Uwolnienie Pustki",
   krag: "3",
   zywiol: "Pustka",
   img_name: "",
@@ -4012,7 +4012,7 @@ spells = [
   tagi: [""]},
   #--------------------------------------- Krag 4 (4) -----------------------------------------------
 
-  {nazwa:"Równowaga Żywiołów",
+  {name:"Równowaga Żywiołów",
   krag: "4",
   zywiol: "Pustka",
   img_name: "",
@@ -4024,7 +4024,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Przeciągnięcie Przez Zasłonę",
+  {name:"Przeciągnięcie Przez Zasłonę",
   krag: "4",
   zywiol: "Pustka",
   img_name: "",
@@ -4036,7 +4036,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Napełnienie Pustki",
+  {name:"Napełnienie Pustki",
   krag: "4",
   zywiol: "Pustka",
   img_name: "",
@@ -4048,7 +4048,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Uderzenie Pustki",
+  {name:"Uderzenie Pustki",
   krag: "4",
   zywiol: "Pustka",
   img_name: "",
@@ -4061,7 +4061,7 @@ spells = [
   tagi: [""]},
   # ---------------------------------------------- Krag 5 (3) ----------------------------------------
 
-  {nazwa:"Podział Duszy",
+  {name:"Podział Duszy",
   krag: "5",
   zywiol: "Pustka",
   img_name: "",
@@ -4073,7 +4073,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Przekucie",
+  {name:"Przekucie",
   krag: "5",
   zywiol: "Pustka",
   img_name: "",
@@ -4085,7 +4085,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Uwolnione Esencje",
+  {name:"Uwolnione Esencje",
   krag: "5",
   zywiol: "Pustka",
   img_name: "",
@@ -4098,7 +4098,7 @@ spells = [
   tagi: [""]},
   # ------------------------------------ Krag 6 (3) -----------------------------------------------------
 
-  {nazwa:"Krąg Putki",
+  {name:"Krąg Putki",
   krag: "6",
   zywiol: "Pustka",
   img_name: "",
@@ -4110,7 +4110,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Powstanie z Prochów",
+  {name:"Powstanie z Prochów",
   krag: "6",
   zywiol: "Pustka",
   img_name: "",
@@ -4122,7 +4122,7 @@ spells = [
   specjalne: "",
   tagi: [""]},
 
-  {nazwa:"Odczynienie Rzeczywistości",
+  {name:"Odczynienie Rzeczywistości",
   krag: "6",
   zywiol: "Pustka",
   img_name: "",
@@ -4136,7 +4136,7 @@ spells = [
   #------------------------------------ Maho -------------------------------------------------------------
   #----------------------------------- Krag 1 (9) -----------------------------------------
 
-  {nazwa:"Krwawienie",
+  {name:"Krwawienie",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4148,7 +4148,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ogień",
   tagi: [""]},
 
-  {nazwa:"Rytuał Krwi",
+  {name:"Rytuał Krwi",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4160,7 +4160,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Krew i Ciemność",
+  {name:"Krew i Ciemność",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4172,7 +4172,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Zwichnięcie Kończyny",
+  {name:"Zwichnięcie Kończyny",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4184,7 +4184,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Woda",
   tagi: [""]},
 
-  {nazwa:"Wzbudzenie Strachu",
+  {name:"Wzbudzenie Strachu",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4196,7 +4196,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Spuścizna Mrocznego",
+  {name:"Spuścizna Mrocznego",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4208,7 +4208,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Grzeszne Sny",
+  {name:"Grzeszne Sny",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4220,7 +4220,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Przyzwanie Nieumarłego Czempiona",
+  {name:"Przyzwanie Nieumarłego Czempiona",
   krag: "1",
   zywiol: "Maho",
   img_name: "",
@@ -4232,7 +4232,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Krwawy Zapis",
+  {name:"Krwawy Zapis",
   krag: "1",
   zywiol: "Maho",
   zasieg: "Dotyk",
@@ -4246,7 +4246,7 @@ spells = [
 
   #------------------------------------------ Krag 2 (7) ------------------------------------
 
-  {nazwa:"Pieszczota Fu Lenga",
+  {name:"Pieszczota Fu Lenga",
   krag: "2",
   zywiol: "Maho",
   img_name: "",
@@ -4258,7 +4258,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Przekleństwo Fu Lenga
+  {name:"Przekleństwo Fu Lenga
   ",
   krag: "2",
   zywiol: "Maho",
@@ -4271,7 +4271,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Przekleństwo Słabości",
+  {name:"Przekleństwo Słabości",
   krag: "2",
   zywiol: "Maho",
   img_name: "",
@@ -4283,7 +4283,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Woda",
   tagi: [""]},
 
-  {nazwa:"Wyssanie Sił",
+  {name:"Wyssanie Sił",
   krag: "2",
   zywiol: "Maho",
   img_name: "",
@@ -4295,7 +4295,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Ból",
+  {name:"Ból",
   krag: "2",
   zywiol: "Maho",
   img_name: "",
@@ -4307,7 +4307,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Władca Marionetek",
+  {name:"Władca Marionetek",
   krag: "2",
   zywiol: "Maho",
   img_name: "",
@@ -4319,7 +4319,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ogień",
   tagi: [""]},
 
-  {nazwa:"Rozsiewając Ciemność",
+  {name:"Rozsiewając Ciemność",
   krag: "2",
   zywiol: "Maho",
   img_name: "",
@@ -4332,7 +4332,7 @@ spells = [
   tagi: [""]},
   #--------------------------------- Krag 3 (5) ---------------------------------------
 
-  {nazwa:"Obsydianowy Pancerz",
+  {name:"Obsydianowy Pancerz",
   krag: "3",
   zywiol: "Maho",
   img_name: "",
@@ -4344,7 +4344,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ogień",
   tagi: [""]},
 
-  {nazwa:"Życie Poza Śmiercią",
+  {name:"Życie Poza Śmiercią",
   krag: "3",
   zywiol: "Maho",
   img_name: "",
@@ -4356,7 +4356,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Esencja Nieumarłych",
+  {name:"Esencja Nieumarłych",
   krag: "3",
   zywiol: "Maho",
   img_name: "",
@@ -4368,7 +4368,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Serce Nienawiści",
+  {name:"Serce Nienawiści",
   krag: "3",
   zywiol: "Maho",
   img_name: "",
@@ -4380,7 +4380,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Przyzwanie Oni",
+  {name:"Przyzwanie Oni",
   krag: "3",
   zywiol: "Maho",
   img_name: "",
@@ -4393,7 +4393,7 @@ spells = [
   tagi: [""]},
   #---------------------------------- Krag 4 (4) ---------------------------------------------------------
 
-  {nazwa:"Łańcuchy Jigoku",
+  {name:"Łańcuchy Jigoku",
   krag: "4",
   zywiol: "Maho",
   img_name: "",
@@ -4405,7 +4405,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Nieświezy Oddech",
+  {name:"Nieświezy Oddech",
   krag: "4",
   zywiol: "Maho",
   img_name: "",
@@ -4417,7 +4417,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Kradzież Duszy",
+  {name:"Kradzież Duszy",
   krag: "4",
   zywiol: "Maho",
   img_name: "",
@@ -4429,7 +4429,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ziemia",
   tagi: [""]},
 
-  {nazwa:"Prawda to Przekleństwo",
+  {name:"Prawda to Przekleństwo",
   krag: "4",
   zywiol: "Maho",
   img_name: "",
@@ -4442,7 +4442,7 @@ spells = [
   tagi: [""]},
   #------------------------------- Krag 5 (3) -------------------------------------------------------
 
-  {nazwa:"Siła Ciemności",
+  {name:"Siła Ciemności",
   krag: "5",
   zywiol: "Maho",
   img_name: "",
@@ -4454,7 +4454,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Ogień",
   tagi: [""]},
 
-  {nazwa:"Opętanie",
+  {name:"Opętanie",
   krag: "5",
   zywiol: "Maho",
   img_name: "",
@@ -4466,7 +4466,7 @@ spells = [
   specjalne: "Ten czar jest traktowany jako czar żywiołu: Powietrze",
   tagi: [""]},
 
-  {nazwa:"Dotyk Śmierci",
+  {name:"Dotyk Śmierci",
   krag: "5",
   zywiol: "Maho",
   img_name: "",
@@ -5580,7 +5580,7 @@ clans = [
   mon_img: "",
   desc: "Słowo 'shugenja' ma w Rokuganie wiele znaczeń: mag, kapłan, prorok, świątobliwy mąż. Bez wątpienia najpotężniejsi przedstawiciele tej profesji przynależą do Klanu Feniksa. Skrybą, który stał za Cesarzem i spisywał jego rozmowę z Shinsei był sam kami Shiba, założyciel tego Klanu, który przekazał swoim następcom nie tylko dokładną relację, ale i wszystkie słowne niuanse rozmowy. Żaden inny klan nie rozumie starej religii Rokuganu i 'nowej drogi' lepiej, niż klan Feniksa i to jego członkowie połączyli obydwa systemy w oficjalne wyznanie Cesarstwa. Studia nad tak delikatną materią odbiły się jednak niekorzystnie na samurajach Feniksa, bowiem dni i godziny kontemplacji oraz studiów nad antycznymi tekstami, to stracone dni nauki sztuki wojny i godziny opuszczonych treningów szermierczych."},
 
-  {name: "Jednorożec",
+  {name: "Jednorozec",
   clan_name: "Jednorożec",
   mon_img: "",
   desc: "Klan Jednorożca, zwany również klanem Ki-Rin, opuścił Rokugan na blisko osiem stuleci. Wędrując i upewniając się że niema zewnętrznego zagrożenia dla Cesarstwa, które było by nie odkryte. Od swojego powrotu, samurajowie wielu klanów, uważają ten klan, za barbarzyński i obcy, głównie z powodu swojego umiłowania do obcych zwyczajów, które nie są akceptowane wśród rodzin z innych klanów. Jednakże klan zyskał szacunek innych klanów, głównie ze względu na swoją kawalerię, która znacznie przewyższa oddziały konne innych klanów. Złotem klanu Jednorożca, nie jest kruszec, lecz gajiński konie, które niejednokrotnie cenniejsze są od kruszców."},
@@ -5595,7 +5595,7 @@ clans = [
   mon_img: "",
   desc: "Istnienie klanu Modliszki jako Wielkiego Klanu, jest potwierdzeniem słów Shinsei 'Fortuny sprzyjają śmiertelnikom'. Założony przez syna Osano-Wo, który nie został uznany dziedzicem klanu Kraba, klan Modliszki pozostawał na uboczu i dopiero podczas Wojny Klanów odegrał kluczową rolę w obronie Cesarstwa przed siłami Krain Cienia. Nie ma w Rokuganie klanu o takiej mnogości ideologii i spojrzenia na świat jak w klanie Modliszki. Złożony z mniejszych klanów Modliszki, Lisa, Stonogi i Osy, klan pozostaje pod przewodnictwem klanu Modliszki, rozciąga się na ogromnym, wyjątkowo zróżnicowany obszarze. Jednak dzięki tej różnorodności klan Modliszki jest wyjątkowo elastyczny i gotowy do wypełnienia każdej roli powierzonej przez Cesarzową, a ogromne wpływy z handlu wzmacniają dodatkowo pozycję klanu."},  
 
-  {name: "Pająk",
+  {name: "Pajak",
   clan_name: "Pająk",
   mon_img: "",
   desc: "Choć klan Pająka jako Wielki Klan, funkcjonuje od niedawna, można śmiało założyć że jako siła, klan Pająka istniał od początku Rokuganu. Co łączy przedstawicieli klanu Pająka z przedstawicielami innych klanów, to podążanie ścieżką wyznaczoną wcześniej przez kami. Jednak w tym przypadku, ścieżka wyznaczona została przez Fu-Lenga upadłą kami, która przez większość swojego istnienia chciała zniszczenia Rokuganu. Podobnie jak Fu-Leng, klan Pająka jest bardzo ambitny i skryty, skory do szerzenia chaosu i wykorzystywania go na własną korzyść. Klan wykorzystuje rownież powszechnie zakazane praktyki, w dziedznie czarów Maho, przy pomocy rodziny Chuda, która nie ustaje w przekraczaniu kolejnych granic tej zakazanej sztuki. Skrytobójcze działani jak i wykorzystywanie istot nieludzkich do osiągnięcia własnej korzysci, również nie są obce wysoko postawionym członkom tego klanu."},  
@@ -5610,7 +5610,7 @@ clans = [
   mon_img: "",
   desc: "Tajemniczy i enigmatyczny klan Smoka, od zarania Cesarstra kroczył własną ścieżką. Samurajowie z tego klanu często szokują swoimi zachowaniami innych samurajów i poza klanem Jednorożca, są najmniej przywiązani do ogólnych zwyczajów. Choć klan tworzy spójną całość, łączy w sobie wiele grup o bardzo różnym podejściu do życia. Zaczynając od rodziny Mirumoto, która podąża za wytycznymi Mirumoto i stylu walki dwoma mieczami zwanym Ninten, dworzan Kitsuki którzy ponad słowa innych przedkładają dowody rzeczowy, a kończąc na zakonie tatuowanych mnichów Ise-Zumi, ktorzy czerpią z nich mistyczną moc."},  
 
-  {name: "Żuraw",
+  {name: "Zuraw",
   clan_name: "Żuraw",
   mon_img: "",
   desc: "Jeśli w Rokuganie, jest ktoś z kim należy się liczyć, można śmiało założyć że ma przyjaciela, doradcę lub nawet partnera z klanu Żurawia. W ten sposób klan utrzymuje swoją niekwestionowaną dominację na polu społecznym i politycznym. Z powodu ról jakie pełni klan Żurawia wobec Cesarstwa, znaczna część samurajów to dworzanie i artyści, a nawet Ci którzy poświęcają się drodze bushi lub shugenja, obyci są ze sztuką i dworem. Ziemie kontrolowane przez klan Żurawia należą do najurodzajniejszych i najlepiej prosperujących ziem w Rokuganie, co czyni klan Żurawia jednym z najbogatszych Wielkich Klanów."},   
@@ -5663,37 +5663,37 @@ families = [
     mon_img: ""},
 
   { name: "Horiuchi",
-    clan_name: "Jednorożec",
+    clan_name: "Jednorozec",
     desc: "Najmniejszy ród klanu Jednorożca, jest ród Horiuchi, będący odłamem od rodu Iuchi i w najlepszym okresie liczył około 50 członków. Ród wyspecjalizował się w magii ochronnej, samurajowie z tego rodu są czułymi indywidualistami, mieszających się w sprawy innych w czasie kryzysu.",
     bonus: "+1 Siła Woli",  
     mon_img: ""},
 
   { name: "Ide",
-    clan_name: "Jednorożec",
+    clan_name: "Jednorozec",
     desc: "Rodem dbającym o twarz klanu Jednorożca, na dworach jest ród Ide. Idealne połączenie tradycji rokugańskich z własnymi zwyczajami, sprawia że łatwo im poruszać się nawet po najbardziej wytwornych dworach. Samurajowie z tego rodu są opanowani i otwarci na nowe znajomości, co sprawia że bardzo łatwo nawiązują przyjaźnie i sojusze.",
     bonus: "+1 Spostrzegawczość",  
     mon_img: ""},    
 
   { name: "Iuchi",
-    clan_name: "Jednorożec",
+    clan_name: "Jednorozec",
     desc: "Ród Iuchi, prowadzą pierwszą szkołę shugenja w klanie Jednorożca, będąca jedną z najbardziej militarnie nastawioną rodziną w Rokuganie. Samurajowie z tego rodu, choć prowadzą życie kapłanów, to w sytuacji zagrożenia nie boją się sięgnąć po kami, by dobitnie rozprawić się z przeciwnikiem.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},    
 
   { name: "Moto",
-    clan_name: "Jednorożec",
+    clan_name: "Jednorozec",
     desc: "Ród ten jest uosobieniem wszystkich negatywnych stereotypów, jakie ma przeciętny rokugańczyk o klanie Jednorożca. Ród ten jest najbardziej przesycony gajińską krwią, co sprawia że samurajowie z rodu Moto są opryskliwi i żywiołowi, przez co rzadko kiedy potrafią wpasować się w towarzystwo innych samurajów.",
     bonus: "+1 Zręczność",  
     mon_img: ""},    
 
   { name: "Shinjo",
-    clan_name: "Jednorożec",
+    clan_name: "Jednorozec",
     desc: "Shinjo jest najstarszym rodem w klanie Jednorożca, który przez większość czasu przewodził klanowi, do momentu gdy reinkarnacja kami Shinjo, nie usunęła go od władzy z powodu korupcji wewnątrz rodziny. Nie mniej samurajowie z rodu Shinjo, są bardzo przedsiębiorczy i potrafią dopasować się do każdej sytuacji, podobnie jak porozumieć z każdym.",
     bonus: "+1 Refleks",  
     mon_img: ""},     
 
   { name: "Utaku",
-    clan_name: "Jednorożec",
+    clan_name: "Jednorozec",
     desc: "Matriarchalna rodzina Utaku jest najbardziej honorowym rodem w klanie Jednorożca. Tylko kobiety z tego rodu mogą przystąpić do szkoły Utaku, która szkoli najlepszych kawalerzystów w Rokuganie. Mężczyźni z rodu Utaku, zajmują się domostwem oraz w czasie wojny powoływani są jako piechota rodu.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""},  
@@ -5831,43 +5831,43 @@ families = [
     mon_img: ""},   
       
   { name: "Asahina",
-    clan_name: "Żuraw",
+    clan_name: "Zuraw",
     desc: "Cichy i spokojny ród Asahina, jest jednym z najbardziej zakonnych rodów w Rokuganie. Ród ten jest najbardziej pokojowym rodem w Rokuganie, w swym usposobieniu wierniejszym swym przekonaniom, nawet od rodów klanu Feniksa. Asahina rodem prowadzonym główną szkołę shugenja na ziemiach Żurawia i to stanowi ich główne zadanie w ramach klanu. Członkowie tego rodu, na równi ze swoimi obowiązkami zajmują się również zgłębianiem sztuki i filozofii.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
       
   { name: "Daidoji",
-    clan_name: "Żuraw",
+    clan_name: "Zuraw",
     desc: "'Żelazne Żurawie', czyli ród Daidoji, odpowiada za siły zbrojne klanu. Ród ten jest gwarantem stałej gotowości do wojny lub innych zadań wyznaczonych przez rody Doji i Kakita. Choć wojownikom tego rodu brakuje finezji członków rodu Kakita. Ród Daidoji zajmuje się taktyką oraz technikami wojskowymi, często musząc podejmować decyzje które pozostali członkowie klanu uznali by za niehonorowe, ród ten jest jednak gotowy na wiele wyrzeczeń w imię obrony swojego klanu.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""},  
       
   { name: "Doji",
-    clan_name: "Żuraw",
+    clan_name: "Zuraw",
     desc: "Ród ten przewodzi całemu klanowi Żurawia, będąc niekwestionowanymi mistrzami zarówno w dziedzinie polityki jak i kultury. Dzięki wskazówką i zasadom jakie pozostawiła po sobie kami Doji, ród ten potrafił przez ponad tysiąc lat zapewnić przewagę klanu nad innymi, pomimo posiadania mniej licznych wojsk.",
     bonus: "+1 Intuicja",  
     mon_img: ""},
       
   { name: "Kakita",
-    clan_name: "Żuraw",
+    clan_name: "Zuraw",
     desc: "Kakita są rodem, najbliżej spokrewnionym z rodem Doji i zajmują drugą pozycję w klanie. Członkowie tego rodu wyznają zasadę doskonałości w danej sztuce. Dla Kakity 'sztuką' może być wszystko taktyka, origami czy poezja. Sztuką którą Kakita szczególnie sobie upodobali idąc za założycielem rodu, jest sztuka pojedynku. Ród Kakita często zapewnia yojimbo dla dworzan Doji, choć rola tego rodu nie jest bliżej określona ze względu na rozmaitość 'sztuk' które członkowie tego rodu opanowują.",
     bonus: "+1 Zręczność",  
     mon_img: ""},   
       
   { name: "Chuda",
-    clan_name: "Pająk",
+    clan_name: "Pajak",
     desc: "Shugenja którzy przyjmują to nazwisko, odwołują się do rodziny Chuda, która została wybita wieki temu. Rodziny która miała zajmować się śledzeniem i niszczeniem shugeny - maho. Ale sama popadła w sidła Krain Cienia. Obecnie ród Chuda, to zbiór shugenja, żadnych władzy i potęgi, którzy nie cofną się przed niczym by tylko zgłębić kolejne zagadnienia związane z zakazaną magią krwii. Nawet wewnątrz klanu Pająka, ich lojaność jest mocno nie pewna i tylko strach przed demaskacją skłania ich do posłuszeństwa względem rodziny Daigotsu.",
     bonus: "+1 Inteligencja",  
     mon_img: ""},  
       
   { name: "Daigotsu",
-    clan_name: "Pająk",
+    clan_name: "Pajak",
     desc: "Ród Daigotsu, jest najliczniejszym, z rodów klanu, a jego członkowie są bardzo różni. W czasach gdy nie istniał jeszcze klan Pająka, nazwisko Daigotsu, przyjmowali samurajowi naznaczeni Skazą Cienia lub ci którzy chcieli podążać ścieżką filozofii Daigotsu, opierającej się na sile, a nie na współczuciu. Choć nie wszyscy członkowie tej rodziny są skarzeni Skazą Cienia, większość z nich przynajmniej otarła się o nią.",
     bonus: "+1 Wytrzymałość",  
     mon_img: ""},  
       
   { name: "Susumu",
-    clan_name: "Pająk",
+    clan_name: "Pajak",
     desc: "Rodzina Susumu została założona w roku 1173, po dekrecie Cesarzowej, który umieścił klan Pająka na równi z pozostałymi wielkimi klanami. Ród przyjął nazwę Susumu, chociaż jej 'założyciel', nigdy zmarł po jej ustanowieniu i nigdy nie był jej Daimio. Daigotsu Susumu był znany ze swych umiejętności dyplomacji i wrodzonego wdzięki. Wielu uległo jego naturalnym skłonnościom do przekonywania innych. Byli jednak i tacy którzy poznali Susumu, z jego mrocznej strony, osoby bezwzględnej, która wykorzysta każdą sposobność by zniszczyć swoją ofiarę. Pomimo swojej pozycji Cesarskiego doradcy, nigdy nie nadużywał swojej pozycji dla własnych korzyści i do końca pozostał wierny dwóm władcom, Daigotsu i Iweko. Techniki jakimi posługiwał się Susumu, stały się fundamentem szkoły dworskiej rodziny Susumu, pomimo że sam Susumu nigdy nie miał uczniów. Swoją wiedzą i doświadczeniami, często dzielił się ze swoją żoną Kakita Shizuka oraz jej córką, Kuroko. Po śmierci ojca Kuroko, przyjeła nazwisko Susumu i została pierwszym Daimyo tej rodziny. Choć ród Susumu nie posiada własnego Dojo, Kuroko chętnie dzieli się wiedzą, z dworzanami klanu Pająka. I tak ród Susumu, stał się ustami swojego klanu, którzy chętnie poświęcają się roli doradców władców z innych klanów, służąc dwóm panom, tak jak czynił to Daigotsu Susumu. ",
     bonus: "+1 Intuicja"},
 
@@ -6148,6 +6148,7 @@ skills = [
           </ul>"}
 ]
 
+
 School.destroy_all
 schools.each do |school|
 	School.create(school)
@@ -6177,8 +6178,17 @@ clans.each do |clan|
   end
 end
 
-
 Skill.destroy_all
 skills.each do |skill|
   Skill.create(skill)
+end
+
+# ---------------------------- Support functions --------------------------
+
+def not_valid_names(model_name, objects)
+  names ||= []
+  objects.each do |obj|
+    name.new(obj).valid? ? true : names << object.name
+  end
+  puts names
 end
