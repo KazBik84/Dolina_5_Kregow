@@ -646,7 +646,8 @@ schools = [{
   rank1_desc: "Jak Yasuki, dworzanie Yoritomo to kupcy, a także dyplomaci, kultywujący styl zbudowany wokół zastraszania, a nie przyjaźń. Dworzanie Yoritomo spędzają większość swojego życia poza dworami, negocjując często, z mało honorowymi samurajami w Rokuganie. Postać tracisz Chwały lub Honoru za uprawianie handlu publicznie, podobnie nie traci Honoru za Przesłuchiwanie (Kontrola). Za każdym razem gdy postać wykorzystuje test Społeczny przeciw roninowi, bandycie, kupcowi, piratowi lub innym osobom wyjętym z pod prawa, postać otrzymuje liczbę darmowych podbić równą swojej randze w szkole.",
   rank2_name: "Serce Burzy: ",
   rank2_desc: "Kiedy przychodzi czas, aby działać na dworach, dworzanin Yoritomo zamiast pięknych słów Doji lub subtelnych gier Skorpiona, woli proste zastraszanie, by zmusić innych by przyjęli jego stanowisko. Podczas korzystania z Zastraszania (Kontrola), Siła Woli postaci, uważana jest jak o jeden stopień wyżej. Podczas korzystania z Zastraszania (Kontrola) przeciwko samurajom z niższej randze statusu niż postaci, Siła Woli postaci liczona jest jak o poziomy wyższa.",
-  rank3_desc: "Rozkazując Wiatrom: Dworzanie Modliszki uczeni są, umieścić siłę ich chamskiego i agresywnego zachowania, za słowami na dworze, przez co trudno jest powiedzieć, czy kłamią lub mówi prawdę. Liczbę razy równą szkolnej randze, jeśli postaci nie powiódł się rzut na Szczerość, postać może go przerzucić wykorzystując Przesłuchiwanie (Kontrola), drugi rzut musi zostać przyjęty.",
+  rank3_name: "Rozkazując Wiatrom: ",
+  rank3_desc: "Dworzanie Modliszki uczeni są, umieścić siłę ich chamskiego i agresywnego zachowania, za słowami na dworze, przez co trudno jest powiedzieć, czy kłamią lub mówi prawdę. Liczbę razy równą szkolnej randze, jeśli postaci nie powiódł się rzut na Szczerość, postać może go przerzucić wykorzystując Przesłuchiwanie (Kontrola), drugi rzut musi zostać przyjęty.",
   rank4_name: "Siła Sztormu: ",
   rank4_desc: "Doświadczony dworzanin ze szkoły Yorimoto nauczył się rozbijać i demoralizować swoich przeciwników na dworach, samą swoją obecnością. Podczas rozpoczynania rozmowy z kimś, postać może wykonać przeciwstawne zrzut Przesłuchiwania (Kontrola), przeciw Etykiecie (Grzeczność)/Siła Woli. Jeśli postać wygra, ofiara nie może wydawać żadnych punktów Pustki przeciw postaci, przez następną godzinę. Ponadto, w tym czasie otrzymuje -3z0 do wszystkich testów Socjalnych przeciwko postaci (Ta technika nie może być ponownie użyta, aż do czasu gdy jej wpływ wygaśnie).",
   rank5_name: "Siła Przede Wszystkim: ",
@@ -1307,12 +1308,14 @@ schools = [{
   special: "Klan przestał istnieć w 1125, po tym jak na skutek rytuału maho, przywany został Shuten Doji. Po odwruceniu rytuału i wygnaniu Shuten Doji, klan Sokoła był tak mocno wyniszczony, że Cesarz pozwolił klanowi Kraba, na jego wchłonięcie.",
   rank1_name: "Sokole Oko: ",
   rank1_desc: "Bushi Toritaka musi być w pełni świadom swojego otoczenia by skutecznie walczyć z wrogiem który pojawić się może zewsząd. Dodaj 1z0 do wszystkich rzutów na spostrzegawczość i umiejętności na niej oparte. Dodatkowo walcząc z potworami z Królestw Duchów (Z Oni i Gaki włącznie) dodaj 1z0 do wszystkich rzutów na obrażenia.",
-  rank2_name: ",Podczas Lotu Sokoła: Dzięki swojemu treningowi Toritaka są w stanie wyczuć emanacje pobliskich duchów tak jakby były częścią świata śmiertelników. Możesz spróbować wykryć obecność pobliskich duchów dzięki testowi Spostrzegawczości o PT równym Powietrzu Ducha razy 5.",
+  rank2_name: ",Podczas Lotu Sokoła:",
+  rank2_desc: "Dzięki swojemu treningowi Toritaka są w stanie wyczuć emanacje pobliskich duchów tak jakby były częścią świata śmiertelników. Możesz spróbować wykryć obecność pobliskich duchów dzięki testowi Spostrzegawczości o PT równym Powietrzu Ducha razy 5.",
   rank3_name: "Skrzydła Sokoła: ",
   rank3_desc: "Toritaka uderzają precyzyjnie jednocześnie trzymając dystans do swych przeciwników. Możesz atakować jako akcja prosta zamiast akcji złożonej przy użyciu broni samurajskiej lub włóczni.",
   rank4_name: "Czujny i Silny: ",
   rank4_desc: "Duchy mogą używać różnych sztuczek by zdezorientować swoich przeciwników jednak Toritaka widzą to co jest ukryte. Możesz wydać punkt pustki by zanegować wszystkie mroczne lub wzrokowe modyfikatory. Ten bonus trwa przez kolejne dwie rundy.",
-  rank5_name: "Pazury Sokoła: Nic nie powstrzyma Sokoła przed trafieniem w cel który sobie obrał. Twój atak może ominąć do 5 punktów redukcji celu (jeśli jakieś ma) a dodatkowo walcząc z duchami możesz wydać punkt pustki jako akcję darmową by na czas 1 rundy obniżyć redukcję celu o 10."},
+  rank5_name: "Pazury Sokoła: ",
+  rank5_desc: "Nic nie powstrzyma Sokoła przed trafieniem w cel który sobie obrał. Twój atak może ominąć do 5 punktów redukcji celu (jeśli jakieś ma) a dodatkowo walcząc z duchami możesz wydać punkt pustki jako akcję darmową by na czas 1 rundy obniżyć redukcję celu o 10."},
   #4(65)-------------------------------------------------------------------------------------------------------
   {name: "Szkoła Kowali Tsi",
   img_name: "Tsi_Hayamizu_by_Andy_Hepworth.jpg",
@@ -1339,7 +1342,7 @@ schools = [{
   img_name: "Morito_Inoue_by_John_Donahue.jpg",
   school_class: "Bushi",
   clan: "Pomniejsze",
-  clan_name: "Wołu",
+  clan_name: "Wół",
   bonus: "+1 Zręczność",
   school_desc: "Klan Wołu zdobył swoje zdolności podczas walki z armią pełnych mądrości duchów przodków. Krótko potem zdobyli dobrą reputację wśród Bushi z całego Cesarstwa. Ogrom wśród wojsk Wołu stanowi ciężka kawaleria stworzona do szybkiego niszczenia szyków wroga. Bushi Morito dążą do zmaksymalizowania korzyści wynikających z przewagi walki w siodle. Uczą się skutecznie tratować przeciwników i błyskawicznie poruszać po polu bitwy. Najczęściej posługują się bronią drzewcową jednak są w stanie dostosować się do każdej sytuacji na polu bitwy.",
   skills: "Obrona, Jeździectwo, Polowanie(śledzenie), Kenjutsu, Wiedza: Kolat, Wiedza: Półświatek, dowolna umiejętność",
@@ -1652,7 +1655,7 @@ spells = [
   obszar: "9m średnicy",
   zasieg: "Osobisty",
   opis: "Kami ognie wystarczy tylko impuls by uwolnić falę zniszczenia. Czar ten powoduje uwolnienie niszczącej energii kami ognia które niszczą wszystko w zasięgu czaru. W obrębie czaru wszystkie cele wliczając czarującego otrzymują obrażenia równe kręgowi ognia czarującego, czarujący otrzymuje tylko połowę obrażeń (zaokrąglając w górę) gdyż kami staraja się jakkolwiek uchronić shugenje.",
-  czas: "",
+  czas: "Natychmiast",
   podbicia: "Obszar zaklęcia (+1,5m za 2 podbicia)",
   specjalne: "",
   tagi: [""]}, 
@@ -1795,10 +1798,10 @@ spells = [
   img_name: "",
   obszar: "4,5m średnicy od dotkniętego przedmiotu",
   zasieg: "Dotyk",
-  opis: "",
+  opis: "Choć tradycyjnym żywiołem do zwalczania Krain Cienia jest ziemia, kami ognia również mogą być nakłonione do niszczenia tych abominacji. Czar ten wiąże poprzez dotyk kami ognia z wybranym miejscem i sprawia że będą go chronić przed siłami z Krain Cienia. Podczas rzucania czaru shugenja musi nakreślić odpowiednie symbole na płaskiej powieżchni przy pomocy atramentu lub kredą, a proces kreślenia trwa minutę, po upływie której wykonuje się rzut na czar. Od tego momentu kami ognia chronią to miejsce przed istotami z Krain Cienia lub Kłamiącej Ciemności. Jeśli osoba lub stwór posiada przynajmniej 1 poziom Skazy Cienia lub jest pod kontrolą Kłamiącej Ciemności, musi wykonać udany rzut przeciwstawny Siły Woli przeciw Sile Woli shugenjy +5, który umieścił pieczęć lub nie będzie wstanie wejść w obręb chroniony pieczęciom. Nawet jeśli istocie uda się wejść w obręb chroniony pieczęcią, zacznie ona odczuwać wielki ból, jakoże kami ognia zaczną ją wypalać, ciało intruza staje w płomieniach, przez co otrzymują obrażenia równe Kręgowi Ognia/Ranga Szkoły, podczas każdej rundy przebywania w chroniony obszarze. Ataki dystansowe oraz czary wykonane spoza chronionego obszaru nie są w żaden sposób dotknięte pieczęcią, obiekt na którym wymalowano pieczęć musi przez cały czas pozostać w bezruchu oraz musi być widoczny przez cały czas lub czar zostanie rozproszony. Kilka Pieczęci czystości nachodzących na siebie w żaden sposób nie wzmacni efektu czaru.",
   czas: "1 dzień",
   podbicia: "Żadne",
-  specjalne: "Choć tradycyjnym żywiołem do zwalczania Krain Cienia jest ziemia, kami ognia również mogą być nakłonione do niszczenia tych abominacji. Czar ten wiąże poprzez dotyk kami ognia z wybranym miejscem i sprawia że będą go chronić przed siłami z Krain Cienia. Podczas rzucania czaru shugenja musi nakreślić odpowiednie symbole na płaskiej powieżchni przy pomocy atramentu lub kredą, a proces kreślenia trwa minutę, po upływie której wykonuje się rzut na czar. Od tego momentu kami ognia chronią to miejsce przed istotami z Krain Cienia lub Kłamiącej Ciemności. Jeśli osoba lub stwór posiada przynajmniej 1 poziom Skazy Cienia lub jest pod kontrolą Kłamiącej Ciemności, musi wykonać udany rzut przeciwstawny Siły Woli przeciw Sile Woli shugenjy +5, który umieścił pieczęć lub nie będzie wstanie wejść w obręb chroniony pieczęciom. Nawet jeśli istocie uda się wejść w obręb chroniony pieczęcią, zacznie ona odczuwać wielki ból, jakoże kami ognia zaczną ją wypalać, ciało intruza staje w płomieniach, przez co otrzymują obrażenia równe Kręgowi Ognia/Ranga Szkoły, podczas każdej rundy przebywania w chroniony obszarze. Ataki dystansowe oraz czary wykonane spoza chronionego obszaru nie są w żaden sposób dotknięte pieczęcią, obiekt na którym wymalowano pieczęć musi przez cały czas pozostać w bezruchu oraz musi być widoczny przez cały czas lub czar zostanie rozproszony. Kilka Pieczęci czystości nachodzących na siebie w żaden sposób nie wzmacni efektu czaru.",
+  specjalne: "",
   tagi: ["Pieczęć"]},
   #------------------------------------- Krag 3 (7) ----------------------------------------------------------
   {name:"Oddech Ognistego Smoka",
@@ -1977,7 +1980,7 @@ spells = [
   obszar: "1 cel",
   zasieg: "7,5m",
   opis: "Dzięki temu zaklęciu shugenja napełnia ciało ofiary szalejącymi kami ognia. Na czas trwania zaklęcia cel czaru jest uważany tak jakby osiągnął poziom ran Obalony, wraz ze wszystkmi tego karami i modyfikatorami. Po upływie czasu trwania zaklęcia cel czaru zachowuje się normalnie tak jakby nic się nie stało, czar bowiem nie zzadaje żadnych obrażeń. Modlitwa ta jest uważana za niegodną przez pokojowo nastawione rodziny shugenja, niektórzy nawet doszukali się podobieństw tego czaru do czarów maho.",
-  czas: "",
+  czas: "1 runda",
   podbicia: "Czas trwania (+1 runda), obszar działania (+1 cel)",
   specjalne: "",
   tagi: [""]},
@@ -2194,7 +2197,7 @@ spells = [
   zywiol: "Powietrze",
   img_name: "",
   obszar: "jedna kopia czarującego",
-  zasieg: "",
+  zasieg: "6 metrów",
   opis: "Dzięki temu czarowi shugenja może stworzyć swoją wierną kopię. Będzie ona robić dokładnie to samo co oryginał. Iluzje rozpłyną się jeśli postać opuści obszar działania czaru. Za dwa podbicia iluzje mogę pozostać w pozycji w jakiej postać puściła obszar działania czaru, jak długo postać będzie koncentrować się na podtrzymywaniu czaru.",
   czas: "Koncentracja +5 minut",
   podbicia: "Dodatkowy duplikat (2 podbicia), zasięg (+1,5m), Specjalne",
@@ -2733,10 +2736,10 @@ spells = [
   {name:"Mierząc się ze Swymi Demonami",
   krag: "5",
   zywiol: "Powietrze",
-  img_name: "To niebezpieczne i potężne zaklęcie, które pojawiało się wśród shugenja roninów, od czasu do czasu przez prawie tysiąc lat historii Rokuganu. Shugenja z Wielkich Klanów postrzegają ten czar jako niewłaściwy, a ronini, którzy uczą się go strzegą tej wiedzy i przekazują ją tylko swoim zaufanym uczniom. Zazwyczaj nie więcej niż jeden lub dwóch shugenja w pokoleniu będzie mogło się go nauczyć. W czasie Wojny Klanów, ronin Heichi Chokei, był najsłynniejszym shugenjom znającym ten czar, twierdził on, że jest potomkiem dawno zapomnianego klanu Dzika. Kiedy został zapytany o cel czaru, Chokei odpowiedział z uśmiechem: 'To jest dla tego, kto jest na tyle odważny, aby go używać'. W późniejszych latach, czar zyskał uznanie również, jako ulubiony czar Naka Kuro, tzw Wielkiego Mistrza Żywiołów, a potem jego uczenia i następcy Naka Tokei. Mierząc się ze Swymi Demonami wzywa kami Powietrza by przetestować równowagę żywiołów oraz karmy duszy miesza równowagę żywiołów celu. Czar zamienia najwyższą i najniższą cechę celu na czas trwania zaklęcia, co może to prowadzić do zmian w kręgach postaci, z wszelkimi konsekwencjami (np. obniżenie kręgu Ziemi). Rzucający może wybrać cechy które chce zamienić w przypadku remisu. Ci, którzy używają stojących Mierząc się ze Swymi Demonami widzą go jako lekcję jak ważna jest równowaga, historia zna jednak wiele niehonorowych zastosowań tego czaru i stąd jego zła sława. Duchy powietrza uważają ten czar za bardzo zabawny, ponieważ nie zauważają i nie potrafią zrozumieć jego konsekwencji.",
+  img_name: "",
   obszar: "1 postać lub stwór",
   zasieg: "9m",
-  opis: "",
+  opis: "To niebezpieczne i potężne zaklęcie, które pojawiało się wśród shugenja roninów, od czasu do czasu przez prawie tysiąc lat historii Rokuganu. Shugenja z Wielkich Klanów postrzegają ten czar jako niewłaściwy, a ronini, którzy uczą się go strzegą tej wiedzy i przekazują ją tylko swoim zaufanym uczniom. Zazwyczaj nie więcej niż jeden lub dwóch shugenja w pokoleniu będzie mogło się go nauczyć. W czasie Wojny Klanów, ronin Heichi Chokei, był najsłynniejszym shugenjom znającym ten czar, twierdził on, że jest potomkiem dawno zapomnianego klanu Dzika. Kiedy został zapytany o cel czaru, Chokei odpowiedział z uśmiechem: 'To jest dla tego, kto jest na tyle odważny, aby go używać'. W późniejszych latach, czar zyskał uznanie również, jako ulubiony czar Naka Kuro, tzw Wielkiego Mistrza Żywiołów, a potem jego uczenia i następcy Naka Tokei. Mierząc się ze Swymi Demonami wzywa kami Powietrza by przetestować równowagę żywiołów oraz karmy duszy miesza równowagę żywiołów celu. Czar zamienia najwyższą i najniższą cechę celu na czas trwania zaklęcia, co może to prowadzić do zmian w kręgach postaci, z wszelkimi konsekwencjami (np. obniżenie kręgu Ziemi). Rzucający może wybrać cechy które chce zamienić w przypadku remisu. Ci, którzy używają tego czaru, widzą go jako lekcję jak ważna jest równowaga, historia zna jednak wiele niehonorowych zastosowań tego czaru i stąd jego zła sława. Duchy powietrza uważają ten czar za bardzo zabawny, ponieważ nie zauważają i nie potrafią zrozumieć jego konsekwencji.",
   czas: "10 rund",
   podbicia: "Zasięg (+3m), czas trwania (+2 rund)",
   specjalne: "",
@@ -2933,7 +2936,7 @@ spells = [
   obszar: "1 postać",
   zasieg: "6m",
   opis: "Duch wody jest jednocześnie płynny i szybki. Cel czaru otrzymuje dodatkową akcję prostą, którą może wydać na dowolną czynność poza atakiem.",
-  czas: "",
+  czas: "Natychmiast",
   podbicia: "Natychmiast",
   specjalne: "Zasięg (+1,5m), Specjalna (Dodanie akcji pełnej za 5 podbić)",
   tagi: ["Bitwa"]},
@@ -3402,10 +3405,10 @@ spells = [
   {name:"Dusza z Kamienia",
   krag: "1",
   zywiol: "Ziemia",
-  img_name: "Czar ten napełnia duszę celu, nieustępliwą naturą zywiołu ziemi. Przez czas trwania zaklęcia, uczucia i przekonania postaci są nie zmienialne, a jaka kolwiek próba wpłynięcia na postać napotyka na nadnaturalny opór. Postać otrzymuje +3z0 do oparcia się wszelkim emocjonalnym manipulacją i próbom wpływania na postawy i przekonania postaci, w sytuacjach spornych MG decyduje o przyznaniu bonusu. Jednakże czar ten wpływa też na Intuicję postaci i otrzymuje ona -1z0 do rzutów na intuicję oraz umiejętności z nią związane.",
+  img_name: "",
   obszar: "1 cel",
   zasieg: "Dotyk",
-  opis: "",
+  opis: "Czar ten napełnia duszę celu, nieustępliwą naturą zywiołu ziemi. Przez czas trwania zaklęcia, uczucia i przekonania postaci są nie zmienialne, a jaka kolwiek próba wpłynięcia na postać napotyka na nadnaturalny opór. Postać otrzymuje +3z0 do oparcia się wszelkim emocjonalnym manipulacją i próbom wpływania na postawy i przekonania postaci, w sytuacjach spornych MG decyduje o przyznaniu bonusu. Jednakże czar ten wpływa też na Intuicję postaci i otrzymuje ona -1z0 do rzutów na intuicję oraz umiejętności z nią związane.",
   czas: "1 godzina",
   podbicia: "Czas trwania (+1 godzina)",
   specjalne: "",
@@ -4708,8 +4711,8 @@ traits = [{
       
   {kind: "Zaleta",
   name: "Hands of Stone", 
-  name_pl: "Ręce z Kamienia" ,
-  sphere: "Fizyczna,", 
+  name_pl: "Ręce z Kamienia",
+  sphere: "Fizyczna", 
   value: ["6"],
   desc: "Postać jest naturalnie przystosowana do walki wręcz. Podczas wykonywania rzutów na obrażenia podczas walki wręcz zadaje dodatkowe +0z1. Postać klasy Mnich może wykupić tę zaletę za 5 punktów." },
       
@@ -4996,7 +4999,7 @@ traits = [{
   {kind: "Zaleta",
   name: "Social Position", 
   name_pl: "Pozycja Społeczna" ,
-  sphere: "Socjalna", 
+  sphere: "Społeczna", 
   value: ["6"],
   desc: "Postać posiada jakąś pozycję, bez względu na to czy osiągniętą poprzez swoje osiągnięcia, czy dworskie manipulacje. Status postaci wzrasta o 1 poziom." },
       
@@ -5329,7 +5332,7 @@ traits = [{
   {kind: "Wada",
   name: "Forced Retirment", 
   name_pl: "Przymusowe Odejście" ,
-  sphere: "Socjalna", 
+  sphere: "Społeczna", 
   value: ["4"],
   desc: "Postać została zmuszona do przedwczesnego odejścia do klasztoru. Mogło się to stać ponieważ postać dokonała hańbiącego czynu lub poprzez dworskie manipulacje. Po otrzymaniu tej wady postać nie może awansować w początkowej szkole. Zamiast tego gdy postać uzbiera dość Punktów Prestiżu musi awansować w szkole Mnichów (nie należącej do żadnego klanu). Postać nie musi wykupywać do tego zalety Uczeń Wielu Szkół. Wada ta jest warta 5 Punktów dla postaci klasy Mnich." },
       
@@ -5651,7 +5654,7 @@ families = [
     mon_img: ""},
 
   { name: "Isawa", 
-    clan: "Feniks",
+    clan_name: "Feniks",
     desc: "Choć Czempionem klanu jest samuraj-ko z rodu Shiba, prawdziwą władzę w klanie Feniksa sprawuje ród Isawa. Największa rodzina shugenja w Rokuganie, posiadającą największą wiedzę w zakresie czarów, uczyniła z wielu członków tego rodu samurajów aroganckich i krótkowzrocznych, którzy walczą ze swymi ograniczeniami.",
     bonus: "+1 Siła Woli",  
     mon_img: ""},
@@ -6148,29 +6151,45 @@ skills = [
           </ul>"}
 ]
 
+# ---------------------------- Support functions --------------------------
 
+def not_valid_names(model_name, objects)
+  names = []
+  objects.each do |obj|
+    object = model_name.new(obj)
+    object.valid? ? true : names << [ object.name, object.errors.messages ]
+  end
+  puts names
+end
+
+# ------------------------------ Main function ---------------------------
 School.destroy_all
+not_valid_names(School, schools)
 schools.each do |school|
 	School.create(school)
 end
 
 Spell.destroy_all
+not_valid_names(Spell, spells)
 spells.each do |spell|
   Spell.create(spell)
 end
 
 Trait.destroy_all
+not_valid_names(Trait, traits)
 traits.each do |trait|
   Trait.create(trait)
 end
 
 Clan.destroy_all
+not_valid_names(Clan, clans)
 clans.each do |clan|
   Clan.create(clan)
 end
 
 
 Family.destroy_all
+not_valid_names(Family, families)
 clans = Clan.all
 clans.each do |clan|
   families.each do |family|
@@ -6179,16 +6198,8 @@ clans.each do |clan|
 end
 
 Skill.destroy_all
+not_valid_names(Skill, skills)
 skills.each do |skill|
   Skill.create(skill)
 end
 
-# ---------------------------- Support functions --------------------------
-
-def not_valid_names(model_name, objects)
-  names ||= []
-  objects.each do |obj|
-    name.new(obj).valid? ? true : names << object.name
-  end
-  puts names
-end
