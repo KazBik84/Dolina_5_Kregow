@@ -1279,8 +1279,7 @@ schools = [{
   clan: "Pomniejsze",
   clan_name: "Wróbel",
   bonus: "+1 Intuicja",
-  school_desc: "Suzume są pokorni, wytrwali i wyluzowani. Ich zainteresowania czynią ich jednak wyobcowanymi wśród innych mniejszych klanów. Są bardzo związani z heiminami i wuażają, że samurajowie powinni im pomagać kiedy jest taka potrzeba.
-      Klan Wróbla nigdy nie stanowił realnej militarnej siły jednak jego samurajowie zawsze szli do walki kiedy była taka potrzeba. Pierwsi mistrzowie miecza Klanu Wróbla byli Żurawiami pozostałości ich kunsztu pozostały w szkole do dnia dzisiejszego. Styl walki Wróbla dużo mówi o jego filozofii życia. Poświęcą tyle czasu ile tylko potrzeba by oddać perfekcyjny cios. Bushi Suzume kocha opowieści dodające mu odwagi i siły przed bitwą, używa wiedzy by dostrzec przypływy i odpływy dobrej passy w czasie bitew, wie kiedy uderzyć wolniej, a kiedy szybciej.",
+  school_desc: "Klan Wróbla nigdy nie stanowił realnej militarnej siły jednak jego samurajowie zawsze szli do walki kiedy była taka potrzeba. Pierwsi mistrzowie miecza Klanu Wróbla byli Żurawiami pozostałości ich kunsztu pozostały w szkole do dnia dzisiejszego. Styl walki Wróbla dużo mówi o jego filozofii życia. Poświęcą tyle czasu ile tylko potrzeba by oddać perfekcyjny cios. Bushi Suzume kocha opowieści dodające mu odwagi i siły przed bitwą, używa wiedzy by dostrzec przypływy i odpływy dobrej passy w czasie bitew, wie kiedy uderzyć wolniej, a kiedy szybciej.",
   skills: "Kaligrafia, Kenjutsu(Katana), Wiedza: Historia, Wiedza: Teologia, Występ: Gawędziarstwo, dowolna wiedza i dowolna inna umiejętność.",
   honor: "6,5",
   outfit: "Lekka zbroja, mocne ubrania, Daisho, dowolna broń, plecak podróżny, 3 koku.",
@@ -5624,7 +5623,18 @@ clans = [
   {name: "Rody_Cesarskie",
   clan_name: "Rody Cesarskie",
   mon_img: "",
-  desc: "Rodziny Cesarskie, poprzysięgły pełne oddanie dynastii Cesarskiej, a każdy czyn podyktowany jest dobrem Cesarstwa. Samurajowie Miya podróżują jako po Rokuganie jako 'głos Cesarza', upewniając się że dekrety Cesarza są przestrzegane. Ród Seppun to tarcza Cesarza, pełnią rolę osobistych ochroniarzy, jak i tworzą Cesarskie Legiony, będące zawsze do dyspozycji cesarza. Z kolei ród Otomo reprezentuje osobę cesarza na dworach Rokufanu, dworzanie tego rodu są mistrzami intryg, oddanymi wyższemu dobru jakim jest dobro Cesarstwa. Dzięki dostępowi do najlepszych nauczycieli, nieograniczonych środków i przewagi statusu, rodziny cesarskie, są elitą pośród samurajów Rokuganu."}
+  desc: "Rodziny Cesarskie, poprzysięgły pełne oddanie dynastii Cesarskiej, a każdy czyn podyktowany jest dobrem Cesarstwa. Samurajowie Miya podróżują jako po Rokuganie jako 'głos Cesarza', upewniając się że dekrety Cesarza są przestrzegane. Ród Seppun to tarcza Cesarza, pełnią rolę osobistych ochroniarzy, jak i tworzą Cesarskie Legiony, będące zawsze do dyspozycji cesarza. Z kolei ród Otomo reprezentuje osobę cesarza na dworach Rokufanu, dworzanie tego rodu są mistrzami intryg, oddanymi wyższemu dobru jakim jest dobro Cesarstwa. Dzięki dostępowi do najlepszych nauczycieli, nieograniczonych środków i przewagi statusu, rodziny cesarskie, są elitą pośród samurajów Rokuganu."},
+
+  {name: "Ronin",
+  clan_name: "Ronin",
+  mon_img: "",
+  desc: "Będąc na granicy kasty samurajskiej, ronini są samurajami bez pana, co w oczach wielu członków Wielkich Klanów, czyni nich nic niewartymi. Jednak mocno myli się ten kto wrzuca ich wszystkich do jednego worka. Podstawowy podział roninów dzieli ich na roninów klanowych i prawdziwych roninów. Pierwsi to samurajowie którzy urodzili się w klanie, lecz na skutek zbiegów wydarzeń zostali wygnani z klanu, z zakazem używania nazwiska rodowego i mon klanu, a ich szkoła zamknęła się na nich. Prawdziwi ronini, są dziećmi ze związków w których choć jeden rodzic był samurajem i którzy nie przysięgli wierności żadnemu klanowi."},
+
+  {name: "Pomniejsze",
+  clan_name: "Pomniejsze",
+  mon_img: "",
+  desc: "Gdy samuraj dokona heroiczengo czynu, na rzecz Rokuganu lub Cesarza, w nagrodę może założyć własną rodzinę. Gromadzi wtedy tych którzy chcą podążać jego ścieżką, jako swoich pierwszych poddanych. Na przestrzeni stuleci przywilej ten był nadawany wielokrotnie, a powstałe w ten sposób unikatowe klany, choć mniej znaczące od Wielkich Klanów, nie raz decydowały o przechyleniu szali zwycięstwa w potyczkach między nimi. Teksty dotyczące zawartych tu mniejszych klanów, możemy oglądać dzięki Hehosowi, który je przetłumaczył."}
+
 ]
 
 families = [
@@ -5779,7 +5789,7 @@ families = [
     mon_img: ""},  
       
   { name: "Shosuro",
-    clan: "Skorpion",
+    clan_name: "Skorpion",
     desc: "Ród Shosuro stanowi cień rodu Bayushi, który rzadko brany jest pod uwagę, ale zawsze przewija się podczas ważniejszych wydarzeń. Utrzymujący własną autonomię, nigdy nie sprzeciwia się rozkazom płynącym z rodu Bayushi. Gdy klan Skorpion potrzebuje by coś 'przypadkiem' się wydarzyło, to właśnie ród Shosuro ma tego dopilnować. Inną stroną tego rodu są wrodzone umiejętności aktorskie, wielce cenione na dworach innych klanów, co pomaga rodowi trzymać rękę na pulsie wydarzeń.",
     bonus: "+1 Intuicja",  
     mon_img: ""}, 
@@ -5874,7 +5884,97 @@ families = [
   { name: "Seppun",
     clan_name: "Rody_Cesarskie",
     desc: "Seppun był najwierniejszym towarzyszem hentei i do dziś ród Seppun jest najbliżej rodziny Cesarskiej. Samurajowie Seppun, oddani są utrzymaniu bezpieczeństwa Cesarza i Cesarstwa, zarówno na polu dworskim, jak i na polu bitwy. Zdarza się że członkowie rodu Cesarskiego, wstępują do rodziny Seppun, jeśli nie mają szans na objęcie tronu, choć żadziej niż do rodziny Otomo.",
-    bonus: "+1 Zręczność"}
+    bonus: "+1 Zręczność"},
+
+  { name: "Heichi",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Dzik",
+    desc: "Niewielu ludzi może przetrwać zagrożenia Gór Zmierzchu bez szkód, dla swojej psychiki jednak samurajowie Klanu Dzika, byli w stanie utrzymać je przez stulecia. Są twardymi i gorzkimi ludźmi, gotowymi stawić czoła każdemu, byle tylko chronić to co dla nich ważne. Kiedy Heichi raz coś postanowi, nic nie będzie w stanie go powstrzymać.",
+    bonus: "+1 Siła Woli"},   
+
+  { name: "Komori",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Nietoperz",
+    desc: "Komori są rodziną Shugenja, zebrani pod flagą Klanu Nietoperza przez samego założyciela. Łączą w sobie wiele unikalnych cech, które sprawiają, że trudno jednoznacznie określić jaki jest samuraj z klanu Nietoperza. Jedyne cechy które łączą tę grupę indywialistów to, chęć do nauki i inteligencja pozwalająca przyjąć nowo zdobytą wiedzę.",
+    bonus: "+1 Inteligencja"},   
+
+  { name: "Toku",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Małpa",
+    desc: "Założyciel rodziny Toku, przeciętny ronin, stał się Kapitanem Cesarskiej Gwardii, bohaterem Cesarstwa i ostatecznie trafił do Tengoku jako Fortuna Cnoty. Jego potomkom udzielił się charakter tego wielkiego człowieka, żyją więc ze współczuciem dla wszystkich mieszkańców Rokuganu. Członkowie rodu Toku często stają się namiestnikami by szerzyć sprawiedliwość i pokój na wszystkich ziemiech. Znani są ze swego wesołego usposobienia i dziwnego poczucia humoru, obie te cechy rzucają się w oczy już po kilku chwilach przebywania z nimi.",
+    bonus: "+1 Wytrzymałość"},   
+
+  { name: "Fuzake",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Małpa",
+    desc: "Nazwisko Fuzake zostało nadane tej rodzinie jako nagroda za wieloletnią słóżbę wobec Cesarskiego Rodu. Fuzake to Shugenja o wielkiej inteligencji, zaciekawieni życiem. Ludzie z zewnątrz uważają, że członkowie tego małego rodu są lekkomyślni i kapryśni, jednak Fuzake, nieraz udowodnili, że są odważni i wiarygodni.",
+    bonus: "+1 Spostrzegawczość"},   
+
+  { name: "Usagi",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Zając",
+    desc: "Przez prawie całą swoją historię rodzina Usagi związana była z walką, znali bowiem zagrożenie, jakie niosła, ze sobą wiedza o istnieniu tajnych organizacji, takich jak Kolat czy Piewcy Krwi. Członkowie rodu Usagi, są zawsze czujni i gotowi by rozpoznać najdrobniejsze oznaki skazy i zepsucia. Niestety bardzo wielu spośród starszych członków klanu popadło w paranoję i nie ufa nikomu, zwłaszcza obcym. Młodsi członkowie są zwykle bardziej otwarci.",
+    bonus: "+1 Intuicja"},   
+
+  { name: "Ujina",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Zając",
+    desc: "Powstał w bardzo niespokojnych czasach niedługo po Drugim Dniu Gromów. Rodzina Ujina jest malutka, liczy zwykle mniej niż dwa tuziny ludzi naraz. Mimo swej niewielkiej liczebności Ujina z dumą noszą nazwisko nadane im przez Cesarza. Są wyjątkowo pragmatyczni i nie zawahają się przed najpodstępniejszymi czynami by osiągnąć to, czego klan Zająca potrzebuje.",
+    bonus: "+1 Zręczność"},   
+
+  { name: "Kasuga",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Żółw",
+    desc: "Kasuga nie są zbyt ambitni, cesarskie uznanie przewyższa wszystkie ichnie potrzeby, w tym własną sławę. Są pragmatyczni i gożcy, od lat walcząc dla sprawy jako szumowiny Cesarstwa. Są szmuglerami i złodziejami często są też bardzo brutalni, jednakże potrafią też być zdolnymi dyplomatami, kiedy klan tego potrzebuje. ",
+    bonus: "+1 Spostrzegawczość"},   
+
+  { name: "Chuda",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Wąż",
+    desc: "Isawa Chuda był człowiekiem o wielkim przekonaniu i mądrości a jego rodzina rozpamiętywała o jego prawości przez pokolenia. Chuda byli całkowicie lojalni wobec Cesarstwa i zwalczali zło, które zagraża jego granicom. Ich nienawiść wobec maho-tsukaj była bardzo dobrze znana a sam Klan Węża niszczył mroczne kulty z wielkim zapałem.",
+    bonus: "+1 Siła"}, 
+
+  { name: "Kitsune",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Lis",
+    desc: " Kitsune preferują ciszę lasu ponad zgiełk cywilizowanych miast czy nawet wsi. Są rodziną bardzo związaną ze światem duchów i będą walczyć z całą zaciekłością by bronić mieszkańców Chikushudo, Świata Zwierząt. Kitsune są bardzo niezależni, ale też bardzo pragmatyczni. Bohaterowie Kitsune zrobią wszystko co będzie trzeba by osiągnąć swoje cele, z wyjątkiem poddania swojej duszy złu.",
+    bonus: "+1 Siła Woli"},   
+
+  { name: "Tonbo",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Ważka",
+    desc: " Tonbo są prości i pokorni pomimo swojego znaczenia w Cesarstwie. Większość pracowitych członków rodziny to Shugenja, choć klan posiada też niewielką armię Bushi szkolącą się, zazwyczaj dzięki wyrobionym już koneksjom politycznym w Szkole Mirumoto. Świetnie radzą sobie w górach i często służą jako przewodnicy na ziemie Smoka.",
+    bonus: "+1 Intuicja"}, 
+
+  { name: "Morito",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Wół",
+    desc: "Samurajowie z Klanu Wołu są zdeterminowani rozsławić swoje imię. Pragną zdobyć przychylność Kolatu i miejsce w jego strukturach jako żołnierze i egzekutorzy. Ich zdolności walki z siodła przewyższają wszystkich poza Jednorożcami a nawet część z nich. Morito mają uszy otwarte na szmery z półświatka i wypatrują wszystkich okazji by zwiększyć swoją potęgę.",
+    bonus: "+1 Wytrzymałość"},   
+
+  { name: "Tsi",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Wilga",
+    desc: "Rodzina Tsi jest dość mała a jej przeznaczeniem jest sztuka kowalstwa. Ich nieprzyjemna postawa i niekiedy brak społecznej akceptacji często czynią Tsi nieprzyjaznymi, jednak ich kunszt pozostaje bezdyskusyjny. Rzadko opuszczają rodzinne strony a jeżeli już to robią to najczęściej odwiedzają ziemię rodziny Kaiu by obserwować kunszt tamtejszych mistrzów kowalstwa i inżynierii.",
+    bonus: "+1 Siła"}, 
+
+  { name: "Toritaka",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Sokół",
+    desc: "Toritaka zawsze byli małą, zamkniętą wspólnotą żyjącą w pobliżu ziem klanu Kraba. Jego stereotypowi członkowie zawsze byli wysocy i niezręczni i nieustannie szlifujący swoją muskulaturę w kolejnych bitwach. Pomimo swego brutalnego wyglądu Toritaka są cisi, spokojni i zdystansowani wobec reszty rokugańskiego społeczeństwa.",
+    bonus: "+1 Spostrzegawczość"},   
+
+  { name: "Suzume",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Wróbel",
+    desc: " Suzume są pokorni, wytrwali i wyluzowani. Ich zainteresowania czynią ich jednak wyobcowanymi wśród innych mniejszych klanów. Są bardzo związani z heiminami i wuażają, że samurajowie powinni im pomagać kiedy jest taka potrzeba.",
+    bonus: "+1 Intuicja"},  
+
+  { name: "Ichiro",
+    clan_name: "Pomniejsze",
+    small_clan_name: "Borsuk",
+    desc: "Członkowie rodziny Ichiro są niegrzeczni i szorstcy w obyciu z innymi mieszkańcami Cesarstwa, uważają, że czyny znaczą więcej niż słowa, ponadto bardziej niż normy społeczne cenią zwykłą pragmatyczność. Członkowie rodziny zawsze są krępi i dobrze umięśnieni.",
+    bonus: "+1 Siła"},        
 ]
 
 skills = [

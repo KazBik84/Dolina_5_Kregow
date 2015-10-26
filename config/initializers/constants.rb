@@ -1,0 +1,1 @@
+CLAN_NAMES = %w(Feniks Krab Smok Jednorożec Lew Modliszka Pająk Rody_Cesarskie Pomniejsze Żuraw Skorpion Ronin)
