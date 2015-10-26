@@ -51,7 +51,7 @@ RSpec.describe School, type: :model do
   end
 
   it "is valid with proper clan" do
-    proper_clan = ["Feniks", "Krab" ,"Smok" ,"Jednorożec" ,"Lew" ,"Modliszka" ,"Pająk" ,"Rody_Cesarskie" ,"Pomniejsze" ,"Żuraw" ,"Skorpion"]
+    proper_clan = ["Feniks", "Krab" ,"Smok" ,"Jednorozec" ,"Lew" ,"Modliszka" ,"Pajak" ,"Rody_Cesarskie" ,"Pomniejsze" ,"Zuraw" ,"Skorpion"]
   	expect(build(:school, clan: proper_clan.sample )).to be_valid
   end
   
