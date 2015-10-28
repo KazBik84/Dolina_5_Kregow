@@ -18,6 +18,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'devise'
 gem "gretel"
+gem 'high_voltage'
 
 gem 'sdoc', group: :doc
 

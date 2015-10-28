@@ -215,6 +215,7 @@ GEM
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
+    high_voltage (2.3.0)
     hitimes (1.2.2)
     i18n (0.7.0)
     inflecto (0.0.2)
@@ -400,6 +401,7 @@ DEPENDENCIES
   gretel
   guard-minitest
   guard-rspec
+  high_voltage
   jbuilder
   jquery-rails
   jquery-turbolinks
