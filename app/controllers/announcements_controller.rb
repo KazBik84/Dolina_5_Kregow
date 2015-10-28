@@ -1,6 +1,6 @@
 class AnnouncementsController < ApplicationController
 
-  before_filter :is_admin?, except: [:show, :index]
+  before_filter :is_admin?, except: [:show, :index, :osw_show]
   def new
     @announcement = Announcement.new
   end
@@ -44,6 +44,13 @@ class AnnouncementsController < ApplicationController
 
   def index
     @announcements = Announcement.page(params[:page]).order('id DESC')
+  end
+
+  def osw_show
+    unless params[:password] == "Ichizo"
+      redirect_to osw_path
+    end
+    @announcement = Announcement.find(404)  
   end
   
   private

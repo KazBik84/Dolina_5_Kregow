@@ -22,6 +22,6 @@ class StaticPagesController < ApplicationController
   	unless params[:password] == "Ichizo"
   		redirect_to osw_path
     end
-  	@announcement = Announcement.find(404)	
+  	@announcement = Announcement.find(params[:announcement_id])	
   end
 end

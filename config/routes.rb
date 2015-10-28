@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   end
 
   resources :announcements do
+    post :osw_show
     resources :comments, only: [:create, :destroy]
   end  
 
