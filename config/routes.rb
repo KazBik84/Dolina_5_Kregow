@@ -10,11 +10,11 @@ Rails.application.routes.draw do
     resources :characters, except: [:index] 
   end
 
-  resources :announcements, except: [:index] do
+  resources :announcements do
     resources :comments, only: [:create, :destroy]
   end  
 
-  root 'static_pages#home'
+  root 'announcements#index'
 
   get 'schools' => 'legendopedia#schools'
 	get 'legendopedia' => 'legendopedia#main' 

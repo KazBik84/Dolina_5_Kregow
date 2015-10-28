@@ -1,6 +1,6 @@
 class AnnouncementsController < ApplicationController
 
-  before_filter :is_admin?, except: :show
+  before_filter :is_admin?, except: [:show, :index]
   def new
     @announcement = Announcement.new
   end
@@ -40,6 +40,10 @@ class AnnouncementsController < ApplicationController
   def show
     @announcement = Announcement.find(params[:id])
     @user = current_user if user_signed_in?
+  end
+
+  def index
+    @announcements = Announcement.page(params[:page]).order('id DESC')
   end
   
   private

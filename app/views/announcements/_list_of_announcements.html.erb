@@ -2,15 +2,15 @@
   <% unless announcement.id == 404 %>
     <div class="announcement" id="<%= announcement.title %>" data-announcement>
       <div class="announcement_header">
-        <%= render partial: 'announcements/announcement_header', locals: {announcement: announcement} %>
+        <%= render partial: 'announcement_header', locals: {announcement: announcement} %>
       </div>
       <div class="announcement_message">
-        <%= render partial: 'announcements/announcement_message', locals: {announcement: announcement} %>
+        <%= render partial: 'announcement_message', locals: {announcement: announcement} %>
       </div>
       <div class="show_comment" >
         <ul class="show_comment_list no_dot" id="show_comment_list_<%= announcement.id %>">
         <% announcement.comments.reverse_order.each do |comment| %>
-          <%= render partial: 'announcements/announcement_show_comment', 
+          <%= render partial: 'announcement_show_comment', 
             locals: {announcement: announcement, comment: comment, url: root_path} %>
         <% end %>
         </ul>
