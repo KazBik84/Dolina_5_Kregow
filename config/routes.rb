@@ -29,9 +29,6 @@ Rails.application.routes.draw do
   get 'skills' => 'legendopedia#skills'
   post 'show_skills' => 'legendopedia#show_skills'
    
-  get 'osw' => 'static_pages#osw'
-  get 'osw_show' => 'static_pages#osw_show'
-  post 'osw_show' => 'static_pages#osw_show'
 
 
 
