@@ -48,7 +48,7 @@ class AnnouncementsController < ApplicationController
 
   def osw_show
     unless params[:password] == "Ichizo"
-      redirect_to osw_path
+      redirect_to page_path('osw')
     end
     @announcement = Announcement.find(404)  
   end

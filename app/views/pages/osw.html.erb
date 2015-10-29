@@ -2,7 +2,7 @@
 <% provide(:header_active, "Root") %>
 
 <h1>Oświęcim gra w L5k :)</h1>
-<%= form_tag announcement_osw_show_path(announcement_id: '404')  do %>
+<%= form_tag osw_show_path(announcement_id: '404')  do %>
   <%= label_tag "Tajne hasło:" %>
   <%= text_field_tag :password %>
   <%= submit_tag "Szukaj!" %>

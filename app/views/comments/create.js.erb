@@ -3,4 +3,3 @@ $('#show_comment_list_<%= @announcement.id %>').prepend("<%= j render partial: '
 $('.comment_field').val("");
 $('#comments_counter_<%=@announcement.id %>').text("Komentarze: <%= @announcement.comments.count %>");
 $('.char_counter').text("255");
-$('.test').text("To jest url: <%= @url %>");
