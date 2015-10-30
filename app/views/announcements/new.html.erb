@@ -4,16 +4,12 @@
 <h1> Dodaj Newsa ;) </h1>
 
 
-    <%= form_for(@announcement) do |form| %>
-      <div class="form-group">
+    <%= simple_form_for @announcement do |f| %>
         <%= render 'shared/error_messages' %>
-        <%= form.label :title, "Nazwa" %>
-        <%= form.text_field :title, class: "form-control" %>
-
-        <%= form.label :message, "Treść" %>
-        <%= form.text_area :message, size: "48x12", class: "form-control" %>
-      </div>
+        <%= f.input :title, label: "Nazwa", placeholder: "Tytuł Posta", error: "Proszę podać tytuł" %>
+        <%= f.input :message, label: "Treść", placeholder: "Treść Posta", error: "Post musi posiadać treść", as: :text, input_html: { 'rows' => 12 } %>
       <div class="text-center padding_top-10">
-        <%= form.submit "Dodaj Newsa ;)", class: "btn btn-primary" %>
+        <%= f.button :submit,  "Dodaj Newsa ;)", class: 'btn btn-primary' %>
       </div>
     <% end %>
+
