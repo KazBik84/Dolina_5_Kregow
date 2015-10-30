@@ -1,10 +1,11 @@
-<%= form_for [announcement, announcement.comments.new], remote:true do |form| %>
+<%= simple_form_for [announcement, announcement.comments.new], remote:true do |f| %>
   <!-- url jest przekazywany jako parametr do tego partiala -->
-  <%= form.hidden_field :from_url, value: url %>
-  <%= form.label :author, "#{current_user.username}:" %>
-  <%= form.hidden_field :author, value: current_user.username %>
-  <%= form.hidden_field :user_id, value: current_user.id %>
-  <%= form.text_field :content, class: "form-control content_length comment_field" %>
+  <%= f.label :author, "#{current_user.username}:" %>
+  <%= f.input_field :content, class: "form-control content_length comment_field" %>
+  <%= f.hidden_field :from_url, value: url %>  
+  <%= f.hidden_field :author, value: current_user.username %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+
   <div class="char_counter">255</div>
-  <%= form.submit "Dodaj!", class: "btn btn-primary" %>
+  <%= f.submit "Dodaj!", class: "btn btn-primary" %>
 <% end %>
