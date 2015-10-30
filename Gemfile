@@ -19,6 +19,7 @@ gem 'jbuilder'
 gem 'devise'
 gem "gretel"
 gem 'high_voltage'
+gem 'simple_form'
 
 gem 'sdoc', group: :doc
 
