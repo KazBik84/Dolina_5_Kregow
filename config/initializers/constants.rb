@@ -7,3 +7,16 @@ CLAN_NAMES_PL = [ "Feniks", "Krab", "Smok",
                 "Jednorożec", "Lew", "Modliszka", 
                 "Pająk", "Rody Cesarskie", "Pomniejsze", 
                 "Żuraw", "Skorpion", "Ronin" ]
+
+CLAN_NAMES_ARRAY = [ [ "Feniks", "Feniks" ], 
+                     [ "Krab", "Krab" ], 
+                     [ "Smok", "Smok" ], 
+                     [ "Jednorożec", "Jednorozec" ], 
+                     [ "Lew", "Lew" ], 
+                     [ "Modliszka", "Modliszka" ],
+                     [ "Pająk", "Pajak" ],
+                     [ "Rody Cesarskie", "Rody_Cesarskie"], 
+                     [ "Pomniejsze", "Pomniejsze"],
+                     [ "Żuraw", "Zuraw"], 
+                     [ "Skorpion", "Skorpion"], 
+                     [ "Ronin", "Ronin"]]
