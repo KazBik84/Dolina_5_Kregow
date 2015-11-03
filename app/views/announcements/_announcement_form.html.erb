@@ -2,8 +2,6 @@
   <%= render 'shared/error_messages' %>
   <%= f.input :title, label: "Nazwa", placeholder: "Tytuł Posta", error: "Proszę podać tytuł" %>
   <%= f.input :message, label: "Treść", placeholder: "Treść Posta", error: "Post musi posiadać treść", as: :text, input_html: { 'rows' => 12 } %>
-  <div class="text-center padding_top-10">
-     <%= f.submit  "Dodaj Newsa ;)", class: 'btn btn-primary' %>
-  </div>
+  <%= f.submit  "Dodaj Newsa ;)", class: 'btn btn-primary' %>
 <% end %>
 
