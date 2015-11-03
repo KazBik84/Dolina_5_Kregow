@@ -1,5 +1,4 @@
 <article class="character_form <%= @clan.name %>">
-
   <%= simple_form_for [@user, @user.characters.new] do |f| %>
 
     <%= f.input :name, label: "Imię", placeholder: "Imię postaci", error: "Proszę podać imię postaci" %>
@@ -9,5 +8,4 @@
     <%= f.submit "Zapisz", class: "btn btn-primary" %>
 
   <% end %>
-  
 </article>

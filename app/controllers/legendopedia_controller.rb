@@ -7,8 +7,8 @@ class LegendopediaController < ApplicationController
   end
   
   def show_schools
-    params[:clans].present? && params[:clans][0].present? ? @clans = params[:clans] : @clans = nil
-    params[:school_classes].present? && params[:school_classes][0].present? ? @school_classes = params[:school_classes] : @school_classes= nil
+    params[:schools][:clans].present? && params[:schools][:clans][0].present? ? @clans = params[:schools][:clans] : @clans = nil
+    params[:schools][:school_classes].present? && params[:schools][:school_classes][0].present? ? @school_classes = params[:schools][:school_classes] : @school_classes= nil
     #Funkcja find_schools jest zdefiniowana w modelu school
     @chosen_schools = School.find_schools(@clans,@school_classes)
   end
@@ -47,7 +47,7 @@ class LegendopediaController < ApplicationController
   end
 
   def show_clan
-    @clan = Clan.find_clan(params[:clan_name])
+    @clan = Clan.find_clan(params[:clan][:clan_name])
     @clan_families = @clan.families.to_a
     @clan_schools = School.find_clan_schools(@clan.name).to_a
   end
@@ -56,7 +56,7 @@ class LegendopediaController < ApplicationController
   end
 
   def show_skills
-    @skills = Skill.find_skills(params[:sphare])
+    @skills = Skill.find_skills(params[:skills][:sphare])
   end
 
   

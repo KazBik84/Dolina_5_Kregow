@@ -1,85 +1,20 @@
 <div class="simple_school_form margin_bottom_1em">
-  <%= form_tag show_schools_path do %>
-    <p><strong>Wybierz Klan: </strong>
-      <%= select_tag 'clans[]', options_for_select([
-                               ["Dowolny", ""],
-                               ["Feniks", 'Feniks'],
-                               ["Jednorożec", 'Jednorożec'],
-                               ["Krab", 'Krab'],
-                               ["Lew", 'Lew'],
-                               ["Modliszka", 'Modliszka'],
-                               ['Pająk', 'Pająk'],
-                               ['Skorpion', 'Skorpion'],
-                               ['Smok', 'Smok'],
-                               ['Żuraw', 'Żuraw'],
-                               ['Rody Cesarskie', 'Rody_Cesarskie'],
-                               ['Pomniejsze', 'Pomniejsze']]) %>
-    </p>
-    <p><strong>Wybierz Klasę Szkoły: </strong>
-      <%= select_tag 'school_classes[]', options_for_select([
-                               ["Dowolna", ""],
-                               ["Bushi", 'Bushi'],
-                               ["Shugenja", 'Shugenja'],
-                               ["Mnich", 'Mnich'],
-                               ["Artysta", 'Artysta'],
-                               ["Dworzanina", 'Dworzanin'],
-                               ["Ninja", 'Ninja']]) %>       
-    </p>      
-    <%= submit_tag "Szukaj!" %>
+  <%= simple_form_for :schools, { url: show_schools_path } do |f| %>
+      <%= f.input :clans, collection: CLAN_NAMES_ARRAY, label: "Wybierz klan:" %>
+      <%= f.input :school_classes, collection: SCHOOL_CLASSES, label: "Wybeirz klasę:" %>
+      <%= f.submit "Szukaj!", class: "btn btn-primary" %>
   <% end %>
 </div>
+
 <div class="advance_school_button announcement_button float_left right_border margin_bottom_1em">
   <p><strong>Zaawansowane przeszukiwanie</strong></p>
 </div>
+
 <div class="advance_school_form clear_float">
   <p><strong>Wybierz klan/y:</strong></p>
-  <%= form_tag show_schools_path do %>
-    <ul class="no_dot">
-      <li class="inline_block">
-        <ul class="no_dot no_padding_and_margin"> 
-          <li><%= check_box_tag 'clans[]','Feniks', (true if !@clans.nil? and @clans.include? 'Feniks'), class: "clan_checkbox" %> Feniks</li>
-          <li><%= check_box_tag 'clans[]','Jednorożec', (true if !@clans.nil? and @clans.include? 'Jednorożec'), class: "clan_checkbox" %> Jednorożec</li>
-          <li><%= check_box_tag 'clans[]', 'Krab', (true if !@clans.nil? and @clans.include? 'Krab'), class: "clan_checkbox" %> Krab</li>
-          <li><%= check_box_tag 'clans[]', 'Lew', (true if !@clans.nil? and @clans.include? 'Lew'), class: "clan_checkbox" %> Lew </li>
-        </ul>
-      </li>
-      <li class="inline_block">
-        <ul class="no_dot no_padding_and_margin">
-          <li> <%= check_box_tag 'clans[]', 'Modliszka', (true if !@clans.nil? and @clans.include? 'Modliszka'), class: "clan_checkbox" %> Modliszka</li>
-          <li><%= check_box_tag 'clans[]', 'Pająk', (true if !@clans.nil? and @clans.include? 'Pająk'), class: "clan_checkbox" %> Pająk</li>
-          <li><%= check_box_tag 'clans[]', 'Skorpion', (true if !@clans.nil? and @clans.include? 'Skorpion'), class: "clan_checkbox" %> Skorpion</li>
-          <li><%= check_box_tag 'clans[]', 'Smok', (true if !@clans.nil? and @clans.include? 'Smok'), class: "clan_checkbox" %> Smok</li>
-        </ul>
-      </li>
-      <li class="inline_block">
-        <ul class="no_dot no_padding_and_margin">
-          <li><%= check_box_tag 'clans[]', 'Żuraw', (true if !@clans.nil? and @clans.include? 'Żuraw'), class: "clan_checkbox" %> Żuraw</li>
-          <li><%= check_box_tag 'clans[]', 'Rody_Cesarskie', (true if !@clans.nil? and @clans.include? 'Rody_Cesarskie'), class: "clan_checkbox" %> Rody Cesarskie </li>
-          <li><%= check_box_tag 'clans[]', 'Pomniejsze', (true if !@clans.nil? and @clans.include? 'Pomniejsze'), class: "clan_checkbox" %> Pomniejsze Klany</li>
-          <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_clans" %> Zaznacz Wszystkie</li>
-	      </ul>
-  	  </li>
-	  </ul>
-    <p><strong>	Wybierz klasę: </strong></p>
-    <ul class="no_dot">
-  	  <li class="inline_block">
-  	    <ul class="no_dot no_padding_and_margin">
-  	      <li><%= check_box_tag 'school_classes[]', 'Artysta', (true if !@school_classes.nil? and @school_classes.include? 'Artysta'), class: "class_checkbox" %> Artysta</li>
-    	    <li> <%= check_box_tag 'school_classes[]', 'Bushi', (true if !@school_classes.nil? and @school_classes.include? 'Bushi'), class: "class_checkbox" %> Bushi</li>
-    	    <li><%= check_box_tag 'school_classes[]', 'Dworzanin', (true if !@school_classes.nil? and @school_classes.include? 'Dworzanin'), class: "class_checkbox" %> Dworzanin</li>
-  	      <li><%= check_box_tag 'school_classes[]', 'Mnich', (true if !@school_classes.nil? and @school_classes.include? 'Mnich'), class: "class_checkbox" %> Mnich</li>
-  	    </ul>
-      </li>
-      <li class="inline_block">
-        <ul class="no_dot no_padding_and_margin">
-          <li><%= check_box_tag 'school_classes[]', 'Ninja', (true if !@school_classes.nil? and @school_classes.include? 'Ninja'), class: "class_checkbox" %> Ninja</li>
-          <li><%= check_box_tag 'school_classes[]', 'Shugenja', (true if !@school_classes.nil? and @school_classes.include? 'Shugenja'), class: "class_checkbox" %> Shugenja</li>
-          <li><%= check_box_tag 'select_all', 'nil', false, class: "select_all_classes" %> Zaznacz Wszystkie</li>
-        </ul>
-      </li>
-    </ul>
-   
-    <%= submit_tag "Szukaj!" %>
-
+  <%= simple_form_for :schools, { url: show_schools_path } do |f| %>
+    <%= f.input :clans, collection: CLAN_NAMES_ARRAY, as: :check_boxes, label: "Wybeirz Klan lub Klany:" %>
+    <%= f.input :school_classes, collection: SCHOOL_CLASSES, as: :check_boxes, label: "Wybierz klasę lub klasy:" %>
+    <%= f.submit "Szukaj!", class: "btn btn-primary" %>
   <% end %>
 </div>

@@ -19,4 +19,11 @@ CLAN_NAMES_ARRAY = [ [ "Feniks", "Feniks" ],
                      [ "Pomniejsze", "Pomniejsze"],
                      [ "Żuraw", "Zuraw"], 
                      [ "Skorpion", "Skorpion"], 
-                     [ "Ronin", "Ronin"]]
+                     [ "Ronin", "Ronin"] ]
+
+SKILL_SPHARES_ARRAY = [ ["Godne", "Godna" ],
+                  ["Niegodne", "Niegodna" ],
+                  ["Bugei", "Bugei"], 
+                  ["Kupieckie", "Kupiecka"] ]
+
+SCHOOL_CLASSES = [ "Bushi", "Shugenja", "Mnich", "Artysta", "Ninja", "Dworzanin" ]

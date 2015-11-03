@@ -1,13 +1,7 @@
 <article>
-  <%= form_tag show_skills_path do %>
-    <p><strong>Wybierz typ umiejętności: </strong>(obecnie dodane są tylko umiejętności godne)</p>
-    <%= select_tag 'sphare', options_for_select([
-                                                ['Wszystkie', ''],
-                                                ['Godne', 'Godna'],
-                                                ['Bugei', 'Bugei'],
-                                                ['Kupieckie', 'Kupiecka'],
-                                                ['Niegodne', 'Niegodna']
-                                                ]) %>
-    <%= submit_tag "Szukaj" %>
+  <%= simple_form_for :skills, { url: show_skills_path } do |f| %>
+    <p>Obecnie dodane są tylko umiejętności godne i bugei)</p>
+    <%= f.input :sphare, collection: SKILL_SPHARES_ARRAY, label: "Wybierz typ umiejętności:" %>
+    <%= f.submit "Szukaj", class: "btn btn-primary" %>
   <% end %>
 </article>

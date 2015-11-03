@@ -9,8 +9,7 @@ class CharactersController < ApplicationController
     @clan = Clan.where(name: params[:clan]).take || Clan.where(name: "Feniks").take
     respond_to do |format|
       format.js      
-      format.html 
- #render comments/create.js.erb            
+      format.html     
     end
   end
 
