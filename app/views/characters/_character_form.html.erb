@@ -1,32 +1,13 @@
 <article class="character_form <%= @clan.name %>">
-  <%= form_for [@user, @user.characters.new] do |form| %>
 
-    <%= form.label :name, "Imię: " %>
-    <%= form.text_field :name %><br/>
+  <%= simple_form_for [@user, @user.characters.new] do |f| %>
 
-    <%= form.label :clan, "Klan: " %>
-    <%= form.select :clan, options_for_select([
-      ["Feniks", "Feniks"],
-      ["Jednorożec", "Jednorożec"],
-      ["Krab", "Krab"],
-      ["Lew", "Lew"],
-      ["Modliszka", "Modliszka"],
-      ["Pająk", "Pająk"],
-      ["Skorpion", "Skorpion"],
-      ["Smok", "Smok"],
-      ["Żuraw", "Żuraw"],
-      ["Rody Cesarskie", "Rody_Cesarskie"],
-      ["Pomniejsze Klany", "Pomniejsze"],
-      ["Ronin","Ronin"]
-      ],selected: @clan.name) %><br/>
-
-    <%= form.label :family, "Rodzina: " %>
-    <%= form.select :family, options_from_collection_for_select(@clan.families.to_a, 'name', 'name') %><br/>
-
-    <%= form.label :desc, "Opis Postaci" %>
-    <%= form.text_area :desc, size: "48x12", class: "form-control" %>
- 
-    <%= form.submit "Zapisz", class: "btn btn-primary" %>
+    <%= f.input :name, label: "Imię", placeholder: "Imię postaci", error: "Proszę podać imię postaci" %>
+    <%= f.input :clan, collection: CLAN_NAMES_ARRAY, label: "Klan:", include_blank: false, selected: @clan.name %>
+    <%= f.input :family, collection: @clan.families.to_a, label: "Rodzina:", include_blank: false %>
+    <%= f.input :desc, label: "Opis Postaci:", placeholder: "Opisz swoją postać...", error: "Postać musi posiadać opis" %>
+    <%= f.submit "Zapisz", class: "btn btn-primary" %>
 
   <% end %>
+  
 </article>
