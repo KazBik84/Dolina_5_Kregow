@@ -17,9 +17,9 @@ class LegendopediaController < ApplicationController
   end
   
   def show_spells
-    params[:elements].present? && params[:elements][0].present? ? @elements = params[:elements] : @elements = nil
-    params[:krag].present? && params[:krag][0].present? ? @kregi = params[:krag] : @kragi = nil
-    @tags = params[:tag]
+    params[:spells][:elements].present? && params[:spells][:elements][0].present? ? @elements = params[:spells][:elements] : @elements = nil
+    params[:spells][:krag].present? && params[:spells][:krag][0].present? ? @kregi = params[:spells][:krag] : @kragi = nil
+    @tags = params[:spells][:tag]
     @chosen_spells = Spell.find_spells(@elements, @kregi, @tags).to_a    
   end
 
@@ -27,10 +27,10 @@ class LegendopediaController < ApplicationController
   end
   
   def show_traits
-    params[:kind].present? && params[:kind][0].present? ? @kind = params[:kind] : @kind = nil
-    params[:types].present? && params[:types][0].present? ? @types = params[:types] : @types = nil
-    @from = params[:from]
-    @to = params[:to]
+    params[:traits][:kind].present? && params[:traits][:kind][0].present? ? @kind = params[:traits][:kind] : @kind = nil
+    params[:traits][:sphare].present? && params[:traits][:sphare][0].present? ? @types = params[:traits][:sphare] : @types = nil
+    @from = params[:traits][:from]
+    @to = params[:traits][:to]
     @values = nil
     unless @from.blank? || @to.blank?
       if @from < @to
