@@ -35,7 +35,7 @@ RSpec.describe LegendopediaController, type: :controller do
   describe "POST show_schools" do
       
     before(:each) do
-      post :show_schools, clans: "Smok", school_classes: "Bushi"
+      post :show_schools, schools: { clans: "Smok", school_classes: "Bushi" }
     end
       
     it "has param :clans not equal nil" do
@@ -77,7 +77,7 @@ RSpec.describe LegendopediaController, type: :controller do
   describe "POST show_spells" do
   
     before(:each) do
-      post :show_spells, elements: "Ogień", krag: "1", tag: "Grom"
+      post :show_spells, spells: { elements: "Ogień", krag: "1", tag: "Grom" }
     end
       
     it "should have success http status" do
@@ -131,7 +131,7 @@ RSpec.describe LegendopediaController, type: :controller do
   describe "POST show_traits" do
 
     before(:each) do
-      post :show_traits, kind: "Zaleta", types: "Fizyczna", to: "1", from: "4"
+      post :show_traits, traits: { kind: "Zaleta", sphare: "Fizyczna", to: "1", from: "4" }
     end
       
     it "should have success status" do
@@ -151,11 +151,11 @@ RSpec.describe LegendopediaController, type: :controller do
     end
 
     it "has not nil :types" do
-      expect(assigns(:types)).to_not be_nil
+      expect(assigns(:sphare)).to_not be_nil
     end
     
     it "has corrcet :types value" do
-      expect(assigns(:types)).to eq("Fizyczna")
+      expect(assigns(:sphare)).to eq("Fizyczna")
     end
       
     it "has not nil :from attr" do
@@ -202,7 +202,7 @@ RSpec.describe LegendopediaController, type: :controller do
 
     before(:each) do
       @sample_clan = FactoryGirl.create(:clan)
-      post :show_clan, clan_name: "Krab"
+      post :show_clan, clan: { clan_name: "Krab" }
     end 
 
     it "should have http success status" do

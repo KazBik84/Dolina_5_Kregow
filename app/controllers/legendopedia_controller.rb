@@ -28,7 +28,7 @@ class LegendopediaController < ApplicationController
   
   def show_traits
     params[:traits][:kind].present? && params[:traits][:kind][0].present? ? @kind = params[:traits][:kind] : @kind = nil
-    params[:traits][:sphare].present? && params[:traits][:sphare][0].present? ? @types = params[:traits][:sphare] : @types = nil
+    params[:traits][:sphare].present? && params[:traits][:sphare][0].present? ? @sphare = params[:traits][:sphare] : @sphare = nil
     @from = params[:traits][:from]
     @to = params[:traits][:to]
     @values = nil
@@ -40,7 +40,7 @@ class LegendopediaController < ApplicationController
         @values = (@to..@from).to_a << "Różna"
       end
     end
-    @chosen_traits = Trait.find_traits(@kind, @types, @values).to_a
+    @chosen_traits = Trait.find_traits(@kind, @sphare, @values).to_a
   end
 
   def clans
