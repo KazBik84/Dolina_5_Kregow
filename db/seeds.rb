@@ -5637,7 +5637,6 @@ clans = [
   clan_name: "Pomniejsze",
   mon_img: "",
   desc: "Gdy samuraj dokona heroiczengo czynu, na rzecz Rokuganu lub Cesarza, w nagrodę może założyć własną rodzinę. Gromadzi wtedy tych którzy chcą podążać jego ścieżką, jako swoich pierwszych poddanych. Na przestrzeni stuleci przywilej ten był nadawany wielokrotnie, a powstałe w ten sposób unikatowe klany, choć mniej znaczące od Wielkich Klanów, nie raz decydowały o przechyleniu szali zwycięstwa w potyczkach między nimi. Teksty dotyczące zawartych tu mniejszych klanów, możemy oglądać dzięki Hehosowi, który je przetłumaczył."}
-
 ]
 
 families = [
@@ -6138,7 +6137,6 @@ skills = [
             <li><strong>Ranga 5: </strong>Postać zyskuje +1z0 do testów Czaroznastwa.</li>
           </ul>"},
 
-
   {name: "Tea Ceremony",
   name_pl: "Ceremonia Parzenia Herbaty",
   sub_typ: [""],
@@ -6148,7 +6146,224 @@ skills = [
   desc: "Ceremonia parzenia herbaty, to starożytna i święta tradycja, która została stworzona u zarania Cesarstwa, przez samą panią Doji. Rytuał ten przekazywany jest z rodziców na dzieci, z dokładnością i czcią, dorównującą tej z jaką przekazuje się miecz z pokolenia na pokolenie. Choć rytuał różni się nieznacznie, w zależności od klanu, podana herbata zawsze spożywana jest w absolutnej ciszy. Ceremonia ta ma za zadanie przynieść spokój i wyciszenie, jej uczestnikom, tak by mogli odzyskać wewnętrzną harmonię. Gdy postać prowadzi ceremonię, musi wykonać test Ceremonia Parzenia Herbaty / Pustka o PT równym 15 + 5 za każdego uczestnika powyżej dwóch. Ceremonia przewidziana jest dla dwóch osób, ale można przeprowadzić ją dla samego siebie, lub do pięciu uczestników. Ceremonia trwa pół godziny i wymaga cichego ustronnego miejsca by zostać przeprowadzona. ",
   master: "<ul>
             <li><strong>Ranga 5: </strong>Wszyscy uczestnicy odzyskują 2 punty Pustki.</li>
-          </ul>"}
+          </ul>"},
+
+  {name: "Athletics",
+  name_pl: "Atletyka",
+  sub_typ: ["Brak"],
+  attr: "Siła",
+  sphare: ["Bugei"],
+  emphases: "Wspinanie, Bieganie, Pływanie, Rzucanie",
+  desc: "Podczas nauk, każdy bushi, przechodzi szereg szkoleń związanych z rozwojem swojego ciała. Nauka ta często przeradza się w nawyk i formę rozrywki, wielu samurajów uprawia ćwiczy po służbie lub bierze udział w spontanicznie organizowanych zawodach, by udowodnić kto jest najsprawniejszy. Umiejętność Atletyka, obejmuje wszelkie formy aktywności fizycznej i wpływa na postać w bardzo różny sposób. Dzięki Atletyce postać może poruszać się łatwiej w trudnym terenie, zmniejszyć ograniczenia wynikające z noszenia ciężkiej zbroi i tym podobne. Specjalizacja Rzucanie, pozwala na celne miotanie różnego rodzaju przedmiotami, takimi jak noże lub nawet wakizashi.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Trudny teren nie ogranicza kręgu wody postaci. A bardzo trudny teren ogranicza krąg Wody postaci o 1, a nie o 2 poziomy.</li>
+            <li><strong>Ranga 5: </strong>Bardzo trudny teren nie ogranicza ruchów Postaci.</li>
+            <li><strong>Ranga 7: </strong>Postać może dodać 1,5m do jednej akcji ruchu ma rundę.(Nie zwiększa to jednak maksymalnej ilości metrów jaką postać może przebyć w ciągu rundy.)</li>
+          </ul>"},
+
+  {name: "Battle",
+  name_pl: "Taktyka",
+  sub_typ: ["Brak"],
+  attr: "Spostrzegawczość",
+  sphare: ["Bugei"],
+  emphases: "Duże Bitwy, Potyczki",
+  desc: "Samuraj zawsze gotowy jest do wojny, czy to z bronią w ręku, na wrogich dworach, czy z za linii sojuszników wzywając potęgę kami. Studiowanie praw wojny, jest wysoce cenione pośród wszystkich kast samurajów, a nie kończące się debaty o taktyce, strategii i manewrach, toczą się zarówno na dworach jak i zaciszach świątyń. Umiejętność Taktyka pozwala na prowadzenie walnych bitew, lecz przydaje się także podczas małych potyczek.",
+  master: "<ul>
+            <li><strong>Ranga 5: </strong>Podczas potyczki postać dodaje wielkość swojej wartości Taktyki do swojego wyniku Inicjatywy.</li>
+          </ul>"},
+
+  {name: "Defense",
+  name_pl: "Obrona",
+  sub_typ: ["Brak"],
+  attr: "Refleks",
+  sphare: ["Bugei"],
+  emphases: "Brak",
+  desc: "Wojownik, który nie potrafi się bronić, nie jest długo przydatny swojemu panu. gdyż po pierwszej bitwie musiał by być zastąpiony. Rokugańska sztuka walki, nie dopuszcza manewrów takich jak riposty, czy parady, promują za to, postawy ciała i broni, tak by w połączeniu stawały się tarczą, która odbije cios przeciwnika. Umiejętność Obrona, jest konieczna do przyjęcia manewru Obrony lub Pełnej obrony podczas walki, co może znaczniej zwiększyć PT trafienia postaci. ",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Postać może podtrzymać wynik test Obrony z poprzedniej rundy, w kolejnych rundach.</li>
+            <li><strong>Ranga 5: </strong>PT postaci jest uznawane o wyższe o 3, podczas wykonywania manewru Obrony i Pełnej Obrony.</li>
+            <li><strong>Ranga 7: </strong>Podczas manewru, Pełnej Obrony postać może wykonać jedną akcję prostą, nie może być to atak.</li>
+          </ul>"},
+
+  {name: "Horsemanship",
+  name_pl: "Jazda Konna",
+  sub_typ: ["Brak"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Konie Gajińskie, Rokugańskie kuce, Rumaki Utaku",
+  desc: "Umiejętność jazdy konnej, jest konieczna dla samurajów walczących w kawalerii oraz dla samurajów którzy muszą szybko przemieszczać się po terenie Cesarstwa. Umiejętność ta uczona jest w większości szkół Rokuganu, choć jej brak, nie stanowi ujmy na honorze samuraja (choć samurajowie klanu Jednorożca myślą inaczej). W rzeczywistości każdy samuraj może jeździć konno z normalną prędkością, po płaskim terenie. Test jeździectwa wymagane są dopiero w momencie stresujących sytuacji lub w trudnym terenie.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Postać może wykonać Pełny Atak, jadąc konno.</li>
+            <li><strong>Ranga 5: </strong>Dosiadanie konia jest akcją prostą, a zsiadanie z niego jest akcją darmową.</li>
+            <li><strong>Ranga 7: </strong>Dosiadanie konia jest akcją darmową.</li>
+          </ul>"},
+
+  {name: "Hunting",
+  name_pl: "Polowanie",
+  sub_typ: ["Brak"],
+  attr: "Spostrzegawczość",
+  sphare: ["Bugei"],
+  emphases: "Przetrwanie, Śledzenie, Pozostawianie śladów",
+  desc: "Polowanie to sport, uprawiany przez wielu samurajów, choć zdobycz rzadko konsumowana jest przez członków kasty Samurajskiej. Choć sama gra może być bardzo niebezpieczna, wiedza jaką zdobywa samuraj, jest wyjątkowo cenna. Podczas polowań dla sportu, samuraj nigdy nie korzysta ze swojego daisho, zazwyczaj używa się łuku i strzał, lub w przypadku dłuższych gier, również włóczni. Specjalizacja Przetrwanie, pozwala postaci na poszukiwanie pożywienia i schronienia w dziczy, o PT testu wyznaczonym przez MG. Śledzenie jak sama nazwa wskazuje, pozwala na tropienie śladów ofiary, choć w przypadku dłuższego okresu śledzenia, postać może być zmuszona wykonać test kilka razy. Specjalizacja Pozostawianie śladów, pozwala postaci na oznaczanie swojej ścieżki tak by ona sama mogła wrócić po niej lub inni mogli łatwiej podążać za postacią.",
+  master: "<ul>
+            <li><strong>Ranga 5: </strong>Postać uzyskuje +1z0 do testów Skradania wykonywanych w dziczy.</li>
+
+          </ul>"},
+
+  {name: "Iaijutsu",
+  name_pl: "Iaijutsu",
+  sub_typ: ["Brak"],
+  attr: "Refleks",
+  sphare: ["Bugei"],
+  emphases: "Przygotowanie, Skupienie",
+  desc: "Pojedynki Iaijutsu, to tradycyjna forma, rozwiązywania sporów między samurajami. Ta starożytna technika. jest tak mocno zakorzeniona w kulturze, że nawet najbardziej postępowi z samurajów, nie potrafią wyobrazić sobie, porzucenia tego zwyczaju. Gdy dochodzi, do sytuacji że członkowie kasty samurajów nie mogą dojść do porozumienia, zazwyczaj kończy się to pojedynkiem i prawie zawsze jest to pojedynek iaijutsu. Poglądy zwycięzcy zostają uznane za obowiązujące, a wynik pojedynku zawsze musi być jednoznaczny dla wszystkich.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Postać może przygotować katanę, jako akcję darmową.</li>
+            <li><strong>Ranga 5: </strong>Podczas pojedynku Iaijutsu, postać zyskuje darmowe podbicie podczas testu Iaijutsu(Skupienie) / Pustka, podczas fazy Skupienia.</li>
+            <li><strong>Ranga 7: </strong>Jeśli podczas fazy przygotowania, samuraj przebije test przeciwnika, o 10 lub więcej punktów, w następnym teście uzyskuje premię +2z2 zamiast +1z1.</li>
+          </ul>"},
+
+  {name: "Jiujutsu",
+  name_pl: "Jiujutsu",
+  sub_typ: ["Brak"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Chwyty, Broń improwizowana, Sztuki Walki",
+  desc: "Walka bez broni jest, czymś naturalnym dla bushi, choć nie wszystkie dojo w Rokuganie uczą jej w równym stopniu. Wiele dojo które uczą głównie technik walki bronią, naucza technik pozwalających na obronę, przeciwko przeciwnikom którzy walczą bez broni i choć umiejętności te rzadko się przydają, nauka walki bez broni w pewnych sytuacjach może być różnicą, między życiem a śmiercią dla samuraja. ",
+  master: "<ul>
+            <li><strong></strong></li>
+          </ul>"},
+
+  {name: "Chain Weapons",
+  name_pl: "Bronie łańcuchowe",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Kusarigama,Kuoketsu-shogi, Manrikikusari",
+  desc: "Bronie łańcuchowe, przez wielu samurajów uznawane są, za co najmniej nietypowe, jednak dzięki swojej efektywności i złożoności, zostały zaakceptowane. Największą popularnością cieszą się w klanie Modliszki, który często faworyzuje egzotyczne rozwiązania. W odróżnieniu od reszty rokugańczyków którzy używają tego typu broni rzadko, a jeśli już to przez wysoce wyspecjalizowane grupy.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Bronie łańcuchowe mogą służyć do zainicjowania zapasy.</li>
+            <li><strong>Ranga 5: </strong>Postać walcząca bronią łąńcuchową, przeciw przeciwnikom zaplątanym lub walczących w zapasach przeciw postaci używającej tego typu broni.</li>
+            <li><strong>Ranga 7: </strong>Postać może użyć broni łańcuchowej, by zyskać darmowe podbicie, do manewrów Powalenia i Rozbrojenia.</li>
+          </ul>"},
+
+  {name: "Heavy Weapons",
+  name_pl: "Bronie ciężkie",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Dai Tsuhi, Masakari, Ono, Tetsubo",
+  desc: "Szkolenie w broniach ciężkich, a w szczególności Tetsubo, to znak firmowy klanu  Kraba. Choć wiele innych klanów uczy walki bronią ciężką, rzadko móżnamożna spotkać jednostki walczące nimi na polu walki. Jednak dla synów Hida, brutalna siła jaką oferuje ten typ broni, stanowi podstawę do obrony Rokuganu przed Krainami Cienia.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Wyparowanie przeciwnika jest zmniejszane o 2, podczas ataku bronią ciężką.</li>
+            <li><strong>Ranga 5: </strong>Walcząc bronią ciężką, postać zyskuje darmowe podbicie do manewru powalenia.</li>
+            <li><strong>Ranga 7: </strong>Kości obrażeń eksplodują na wynikach 9 i 10, walcząc bronią ciężką.</li>
+          </ul>"},
+
+  {name: "Kenjutsu",
+  name_pl: "Kenjutsu",
+  sub_typ: ["Umiejętność Walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Katana, ninja-to, No-dachi, Parangu, Scimitar, Wakizashi",
+  desc: "Kenjutsu to ścieżka miecza, najważniejsza umiejętność walki, jakiej uczy się samuraj w Rokuganie. Trening kenjutsu, w prawie każdej szkole, skupia się wokół walki kataną, bronią która jest jednocześnie symbole statusu samuraja. Wiele dojo zapewnia naukę walki innymi broniami, ale to walka kataną jest uznawana za podstawową, może poza paroma dziedzinami, gdzie wykorzystuje się łuk.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Obrażenia zadawane mieczami, są zwiększane o +1z0.</li>
+            <li><strong>Ranga 5: </strong>Wydobycie miecza, jest uznawane za akcję darmową.</li>
+            <li><strong>Ranga 7: </strong>Kości obrażeń eksplodują na wynikach 9 i 10, walcząc mieczem.</li>
+          </ul>"},
+
+  {name: "Knives",
+  name_pl: "Noże",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Aiguchi, Jitte, Kama, Tanto",
+  desc: "Walka nożami lub  tantojutsu, nie jest uznawana za bardzo potrzebną, przez większość dojo bushi. Nawet jeśli samuraj, chce uczyć się walki inną bronią, rzadko wybiera tę sztukę walki. Lecz pomimo tak niskiej pozycji, nauka władania nożem, przewija się w treningu większości samurajów, gdyż praktycznie każdy samuraj posiada przy sobie nóż, a pragmatyzm podpowiada że nigdy nie wiadomo kiedy nóż będzie ostatnią deską ratunku.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Korzystając z noża w drugiej ręce nie powodują, ujemnych konsekwencji dla postaci.</li>
+            <li><strong>Ranga 5: </strong>Jeśli postać używa sai lub jitte, zyskuje darmowe podbicie do testów rozbrajania.</li>
+            <li><strong>Ranga 7: </strong>Postać walcząca nożami, uzyskuje darmowe podbicie do manewru dodatkowego ataku.</li>
+          </ul>"},
+
+  {name: "Kyujutsu",
+  name_pl: "Kyujutsu",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Refleks",
+  sphare: ["Bugei"],
+  emphases: "Dai-kyu, Han-kyu, Yumi",
+  desc: "Sztuka strzelania z łuku jest szanowaną, częścią treningu bushi wielu szkół w Rokuganie, z wyjątkiem dojo które przedkładają tradycję, ponad praktyczność. Możliwość ranienia przeciwnika zanim on zdąży dotrzeć do samuraja, jest bardzo ceniona w Cesarstwie. Rokugańska sztuka strzelania z łuku, nie polega na uczeniu celowania, a zamiast tego skupia się na śledzeniu celu, wybraniu odpowiedniego momentu i połączeniu linii lotu z celem w jednym płynnym ruchu, jak mówi powiedzenie 'Strzała sama zna drogę'. Postać strzelająca do przeciwnika w zwarciu, otrzymuje modyfikator -10 do testów ataku.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Naciągnięcie cięciwy łuku, jest akcją prostą, zamiast akcję pełną.</li>
+            <li><strong>Ranga 5: </strong>Maksymalny zasięg łuku jest zwiększany o 50%.</li>
+            <li><strong>Ranga 7: </strong>Siła łuku jest zwiększana o 1.</li>
+
+          </ul>"},
+
+  {name: "Ninjutsu",
+  name_pl: "Ninjutsu",
+  sub_typ: ["Umiejętność Walki"],
+  attr: "Zręczność lub Refleks",
+  sphare: ["Bugei", "Niegodna"],
+  emphases: "Dmuchawka, Shuriken, Tsubune",
+  desc: "Haniebna sztuka ninjutsu, to ścieżka która specjalizuje się w walce bronią przeznaczoną dla zabójców i innych wojowników skrywających się w cieniu. Żaden honorowy samuraj nie zniżył by się do poziomu zabójcy by poznać tę sztukę walki, a tym bardziej, nie skazał swoich przodków na taką hańbę. Dlatego gdy samurajowie stają do walki, z ninja, mają dużą trudność w określeniu prawdziwego potencjału przeciwnika, co często źle się dla nich kończy.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Obrażenia wszystkich broni typu ninjutsu, są większe o +1z0.</li>
+            <li><strong>Ranga 5: </strong>Kości obrażeń eksplodują normalnie, jak w przypadku innych typów broni.</li>
+            <li><strong>Ranga 7: </strong>Obrażenia wszystkich broni ninjutsu, są zwiększane o +0z1 (dając łącznie +1z1).</li>
+          </ul>"},
+
+  {name: "Polearms",
+  name_pl: "Broń drzewcowa",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Bisento, Nagamaki, Naginata, Sasumata, Sodegarami",
+  desc: "Bronie drzewcowe, które charakteryzują się, dalekim zasięgiem i znaczną siłą uderzenia, stanowią rozwiązanie pomiędzy broniami ciężkimi i kataną. Wszystkie bronie drzewcowe, mają podobną budowę i składają się z ostrza, osadzonego na sztylu wykonanym z drewna lub metalu. Dzięki takiej budowie, samuraj może trzymać przeciwnika na dystans, jednocześnie korzystając ze zwiększonej siły uderzenia. Ta sztuka walki bywa nazywana umayarijutsu.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Postać walcząca tą bronią, zyskuje premię +5 do inicjatywy w pierwszej rundzie potyczki.</li>
+            <li><strong>Ranga 5: </strong>Obrażenia zadawane przeciwnikom na koniu lub znacznie większym od postaci, są zwiększane o +1z0.</li>
+            <li><strong></strong>Przygotowanie broni drzewcowej, jest akcją darmową.</li>
+          </ul>"},
+
+  {name: "Spears",
+  name_pl: "Yarijutsu",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Mai Chong, Kumade, Lanca, Nage-yari, Yari",
+  desc: "Yarijutsu, czyli ścieżka włóczni, to sztuka która towarzyszy samurajom, praktycznie od początku. W niektórych szkołach, jak na przykład szkole Daidoji, umiejętność władania tym typem broni, jest obowiązkowa. W przeciwieństwie do broni drzewcowych, włócznie, służą głównie do przebijania przeciwników, niż zadawania ran ciętych. Dzięki czemu włócznie są często używane do walki z kawalerią, jak i przez kawalerię.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Podczas ataku wręcz, w pierwszej rundzie starcia, postać zyskuje Przebicie Pancerza 3. </li>
+            <li><strong>Ranga 5: </strong>Postać może rzucać włóczniami o 1,5m dalej niż podaje zasięg broni.</li>
+            <li><strong>Ranga 7: </strong>Postać może przygotować włócznie do walki, jako akcję darmową.</li>
+          </ul>"},
+
+  {name: "Staves",
+  name_pl: "Kije",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Bo, Jo, Machi-kanshiha, Nunchaku, Sang Kauw, Tonfa",
+  desc: "Rzadko uczona pośród rodzin samurajskich, umiejętność władania kijami jako bronią, znalazła swoje miejsce w zakonach mnichów i pośród chłopów. Dzięki swojej budowie, kijem można łatwo ogłuszyć przeciwnika, ale bez odpowiedniego treningu ciężko jest wykorzystać tego typu broń do zabijania. Dodatkowo wszelkiego typu pancerze są wyjątkowo trudne do przebicia, dlatego gdy postać walczy przeciwko przeciwnikowi w zbroi, premia do PT zbroi jest podwajana.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Premia do PT pancerza przeciwnika, nie jest podwajana.</li>
+            <li><strong>Ranga 5: </strong>Postać walcząca kijem otrzymuje darmowe podbicie do testów powalenia.</li>
+            <li><strong>Ranga 7: </strong>Kije które są duże, mogą być przygotowane do walki jak akcja, prosta. Kije które są małe zyskują +1z0 do obrażeń.</li>
+          </ul>"},
+
+  {name: "War Fans",
+  name_pl: "Wachlarze bojowe",
+  sub_typ: ["Umiejętność walki"],
+  attr: "Zręczność",
+  sphare: ["Bugei"],
+  emphases: "Brak",
+  desc: "Wachlarze bojowe, znane głównie jako tesseny, to urządzenia o wielu funkcjach i rzadko wykorzystywane są jako broń. Ich podstawową funkcją, jest sygnalizowanie rozkazów jednostką na polu bitwy, dlatego są wykonane z metalu, gdyż papierowe wachlarze, nie sprawdzały się w nieprzewidywalnych warunkach panujących na polach bitew. I choć nadal spełniają tę funkcję, służą również do podobnych celów jak papierowe wachlarze. Istnieją jednak w Rokuganie grupy które wykorzystują Tesseny jako broń, głównie w klanie Lwa, ale również pośród grupy roninów, którzy nazwali się 'Wachlarz' i ochraniają obecne Toshi Ranbo.",
+  master: "<ul>
+            <li><strong>Ranga 3: </strong>Walka tessenem, jako bronią dodatkową nie powoduje ujemnych modyfikatorów.</li>
+            <li><strong>Ranga 5: </strong>PT postaci walczącej tessenem, wzrasta o 1.</li>
+            <li><strong>Ranga 7: </strong>PT postaci walczącej tessenem, wzrasta o 3.</li>
+          </ul>"}          
 ]
 
 # ---------------------------- Support functions --------------------------
