@@ -1604,7 +1604,7 @@ spells = [
   krag: "1",
   zywiol: "Ogień",
   img_name: "",
-  obszar: "Dowolna broń wrękach czarującego",
+  obszar: "Dowolna broń w rękach czarującego",
   zasieg: "Dotyk",
   opis: "Czar ten nasyca broń esencją ognia. Podcza rzucania czaru z rąk czarującego bucha płomień który ogarnia całą broń. Puki czarujący trzyma broń lub do momentu zakończenia czasu trwania czaru, broń dodaje +1z1 do ataku lub +2z2 jeśli przeciwnik jest na koniu lub jeśli jest większy od człowieka.",
   czas: "5 minut",
@@ -5280,7 +5280,7 @@ traits = [{
       
   {kind: "Wada",
   name: "Driven", 
-  name_pl: "Szalony Ce" ,
+  name_pl: "Szalony Cel" ,
   sphere: "Umysłowa", 
   value: ["4"],
   desc: "Postać posiada swój własny cel, żeby go osiągnąć jest w stanie poświęcić wszystko, honor, rodzinę, przyjaciół, czy wszelkie dobra materialne." },
@@ -5474,7 +5474,7 @@ traits = [{
   name_pl: "Trwała Rana" ,
   sphere: "Fizyczna", 
   value: ["4"],
-  desc: "Postać otrzymała kiedyś ranę która nigdy się nie zagoi, w wyniku tego pierwszy poziom ran postaci jest zawsze w pełni zapełniony." },
+  desc: "Postać otrzymała kiedyś ranę która nigdy się nie zagoi, w wyniku tego pierwszy poziom ran postaci jest zawsze w pełni zapełniony. Wada ta jest warta 5 Pt dla postaci klasy Bushi." },
 
   {kind: "Wada",
   name: "Phobia", 
