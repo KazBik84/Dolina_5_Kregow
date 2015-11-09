@@ -28,6 +28,7 @@ require 'shoulda/matchers'
 ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
+  config.include Rails.application.routes.url_helpers      
   # Dodanie FctoryGirl do RSpec
 	config.include FactoryGirl::Syntax::Methods
 	# Dodanie Devise do Rspec
