@@ -16,4 +16,11 @@ feature "Legendopedia main page" do
   scenario "it should have 'Legendopedia' selected in the navigation" do
     expect(page.find('div.container li.active')).to have_selector(:link, '', href: '/legendopedia')
   end
+
+  scenario "it redirect to the chosen site in topic_id select_tag", js: true do
+    select_options = ['Szkoły','Czary', 'Zalety i Wady', 'Klany', 'Umiejętności']
+    random_select = select_options.sample
+    select( random_select, from: 'topic_id')
+    expect(page).to have_content "Jesteś tutaj: Strona Główna › Legendopedia › #{random_select}"
+  end
 end

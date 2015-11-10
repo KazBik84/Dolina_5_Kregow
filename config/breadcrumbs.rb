@@ -80,7 +80,7 @@ crumb :legendopedia_spells_show do
 end
 
 crumb :legendopedia_traits do
-  link "Zalety i wady", traits_path
+  link "Zalety i Wady", traits_path
   parent :legendopedia
 end
 

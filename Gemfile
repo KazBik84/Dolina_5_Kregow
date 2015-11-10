@@ -28,7 +28,8 @@ group :development, :test do
   gem 'web-console'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'capybara'  
+  gem 'capybara' 
+  gem 'selenium-webdriver'
   gem 'factory_girl_rails'
   gem 'database_cleaner'   
 end

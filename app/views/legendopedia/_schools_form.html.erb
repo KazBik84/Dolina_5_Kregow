@@ -11,7 +11,7 @@
 </div>
 
 <div class="advance_school_form clear_float">
-  <p><strong>Wybierz klan/y:</strong></p>
+
   <%= simple_form_for :schools, { url: show_schools_path } do |f| %>
     <%= f.input :clans, collection: CLAN_NAMES_ARRAY, as: :check_boxes, label: "Wybeirz Klan lub Klany:" %>
     <%= f.input :school_classes, collection: SCHOOL_CLASSES, as: :check_boxes, label: "Wybierz klasę lub klasy:" %>
