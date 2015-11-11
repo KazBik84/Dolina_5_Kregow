@@ -48,7 +48,7 @@ class LegendopediaController < ApplicationController
 
   def show_clan
     @clan = Clan.find_clan(params[:clan][:clan_name])
-    @clan_families = @clan.families.name
+    @clan_families = @clan.families
     @clan_schools = School.find_clan_schools(@clan.name).order(:name)
   end
 

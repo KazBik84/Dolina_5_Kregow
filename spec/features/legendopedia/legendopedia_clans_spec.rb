@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature "Tests for the clan and show_can views" do
+feature "Tests for the clan and show_clan views" do
   let! (:crane)   { create :clan, name: "Zuraw", clan_name: "Żuraw", desc: "Opis klanu Żurawia"}
   let! (:dragon)  { create :clan, name: "Smok", clan_name: "Smok", desc: "Opis klanu Smoka"}
   let! (:kakita)  { create :family, name: "Kakita", clan_name: "Zuraw", desc: "Opis rodu Kakita", clan_id: crane.id}

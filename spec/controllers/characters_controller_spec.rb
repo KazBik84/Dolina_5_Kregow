@@ -3,6 +3,7 @@ require 'rails_helper'
 RSpec.describe CharactersController, type: :controller do
 
   describe "GET #new" do
+    let! (:clan) { create :clan, name: "Feniks"}    
     before(:each) do
       @user = FactoryGirl.create(:user)
       sign_in @user      
@@ -12,7 +13,7 @@ RSpec.describe CharactersController, type: :controller do
       expect(response).to have_http_status(:success)
     end
 
-    it "redirect to log in page" do
+    it "renders proper template" do
       expect(response).to render_template 'new'
     end
   end

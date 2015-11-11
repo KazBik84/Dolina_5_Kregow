@@ -20,7 +20,7 @@ feature "Legendopedia main page" do
   scenario "it redirect to the chosen site in topic_id select_tag", js: true do
     select_options = ['Szkoły','Czary', 'Zalety i Wady', 'Klany', 'Umiejętności']
     random_select = select_options.sample
-    select( random_select, from: 'topic_id')
+    select( random_select, from: 'topic_id_topic_id')
     expect(page).to have_content "Jesteś tutaj: Strona Główna › Legendopedia › #{random_select}"
   end
 end
