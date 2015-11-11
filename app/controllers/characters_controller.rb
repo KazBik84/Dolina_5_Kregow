@@ -7,6 +7,7 @@ class CharactersController < ApplicationController
     @user = User.find(params[:user_id])
     @character = Character.new
     @clan = Clan.where(name: params[:clan]).take || Clan.where(name: "Feniks").take
+    @families = @clan.families
     respond_to do |format|
       format.js      
       format.html     

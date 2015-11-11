@@ -3,7 +3,7 @@
 
     <%= f.input :name, label: "Imię", placeholder: "Imię postaci", error: "Proszę podać imię postaci" %>
     <%= f.input :clan, collection: CLAN_NAMES_ARRAY, label: "Klan:", include_blank: false, selected: @clan.name %>
-    <%= f.input :family, collection: @clan.families.to_a, label: "Rodzina:", include_blank: false %>
+    <%= f.input :family, collection: @families, label_method: :name, value_method: :name, label: "Rodzina:", include_blank: false %>
     <%= f.input :desc, label: "Opis Postaci:", placeholder: "Opisz swoją postać...", error: "Postać musi posiadać opis" %>
     <%= f.submit "Zapisz", class: "btn btn-primary" %>
 
