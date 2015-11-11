@@ -2,6 +2,6 @@
   <%= simple_form_for :skills, { url: show_skills_path } do |f| %>
     <p>Obecnie dodane są tylko umiejętności godne i bugei)</p>
     <%= f.input :sphare, collection: SKILL_SPHARES_ARRAY, label: "Wybierz typ umiejętności:" %>
-    <%= f.submit "Szukaj", class: "btn btn-primary" %>
+    <%= f.submit "Szukaj!", class: "btn btn-primary" %>
   <% end %>
 </article>

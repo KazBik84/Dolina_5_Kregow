@@ -2,7 +2,7 @@
   <%= simple_form_for :traits, {url: show_traits_path } do |f| %>
     <%= f.input :kind, collection: TRAITS_KIND_ARRAY, label: "Wybierz rodzaj cechy:" %>
     <%= f.input :sphare, collection: TRAITS_SPHARE_ARRAY, label: "Wybierz typ cechy:" %>
-    <%= f.submit "Szukaj!", class: "btn btn-primal" %>
+    <%= f.submit "Szukaj!", class: "btn btn-primary" %>
   <% end %>
 </div>
 
@@ -13,9 +13,9 @@
 <div class="advance_traits_form clear_float">
   <%= simple_form_for :traits, { url: show_traits_path } do |f| %>
     <%= f.input :kind, collection: TRAITS_KIND_SINGULAR, as: :check_boxes, label: "Wybierz rodzaj cechy:" %>
+    <%= f.input :sphare, collection: TRAITS_SPHARE_SINGULAR, as: :check_boxes, label: "Wybierz typ lub typy cechy:" %>    
     <%= f.input :from, collection: 1..15, selected: 1, label: "Od jakiej wartości szukasz cech:" %>
     <%= f.input :to, collection: 1..15, selected: 15, label: "Do jakiej wartości szukasz cech:" %>
-    <%= f.input :sphare, collection: TRAITS_SPHARE_SINGULAR, label: "Wybierz typ lub typy cechy:" %>
     <%= f.submit "Szukaj!", class: "btn btn-primary" %>    
   <% end %>
 </div>
