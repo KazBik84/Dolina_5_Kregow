@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   
   def show
     @user = User.find(params[:id])
-    @characters = @user.characters.all
+    @characters = @user.characters.all.order(:family, :name)
   end
   
   def index
