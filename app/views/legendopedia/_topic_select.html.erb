@@ -1,9 +1,4 @@
-<div>
-  <strong>Wybierz zagadnienie: </strong><%= select_tag(:topic_id,  options_for_select([
-          ['Wybierz ścieżkę','#'],
-          ['Szkoły',schools_path],
-          ['Czary', spells_path],
-          ['Zalety i Wady', traits_path],
-          ['Klany', clans_path],
-          ['Umiejętności', skills_path]])) %>
-</div>
+<%= simple_form_for :topic_id do |f| %>
+  <%= f.input :topic_id, label: "Wybierz zagadnienie:", collection: [['Wybierz ścieżkę','#'], ['Szkoły',schools_path], ['Czary', spells_path], ['Zalety i Wady', traits_path], ['Klany', clans_path], ['Umiejętności', skills_path]], include_blank: false %>
+<% end %>
+

@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(document).on 'change','#topic_id', ->
+$(document).on 'change','#topic_id_topic_id', ->
   window.location.replace($(this).val())
 
 $(document).on 'click', '.select_all_clans', ->
