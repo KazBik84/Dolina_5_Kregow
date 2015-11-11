@@ -5,7 +5,7 @@ FactoryGirl.define do
     name_pl "MyString"
     sphere "Duchowa"
     desc "MyString"
-    value ["MyText"]
+    value ["1"]
   end
 
 end
