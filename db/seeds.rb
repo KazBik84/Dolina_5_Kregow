@@ -6363,7 +6363,62 @@ skills = [
             <li><strong>Ranga 3: </strong>Walka tessenem, jako bronią dodatkową nie powoduje ujemnych modyfikatorów.</li>
             <li><strong>Ranga 5: </strong>PT postaci walczącej tessenem, wzrasta o 1.</li>
             <li><strong>Ranga 7: </strong>PT postaci walczącej tessenem, wzrasta o 3.</li>
-          </ul>"}          
+          </ul>"},
+
+{name: "Animal Handling",
+name_pl: "Opieka nad zwierzętami",
+sub_typ: ["Brak"],
+attr: "Intuicja",
+sphare: ["Kupiecka"],
+emphases: "Typy zwierząt (Pies, Koń, Sokół), to najpopularniejsze.",
+desc: "Zwierzęta odgrywają, ważną rolę w wielu dziedzinach życia samuraja. Służą one do rozrywki, transportu lub są wykorzystywane podczas walk. Konie i Sokoły, to najczęściej tresowane zwierzęta, lecz wiele klanów ma swoje tradycje w szkoleniu zwierząt. Klan Lwa, szkoli lwy i używa ich jako broni, klan Jednorożca tresuje psy bojowe, wiele rodzin szkoli gołębie by wykorzystać je do przenoszenia informacji. Poziom trudności oswojenia i wytresowania zwierzęcia zależny jest, od samego gatunku zwierzęcia. W Bestiariuszu, opisanych jest wiele zwierząt które można udomowić, razem ze wskazówkami do czego można je wykorzystać po wytresowaniu.",
+master: "<ul>
+           <li><strong>Ranga 3: </strong>Postać potrafi tresować, zwierzęta udomowione. Takie jak psy, konie lub sokoły, tak by służyły komuś innemu.</li>
+           <li><strong>Ranga 5: </strong>Zwierzęta tresowane przez postać, jeśli które należą do postaci, mogą zaatakować na rozkaz postaci. Jeśli zwierzę zostanie ciężko ranne, ucieknie bez względu na rozkaz postaci.</li>
+           <li><strong>Ranga 7: </strong>Zwierzęta szkolone przez postać będą słuchać poleceń nie werbalnych.</li>
+         </ul>"},
+
+{name: "Commerce",
+name_pl: "Handel",
+sub_typ: ["Brak"],
+attr: "Inteligencja",
+sphare: ["Kupiecka"],
+emphases: "Wycena, Matematyka",
+desc: "Stanowisk związane z zarządzaniem pieniędzmi, są niegodne dla większości samurajów. Nie są uznawane za niehonorowe, gdyż takie stanowiska muszą istnieć, by ród, klan, czy w końcu Cesarstwo, mogło funkcjonować prawidłowo, ale nadanie takiej funkcji dla wielu samurajów jest uznawane za rodzaj stygmatu społecznego, by codziennie zajmować się pieniędzmi. Codzienne zajmowanie się pieniędzmi to domena kupców i handlarzy, którzy są poniżej kasty samurajów. Jednak nie jest niczym niezwykłym by samuraj szkolił się w tym zakresie. Tacy samurajowie często określani są 'Patronami kupców'. Specjalizacja w wycenie, pozwala szybko określić przybliżoną wartość, jakość wykonania, stopień egzotyczności danego przedmiotu, podobnie jakie może być jego praktyczne zastosowanie. Przedmioty rzadkie i egzotyczne, są oczywiście o wiele trudniejsze do określenia. Matematyka jako specjalizacja, używana jest do obliczania takich rzeczy, jak podatki lub cła, ale oczywiście może być wykorzystana do obliczania wielu innych rzeczy.",
+master: "<ul>
+           <li><strong>Ranga 5: </strong>Postać może zwiększyć lub zmniejszyć cenę, kupowanego lub sprzedawanego przedmiotu o maksymalnie 20% wartości.</li>
+         </ul>"},
+
+{name: "Craft",
+name_pl: "Rzemiosło",
+sub_typ: ["Makro: Wytwarzanie pancerzy(#), Kowalstwo, Wytwarzanie łuków(#), Piwowarstwo, Rolnictwo, Rybactwo, Murarstwo, Górnictwo, Kartografia, Brukarstwo, Trucizny(*), Garncarstwo, Gotowanie, Szkutnictwo, Krawiectwo, Wytwarzanie broni(#). Umiejętności z #, są uznawane z a Godne, natomiast umiejętności z *, to umiejętności Niegodne  "],
+attr: "Różny",
+sphare: ["Godna", "Kupiecka", "Niegodna"],
+emphases: "Różne",
+desc: "W odróżnieniu od artystów którzy tworzą rzeczy piękne i abstrakcyjne, rzemieślnicy tworzą rzezy praktyczne. I choć praca rzemieślników, nie jest uznawana za tak szlachetną i honorową, to często postrzegana jest jako wyjątkowo cenna i takie zajęcie, nie jest postrzegane jako ujma dla samuraja.",
+master: "Brak"},
+
+{name: "Engineering",
+name_pl: "Inżynieria",
+sub_typ: ["Rzemiosło"],
+attr: "Inteligencja",
+sphare: ["Kupiecka"],
+emphases: "Budowanie, Oblężenia",
+desc: "Znacznie trudniejsza i bardziej skomplikowana, niż budownictwo, inżynieria, jest wiedzą cenną i rzadką zarazem. Inżynieria zawiera w sobie zarówno wiedzę jak coś jest zbudowane, ale i jak najlepiej można je zniszczyć. Inżynierowie Kaiu, są bez niekwestionowanymi mistrzami tej sztuki, choć i w innych klanach istnieją uzdolnione jednostki. Specjalizacja w Budownictwo, oznacza umiejętność tworzenia dokładnych planów budowlanych i zarządzania robotnikami. Specjalizacja Oblężenia, działa odwrotnie do budownictwa i pozwala dokładnie określić najlepszy sposób by zniszczyć dany budynek.",
+master: "<ul>
+           <li><strong>Ranga 5: </strong>Postać zyskuje +5 do testów inżynierii, wykonywanych jako test współpracy lub test łączony.</li>
+         </ul>"},
+
+{name: "Sailing",
+name_pl: "Żeglarstwo",
+sub_typ: ["Rzemiosło"],
+attr: "Zręczność lub Inteligencja",
+sphare: ["Kupiecka"],
+emphases: "Węzły, Nawigacja",
+desc: "Rokugan ma rozbudowaną linię brzegową, i przez większą część roku, panuje tam duży ruch. Wiosna, lato i jesień, to czas wzmożonego handlu, ale statki klanu Modliszki pływają nawet i w okresie ostrej zimy, dostarczając towary do i z kolonii. Specjalizacja Nawigacja, używana jest by określić pozycję względem gwiazd, tak by wytyczyć kierunek do celu. Nawigacji można w ten sam sposób używać podczas przebywania na lądzie, ale PT testu jest wtedy większe o 10. Specjalizacja Węzły, jest użyteczna podczas pracy z linami i żaglami.",
+master: "<ul>
+           <li><strong>Ranga 5: </strong>Postać zyskuje bonus +5 do testów Żeglarstwa, wykonywanych jako testy łączone lub wspólne.</li>
+         </ul>"}                 
 ]
 
 # ---------------------------- Support functions --------------------------
