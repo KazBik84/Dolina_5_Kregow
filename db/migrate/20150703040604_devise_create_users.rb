@@ -3,7 +3,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
     create_table(:users) do |t|
     
       ## Moje atrybuty :)
-      t.string :username
+      t.string :username, unique: true
       t.boolean :admin, default: false
       ## Database authenticatable
       t.string :email,              null: false, default: ""
