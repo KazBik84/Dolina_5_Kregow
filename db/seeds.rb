@@ -6418,7 +6418,67 @@ emphases: "Węzły, Nawigacja",
 desc: "Rokugan ma rozbudowaną linię brzegową, i przez większą część roku, panuje tam duży ruch. Wiosna, lato i jesień, to czas wzmożonego handlu, ale statki klanu Modliszki pływają nawet i w okresie ostrej zimy, dostarczając towary do i z kolonii. Specjalizacja Nawigacja, używana jest by określić pozycję względem gwiazd, tak by wytyczyć kierunek do celu. Nawigacji można w ten sam sposób używać podczas przebywania na lądzie, ale PT testu jest wtedy większe o 10. Specjalizacja Węzły, jest użyteczna podczas pracy z linami i żaglami.",
 master: "<ul>
            <li><strong>Ranga 5: </strong>Postać zyskuje bonus +5 do testów Żeglarstwa, wykonywanych jako testy łączone lub wspólne.</li>
-         </ul>"}                 
+         </ul>"},
+
+{name: "Forgery",
+name_pl: "Fałszerstwo",
+sub_typ: ["Rzemieślniczy"],
+attr: "Zręczność",
+sphare: ["Niegodna"],
+emphases: "Rodzaje podrabianych przedmiotów (Dzieła sztuki, Dokumenty, Pieczęcie",
+desc: "Dokumenty są bardzo istotną częścią Rokugańskiej biurokracji, począwszy od dokumentów przynależności do wspaniałego rodu, przez papiery pozwalające na podróżowanie pod Rokuganie, na dekretach Cesarza kończąc. Osoby z okiem do szczegółów, pewną ręką i znacznymi brakami w kwestii honoru, mogą spróbować sfałszować, różne dokumenty, z korzyścią dla siebie lub dla innych. Gdy tworzone jest podrabiane dzieło, postać wykonuje test Fałszerstwa, który powinien być zapisany. Wynik testu stanowi PT, testu Śledztwa / Percepcji, w celu rozpoznania oszustwa.",
+master: "<ul>
+           <li><strong>Ranga 3: </strong>Postać zyskuje premię +1z0, do testów Podrabiania, celem ustalenia PT przejrzenia oszustwa.</li>
+           <li><strong>Ranga 5: </strong>Postać zyskuje +1z0 do testów przejrzenia Fałszerstwa.</li>
+           <li><strong>Ranga 7: </strong>Postać zyskuje +0z1 do testów Podrabiania, celem ustalenia PT przejrzenia oszustwa. (Razem z premią za 3 rangę, daje to premię +1z1) </li>
+         </ul>"},
+
+{name: "Intimidation",
+name_pl: "Przymuszanie",
+sub_typ: ["Społeczny"],
+attr: "Intuicja",
+sphare: ["Niegodna"],
+emphases: "Napastowanie, Kontrola, Tortury",
+desc: "Manipulacja innymi, poprzez zastosowanie gróźb, zarówno bezpośrednich i jak i pośrednich, jest częstą praktyką samurajów, którzy zostawili swój honor, daleko za sobą. Nawet bushi, którzy zazwyczaj mają mocne poczucie honoru, czasem porzucają go, by przymusić tych którzy nie chcą współpracować. Choć przesłuchiwanie, to czyn haniebny, samurajowie czasami decydują się, przymusić innych, by osiągnąć swój cel (oczywiście szybko zapominają potem o tym że coś takiego miało miejsce). Napastowanie, to najprostsza forma Przymuszania i opiera się na bezpośrednich groźbach, by zmusić ofiarę do podporządkowania się. Kontrola, to przeciwieństwo Napastowania i ma na celu kontrolowanie postaci przez dłuższy czas, zazwyczaj używana jest przez dworzan, celem kontrolowania niższych rangą lub statusem osób. Tortury, są wykonywane przez hininów, pod okiem zarządców, celem wyciągnięcia zeznań i informacji, zazwyczaj od przestępców. Żaden samuraj nie skala swojej duszy samodzielnym torturowaniem innego człowieka. Przymuszanie to zazwyczaj test przeciwstawny, przeciwko Etykiecie(Grzeczność) / Siła Woli. MG może jednak wyznaczyć inną umiejętność lub cechę, w zależności od sytuacji. Do testów Przymuszania ofiara zawsze dodaje swój honor.",
+master: "<ul>
+           <li><strong>Ranga 5: </strong>postać dodaje +5 do przeciwstawnych testów z użyciem Przymuszania.</li>
+         </ul>"},
+
+{name: "Sleight of Hand",
+name_pl: "Zwinne Palce",
+sub_typ: ["Brak"],
+attr: "Zręczność",
+sphare: ["Niegodna"],
+emphases: "Ukrywanie, Ucieczka, Kradzież Kieszonkowa, Sztuczki",
+desc: "Zwinna manipulacja małymi obiektami, w celu oszukania lub ukrycia, przez większość samurajów, nie jest postrzegana jako szczególnie honorowa. Kodeks bushido, nakazuje szczerość w każdej formie, mowie, czynie i myśli, nie zostawiając miejsca na takie działania, dla samuraja który podążą w pełni jego ścieżką. Specjalizacja w ukrywaniu, pozwala na ukryciu małych przedmiotów, które mieszczą się w dłoni, w razie kontroli, wykonuje się przeciwstawny test, Zwinne Palce/Zręczność, przeciw Śledztwo/Percepcji. Specjalizacja Ucieczka, pozwala łatwiej wyplątywać się z więzów, PT testu jest ustalane przez MG i powinno zawierać się między 15 (proste więzy), a 25-30(łańcuchom, silnym więzom) lub jako test przeciwstawny przeciw Żeglarstwo(Węzły)/Zręczność. Jeśli postać specjalizuje się w sztuczkach, to potrafi poprzez proste sztuczki, zabawić lub odwrócić uwagę innych. ", 
+master: "<ul>
+           <li><strong>Ranga 5: </strong>Postać może używać specjalizacji Ukrycie, w celu ukrycia małej broni.</li>
+         </ul>"},
+
+
+{name: "Stealth",
+name_pl: "Skradanie",
+sub_typ: ["Brak"],
+attr: "Zręczność",
+sphare: ["Niegodna"],
+emphases: "Zasadzka, Zakradanie, Rzucanie Czarów, Ukrywanie",
+desc: "Choć, skradanie jest uznawane za niehonorowe, skradanie ma swoje zastosowanie, nawet dla honorowych samurajów, podczas polowań lub podczas zwiadu podczas działań wojennych. Wielu samurajów widzi to jako zło konieczne, lecz poza tymi wybranymi sytuacjami, żaden samuraj nie zhańbiłby swoich przodków, zakradaniem się do wroga, niczym zwykły oprych. Postać podczas Skradania, może poruszać się tylko przy pomocy prostej akcji ruchu, czyli liczbę stóp równą kręgowi wody. Specjalizacja w Zasadzkach, pozwala na wykonanie testu Skradanie (zasadzka) / Zręczność, przeciw Śledztwo(Zauważanie) / Percepcja celu, by zyskać przewagę podczas pierwszej rundy walki. Specjalizacja w Rzucaniu Czarów, pozawala shugenjy ukryć swoją pozycję podczas rzucania czarów, jeśli powiedzie się mu test przeciwstawny Skradanie(Rzucanie Czarów) / Zręczność, przeciw Śledztwo(Zauważanie) / Percepcji. Postać nie traci honoru za używanie Skradanie(Zakradanie), choć pozostałe specjalizacje, zazwyczaj kończą się utratą honoru.",
+master: "<ul>
+           <li><strong>Ranga 3: </strong>Postać wykorzystując Skradanie, w ramach akcji prostej, może poruszać się liczbę stóp równą kręgowi Wody x 5.</li>
+           <li><strong>Ranga 5: </strong>Postać wykorzystując Skradanie, w ramach akcji prostej, może poruszać się liczbę stóp równą kręgowi Wody x 10.</li>
+           <li><strong>Ranga 7: </strong>Postać wykorzystując Skradanie, może wykonać darmową akcję prostą Ruch.</li>
+         </ul>"},
+
+{name: "Temptation",
+name_pl: "Przekonywanie",
+sub_typ: ["Społeczna"],
+attr: "Intuicja",
+sphare: ["Niegodna"],
+emphases: "Łapówki, Uwodzenie",
+desc: "Sztuka oferowania innym tego,czego pragną, by osiągnąć własne korzyści, jest tak stara jak stary jest rodzaj ludzki, a od tamtego czasu niewiele w tej kwestii się zmieniło. Dwa największe, pragnienia czyli pieniądze i przyjemność fizyczna, często są częścią umów zawieranych na dworach, celem osiągnięcia celów Wielkich klanów. Najłatwiej nakłonić osoby o określonych wadach, takich jak Chciwość, czy Lubieżność. Zazwyczaj wykonuje się test  Przekonywanie / Intuicja przeciw Etykieta(Grzeczność) / Siła Woli. W przypadku, mniej znaczących postaci, MG może określi po prostu PT test Przekonywania.",
+master: "<ul>
+           <li><strong>Ranga 3: </strong>Postać otrzymuje premię +5 do przeciwstawnych testów Przekonywania.</li>
+         </ul>"}                         
 ]
 
 # ---------------------------- Support functions --------------------------
