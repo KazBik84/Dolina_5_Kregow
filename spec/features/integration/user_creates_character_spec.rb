@@ -23,13 +23,19 @@ feature "User creates a new character" do
     expect(page).to have_link "Utaku Min - He"
   end
 
-  scenario "User creates character with blank name" do
+  scenario "User creates character with blank name", js: true do
     sign_in
     click_link "Twój Dział"
-    click_link "Dodaj Postać"    
+    click_link "Dodaj Postać"   
     create_character("", "Super strong samurai")
-    expect(page).to have_content "Proszę podać imię postaci" 
-     
+    expect(page).to have_content "Proszę podać imię postaci"      
   end
 
+  scenario "User creates character with blank name", js: true do
+    sign_in
+    click_link "Twój Dział"
+    click_link "Dodaj Postać"   
+    create_character("Kohana", "")
+    expect(page).to have_content "Postać musi posiadać opis"      
+  end
 end
