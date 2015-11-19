@@ -1,10 +1,19 @@
 <article class="character_form <%= @clan.name %>">
-  <%= simple_form_for [@user, @user.characters.new] do |f| %>
-
-    <%= f.input :name, label: "Imię", placeholder: "Imię postaci", error: "Proszę podać imię postaci", input_html: { value: params[:name] } %>
+  <%= simple_form_for [@user, @character], remote: true do |f| %>
+    <% unless params[:name].blank? %>
+      <%= f.input :name, label: "Imię", placeholder: "Imię postaci", error: "Proszę podać imię postaci", 
+        input_html: { value: params[:name] }  %>
+    <% else %>
+      <%= f.input :name, label: "Imię", placeholder: "Imię postaci", error: "Proszę podać imię postaci" %>
+    <% end %>
     <%= f.input :clan, collection: CLAN_NAMES_ARRAY, label: "Klan:", include_blank: false, selected: @clan.name %>
-    <%= f.input :family, collection: @families, label_method: :name, value_method: :name, label: "Rodzina:", include_blank: false %>
-    <%= f.input :desc, label: "Opis Postaci:", placeholder: "Opisz swoją postać...", error: "Postać musi posiadać opis", input_html: { value: params[:desc]} %>
+    <%= f.input :family, collection: @families, label_method: :name, value_method: :name, label: "Rodzina:", 
+      include_blank: false %>
+    <% unless params[:desc].blank? %>
+      <%= f.input :desc, label: "Opis Postaci:", placeholder: "Opisz swoją postać...", error: "Postać musi posiadać opis", input_html: { value: params[:desc]} %>
+    <% else %>
+      <%= f.input :desc, label: "Opis Postaci:", placeholder: "Opisz swoją postać...", error: "Postać musi posiadać opis" %>
+    <% end %>
     <%= f.submit "Zapisz", class: "btn btn-primary" %>
 
   <% end %>

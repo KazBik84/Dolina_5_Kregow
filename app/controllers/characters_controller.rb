@@ -15,12 +15,18 @@ class CharactersController < ApplicationController
   end
 
   def create
-    @user = User.find(params[:user_id])
+    @user = User.find(params[:user_id]) 
     @character = @user.characters.new(character_params)
 
     if @character.save
-      redirect_to current_user
+      respond_to do |format|
+
+        format.html {redirect_to current_user}
+        format.js
+      end
     else
+      @clan = Clan.where(name: params[:character][:clan]).take 
+      @families = @clan.families
       render :new
     end
   end
